@@ -19,7 +19,7 @@ box-shadow: 1px 2px 20px 20px rgba(0, 0, 0, 0.9);}
 
 @font-face{
 font-family:TraditionSansXLight;
-src:url(../../fonts/suburbio/HindMadurai-Regular.ttf)}
+src:url(../fonts/HindMadurai-Regular.ttf)}
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
 
@@ -35,7 +35,7 @@ background: rgba(1, 40, 52,1)}
 
 /* header */
 header {height: 90vh;
-background:  url(../../img/suburbio/fondo.jpg); 
+background:  url(../img/fondo.jpg); 
 background-color: rgba(0,0,0,0.6);
 background-size: 100% 100%;
 background-repeat: no-repeat;
@@ -100,9 +100,8 @@ right: 7px;
 width:4.5%;
 z-index: 2;
 height: 6.5vh
-; border: 0.1vh solid gray
+;
 ; border-radius: 50%;
-padding: 0.7vh;
 background: rgba(21, 23, 23,0.5)}
 
 /*Menu*/
@@ -172,14 +171,15 @@ border-radius: 50%
 /*imagen inicio */
  header .img {
 background-size: 50% 100%;
-background-repeat: no-repeat;}
+background-repeat: no-repeat;
+padding: 2vh}
 
  header .img img{margin: 0 auto;align-items: center;
 justify-content: center;
 width: 16vw; height:28vh;
 display: block;
 position: relative;
-margin-top: 35vh;}
+margin-top: 30vh;}
 
 .img h2 {align-items: center;
 text-align: center;color: white ;
@@ -208,7 +208,7 @@ letter-spacing: 1vh;
 padding-top: 1vh}
 
 
-.cardp .parra1 p {font-size: 3.3vh;
+.cardp .parra1 p {font-size: 3.1vh;
 color: white;
 ;width:100%;
 font-family: TraditionSansXLight;
@@ -240,7 +240,7 @@ padding-bottom:  1vh;
 margin-bottom:  2vh;;
 border-bottom: 0.1vh solid rgb(2, 96, 116)}
 
-.cardp1 div p {font-size:3.3vh;
+.cardp1 div p {font-size:3.1vh;
 color: white;
 ;width:90%;
 font-family: TraditionSansXLight;
@@ -259,7 +259,14 @@ padding-top: 3vh;
 width: 60%;
 margin: 2vh auto ;
 border: 1px solid rgb(2, 96, 116);
-padding: 2vh}
+padding: 2vh;
+background:rgba(5, 6, 8,0.5)}
+
+
+
+.cardp1 div nav:hover{background:rgb(5, 6, 8);
+transition: all 2s ease;}
+
 
 .cardp1 div nav{font-size: 3vh;
 color: white;
@@ -270,7 +277,21 @@ line-height: 1.5}
 .cardp1 div nav li {color:rgba(176,29,227,1) ;
 list-style:none;
 font-size:4vh;
-  padding: 1vh;}
+  padding: 1vh;
+letter-spacing: 1px}
+
+
+
+
+.cardp1 div nav li span:hover {color:rgba(176,29,227,1) ;
+list-style:none;
+font-size:3.3vh;
+  cursor: pointer;
+border-bottom: 0.3vh solid rgba(176,29,227,1)  ;
+transition: all 1s ease;
+}
+
+
 
 .cardp1 div nav li span{font-size: 3vh;
 color: white;
@@ -282,7 +303,8 @@ line-height: 1.5;}
 	grid-template-columns: repeat(2,1fr);
 width: 80%;
 margin: 10vh auto ;
-margin-bottom: 5vh}
+margin-bottom: 5vh;
+border-bottom: 0.5vh solid black}
 
 .cardp2 div img{display: flex;
 width:80%;
@@ -290,7 +312,7 @@ height: 35vh;
 border-right: 0.7vh  solid rgb(2, 96, 116);
 border-bottom: 0.7vh  solid rgb(2, 96, 116)}
 
-.cardp2 div p {font-size:3.3vh;
+.cardp2 div p {font-size:3.1vh;
 color: white;
 ;width:90%;
 font-family: TraditionSansXLight;
@@ -370,38 +392,39 @@ margin-top: 3vh;
 font-family: TraditionSansXLight;
 font-size: 3vh;
 text-align: center;
-border: 0.5vh solid transparent}
+border: 0.3vh solid transparent;
+padding: 1vh}
 
 #retorno i{padding: 0vh 2vh}
 
 #retorno:hover{color:white;
-	border: 0.5vh solid rgba(90, 31, 155,0.9);
-	box-shadow: 0px 0px 8vh rgba(91, 33, 193,0.7);
+	border: 0.3vh solid rgba(90, 31, 155,0.9);
+	box-shadow: 0px 0px 4vh rgba(91, 33, 193,0.7);
 background: rgb(30, 28, 32,0.5);	
 text-decoration: none;
 margin: 0 auto;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 1.5vh;
+margin-top: 3vh;
 font-family:TraditionSansXLight;
 font-size: 3.1vh;
 transition:all 1s ease-out ;
-padding: 0.7vh;}
+padding: 1.5vh;}
 
 .cite{color: rgba(77, 101, 174,0.9);
 margin-left: 2vh;
 cursor:pointer;
 width: 60%;
-margin: 5vh 20vh;}
+margin: 3vh 20vh;}
 
-cite{font-size: 3.3vh
+cite{font-size: 3vh
 	;font-family: 'Raleway', sans-serif;}
 	
 .tiem{display:flex;
 margin-top: 1vh}
 
-.tiem p{ margin: 4px 1vh; font-size:2.8vh;
+.tiem p{ margin: 4px 1vh; font-size:2.5vh;
 font-family: 'Raleway', sans-serif;}
 
 .tiem time{ margin: 0px 1vh;
@@ -411,7 +434,7 @@ font-family: 'Raleway', sans-serif;}
 .cite:hover{color: white; transition: all 500ms ease-in-out}
 
 .container-form {
-background-image: url(../../img/suburbio/fondo2.jpg);
+background-image: url(../img/fondo2.png);
 background-size: 100% 100%;
 background-repeat: no-repeat;
 width: 100%;
@@ -448,7 +471,7 @@ font-style: normal;}
 	font-size: 3vh;
 	display: inline-block;
 	text-decoration: none;
-	width:60%;
+	width:80%;
 	margin-bottom: 2.5vh;
 	 color:#ffff;
 	font-weight: 600px;
@@ -461,7 +484,7 @@ font-size: 4vh;}
 
 form{ 
 border: 0.6vh solid rgb(60, 166, 113);
-	;width: 90%;
+	;width: 80%;
 border-radius: 10px;
 padding: 2vh 1vh ;}
 
@@ -523,7 +546,7 @@ padding: 0.5vh 1vh;
 font-size:2.8vh;
 border: none;
 outline: 0px;
-background:rgba(13, 83, 98,0.9);
+background: transparent;
 color:white;
 border: 0.3vh solid rgb(15, 161, 156);
 cursor: pointer;
@@ -1156,7 +1179,7 @@ color: #c7c7c7c7; }
 justify-content: center;
 width: 15%; height: 20vh;
 display: block;
-position: relative;margin-top: 30vh}
+position: relative;margin-top: 40vh}
 
 .img h2 {align-items: center;
 text-align: center;color: white ;
@@ -1176,7 +1199,7 @@ margin: 10vh auto ;
 margin-bottom: 5vh}
 
 
-.cardp .parra1 h4{font-size:25px;
+.cardp .parra1 h4{font-size:30px;
 color: white;
 font-family: 'Stick No Bills', sans-serif;
 ;width: 50%;
@@ -1196,7 +1219,7 @@ line-height: 1.3}
 width: 100%;
 margin: 10vh 0vh}
 
-.img2 img{width: 100%;height: 35vh}
+.img2 img{width: 100%;height: 30vh}
 
 .cardp1 { display: grid;
 	grid-template-columns: repeat(2,1fr);
@@ -1225,7 +1248,7 @@ border-bottom: 0.1vh solid rgb(2, 96, 116);
 
 .cardp1 div p {font-size:15px;
 color: white;
-;width:80%;
+;width:90%;
 font-family: TraditionSansXLight;
 line-height: 1.3
 ;padding-top: 8vh;
@@ -1253,9 +1276,7 @@ padding: 1vh}
 
 
 .cardp1 div nav li {font-size: 20px;
-padding: 1vh;
-  
-}
+padding: 1vh;}
 
 
 .cardp1 div nav li span{font-size: 15px;
@@ -1263,6 +1284,12 @@ color: white;
 ;width:100%;
 font-family: TraditionSansXLight;
 line-height: 1.3}
+
+.cardp1 div nav li span:hover {color:rgba(176,29,227,1) ;
+list-style:none;
+font-size:18px;}
+
+
 
 
 /*parte3 */
@@ -1300,7 +1327,7 @@ text-align: center;}
 	display: flex;
 justify-content: center;
 align-items: center;
-margin: 0 auto}
+margin: 3vh auto}
 
 .red-social ul li{position: relative;
 	list-style: none;
@@ -1312,7 +1339,7 @@ margin: 0 auto}
 .red-social  ul li a {text-decoration: none;}
 
 .red-social  ul li a .fa 
-{font-size: 35px;
+{font-size: 30px;
 color: white;}
 
 .red-social  ul li a::before{
@@ -1320,7 +1347,7 @@ color: white;}
 	position: absolute;
 	top:-4;
 	left: 0;
-	font-size:35px;
+	font-size:30px;
 	height: 0;
 	overflow: hidden;
 	transition: 0.9s ease-in-out; }
@@ -1363,7 +1390,7 @@ justify-content: center;
 align-items: center;
 margin-top: 4vh;
 font-family: TraditionSansXLight;
-font-size: 18px;
+font-size: 16px;
 text-align: center;}
 
 #retorno i{padding: 0vh 0.5vh}
@@ -1379,12 +1406,12 @@ justify-content: center;
 align-items: center;
 margin-top: 18px;
 font-family:TraditionSansXLight;
-font-size: 18px;
-transition:all 1s ease-out ;
-padding: 0.7vh;}
+font-size: 16px;
+transition:all 1s ease-out ;}
 
 .cite{color: rgba(77, 101, 174,0.5);
-margin-left: 2vh;width: 40vw;
+margin-left: 2vh;
+width: 40vw;
 cursor:pointer;
 width: 80%;
 margin: 2vh auto ;
@@ -1410,7 +1437,7 @@ font-family: 'Raleway', sans-serif;}
 
 /*FORM*/
 .container-form {
-background-image: url(../../img/suburbio/fondo2.jpg);
+background-image: url(../img/fondo2.png);
 ;
 background-size: 100% 100%;
 background-repeat: no-repeat;
@@ -1430,7 +1457,7 @@ margin: 5px 0px;
 font-size: 20px;}		
 
 .container-form p{
-width: 100%; font-size: 15px;
+width: 80%; font-size: 15px;
 text-align: left;}
 
 .container-form a {
@@ -1456,7 +1483,7 @@ color:#27c3c1;}
 
 form{ 
 border: 0.3vh solid rgb(15, 161, 156);
-	;width: 100%;
+	;width: 80%;
 border-radius: 10px;
 padding: 2vh 1vh ;
 margin: 0 auto}
@@ -1518,7 +1545,6 @@ margin: 0 auto;
 padding: 1vh 2vh;
 border: none;
 outline: 0px;
-background:rgba(13, 83, 98,0.9);
 color:white;
 border: 0.3vh solid rgb(15, 161, 156);
 cursor: pointer;
