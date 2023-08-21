@@ -698,21 +698,19 @@ font-family: TraditionSansXLight }
 
 .select{
 	display: inline-block;
-	width: 100%;
 	cursor: pointer;
   	outline: 0; 
-  	border: 0;
-	color: white;
-	font-size: 3vh;
+  	color: white;
+	font-size: 2.8vh;
 	 font-family: TraditionSansXLight; 
     transition: all 0.25s ease;
     outline:none;
 	border: 0;
 	border-bottom : 0.3vh solid rgb(60, 166, 113);
 	background:  none;
-	width:20vw;
-	width: 90%;
-	margin: 2.5vh 10px;}
+	margin: 2.5vh 10px;
+	width:90%; 	
+	padding: 2vh 10px;}
 
 .select option{background:rgba(09,12,20,0.8);}
 
@@ -829,13 +827,18 @@ padding: 4vh 0vh}
 body{width: 1800px;
 margin: 0  auto}
 
+
+.conten nav {
+position: absolute; 
+right: 3vh;}
+
 .saludo img{width:40%;
 height: 20vh;}
 
-.bienvenido{ max-width: 80%;
+.bienvenido{ max-width: 60%;
   margin: 10vh auto;
 box-shadow: 1vh 1vh 2vh 2vh black;
-  padding: 5vh }
+  padding: 3vh 5vh }
 
 
 .bienvenido p { color: #fff; padding: 3vh 0%; 
@@ -898,7 +901,7 @@ grid-gap: 1vh;
 
 
 
-.pro {width: 95%;  
+.pro {width: 85%;  
 border: 1px solid black;
 background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
 border-radius: 2vh; 
@@ -1583,9 +1586,9 @@ header {background:  url(../img/fondo.jpg);
 position: fixed;
 top:1vh;
 right: 2vh;
-width:9%;
+width:10%;
 z-index: 2;
-height: 5vh
+height: 6.5vh
 ; border-radius: 50%;
 padding: 0.2vh;
 background: rgba(21, 23, 23,0.5)}
@@ -1620,7 +1623,7 @@ align-items: center;
 justify-content: center;
 margin: 0 auto;
 position: relative;
-margin-top: 45vh;}
+margin-top: 40vh;}
 
 /* bienvenida */
 .bienvenido{ max-width: 90%; 
@@ -1726,7 +1729,7 @@ background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0
 .pag-web .img{  
 position: relative;
 background:  url(../img/foo.png); ;
-background-size: 90% 25vh;
+background-size: 90% 20vh;
 background-repeat: no-repeat;
 margin-top:4vh }
 
@@ -1755,7 +1758,9 @@ width: 90%}
 .divido article h5 { color: #fff;
  	 font-size: 18px ;  
 font-family: 'Stick No Bills', sans-serif ;
-;letter-spacing: 2px;}
+;letter-spacing: 2px;
+padding: 1vh
+}
 
 .divido article p { 
 color: #fff; 
@@ -1824,7 +1829,7 @@ text-align: center;
 width: 90%}
 
 .pro {
-width: 95%;  
+width: 100%;  
 border: 1px solid black;
 background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
 border-radius: 5%; 
@@ -2005,7 +2010,9 @@ transition: all 2s ease ;
 		}
 
 .contalfa figure:hover > .capa2 h4{
-		font-size:3vh;}
+		font-size:3vh;
+		margin: 0.5vh 0vh;
+		}
 
 .contalfa figure:hover > .capa2 p{font-size:2.6vh;}
 
@@ -2120,7 +2127,6 @@ margin: 0 auto;
 padding: 1vh ;
 border: none;
 outline: 0px;
-background:rgba(13, 83, 98,0.9);
 color:white;
 border: 0.3vh solid rgb(15, 161, 156);
 cursor: pointer;
