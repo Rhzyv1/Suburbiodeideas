@@ -656,8 +656,9 @@ padding: 0px 1vh}
 color:rgb(90, 166, 113);
 font-size: 4vh;}
 
-.container-form a:hover{color:rgb(90, 166, 113);
-font-size: 3.3vh} 
+.container-form a:hover{
+color:rgb(90, 166, 113);
+font-size: 3.1vh} 
 
 
 form{ 
@@ -1363,9 +1364,7 @@ text-align: left;}
 	text-decoration: none;
 	width:80%;}
 
-.container-form a:hover {
-color:rgba(248, 237, 248,0.8);
-border-bottom: 0.1vh solid white}
+.container-form a:hover {font-size: 16px}
 
 .container-form a i {
 color: rgb(15, 161, 156);
@@ -2028,7 +2027,7 @@ padding: 5vh 0px;
 margin: 0px auto;
 margin-top:5vh;}
 
-.containerpx{width: 85%;
+.containerpx{width:90%;
 display: grid; 
 grid-template-columns: repeat(1,1fr);
 grid-gap: 20px;
@@ -2050,8 +2049,7 @@ text-align: left;}
 	width:80%;}
 
 .container-form a:hover {
-color:rgba(248, 237, 248,0.8);
-border-bottom: 0.1vh solid white
+	font-size: 19px
 }
 
 
