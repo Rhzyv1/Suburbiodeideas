@@ -1002,15 +1002,19 @@ padding: 0px}
 		font-size: 20px; }
 
 /*web*/
-.pag-web{display:grid;
-grid-template-columns: repeat(2,1fr);
+.pag-web{
+background: rgba(6, 12, 17,0.7);
+}
+
+.pag-web-a{display:grid;
+	grid-template-columns: repeat(2	,1fr);
 width:100%;
 margin: 0% auto;
-background: rgba(6, 12, 17,0.7);
-padding:40px 20px;}
+padding: 20px 50px;}
 
 .web{width: 90%;
-margin: 0 auto;}
+margin: 0 auto;
+max-width: 1200px}
 
 
 .web p { color: #f7f1e3;  
@@ -1029,7 +1033,8 @@ margin: 20px 0vh;}
 width: 100%;
 right: 0px;
 text-decoration: none;
-margin-top: 10px}
+margin-top: 10px;
+padding: 5px}
 
 .web #car:hover{font-size: 14px}
 
