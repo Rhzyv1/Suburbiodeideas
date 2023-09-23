@@ -52,7 +52,8 @@ margin: 0 auto
 .btn-men{max-width: 1800px;margin: 0 auto;
 display:grid;
 grid-template-columns: repeat(2,1fr);
-width: 100%}
+width: 100%;background: rgba(0,0,0,0.5);
+border-radius: 0px 0px 20px 20px}
 
 .conten i {
 font-size: 30px;
@@ -62,8 +63,8 @@ margin-right: 15px;
 margin-left: 20px  ; 
 color: white; 
 cursor: pointer;;
-background: rgba(0,0,0,0.5);
-padding: 10px}
+background: rgba(0,0,0,0.9);
+padding: 10px;}
 
 .conten i:hover {
 color: #2feab8
@@ -97,18 +98,17 @@ letter-spacing: 0.3vh;
 
 padding-bottom: 1vh}
 
-.conten nav a #inicio{  
+.conten nav ul li #inicio{  
 cursor: pointer;
 transition: all 1s ease;
-color:red}
+color:#2feab8;}
 
 .conten nav ul li a:hover{
 border-bottom: 0.3vh solid #2feab8;
 transition: all 300ms ease-out;
 cursor: pointer;
 transition: all 2s ease;
-color:#2feab8;
-padding-bottom: 0.2vh}
+color:#2feab8;}
 
 .conten nav a img{
 width:50px;
@@ -214,7 +214,8 @@ cursor: pointer;
 font-size:28px  ;
 border: 0.3vh solid transparent;
 border-radius: 50%;
-top: -50px}      
+top: -50px;
+transform: rotate(90deg);}      
 
 .cont-menu label:hover {color:#2feab8;
 	transition: all 1.5s ease;
@@ -236,7 +237,7 @@ max-width: 500px}
 
 /* bienvenida */
 
-.bienvenido{ max-width: 60%;  margin: 70px auto;
+.bienvenido{ margin: 70px auto;
  border: 0.3vh solid rgb(17, 18, 21);
 background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268) ;
 box-shadow: 5px 1px 10px 4px black;
@@ -269,9 +270,7 @@ text-align: center;	}
 		 ;display: flex;
 		margin: 20px auto;
 		align-items: center;
-		justify-content: center;  
-
-}		
+		justify-content: center; }		
 
 #H5{ font-family: 'Stick No Bills', sans-serif;
 		font-weight: 500; 
@@ -396,16 +395,16 @@ line-height: 1.1}
 /* partes*/
 .partesweb{display: grid;
 grid-template-columns: repeat(3,1fr);
- width:90%;margin: 20px auto;
+ width:80%;margin: 20px auto;
 grid-gap: 10px;
 max-width: 1400px}
 
 .parte{
  border: 0.3vh solid  #004F79;
 width: 100%; 
-background:rgb(10, 10, 10);
+background:rgba(14, 14, 14,0.6);
 cursor:pointer;
-margin: 0 auto}	
+margin: 0 auto;}	
 
 .parte:hover{
 transform: translateY(-7%);
@@ -413,12 +412,13 @@ transition: all 1s ease-out;
 background-image: linear-gradient(to right, #051937, #131e49, #2a1f5a, #451d66, #62126e);}
 
 .parte figure img{ width: 100% ;
- height: 150px; 
+ height: 200px; 
  margin:  10px;
  display: flex;
  justify-content: center;
  align-items: center;
- margin: 0 auto; }		
+ margin: 0 auto;
+ background: white }		
 
 .parte h5 {  	 
 		line-height: 1; color: #ffff;
@@ -437,6 +437,8 @@ background-image: linear-gradient(to right, #051937, #131e49, #2a1f5a, #451d66, 
 	padding:10px 15px;}
 
 
+.proyectos{margin-top: 80px}
+
 .trabajos{display: grid;
 	grid-template-columns: repeat(2,1fr); 
 	width: 60%;  justify-content: center;
@@ -444,7 +446,8 @@ background-image: linear-gradient(to right, #051937, #131e49, #2a1f5a, #451d66, 
 position: relative;
 grid-gap: 5px;
   padding-bottom: 20px;
-max-width: 1000px}
+max-width: 1000px;
+margin-top: }
 
 .proyectos p{  
 font-family: TraditionSansXLight;
@@ -463,7 +466,7 @@ border-radius: 5%;
 margin: 20px auto ;
 }
 
-.pro img{width: 95%; height: 150px;
+.pro img{width: 95%; height: 180px;
 margin: 0px auto;
 justify-content: center;
 align-items: center;
@@ -833,14 +836,14 @@ background: rgb(15, 121, 136);
 align-items: center;
 justify-content: center;
 margin: 0 auto ;
-text-align: center; padding-top: 2vh}
+text-align: center; }
 
 .red-social ul{position: relative;
 	display: flex;}
 
 .red-social ul li{position: relative;
 	list-style: none;
-	margin: 10px;
+	margin:5px 10px;
 	cursor: pointer;display: flex; 
 	justify-content: center;
 	align-items: center;}
@@ -916,6 +919,9 @@ header {
     position: center;
     background-size: 100% 500px;}
 
+
+
+
 .conten nav ul li a{display: none;}
 
 .conten nav img{
@@ -925,19 +931,21 @@ height: 30px
 ; border-radius: 50%;
 background: rgba(21, 23, 23,0.5);
 position: absolute;
-top: 0px;
-right:-30px ;
+top: -1%;
+right:-2% ;
 display: block;}
 
 
 .conten i {
 font-size: 20px; 
 color: white; 
-cursor: pointer;}
+cursor: pointer;
+margin: 2% 5%}
  
  .cont-menu label{ 
 position: absolute;  
-font-size: 20px  }   
+font-size: 20px;
+padding: 5px  }   
 
 .container-menu{
 height: 500px;
@@ -1010,7 +1018,7 @@ background: rgba(6, 12, 17,0.7);
 	grid-template-columns: repeat(2	,1fr);
 width:100%;
 margin: 0% auto;
-padding: 20px 50px;}
+padding: 50px 50px;}
 
 .web{width: 90%;
 margin: 0 auto;
@@ -1117,6 +1125,10 @@ color: #ffff;
 		transition: all 1s ease-out}
 
 /*web*/
+.proyectos{margin-top:30px}
+
+
+
 .trabajos{display: grid;
 	grid-template-columns: repeat(2,1fr);
 	grid-gap: 10px; 
@@ -1342,7 +1354,7 @@ background-image: url(../img/fondo2.png);
 ;background-size: 100% 100%;
 background-repeat: no-repeat;
 width: 100%;
-padding: 20px 0px;
+padding: 10px 0px;
 margin: 0px auto;
 margin-top: 30px;}
 
@@ -1480,7 +1492,7 @@ text-align: center;letter-spacing: 2pxx}
 	align-items: center;
 	justify-content: center;
 	color:white;
-	margin-bottom: 2vh;
+	margin-bottom: 10px;
 	font-size:15px;
 	font-family: TraditionSansXLight;
 	text-align: center;
@@ -1489,7 +1501,7 @@ font-style:normal;}
 
 .red-social{display: block; justify-content: center;
 align-items: center; margin: 0 auto;
-margin-top: 2vh}
+margin-top: 20px}
 
 
 .red-social ul{position: relative;
@@ -1566,12 +1578,18 @@ font-style: normal}
 {	
 header {background:  url(../img/fondo.jpg); 
     width: 100%;
-    height: 700px;
+    height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: center;
     background-size: 100% 100%;}
+
+
+.btn-men{
+width: 100%;background: rgba(0,0,0,0.0);
+border-radius: 0px 0px 20px 20px}
+
 
 .conten nav ul li a{display: none;}
 
@@ -1583,7 +1601,7 @@ height: 40px
 background: rgba(21, 23, 23,0.5);
 position: absolute;
 top: 0px;
-right:-70px ;
+right:-5% ;
 display: block;}
 
 
@@ -1597,8 +1615,8 @@ font-size: 25px  }
 
 
 .container-menu{
-height: 700px;
-width: 40%;}
+height: 90vh;
+width: 50%;}
 
 
 .cont-menu  nav  a{ 
@@ -1617,15 +1635,15 @@ align-items: center;
 justify-content: center;
 margin: 0 auto;
 position: relative;
-margin-top: 350px;}
+margin-top:40vh;}
 
 /* bienvenida */
-.bienvenido{ max-width: 90%; 
+.bienvenido{ max-width: 85%; 
  margin: 40px auto;
  border: 0.3vh solid rgb(27, 68, 81);
 background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268);
-box-shadow: 1px 1px 1px 3px rgba(28, 30, 44,0.5)
-  padding: 0vh;}
+box-shadow: 1px 1px 1px 3px rgba(28, 30, 44,0.5);
+  padding: 50px 30px;}
 
 .bienvenido h3 { 
 color:#dff4f7 ; 
@@ -1648,7 +1666,8 @@ padding:0px;
 		justify-content: center; 
 		line-height: 1.2;
 		 font-size:16px ;
-		 width: 100%;}		
+		 width: 100%;
+		 margin: 20px auto}		
 
 #H5{ color: #24dff9 ; 
 		font-size: 28px; 
@@ -1673,12 +1692,17 @@ padding:0px;
 		
 
 /*web*/
-.pag-web{display:grid;
+.pag-web{
+width:100%;
+margin: 0% auto;
+background: rgba(6, 12, 17,0.7);}
+
+.pag-web-a{display:grid;
 	grid-template-columns: repeat(1	,1fr);
 width:100%;
 margin: 0% auto;
-background: rgba(6, 12, 17,0.7);
-padding: 3vh 2vh}
+padding: 40px 20px;}
+
 
 .web{width: 95%;
 margin: 0 auto;}
@@ -1807,6 +1831,9 @@ color: #ffff;
 
 /*web*/
 
+.proyectos{margin-top: 10px}
+
+
 .trabajos{display: grid;
 	grid-template-columns: repeat(1,1fr); 
 	width: 80%;  justify-content: center;
@@ -1880,12 +1907,13 @@ background:	#191919
 
 .otros{
 padding: 10px 0px;
-width: 95%;	}
+width: 90%;	;
+margin: 0 auto}
 
 .otros p{ text-align: center; margin: 2vh;
 font-size: 18px; 
 width:90%;
-margin: 2vh auto}
+margin: 0vh auto}
 
 .otros div{display: grid;
  grid-template-columns: repeat(2,1fr);
@@ -1898,11 +1926,10 @@ margin: 2vh auto}
 	color: #ffff;
 	margin: 10px 20px}
 
-.otros div  a:hover{ ;color:rgba(100, 200, 78,0.7) }
-
+.otros div a:hover{
+ ;color:rgba(100, 200, 78,0.7) }
 
 /*servicio*/
-
 #servicio{background: rgba(25, 27, 31,0.5);
 padding: 2vh; }
 
@@ -2015,11 +2042,11 @@ background-size: 100% 100%;
 background-repeat: no-repeat;
 border-radius: 0%;
 width: 100%;
-padding: 5vh 0px;
+padding: 20px 0px;
 margin: 0px auto;
-margin-top:5vh;}
+margin-top:40px;}
 
-.containerpx{width:80%;
+.containerpx{width:90%;
 display: grid; 
 grid-template-columns: repeat(1,1fr);
 grid-gap: 20px;
@@ -2029,21 +2056,20 @@ margin: 0px auto;}
 
 .container-form h2 {
 margin: 5px auto;
-font-size: 18px;
+font-size: 20px;
 text-align: center;}		
 
 .container-form p{
 width: 100%; font-size: 16px;
-text-align: center;}
-
-
+text-align: left;
+margin: 10px 5px}
 
 .container-form a {
 	font-family: TraditionSansXLight ;
 	font-size: 19px;
 	display: inline-block;
 	text-decoration: none;
-	width:80%;}
+	width:100%;}
 
 .container-form a:hover {
 	font-size: 19px
@@ -2062,7 +2088,7 @@ form{
 border: 0.3vh solid rgb(15, 161, 156);
 	;width: 100%;
 border-radius: 5%;
-padding: 1vh ;
+padding: 10px ;
 margin: 0 auto}
 
 .container-form form .campo
