@@ -218,7 +218,9 @@ cursor: pointer;
 font-size:28px  ;
 border: 0.3vh solid transparent;
 border-radius: 50%;
-top: -50px}      
+top: -50px;
+
+transform: rotate(90deg);}      
 
 .cont-menu label:hover {color:#2feab8;
 	transition: all 1.5s ease;
@@ -262,13 +264,16 @@ margin: 0px auto}
 .cardp .parra1{ display: grid;
 	grid-template-columns: repeat(2,1fr);
 width: 70%;
-margin: 40px 15%;}
+margin: 40px auto;}
 
-.cardp .parra1 h4{font-size:50px;
-color: white;
+.cardp .parra1 h4{font-size:60px;
+color: #24dff9 ; 
 font-family: 'Stick No Bills', sans-serif;
-;width: 30%;
-padding-top: 20px}
+;width: 50%;
+padding-top: 15%;
+text-align: center;
+text-shadow: 0px 0px 50px black;
+letter-spacing: 2px}
 
 
 .cardp .parra1 p {font-size: 20px;
@@ -723,13 +728,12 @@ width: 100%;
 margin: 50px auto}
 
 
-.cardp .parra1 h4{font-size:30px;
-color: white;
+.cardp .parra1 h4{font-size:40px;
 font-family: 'Stick No Bills', sans-serif;
 ;width: 50%;
 margin: auto; 
 letter-spacing: 0.5px; 
-padding: 2vh}
+padding: 20px}
 
 
 .cardp .parra1 p {font-size: 15px;
@@ -1191,7 +1195,7 @@ font-style: normal}
 
 header {background:  url(../img/fondo.jpg); 
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1227,7 +1231,7 @@ font-size: 25px  }
 
 
 .container-menu{
-height: 500px;
+height:80vh;
 width: 40%;}
 
 .cont-menu  nav  a{ 
@@ -1244,7 +1248,7 @@ color: #c7c7c7c7; }
 justify-content: center;
 width: 35%; height: 130px;
 display: block;
-position: relative;margin-top:20vh}
+position: relative;margin-top:30vh}
 
 .img h2 {align-items: center;
 text-align: center;color: white ;
@@ -1266,12 +1270,11 @@ margin: 20px auto ;}
 
 
 .cardp .parra1 h4{font-size:35px;
-color: white;
+
 font-family: 'Stick No Bills', sans-serif;
-;width: 80%;
-margin-left: 30%: 
-letter-spacing: 1vh; 
-padding: 2vh}
+;width: 100%;
+margin-left;  
+padding: 20px 0px }
 
 .cardp .parra1 p {font-size: 16px;
 color: white;
@@ -1298,8 +1301,8 @@ margin: 0 auto}
 
 
 .cardp1 div h4{font-size:23px;
-color: white;
-font-family: 'Stick No Bills', sans-serif;width:100%;
+font-family: 'Stick No Bills', sans-serif;
+width:100%;
 letter-spacing: 2px;
 text-align: center;
 padding-bottom:10px;
@@ -1512,13 +1515,10 @@ margin: 0px auto;}
 margin: 5px auto;
 font-size: 20px;
 text-align: center;}		
-
 .container-form p{
 width: 100%; font-size: 16px;
 text-align: left;
 margin: 10px 5px}
-
-
 
 .container-form a {
 	font-family: TraditionSansXLight ;
@@ -1526,11 +1526,8 @@ margin: 10px 5px}
 	display: inline-block;
 	text-decoration: none;
 	width:100%;}
-	
-.container-form a:hover{
-color:rgb(90, 166, 113);
-font-size: 20px} 
 
+.container-form a:hover {font-size: 16px;}
 
 
 .container-form a i {
@@ -1545,7 +1542,7 @@ form{
 border: 0.3vh solid rgb(15, 161, 156);
 	;width: 100%;
 border-radius: 5%;
-padding: 1vh ;
+padding: 10px ;
 margin: 0 auto}
 
 .container-form form .campo
@@ -1554,9 +1551,9 @@ display: block;
 margin: 2.5vh 10px;
 width:40vw; 
 padding: 2vh 10px;
-font-size:18px;
+font-size: 16px;
 border: 0;
-border-bottom : 0.3vh solid rgb(15, 161, 156);	
+border-bottom : 0.1vh solid rgb(15, 161, 156);	
 outline: 0px;
 outline:none; border: 2;
 cursor: pointer;
@@ -1565,7 +1562,7 @@ width: 90%}
 
 .container-form form .campo::placeholder {
 color: white;
-font-size: 19px;
+font-size: 16px;
 background: none;
 font-family: TraditionSansXLight }
 
@@ -1584,7 +1581,7 @@ font-family: TraditionSansXLight }
   	outline: 0; 
   	border: 0;
 	color: white;
-	font-size:19px;
+font-size: 16px;
 	 font-family: TraditionSansXLight; 
     transition: all 0.25s ease;
     outline:none;
@@ -1593,7 +1590,7 @@ font-family: TraditionSansXLight }
 	background:  none;
 	width:20vw;
 	width: 90%;
-	margin: 2.5vh 10px;}
+	margin: 20px 10px;}
 
 .select option{background:rgba(09,12,20,0.8);}
 
@@ -1615,7 +1612,6 @@ font-size:18px;}
 .container-form .btn-enviar:hover {
 border: 0.3vh solid rgb(15, 161, 200);
 background: rgb(19, 43, 46)}
-
 
 .red-social{display: block; justify-content: center;
 align-items: center; margin: 0 auto;
