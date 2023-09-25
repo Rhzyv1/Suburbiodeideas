@@ -1782,9 +1782,10 @@ padding: 1vh
 
 .divido article p { 
 color: #fff; 
-padding: 1vh;
+padding: 10px;
 line-height: 1.4;
-font-size: 17px;}
+font-size: 17px;
+width: 100%}
 
 .divido article li { 
 color: #fff;
@@ -1796,12 +1797,12 @@ line-height: 1 }
 
 .partesweb{display: grid;
 grid-template-columns: repeat(1,1fr);
- width: 80%;margin: 3vh auto;
+ width: 80%;margin: 10px auto;
 grid-gap: 0vh}
 
 .parte{
  border: 0.4vh solid rgb(27, 68, 81);
-  margin: 20px 0vh;
+  margin: 10px 0vh;
 }
  
 .parte figure img{ width: 100% ;
@@ -1837,7 +1838,7 @@ color: #ffff;
 
 .trabajos{display: grid;
 	grid-template-columns: repeat(1,1fr); 
-	width: 80%;  justify-content: center;
+	width: 90%;  justify-content: center;
 	align-items: center ;margin: 0px auto;
 position: relative;}
 
@@ -1854,7 +1855,7 @@ width: 100%;
 border: 0.3vh solid black;
 background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
 border-radius: 5%; 
-margin: 2s0px auto 	}
+margin: 10px auto 	}
 
 .pro img{width:100%; height: 150px;
 margin: 0 auto;
@@ -1870,7 +1871,7 @@ display: flex;}
 
 .pro p   { font-family: TraditionSansXLight; 
 		line-height: 1.1; 
-		padding: 1vh 2vh;
+		padding: 5px 10px;
 		font-size:17px
 		color: rgb(229, 245, 248);
 		 margin: 0px auto;
@@ -1880,7 +1881,7 @@ display: flex;}
 .pro button{font-family: TraditionSansXLight; 
 			padding: 1px;
 			color: rgb(29, 43, 131);
-			margin: 1vh auto;
+			margin: 5px auto;
 			text-align: center;
 			background: rgba(24, 25, 33,0.5);
 			border-radius: 5px ;
@@ -1911,7 +1912,7 @@ padding: 10px 0px;
 width: 90%;	;
 margin: 0 auto}
 
-.otros p{ text-align: center; margin: 2vh;
+.otros p{ text-align: center; margin: 10px;
 font-size: 18px; 
 width:90%;
 margin: 0vh auto}
@@ -2000,11 +2001,11 @@ font-size:16px}
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 200px;
+	height: 180px;
 	margin:1vh 0vh}
 
 .contalfa figure{position: relative;
-	height: 200px;
+	height: 180px;
 	width: 95%;
 	overflow: hidden;
 	border-radius: 6px;
@@ -2012,12 +2013,12 @@ font-size:16px}
 	;cursor: pointer;}
 
 .contalfa figure img{ width: 100%; 
-		height: 200px;
+		height: 180px;
 		 transition: all 500ms ease-out}
 
 .contalfa figure .capa2{position: absolute;
 	top: 0; width: 100%;
-	height: 200px;
+	height:180px;
 	background: rgba(64, 73, 87,0.9);
 	opacity: 0;
 	visibility: hidden;
@@ -2030,7 +2031,7 @@ transition: all 2s ease ; }
 
 .contalfa figure:hover > .capa2 h4{
 		font-size:25px;
-		margin: 10px 0vh;}
+		margin: 5px 0vh;}
 
 .contalfa figure:hover > .capa2 p{font-size:18px;
 padding: 5px}
@@ -2072,9 +2073,7 @@ margin: 10px 5px}
 	text-decoration: none;
 	width:100%;}
 
-.container-form a:hover {
-	font-size: 19px
-}
+.container-form a:hover {font-size: 16px;}
 
 
 .container-form a i {
@@ -2098,7 +2097,7 @@ display: block;
 margin: 2.5vh 10px;
 width:40vw; 
 padding: 2vh 10px;
-font-size:18px;
+font-size: 16px;
 border: 0;
 border-bottom : 0.1vh solid rgb(15, 161, 156);	
 outline: 0px;
@@ -2109,7 +2108,7 @@ width: 90%}
 
 .container-form form .campo::placeholder {
 color: white;
-font-size: 19px;
+font-size: 16px;
 background: none;
 font-family: TraditionSansXLight }
 
@@ -2128,7 +2127,7 @@ font-family: TraditionSansXLight }
   	outline: 0; 
   	border: 0;
 	color: white;
-	font-size:19px;
+font-size: 16px;
 	 font-family: TraditionSansXLight; 
     transition: all 0.25s ease;
     outline:none;
@@ -2137,7 +2136,7 @@ font-family: TraditionSansXLight }
 	background:  none;
 	width:20vw;
 	width: 90%;
-	margin: 2.5vh 10px;}
+	margin: 20px 10px;}
 
 .select option{background:rgba(09,12,20,0.8);}
 
