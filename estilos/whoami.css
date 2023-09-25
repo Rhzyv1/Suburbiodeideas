@@ -1334,7 +1334,7 @@ margin: 2vh auto
 ;color: white;
 font-family: TraditionSansXLight;
 line-height: 1.5;
-padding: 1vh}
+padding: 10px}
 
 .cardp1 div nav li{font-size: 22px;
 padding: 0.5vh;}
@@ -1355,7 +1355,7 @@ width: 90%
 
 .cardp2 div img{display: flex;
 width: 90%;
-height: 200px;margin: 0 auto;
+height: 170px;margin: 0 auto;
 border-right: 0.3vh  solid rgb(2, 96, 116);
 border-bottom: 0.3vh  solid rgb(2, 96, 116)  }
 
@@ -1441,27 +1441,27 @@ font-style: normal}
 
 #retorno{color: white;
 text-decoration: none;
-margin: 0 auto;
+margin: 20px auto;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 3vh;
 font-family: TraditionSansXLight;
 font-size: 18px;
-text-align: center;}
+text-align: center;;
+width: 60%}
 
-#retorno i{padding: 0vh 0.5vh}
+#retorno i{padding: 0vh}
 
 #retorno:hover{color:white;
 	border: 0.5vh solid rgba(90, 31, 155,0.9);
 	box-shadow: 0px 0px 8vh rgba(91, 33, 193,0.7);
 background: rgb(30, 28, 32,0.5);	
 text-decoration: none;
-margin: 0 auto;
+margin: 20px auto;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 1vh;
+margin-top: ;
 font-family:TraditionSansXLight;
 font-size: 19px;
 transition:all 1s ease-out}
@@ -1502,7 +1502,7 @@ border-radius: 0%;
 width: 100%;
 padding: 20px 0px;
 margin: 0px auto;
-margin-top:40px;}
+margin-top:10px;}
 
 .containerpx{width:90%;
 display: grid; 
@@ -1522,7 +1522,7 @@ margin: 10px 5px}
 
 .container-form a {
 	font-family: TraditionSansXLight ;
-	font-size: 19px;
+	font-size: 16px;
 	display: inline-block;
 	text-decoration: none;
 	width:100%;}
