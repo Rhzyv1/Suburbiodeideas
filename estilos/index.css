@@ -1635,7 +1635,7 @@ align-items: center;
 justify-content: center;
 margin: 0 auto;
 position: relative;
-margin-top:40vh;}
+margin-top:45vh;}
 
 /* bienvenida */
 .bienvenido{ max-width: 85%; 
@@ -1851,13 +1851,13 @@ text-align: center;
 width: 90%}
 
 .pro {
-width: 100%;  
+width: 90%;  
 border: 0.3vh solid black;
 background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
 border-radius: 5%; 
 margin: 10px auto 	}
 
-.pro img{width:100%; height: 150px;
+.pro img{width:100%; height: 140px;
 margin: 0 auto;
 justify-content: center;
 align-items: center;
@@ -1990,8 +1990,8 @@ width: 95%;  }
 .contmary{ 	; display: grid; 
 			grid-template-columns: repeat(1,1fr);
 			width: 85%;
-			margin: 10px auto;
-			grid-gap: 15px	}
+			margin: 5px auto;
+			grid-gap: 10px	}
 
 .coon p{width: 100%;
 font-size:16px}
@@ -2031,11 +2031,13 @@ transition: all 2s ease ; }
 
 .contalfa figure:hover > .capa2 h4{
 		font-size:20px;
-		margin: 5px 0vh;}
+		margin:  0vh;;
+		margin-top: 10px}
 
 .contalfa figure:hover > .capa2 p{font-size:15px;
-padding: 0px 5px;
-margin: 0px}
+padding:5px 10px;
+margin: 0px;
+width: 100%}
 
 
 /*FORM*/
