@@ -1599,9 +1599,11 @@ header {background:  url(../img/fondo.jpg);
 
 
 .btn-men{
-width: 100%;;
+width: 100%;
 border-radius: 0px;
-padding-bottom: 20px}
+background: none}
+
+.all{padding-top: 10px}
 
 
 .conten nav ul li a{display: none;}
@@ -1651,7 +1653,7 @@ position: relative;
 margin-top:45vh;}
 
 /* bienvenida */
-.bienvenido{ width: 80%; 
+.bienvenido{ width: 90%; 
  margin: 40px auto;
  border: 0.3vh solid rgb(27, 68, 81);
 background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268);
@@ -1864,11 +1866,12 @@ text-align: center;
 width: 90%}
 
 .pro {
-width: 90%;  
+width: 100%;  
 border: 0.3vh solid black;
 background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
 border-radius: 5%; 
-margin: 10px auto 	}
+margin: 10px auto ;
+max-width: 300px}
 
 .pro img{width:100%; height: 140px;
 margin: 0 auto;
@@ -1953,7 +1956,8 @@ grid-template-columns: repeat(1,1fr);
 grid-gap: 1.5vh;
 width: 86%;
 margin: 20px auto;
-height: 100%}
+height: 100%;
+max-width: 400px}
 
 .ser .s1 div{
 width: 100%;}
@@ -1997,7 +2001,8 @@ text-align: left;
 width: 95%;  }
 
 /*conocimiento*/
-.coon{width: 90%;margin: 1vh auto}
+.coon{width: 90%;margin: 1vh auto;
+max-width: 380px}
 
 .contmary{ 	; display: grid; 
 			grid-template-columns: repeat(1,1fr);
@@ -2173,6 +2178,14 @@ font-size:18px;}
 .container-form .btn-enviar:hover {
 border: 0.3vh solid rgb(15, 161, 200);
 background: rgb(19, 43, 46)}
+
+
+.box h5 {
+font-size: 20px;
+color:#ffff ;
+font-family: monospace;
+padding-top: 30px;
+padding-bottom: 10px}		
 
 
 .red-social{display: block; justify-content: center;
