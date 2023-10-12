@@ -31,6 +31,10 @@ src:url(../fonts/HindMadurai-Regular.ttf)}
 
 
 
+body{background: rgba(10,20, 32,1);
+	margin: 0 auto}
+
+
 header {
 width: 100%;
 height: 700px;
@@ -39,11 +43,7 @@ background-color: rgba(0,0,0,0.6);
 background-size: 100% 700px;
 background-repeat: no-repeat;
 position: relative;	
-background-attachment: fixed;
-
-}
-
-body{background: rgba(1, 40, 52,1);}
+background-attachment: fixed;}
 
 .heade-a{max-width: 1800px ;
 margin: 0 auto
@@ -55,7 +55,8 @@ margin: 0 auto
 .btn-men{max-width: 1800px;margin: 0 auto;
 display:grid;
 grid-template-columns: repeat(2,1fr);
-width: 100%;background: rgba(0,0,0,0.5);
+width: 100%;
+background: rgba(0,0,0,0.5);
 border-radius: 0px 0px 20px 20px}
 
 .conten i {
@@ -232,11 +233,11 @@ border-radius: 50%
  header .img {
 background-size: 50% 100%;
 background-repeat: no-repeat;
-padding: 2vh}
+padding: 10px}
 
  header .img img{margin: 0 auto;align-items: center;
 justify-content: center;
-width: 18%; height:180px;
+width: 200px; height:180px;
 display: block;
 position: relative;
 margin-top:250px;
@@ -258,34 +259,49 @@ font-size: 20px}
 
 /*parte1*/
 
-.cardp{max-width: 1500px;
-margin: 0px auto}
+.cardp{max-width: 1200px;
+margin: 60px auto}
 
 .cardp .parra1{ display: grid;
 	grid-template-columns: repeat(2,1fr);
-width: 70%;
-margin: 40px auto;}
+width: 100%;
+margin: 60px auto;
+grid-gap: 0px}
 
-.cardp .parra1 h4{font-size:60px;
-color: #24dff9 ; 
+.cardp .parra1 .hello{
+background:  url(../img/keyboard.jpg); 
+background-color: rgba(0,0,0,0.6);
+margin: 0 auto;
+height: 220px;
+background-size: cover;
+width: 450px;}
+
+.cardp .parra1 h4{font-size:45px;
+color: #24dff9 ;
 font-family: 'Stick No Bills', sans-serif;
-;width: 50%;
-padding-top: 15%;
+;width: 200px;
 text-align: center;
-text-shadow: 0px 0px 50px black;
-letter-spacing: 2px}
+text-shadow: 0px 0px 0px red;
+letter-spacing: 4px;
+margin: 0 auto;
+margin-top:40px;
+border:6px inset #24dff9 ;
+padding:10px 20px;
+background: rgba(0,0,0,0.5);}
 
 
 .cardp .parra1 p {font-size: 20px;
 color: white;
-;width:100%;
+;width:80%;
 font-family: TraditionSansXLight;
-line-height: 1.5}
+line-height: 1.5;
+padding-top: 10px}
+
 
 .img2{display: flex;
 width: 100%;
 margin: 40px 0vh;
-max-width: 1500px;
+max-width: 1800px;
 margin: 0px auto}
 
 .img2 img{width:	 25%;height: 180px}
@@ -293,13 +309,13 @@ margin: 0px auto}
 .cardp1 { display: grid;
 	grid-template-columns: repeat(2,1fr);
 width: 80%;
-margin: 50px auto;
-max-width: 1500px}
+margin: 100px auto;
+max-width: 1200px}
 
 .cardp1 div img{display: flex;
 width: 80%;
-height:450px;
-margin-left: 5%}
+height:550px;
+margin-left: 10%}
 
 .cardp1 div h4{font-size:25px;
 color: white;
@@ -313,18 +329,18 @@ border-bottom: 0.3vh solid rgb(2, 96, 116)}
 
 .cardp1 div p {font-size:20px;
 color: white;
-;width:90%;
+;width:95%;
 font-family: TraditionSansXLight;
 line-height: 1.5
-;padding-top:55px}
+;padding-top:15px}
 
 .cardp1 div h5{font-size:25px;
 color: white;
 font-family: 'Stick No Bills', sans-serif;
 letter-spacing: 2px;
-padding-top: 20px;
+padding-top: 30px;
 text-align: center;
-}
+width:90%}
 
 .cardp1 div nav{ display: grid;
 	grid-template-columns: repeat(2,1fr);
@@ -349,7 +365,8 @@ font-size:20px;
   padding: 10px;
 letter-spacing: 1px}
 
-.cardp1 div nav li span:hover {color:rgba(176,29,227,1) ;
+.cardp1 div nav li span:hover {
+color:rgba(176,29,227,1) ;
 list-style:none;
   cursor: pointer;
 border-bottom: 0.3vh solid rgba(176,29,227,1)  ;
@@ -363,26 +380,91 @@ color: white;
 font-family: TraditionSansXLight;
 line-height: 1.5;}
 
+
+.dedico{color: white;
+width: 99%;
+margin: 50px auto;
+background: rgba(0,0,0,0.5);
+padding: 50px 0px}
+
+
+.dedico h4{font-size:35px;
+color: #24dff9 ;
+font-family: 'Stick No Bills', sans-serif;
+text-align: center;
+text-shadow: 0px 0px 0px red;
+letter-spacing: 4px;
+margin: 0 auto;}
+
+
+.dedico p{  
+font-family: TraditionSansXLight;
+color: #ecf0f1; font-size:20px; 
+padding: 10px 0px;
+margin: 0  auto;
+text-align: center;
+width:80%;
+max-width:800px;}
+
+.dedico ul {display: grid;
+grid-template-columns: repeat(4,1fr);
+max-width: 1000px;
+width: 80%;
+margin: 0 auto;
+margin-top: 40px;
+text-align: center;}
+
+
+.dedico ul li{list-style: none;}
+
+.dedico ul li i{font-size: 60px;
+background:#12dff9;
+color: black;padding: 20px;
+border-radius: 50%}
+
+.dedico ul li i:hover {
+background:rgb(52, 96, 116) ;
+list-style:none;
+  cursor: pointer;
+border: 0.3vh solid rgba(176,159,107,1);
+color:rgba(176,159,107,1)  }
+
+.dedico ul li h6{font-size:20px;
+color: #24dff9 ;
+font-family: 'Stick No Bills', sans-serif;
+text-align: center;
+text-shadow: 0px 0px 0px red;
+letter-spacing: 4px;
+margin: 10px auto;}
+
+.dedico ul li  p{  
+font-family: TraditionSansXLight;
+color: #ecf0f1; font-size:20px; 
+padding: 10px 0px;
+margin: 0  auto;
+text-align: center;
+width: 65%;
+max-width:800px;}
+
+
 .cardp2 { display: grid;
 	grid-template-columns: repeat(2,1fr);
 width: 80%;
 margin: 0vh auto ;
-max-width: 1500px}
+max-width: 1200px}
 
 .cardp2 div img{display: flex;
 width:80%;
 height: 250px;
 border-right: 0.3vh  solid rgb(2, 96, 116);
 border-bottom: 0.3vh  solid rgb(2, 96, 116);
-margin-left: 5%;
-margin-top: 30px}
+margin-left: 5%;}
 
 .cardp2 div p {font-size:20px;
 color: white;
-;width:90%;
+;width:100%;
 font-family: TraditionSansXLight;
-line-height: 1.5;
-padding-top:40px}
+line-height: 1.5;}
 
 .red-social h5{font-size:25px;
 color: white;
@@ -446,37 +528,28 @@ color: #1DA1F2;
 font-style: normal}
 
 .red-social  ul li:hover a::before{height: 100%}
+}
 
-#retorno{color: white;
-text-decoration: none;
-margin: 10px auto;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 20px;
-font-family: TraditionSansXLight;
-font-size: 20px;
-text-align: center;
-border: 0.3vh solid transparent;
-padding: 10px;
-width: 350px}
+#retorno i{padding: 0vh 40px}
 
-#retorno i{padding: 0vh 2vh}
-
-#retorno:hover{color:white;
+#retorno{color:white;
 	border: 0.3vh solid rgba(90, 31, 155,0.9);
-	box-shadow: 0px 0px 4vh rgba(91, 33, 193,0.7);
-background: rgb(30, 28, 32,0.5);	
 text-decoration: none;
-margin: 10px auto;
+margin: 40px auto;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 20px;
 font-family:TraditionSansXLight;
 font-size: 20px;
 transition:all 1s ease-out ;
-padding:10px;}
+padding:10px 20px;
+width: 350px;
+margin-top: 20px}
+
+#retorno:hover{
+box-shadow: 0px 0px 4vh rgba(91, 33, 193,0.7);
+background:rgba(91, 33, 193,0.2) }
+
 
 .cite{color: rgba(77, 101, 174,0.9);
 margin-left: 10px;
@@ -485,22 +558,21 @@ width: 80%;
 margin: 30px auto;
 max-width: 1500px}
 
-cite{font-size: 16px;
+cite{font-size:19px;
 font-family: 'Raleway', sans-serif;}
 	
-
-
 .tiem{display:flex;
-margin-top: 1vh}
+margin-top: 10px}
 
-.tiem p{ margin: 4px 1vh; font-size:19px;
+.tiem p{ margin: 4px 1vh; ;
 font-family: 'Raleway', sans-serif;}
 
 .tiem time{ margin: 0px 1vh;
-font-size:2.8vh;
 font-family: 'Raleway', sans-serif;}
 
-.cite:hover{color: white; transition: all 500ms ease-in-out}
+.cite:hover{color: white;
+ transition: all 500ms ease-in-out;
+font-size: 20px}
 
 .container-form {
 background-image: url(../img/fondo2.png);
@@ -727,13 +799,27 @@ font-size: 18px}
 width: 100%;
 margin: 50px auto}
 
+.cardp .parra1 .hello{
+background:  url(../img/keyboard.jpg); 
+background-color: rgba(0,0,0,0.6);
+margin: 0 auto;
+height: 140px;
+background-size: cover;
+width: 80%;}
 
-.cardp .parra1 h4{font-size:40px;
+.cardp .parra1 h4{font-size:35px;
+color: #24dff9 ;
 font-family: 'Stick No Bills', sans-serif;
-;width: 50%;
-margin: auto; 
-letter-spacing: 0.5px; 
-padding: 20px}
+;width: 200px;
+text-align: center;
+text-shadow: 0px 0px 0px red;
+letter-spacing: 4px;
+margin: 0 auto;
+margin-top:10px;
+border:6px inset #24dff9 ;
+padding:5px 20px;
+background: rgba(0,0,0,0.5);}
+
 
 
 .cardp .parra1 p {font-size: 15px;
@@ -778,7 +864,8 @@ color: white;
 font-family: TraditionSansXLight;
 line-height: 1.3
 ;padding-top: 40px;
-margin: 1vh auto}
+margin: 10px auto;
+padding-top: 10px}
 
 
 .cardp1 div h5{font-size:15px;
@@ -814,6 +901,63 @@ line-height: 1.3}
 .cardp1 div nav li span:hover {color:rgba(176,29,227,1) ;
 list-style:none;}
 
+.dedico{color: white;
+width: 99%;
+margin: 50px auto;
+background: rgba(0,0,0,0.5);
+padding: 20px 0px}
+
+
+.dedico h4{font-size:25px;
+color: #24dff9 ;
+font-family: 'Stick No Bills', sans-serif;
+text-align: center;
+text-shadow: 0px 0px 0px red;
+letter-spacing: 4px;
+margin: 0 auto;}
+
+
+.dedico p{  
+font-family: TraditionSansXLight;
+color: #ecf0f1; font-size:15px; 
+padding: 10px 0px;
+margin: 0  auto;
+text-align: center;
+width:80%;
+max-width:800px;}
+
+.dedico ul {display: grid;
+grid-template-columns: repeat(4,1fr);
+max-width: 1000px;
+width: 80%;
+margin: 0 auto;
+margin-top: 40px;
+text-align: center;}
+
+
+.dedico ul li{list-style: none;}
+
+.dedico ul li i{font-size: 50px;
+background:#12dff9;
+color: black;padding: 20px;
+border-radius: 50%}
+
+.dedico ul li h6{font-size:15px;
+color: #24dff9 ;
+font-family: 'Stick No Bills', sans-serif;
+text-align: center;
+text-shadow: 0px 0px 0px red;
+letter-spacing: 1px;
+margin: 10px auto;}
+
+.dedico ul li  p{  
+font-family: TraditionSansXLight;
+color: #ecf0f1; font-size:20px; 
+padding: 10px 0px;
+margin: 0  auto;
+text-align: center;
+width: 65%;
+max-width:800px;}
 
 
 
@@ -822,7 +966,7 @@ list-style:none;}
 .cardp2 { display: grid;
 	grid-template-columns: repeat(2,1fr);
 width: 90%;
-margin: 20px auto ;}
+margin: 20px auto;}
 
 .cardp2 div img{display: flex;
 width: 80%;
@@ -917,7 +1061,8 @@ align-items: center;
 margin: 20px auto;
 font-family: TraditionSansXLight;
 font-size: 16px;
-text-align: center;}
+text-align: center;
+width: 250px}
 
 #retorno i{padding: 0vh 0.5vh}
 
@@ -1268,19 +1413,36 @@ font-size: 20px}
 width: 85%;
 margin: 20px auto ;}
 
+.cardp .parra1 .hello{
+background:  url(../img/keyboard.jpg); 
+background-color: rgba(0,0,0,0.6);
+margin: 0 auto;
+height: 180px;
+background-size: cover;
+width: 100%}
 
 .cardp .parra1 h4{font-size:35px;
-
+color: #24dff9 ;
 font-family: 'Stick No Bills', sans-serif;
-;width: 100%;
-margin-left;  
-padding: 20px 0px }
+;width: 60%;
+text-align: center;
+text-shadow: 0px 0px 0px red;
+letter-spacing: 4px;
+margin: 0 auto;
+margin-top:30px;
+border:3px inset #24dff9 ;
+padding:10px 20px;
+background: rgba(0,0,0,0.5);}
+
+
+
 
 .cardp .parra1 p {font-size: 16px;
 color: white;
 ;width:100%;
 font-family: TraditionSansXLight;
-line-height: 1.3}
+line-height: 1.3;
+margin-top: 40px}
 
 .img2{display: grid;
 	grid-template-columns: repeat(2,1fr);
@@ -1313,7 +1475,7 @@ color: white;
 ;width:90%;
 font-family: TraditionSansXLight;
 line-height: 1.3
-;padding-top: 2vh;
+;padding-top: 10px;
 margin: 10px auto}
 
 
@@ -1345,6 +1507,67 @@ color: white;
 ;width:100%;
 font-family: TraditionSansXLight;
 line-height: 1.3}
+
+
+.dedico{color: white;
+width: 99%;
+margin: 50px auto;
+background: rgba(0,0,0,0.5);
+padding: 50px 0px}
+
+
+.dedico h4{font-size:25px;
+color: #24dff9 ;
+font-family: 'Stick No Bills', sans-serif;
+text-align: center;
+text-shadow: 0px 0px 0px red;
+letter-spacing: 4px;
+margin: 0 auto;}
+
+
+.dedico p{  
+font-family: TraditionSansXLight;
+color: #ecf0f1; font-size:15px; 
+padding: 10px 0px;
+margin: 0  auto;
+text-align: center;
+width:80%;
+max-width:800px;}
+
+.dedico ul {display: grid;
+grid-template-columns: repeat(2,1fr);
+max-width: 1000px;
+width: 80%;
+margin: 0 auto;
+margin-top: 40px;
+text-align: center;}
+
+
+.dedico ul li{list-style: none;}
+
+.dedico ul li i{font-size: 60px;
+background:#12dff9;
+color: black;padding: 20px;
+border-radius: 50%}
+
+.dedico ul li h6{font-size:13px;
+color: #24dff9 ;
+font-family: 'Stick No Bills', sans-serif;
+text-align: center;
+text-shadow: 0px 0px 0px red;
+letter-spacing: 1px;
+margin: 10px auto;}
+
+.dedico ul li  p{  
+font-family: TraditionSansXLight;
+color: #ecf0f1; font-size:20px; 
+padding: 10px 0px;
+margin: 0  auto;
+text-align: center;
+width: 65%;
+max-width:800px;}
+
+
 
 /*parte3 */
 
@@ -1448,7 +1671,7 @@ align-items: center;
 font-family: TraditionSansXLight;
 font-size: 18px;
 text-align: center;;
-width: 60%}
+width: 80%}
 
 #retorno i{padding: 0vh}
 
