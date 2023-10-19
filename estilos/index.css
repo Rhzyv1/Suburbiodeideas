@@ -336,14 +336,15 @@ background: rgb(44, 46, 49);
 border: 0.2vh solid rgba(91, 33, 193,0.7);
 text-align: left;
 background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268);
-}
+box-shadow: 0px 0px 10px rgba(91, 33, 193,0.7);
+border-radius: 20px}
 
-.web #car:hover{
-color:#DCD0FF;
-transition: all 1s ease;
+.web #car:hover{	
 cursor: pointer;
-border: 0.2vh solid rgba(90, 31, 155,0.9);
-box-shadow: 0px 0px 30px rgba(91, 33, 193,0.7);}
+background:  rgba(91, 33, 193,0.8)
+;box-shadow: 0px 0px 30px rgba(91, 33, 193,0.9);
+
+}
 
 .pag-web .img{  
 position: relative;
@@ -912,7 +913,8 @@ background-color:rgb(1, 13, 15);}
  .grupo2{
 text-align: center; 
 font-family: 'Ubuntu Condensed', sans-serif;
-padding: 10px 0vh;
+padding: 0vh;
+padding-top: 10px;
 width: 700px;
 margin: 0 auto;
 }
@@ -921,7 +923,8 @@ margin: 0 auto;
  .grupo2 a{text-decoration: none;
 font-size:18px ;
 font-family: TraditionSansXLight;
-color:white;}
+color:white;
+width: 100%}
 
  .grupo2 a b{
 font-size: 18px ;
@@ -1343,6 +1346,12 @@ margin: 0px}
 background: rgba(6, 12, 17,0.6)	;
 width:205%}
 
+
+.ser .s3  li::before{content:"! " ;
+color: green;
+font-size:20px;}
+
+
 .ser .s3 h5{padding-bottom:1vh}
 
 
@@ -1569,7 +1578,7 @@ margin-top: 0px}
 
 .red-social ul li{position: relative;
 	list-style: none;
-	margin: 20px;
+	margin: 10px;
 	cursor: pointer;display: flex; 
 	justify-content: center;
 	align-items: center;}
@@ -2248,6 +2257,14 @@ font-size:18px;}
 border: 0.3vh solid rgb(15, 161, 200);
 background: rgb(19, 43, 46)}
 
+.box h5 {
+font-size: 15px;
+color:#ffff ;
+font-family: monospace;
+padding-top: 10px;
+padding-bottom: 5px}		
+
+
 .red-social{display: block; justify-content: center;
 align-items: center; margin: 0 auto;
 margin-top: 2vh}
@@ -2259,7 +2276,7 @@ margin-top: 2vh}
 
 .red-social ul li{position: relative;
 	list-style: none;
-	margin: 0vh 2vh;
+	margin: 0vh 10px;
 	cursor: pointer;display: flex; 
 	justify-content: center;
 	align-items: center;}

@@ -420,14 +420,9 @@ text-align: center;}
 .dedico ul li i{font-size: 60px;
 background:#12dff9;
 color: black;padding: 20px;
-border-radius: 50%}
+border-radius: 50%;
+}
 
-.dedico ul li i:hover {
-background:rgb(52, 96, 116) ;
-list-style:none;
-  cursor: pointer;
-border: 0.3vh solid rgba(176,159,107,1);
-color:rgba(176,159,107,1)  }
 
 .dedico ul li h6{font-size:20px;
 color: #24dff9 ;
@@ -1480,7 +1475,8 @@ background-color: rgba(0,0,0,0.6);
 margin: 0 auto;
 height: 160px;
 background-size: cover;
-width: 100%}
+width: 100%;
+max-width: 300px}
 
 .cardp .parra1 h4{font-size:35px;
 color: #24dff9 ;
@@ -1600,7 +1596,7 @@ max-width:800px;}
 .dedico ul {display: grid;
 grid-template-columns: repeat(2,1fr);
 max-width: 1000px;
-width: 70%;
+width: 80%;
 margin: 0 auto;
 margin-top: 20px;
 text-align: center;}
@@ -1614,7 +1610,7 @@ color: black;
 padding: 15px;
 border-radius: 50%;
 width: 100px;
-height: 80px;
+height: 100px;
 padding: 20px}
 
 .dedico ul li h6{font-size:15px;
@@ -1745,8 +1741,8 @@ max-width: 270px}
 #retorno i{padding: 0vh 5px;}
 
 #retorno:hover{color:white;
-	border: 0.5vh solid rgba(90, 31, 155,0.9);
-	box-shadow: 0px 0px 8vh rgba(91, 33, 193,0.7);
+	border: 0.3vh solid rgba(90, 31, 155,0.9);
+	box-shadow: 0px 0px 2vh rgba(91, 33, 193,0.7);
 background: rgb(30, 28, 32,0.5);	
 text-decoration: none;
 margin: 20px auto;
@@ -1755,8 +1751,10 @@ justify-content: center;
 align-items: center;
 margin-top: ;
 font-family:TraditionSansXLight;
-font-size: 19px;
-transition:all 1s ease-out}
+font-size: 18px;
+transition:all 1s ease-out;
+width: 80%;
+max-width: 270px}
 
 
 
