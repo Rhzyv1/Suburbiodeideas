@@ -168,10 +168,17 @@ padding-top: 10px
 }
 			
 .cont-menu nav a:hover{ 
-border-left: 10px solid black;
 background:rgba(28, 125, 155,0.4); 
 color:#ffff  ;
-transition: all 1.2s ease-out;}
+transition: all 1.2s ease;
+border-left: 0vh solid black;}
+
+
+
+
+.cont-menu  nav .sociales a:hover{
+	color: green;
+background: transparent;}			
 
 
 
@@ -180,14 +187,8 @@ background: grey;
 align-items: center;
 justify-content: center;
 margin: 20px auto;
-background: rgba(0,0,0,1);}
-
-
-.cont-menu nav a:hover{ 
-background:rgba(28, 125, 155,0.4); 
-color:#ffff  ;
-transition: all 1.2s ease;
-border-left: 0vh solid black;}
+padding: 5px 0px;
+background: rgba(10,20, 32,1)}
 
 
 
@@ -198,9 +199,7 @@ font-family: 'Stick No Bills', sans-serif;
 font-style: normal;
  font-size: 30px;
 color: #c7c7c7c7;
-border-radius: 50%;;
-}
-			
+border-radius: 50%;}
 
 
 
@@ -271,11 +270,12 @@ grid-gap: 0px}
 background:  url(../img/keyboard.jpg); 
 background-color: rgba(0,0,0,0.6);
 margin: 0 auto;
-height: 220px;
+height: 200px;
 background-size: cover;
-width: 450px;}
+width: 400px; 
+border-radius: 20px}
 
-.cardp .parra1 h4{font-size:45px;
+.cardp .parra1 h4{font-size:40px;
 color: #24dff9 ;
 font-family: 'Stick No Bills', sans-serif;
 ;width: 200px;
@@ -283,7 +283,7 @@ text-align: center;
 text-shadow: 0px 0px 0px red;
 letter-spacing: 4px;
 margin: 0 auto;
-margin-top:40px;
+margin-top:30px;
 border:6px inset #24dff9 ;
 padding:10px 20px;
 background: rgba(0,0,0,0.5);}
@@ -303,18 +303,19 @@ margin: 40px 0vh;
 max-width: 1800px;
 margin: 0px auto}
 
-.img2 img{width:	 25%;height: 180px}
+.img2 img{width:25%;height: 180px}
 
 .cardp1 { display: grid;
 	grid-template-columns: repeat(2,1fr);
-width: 80%;
+width: 90%;
 margin: 100px auto;
 max-width: 1200px}
 
 .cardp1 div img{display: flex;
-width: 80%;
-height:550px;
-margin-left: 10%}
+width: 75%;
+height:450px;
+margin-left: 10%;
+box-shadow: 0px 0px 12px white}
 
 .cardp1 div h4{font-size:25px;
 color: white;
@@ -331,13 +332,13 @@ color: white;
 ;width:95%;
 font-family: TraditionSansXLight;
 line-height: 1.5
-;padding-top:15px}
+;padding-top:5px}
 
 .cardp1 div h5{font-size:25px;
 color: white;
 font-family: 'Stick No Bills', sans-serif;
 letter-spacing: 2px;
-padding-top: 30px;
+padding-top: 0px;
 text-align: center;
 width:90%}
 
@@ -345,7 +346,7 @@ width:90%}
 	grid-template-columns: repeat(2,1fr);
 width: 40%;
 border: 0.3vh solid rgb(2, 96, 116);
-padding: 10px;
+padding: 0px 20px;
 background:rgba(5, 6, 8,0.5)}
 
 .cardp1 div nav:hover{background:rgb(5, 6, 8);
@@ -526,10 +527,12 @@ color: #1DA1F2;
 	border-bottom: 0.2vh  solid #1DA1F2;
 font-style: normal}
 
-.red-social  ul li:hover a::before{height: 100%}
-}
+.red-social  ul li:hover a::before{height: 100%}}
 
-#retorno i{padding: 0vh 40px}
+
+
+#retorno i{padding: 0vh 40px;
+color: green}
 
 #retorno{color:white;
 	border: 0.3vh solid rgba(90, 31, 155,0.9);
@@ -542,8 +545,10 @@ font-family:TraditionSansXLight;
 font-size: 20px;
 transition:all 1s ease-out ;
 padding:10px 20px;
-width: 350px;
+width: 300px;
 margin-top: 20px}
+
+
 
 #retorno:hover{
 box-shadow: 0px 0px 4vh rgba(91, 33, 193,0.7);
@@ -612,7 +617,7 @@ font-style: normal;}
 	font-size: 18px;
 	display: inline-block;
 	text-decoration: none;
-
+	width:80%;
 	margin-bottom: 2.5vh;
 	 color:#ffff;
 	font-weight: 600px;
@@ -792,6 +797,21 @@ font-style: normal;
 padding:5px 10px ;
 color: #c7c7c7c7; }
 
+.cont-menu nav .sociales{display: flex;;
+align-items: center;
+justify-content: center;
+margin: 10px auto;
+background: rgba(10,20, 32,1)}
+
+.cont-menu  nav .sociales a{ 
+	display: block; 
+text-decoration: none;
+font-family: 'Stick No Bills', sans-serif;
+font-style: normal;
+ font-size: 20px;
+color: #c7c7c7c7;
+border-radius: 50%;}
+
 
  header .img img{margin: 0 auto;align-items: center;
 justify-content: center;
@@ -850,28 +870,29 @@ line-height: 1.3}
 width: 100%;
 margin: 50px 0vh}
 
-.img2 img{width: 100%;height: 150px}
+.img2 img{width: 100%;height: 120px}
 
 .cardp1 { display: grid;
 	grid-template-columns: repeat(2,1fr);
-width: 90%;
+width: 95%;
 margin: 50px auto ;}
 
 
 .cardp1 div img{display: flex;
-width: 75%;
-height: 400px;
-margin: 0 auto}
+width: 70%;
+height: 350px;
+margin: 0 auto;
+max-width: 280px}
 
 
-.cardp1 div h4{font-size:25px;
+.cardp1 div h4{font-size:20px;
 color: white;
 font-family: 'Stick No Bills', sans-serif;
 ;width:80%;
 margin: 0 auto;letter-spacing: 2px;
 text-align: center;
 padding-bottom:  10px;
-margin-bottom:  10px;
+margin-bottom:  0px;
 border-bottom: 0.3vh solid rgb(2, 96, 116);}
 
 
@@ -879,8 +900,7 @@ border-bottom: 0.3vh solid rgb(2, 96, 116);}
 color: white;
 ;width:90%;
 font-family: TraditionSansXLight;
-line-height: 1.3
-;padding-top: 40px;
+line-height: 1.3;
 margin: 10px auto;
 padding-top: 10px}
 
@@ -889,14 +909,14 @@ padding-top: 10px}
 color: white;
 font-family: 'Stick No Bills', sans-serif;
 letter-spacing: 1vh;
-padding-top: 20px;
+padding-top: 10px;
 margin: 0 auto;
 text-align: center;}
 
 .cardp1 div nav{ display: grid;
 	grid-template-columns: repeat(2,1fr);
 width: 90%;
-margin: 2vh auto ;
+margin: 10px auto ;
 border: 0.3vh solid rgb(2, 96, 116);
  font-size: 15px;
 color: white;
@@ -906,7 +926,7 @@ padding: 1vh}
 
 
 .cardp1 div nav li {font-size: 20px;
-padding: 10px;}
+padding:0px 10px ;}
 
 
 .cardp1 div nav li span{font-size: 15px;
@@ -1071,7 +1091,6 @@ font-style: normal}
 
 #retorno{color: white;
 text-decoration: none;
-margin: 0 auto;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -1079,9 +1098,10 @@ margin: 20px auto;
 font-family: TraditionSansXLight;
 font-size: 16px;
 text-align: center;
-width: 250px}
+width: 250px;
+padding:5px 1px;}
 
-#retorno i{padding: 0vh 0.5vh}
+#retorno i{padding: 0vh 0.1vh}
 
 #retorno:hover{color:white;
 	border: 0.5vh solid rgba(90, 31, 155,0.9);
@@ -1103,7 +1123,7 @@ width: 40vw;
 cursor:pointer;
 width: 80%;
 margin: 0px auto ;
-margin-top: 40px}
+margin-top: 10px}
 
 cite{font-size: 15px
 	;font-family: 'Raleway', sans-serif;}
@@ -1132,7 +1152,7 @@ background-repeat: no-repeat;
 width: 100%;
 padding: 20px 0px;
 margin: 0px auto;
-margin-top: 30px;}
+margin-top: 10px;}
 
 .containerpx{width: 60%;
 display: grid; 
@@ -1330,20 +1350,21 @@ font-style: normal}
 
 .red-social  ul li:hover a::before{height: 100%}
 
+.piedepag{
+background-color:rgb(1, 13, 15);}
+
  .grupo2{
-background-color:rgb(1, 13, 15);
 text-align: center; 
 font-family: 'Ubuntu Condensed', sans-serif;
 padding: 10px 0vh;
-}
-
+width: 80%;
+margin: 0 auto;}
 
 
  .grupo2 a{text-decoration: none;
-font-size: 15px ;
+font-size:15px ;
 font-family: TraditionSansXLight;
-color:white;
-max-width: 800px}
+color:white;}
 
  .grupo2 a b{
 font-size: 15px ;
@@ -1497,8 +1518,8 @@ width: 90%;
 margin: 40px auto ;}
 
 .cardp1 div img{display: flex;
-width: 90%;
-height: 450px;
+width: 80%;
+height: 350px;
 margin: 20px auto;
 box-shadow: 0px 0px 9px white}
 
@@ -1718,9 +1739,10 @@ font-family: TraditionSansXLight;
 font-size: 18px;
 text-align: center;;
 width: 80%;
-padding:10px 0px}
+padding:10px ;
+max-width: 270px}
 
-#retorno i{padding: 0vh}
+#retorno i{padding: 0vh 5px;}
 
 #retorno:hover{color:white;
 	border: 0.5vh solid rgba(90, 31, 155,0.9);
@@ -1939,26 +1961,38 @@ font-style: normal}
 .red-social  ul li:hover a::before{height: 100%}
 
  
-  .grupo2{
-background-color:rgb(1, 13, 15);
+.piedepag{
+background-color:rgb(1, 13, 15);}
+
+ .grupo2{
 text-align: center; 
 font-family: 'Ubuntu Condensed', sans-serif;
-padding:;
+padding: 10px 0vh;
+width: 80%;
+margin: 0 auto;
 }
 
 
  .grupo2 a{text-decoration: none;
- 	padding-top: 20px;
- 	width: 90%}
+font-size:15px ;
+font-family: TraditionSansXLight;
+color:white;}
 
  .grupo2 a b{
-font-size: 15px ;
+font-size: 18px ;
 font-family: TraditionSansXLight;
 color: #24dff9}
 
 
  .grupo2 a b:hover{
-font-size: 15px ;
+font-size: 18px ;
 font-family: TraditionSansXLight;
 color: green}
 	
+
+ .grupo2 a:hover{
+font-size: 15px ;
+font-family: TraditionSansXLight;
+color:white}
+
+}

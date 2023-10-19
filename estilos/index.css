@@ -159,8 +159,7 @@ font-family: 'Stick No Bills', sans-serif;
 font-style: normal;
  font-size: 23px;
 color: #c7c7c7c7;
-padding: 0px 10px; 
-padding-top: 10px
+padding: 10px; 
 }
 			
 .cont-menu nav a:hover{ 
@@ -176,14 +175,8 @@ background: grey;
 align-items: center;
 justify-content: center;
 margin: 20px auto;
-background: rgba(0,0,0,1);}
-
-
-.cont-menu nav a:hover{ 
-background:rgba(28, 125, 155,0.4); 
-color:#ffff  ;
-transition: all 1.2s ease;
-border-left: 0vh solid black;}
+padding: 5px 0px;
+background: rgba(10,20, 32,1)}
 
 
 
@@ -194,9 +187,21 @@ font-family: 'Stick No Bills', sans-serif;
 font-style: normal;
  font-size: 30px;
 color: #c7c7c7c7;
-border-radius: 50%;;
-}
-			
+border-radius: 50%;}
+
+
+.cont-menu nav a:hover{ 
+background:rgba(28, 125, 155,0.4); 
+color:#ffff  ;
+transition: all 1.2s ease;
+border-left: 0vh solid black;}
+
+
+
+
+.cont-menu  nav .sociales a:hover{
+	color: green;
+background: transparent;}			
 
 
 
@@ -816,13 +821,14 @@ padding: 10px;
 font-size:18px;
 border: none;
 outline: 0px;
-background:rgba(13, 83, 98,0.1);
+background:rgba(13, 83, 98,0.8);
 color:white;
 border: 0.3vh solid rgb(15, 161, 156);
 cursor: pointer;
 transition: all 400ms ease;
  font-family: TraditionSansXLight;
-margin-top: 5px}
+margin-top: 5px;
+}
 
 .container-form .btn-enviar:hover {
 border: 0.3vh solid rgb(60, 166, 113);
@@ -989,6 +995,29 @@ font-style: normal;
  font-size: 17px;
 padding:5px 10px ;
 color: #c7c7c7c7; }
+
+.cont-menu nav .sociales{display: flex;;
+align-items: center;
+justify-content: center;
+margin: 20px auto;
+background: rgba(10,20, 32,1)}
+
+.cont-menu  nav .sociales a{ 
+	display: block; 
+text-decoration: none;
+font-family: 'Stick No Bills', sans-serif;
+font-style: normal;
+ font-size: 25px;
+color: #c7c7c7c7;
+border-radius: 50%;}
+
+
+.cont-menu nav a:hover{ 
+background:rgba(28, 125, 155,0.4); 
+color:#ffff  ;
+transition: all 1.2s ease;
+border-left: 0vh solid black;}
+
 
 .saludo img{width: 32%;
 height: 120px;
@@ -1197,12 +1226,12 @@ border-radius: 10%;display: flex; }
 		color: rgb(229, 245, 248);
 		 margin: 0px auto;
 		text-align: center;
-		width: 95%}				
+		width: 100%}				
 
 .pro button{font-family: TraditionSansXLight; 
 			padding: 1px;
 			color: rgb(29, 43, 131);
-			margin: 10px auto;
+			margin: 5px auto;
 			text-align: center;
 			background: rgba(24, 25, 33,0.5);
 			border-radius: 5px ;
@@ -1383,7 +1412,7 @@ background-image: url(../img/fondo2.png);
 ;background-size: 100% 100%;
 background-repeat: no-repeat;
 width: 100%;
-padding: 10px 0px;
+padding: 0px;
 margin: 0px auto;
 margin-top: 10px;}
 
@@ -1488,11 +1517,12 @@ border: 0.3vh solid rgb(15, 161, 156);
 cursor: pointer;
 transition: all 400ms ease;
  font-family: TraditionSansXLight;
-font-size:15px;}
+font-size:15px;
+background: rgb(19, 43, 46)}
 
 .container-form .btn-enviar:hover {
 border: 0.3vh solid rgb(15, 161, 200);
-background: rgb(19, 43, 46)}
+background: rgb(9, 3, 6)}
 
 .piedepag{width: 100%;
 background-color: rgb(5, 30, 54)}
@@ -1584,20 +1614,21 @@ font-style: normal}
 
 .red-social  ul li:hover a::before{height: 100%}
 
+.piedepag{
+background-color:rgb(1, 13, 15);}
+
  .grupo2{
-background-color:rgb(1, 13, 15);
 text-align: center; 
 font-family: 'Ubuntu Condensed', sans-serif;
 padding: 10px 0vh;
-}
-
+width: 80%;
+margin: 0 auto;}
 
 
  .grupo2 a{text-decoration: none;
-font-size: 15px ;
+font-size:15px ;
 font-family: TraditionSansXLight;
-color:white;
-max-width: 800px}
+color:white;}
 
  .grupo2 a b{
 font-size: 15px ;
@@ -1670,6 +1701,7 @@ font-size: 25px  }
 height: 90vh;
 width: 50%;
 max-height: 850px}
+
 
 
 .cont-menu  nav  a{ 
@@ -2103,9 +2135,9 @@ background-size: 100% 100%;
 background-repeat: no-repeat;
 border-radius: 0%;
 width: 100%;
-padding: 0px 0px;
 margin: 0px auto;
-margin-top:10px;}
+margin-top:10px;
+padding-top: 30px}
 
 .containerpx{width:90%;
 display: grid; 
@@ -2242,7 +2274,7 @@ color: white;}
 	font-family: fontAwesome;
 	position: absolute;
 	top:-4;
-	left: 0;
+	left: 4;
 	font-size: 35px;
 	height: 0;
 	overflow: hidden;
@@ -2273,26 +2305,38 @@ font-style: normal}
 
 
 
+.piedepag{
+background-color:rgb(1, 13, 15);}
+
  .grupo2{
-background-color:rgb(1, 13, 15);
 text-align: center; 
 font-family: 'Ubuntu Condensed', sans-serif;
-padding:;
+padding: 10px 0vh;
+width: 80%;
+margin: 0 auto;
 }
 
 
  .grupo2 a{text-decoration: none;
- 	padding-top: 20px;
- 	width: 90%}
+font-size:15px ;
+font-family: TraditionSansXLight;
+color:white;}
 
  .grupo2 a b{
-font-size: 15px ;
+font-size: 18px ;
 font-family: TraditionSansXLight;
 color: #24dff9}
 
 
  .grupo2 a b:hover{
-font-size: 15px ;
+font-size: 18px ;
 font-family: TraditionSansXLight;
 color: green}
 	
+
+ .grupo2 a:hover{
+font-size: 15px ;
+font-family: TraditionSansXLight;
+color:white}
+
+}
