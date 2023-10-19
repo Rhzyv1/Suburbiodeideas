@@ -66,8 +66,7 @@ margin-top: 10px;
 margin-right: 15px; 
 margin-left: 20px  ; 
 color: white; 
-cursor: pointer;;
-background: rgba(0,0,0,0.9);
+cursor: pointer;
 padding: 10px;}
 
 .conten i:hover {
@@ -613,7 +612,7 @@ font-style: normal;}
 	font-size: 18px;
 	display: inline-block;
 	text-decoration: none;
-	width:80%;
+
 	margin-bottom: 2.5vh;
 	 color:#ffff;
 	font-weight: 600px;
@@ -701,27 +700,44 @@ margin-top: 5px}
 
 .container-form .btn-enviar:hover {
 border: 0.3vh solid rgb(60, 166, 113);
-background: rgb(15, 121, 136);
+background: rgb(15, 121, 136);}
+
+
+.piedepag{
+background-color:rgb(1, 13, 15);}
+
+ .grupo2{
+text-align: center; 
+font-family: 'Ubuntu Condensed', sans-serif;
+padding: 10px 0vh;
+width: 700px;
+margin: 0 auto;
 }
 
+
+ .grupo2 a{text-decoration: none;
+font-size:18px ;
+font-family: TraditionSansXLight;
+color:white;}
+
+ .grupo2 a b{
+font-size: 18px ;
+font-family: TraditionSansXLight;
+color: #24dff9}
+
+
+ .grupo2 a b:hover{
+font-size: 18px ;
+font-family: TraditionSansXLight;
+color: green}
 	
 
- .grupo2{background-color:rgb(1, 13, 15);
- 	text-align: center; color: #ffff
-	;font-family: 'Ubuntu Condensed', sans-serif;
-padding: 10px 0vh}
+ .grupo2 a:hover{
+font-size: 18px ;
+font-family: TraditionSansXLight;
+color:white}
 
- .grupo2 small{
- 	font-size: 17px ;
-	font-family: TraditionSansXLight}
-	
-	 .grupo2 p{
- 	font-size: 19px; 
- 	font-family: TraditionSansXLight;
- 	width: 60%;
- 	text-align: center;
- 	align-items: center;
- 	margin: 0 auto;}
+
 
 @media screen and (min-width: 550px) and (max-width: 1023px)
 {	
@@ -804,11 +820,11 @@ margin: 50px auto}
 background:  url(../img/keyboard.jpg); 
 background-color: rgba(0,0,0,0.6);
 margin: 0 auto;
-height: 1px;
+height: 150px;
 background-size: cover;
-width: 80%;}
+width: 70%;}
 
-.cardp .parra1 h4{font-size:35px;
+.cardp .parra1 h4{font-size:30px;
 color: #24dff9 ;
 font-family: 'Stick No Bills', sans-serif;
 ;width: 200px;
@@ -816,8 +832,8 @@ text-align: center;
 text-shadow: 0px 0px 0px red;
 letter-spacing: 4px;
 margin: 0 auto;
-margin-top:10px;
-border:6px inset #24dff9 ;
+margin-top:30px;
+border:2px inset #24dff9 ;
 padding:5px 20px;
 background: rgba(0,0,0,0.5);}
 
@@ -1314,24 +1330,41 @@ font-style: normal}
 
 .red-social  ul li:hover a::before{height: 100%}
 
- .grupo2{background-color:rgb(1, 13, 15);
- 	padding: 1vh;
- 	text-align: center; color: #ffff
-	;font-family: 'Ubuntu Condensed', sans-serif;}
+ .grupo2{
+background-color:rgb(1, 13, 15);
+text-align: center; 
+font-family: 'Ubuntu Condensed', sans-serif;
+padding: 10px 0vh;
+}
 
- .grupo2 small{
- 	font-size: 15px ;
-	font-family: TraditionSansXLight}
+
+
+ .grupo2 a{text-decoration: none;
+font-size: 15px ;
+font-family: TraditionSansXLight;
+color:white;
+max-width: 800px}
+
+ .grupo2 a b{
+font-size: 15px ;
+font-family: TraditionSansXLight;
+color: #24dff9}
+
+
+ .grupo2 a b:hover{
+font-size: 15px ;
+font-family: TraditionSansXLight;
+color: green}
 	
-	 .grupo2 p{
- 	font-size: 13px ; 
- 	font-family: TraditionSansXLight;
- 	width: 60%;
- 	text-align: center;
- 	align-items: center;
- 	margin: 0 auto;}
+
+ .grupo2 a:hover{
+font-size: 15px ;
+font-family: TraditionSansXLight;
+color:white}
 
 }
+
+
 
 
 
@@ -1342,16 +1375,17 @@ font-style: normal}
 header {background:  url(../img/fondo.jpg); 
     width: 100%;
     height: 80vh;
+    max-height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: center;
     background-size:100% 100%} 
 
-
 .btn-men{
-width: 100%;background: rgba(0,0,0,0.0);
-border-radius: 0px 0px 20px 20px}
+width: 100%;
+border-radius: 0px;
+padding: 5px 0px}
 
 .conten nav ul li a{display: none;}
 
@@ -1378,7 +1412,8 @@ font-size: 25px  }
 
 .container-menu{
 height:80vh;
-width: 50%;}
+width: 50%;
+max-height: 800px;}
 
 .cont-menu  nav  a{ 
 display: block; 
@@ -1422,7 +1457,7 @@ margin: 10px auto ;}
 background:  url(../img/keyboard.jpg); 
 background-color: rgba(0,0,0,0.6);
 margin: 0 auto;
-height: 180px;
+height: 160px;
 background-size: cover;
 width: 100%}
 
@@ -1452,9 +1487,9 @@ margin-top: 20px}
 .img2{display: grid;
 	grid-template-columns: repeat(2,1fr);
 width: 100%;
-margin: 7vh 0vh}
+margin: 50px 0vh}
 
-.img2 img{width: 100%;height: 15vh}
+.img2 img{width: 100%;height: 120px}
 
 .cardp1 { display: grid;
 	grid-template-columns: repeat(1,1fr);
@@ -1462,9 +1497,10 @@ width: 90%;
 margin: 40px auto ;}
 
 .cardp1 div img{display: flex;
-width: 80%;
-height: 300px;
-margin: 0 auto}
+width: 90%;
+height: 450px;
+margin: 20px auto;
+box-shadow: 0px 0px 9px white}
 
 
 .cardp1 div h4{font-size:23px;
@@ -1496,8 +1532,8 @@ letter-spacing: 0px;}
 .cardp1 div nav{ display: grid;
 	grid-template-columns: repeat(2,1fr);
 width: 95%;
-margin: 2vh auto 
-;border: 0.4vh solid rgb(2, 96, 116);
+margin: 20px auto 
+;border: 0.2vh solid rgb(2, 96, 116);
  font-size: 20px
 ;color: white;
 font-family: TraditionSansXLight;
@@ -1555,9 +1591,12 @@ text-align: center;}
 background:#12dff9;
 color: black;
 padding: 15px;
-border-radius: 50%}
+border-radius: 50%;
+width: 100px;
+height: 80px;
+padding: 20px}
 
-.dedico ul li h6{font-size:13px;
+.dedico ul li h6{font-size:15px;
 color: #24dff9 ;
 font-family: 'Stick No Bills', sans-serif;
 text-align: center;
@@ -1678,7 +1717,8 @@ align-items: center;
 font-family: TraditionSansXLight;
 font-size: 18px;
 text-align: center;;
-width: 65%}
+width: 80%;
+padding:10px 0px}
 
 #retorno i{padding: 0vh}
 
@@ -1898,23 +1938,27 @@ font-style: normal}
 
 .red-social  ul li:hover a::before{height: 100%}
 
+ 
+  .grupo2{
+background-color:rgb(1, 13, 15);
+text-align: center; 
+font-family: 'Ubuntu Condensed', sans-serif;
+padding:;
+}
 
 
- .grupo2{background-color:rgb(1, 13, 15);
- 	padding: 1vh;
- 	text-align: center; color: #ffff
-	;font-family: 'Ubuntu Condensed', sans-serif;
-	}
+ .grupo2 a{text-decoration: none;
+ 	padding-top: 20px;
+ 	width: 90%}
 
- .grupo2 small{
- 	font-size: 16px ;
-	font-family: TraditionSansXLight }
+ .grupo2 a b{
+font-size: 15px ;
+font-family: TraditionSansXLight;
+color: #24dff9}
+
+
+ .grupo2 a b:hover{
+font-size: 15px ;
+font-family: TraditionSansXLight;
+color: green}
 	
-	 .grupo2 p{
- 	font-size: 16px ; 
- 	font-family: TraditionSansXLight;
- 	width: 95%;
- 	text-align: center;
- 	align-items: center;
- 	margin: 0 auto;}}
-
