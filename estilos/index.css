@@ -283,7 +283,7 @@ font-size: 35px;
 text-shadow: 1px 1px 2px #95afc0;
 text-align: center; line-height: 1;}
 
-.bienvenido p { 
+.bienvenido h4 { 
 color: #2feab8;
 font-family: 'Ubuntu Condensed', sans-serif;; 
 font-style: italic;
@@ -1066,7 +1066,7 @@ border:1px solid rgba(15, 127, 185,0.7) }
 		letter-spacing: 1px;
 		width:100%;
 		font-size: 35px; 
-		padding-top:30px ;
+		padding-top: 20px ;
 		font-style: oblique;}
 
 
@@ -1093,7 +1093,7 @@ font-family: 'Ubuntu Condensed', sans-serif;;
 font-style: oblique;
 font-size: 25px;}
 
-.bienvenido p { 
+.bienvenido h4 { 
 color: #2feab8;
 font-family: 'Ubuntu Condensed', sans-serif;; 
 font-style: italic;
@@ -1778,7 +1778,7 @@ position: relative;
 margin-top:40vh;
 background: rgba(10,10,10,0.7);
 padding: 2px;
-width: 80%;
+width: 90%;
 border:1px solid rgba(15, 127, 185,0.7);
 max-width: 300px }
 
@@ -1820,7 +1820,7 @@ font-family: 'Ubuntu Condensed', sans-serif;
 font-style: oblique;
 font-size:28px;}
 
-.bienvenido p { 
+.bienvenido h4 { 
 color: #2feab8;
 font-size:25px;  
 text-shadow: 1px 1px 6px black;
@@ -1894,18 +1894,17 @@ margin: 0 auto;}
 	 font-family: TraditionSansXLight;
 	line-height: 1.2;
 width: 100%;
-margin: 2vh auto;
-padding: 1vh 0px}
+margin: 0px auto;
+margin-bottom: 40px}
 
 
 .web #car { color: #f7f1e3;  
 	justify-content ; 
-	font-size:14px ;
+	font-size:16px ;
 	 font-family: TraditionSansXLight;
 	line-height: 12px;
 width: 100%;
-right: 0px;
-padding:10px;
+padding:15px 10px;
 background: rgb(44, 46, 49);
 border: 1px solid black;
 text-decoration: none;
