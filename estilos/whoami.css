@@ -275,7 +275,7 @@ background-size: cover;
 width: 400px; 
 border-radius: 20px}
 
-.cardp .parra1 h4{font-size:40px;
+.cardp .parra1 h4{font-size:50px;
 color: #24dff9 ;
 font-family: 'Stick No Bills', sans-serif;
 ;width: 200px;
@@ -284,7 +284,7 @@ text-shadow: 0px 0px 0px red;
 letter-spacing: 4px;
 margin: 0 auto;
 margin-top:30px;
-border:6px inset #24dff9 ;
+border:3px inset #24dff9 ;
 padding:10px 20px;
 background: rgba(0,0,0,0.5);}
 
@@ -312,7 +312,7 @@ margin: 100px auto;
 max-width: 1200px}
 
 .cardp1 div img{display: flex;
-width: 75%;
+width: 65%;
 height:450px;
 margin-left: 10%;
 box-shadow: 0px 0px 12px white}
@@ -408,11 +408,11 @@ padding: 10px 0px;
 margin: 0  auto;
 text-align: center;
 width:80%;
-max-width:600px;}
+max-width:800px;}
 
 .dedico ul {display: grid;
 grid-template-columns: repeat(4,1fr);
-max-width: 1000px;
+max-width: 800px;
 width: 80%;
 margin: 0 auto;
 margin-top: 40px;
@@ -534,7 +534,7 @@ font-style: normal}
 color: green}
 
 #retorno{color:white;
-	border: 0.3vh solid rgba(90, 31, 155,0.9);
+	border:2px solid rgba(90, 31, 155,0.9);
 text-decoration: none;
 margin: 40px auto;
 display: flex;
@@ -545,13 +545,15 @@ font-size: 20px;
 transition:all 1s ease-out ;
 padding:10px 20px;
 width: 300px;
-margin-top: 20px}
+margin-top: 20px;
+border-radius:20px}
 
 
 
 #retorno:hover{
 box-shadow: 0px 0px 4vh rgba(91, 33, 193,0.7);
-background:rgba(91, 33, 193,0.2) }
+background:rgba(91, 33, 193,0.2) ;
+}
 
 
 .cite{color: rgba(77, 101, 174,0.9);
@@ -634,8 +636,10 @@ font-size: 20px}
 form{ 
 border: 2px solid rgb(60, 166, 113);
 	;width: 90%;
-border-radius: 10px;
-padding: 10px ;}
+padding: 10px ;
+background: rgba(0,0,0,0.6);
+border-radius: 10px}
+
 
 .container-form form .campo
 {background:none;
@@ -683,7 +687,9 @@ font-family: TraditionSansXLight }
 	width:90%; 	
 	padding: 10px;}
 
-.select option{background:rgba(09,12,20,0.8);}
+
+.select option{background:black;}
+
 
 .container-form .btn-enviar
 {display: flex;
@@ -701,7 +707,7 @@ cursor: pointer;
 transition: all 400ms ease;
  font-family: TraditionSansXLight;
 margin-top: 5px;
-}
+border-radius: 20px}
 
 .container-form .btn-enviar:hover {
 border: 1px solid rgb(60, 166, 113);
@@ -833,6 +839,9 @@ text-align: center;
 font-family: TraditionSansXLight;
 font-size: 18px}
 
+.cardp{max-width: 800px ;
+margin: 0 auto}
+
 .cardp .parra1{ display: grid;
 	grid-template-columns: repeat(2,1fr);
 width: 100%;
@@ -877,7 +886,8 @@ margin: 50px 0vh}
 .cardp1 { display: grid;
 	grid-template-columns: repeat(2,1fr);
 width: 95%;
-margin: 50px auto ;}
+margin: 50px auto ;
+max-width: 800px}
 
 
 .cardp1 div img{display: flex;
@@ -895,7 +905,7 @@ margin: 0 auto;letter-spacing: 2px;
 text-align: center;
 padding-bottom:  10px;
 margin-bottom:  0px;
-border-bottom: 0.3vh solid rgb(2, 96, 116);}
+border-bottom: 2px solid rgb(2, 96, 116);}
 
 
 .cardp1 div p {font-size:15px;
@@ -910,7 +920,7 @@ padding-top: 10px}
 .cardp1 div h5{font-size:15px;
 color: white;
 font-family: 'Stick No Bills', sans-serif;
-letter-spacing: 1vh;
+letter-spacing: 1px;
 padding-top: 10px;
 margin: 0 auto;
 text-align: center;}
@@ -918,12 +928,12 @@ text-align: center;}
 .cardp1 div nav{ 
 width: 90%;
 margin: 10px auto ;
-border: 0.3vh solid rgb(2, 96, 116);
+border: 2px solid rgb(2, 96, 116);
  font-size: 15px;
 color: white;
 font-family: TraditionSansXLight;
 line-height: 1.5;
-padding: 1vh}
+padding: 10px 0px}
 
 
 .cardp1 div nav ul{ display: grid;
@@ -971,10 +981,10 @@ max-width:600px;}
 
 .dedico ul {display: grid;
 grid-template-columns: repeat(4,1fr);
-max-width: 1000px;
+max-width: 600px;
 width: 80%;
 margin: 0 auto;
-margin-top: 40px;
+margin-top: 20px;
 text-align: center;}
 
 
@@ -1009,21 +1019,21 @@ max-width:800px;}
 .cardp2 { display: grid;
 	grid-template-columns: repeat(2,1fr);
 width: 90%;
-margin: 20px auto;}
+margin: 20px auto;
+max-width: 800px}
 
 .cardp2 div img{display: flex;
-width: 80%;
+width: 70%;
 height:200px;
 margin: 10px auto;
-border-right: 0.3vh  solid rgb(2, 96, 116);
-border-bottom: 0.3vh  solid rgb(2, 96, 116)  }
+border: 2px solid rgb(2, 96, 116);}
 
 .cardp2 div p {font-size:15px;
 color: white;
 ;width:90%;
 font-family: TraditionSansXLight;
 line-height: 1.5
-;margin: 10px auto;
+;margin: 20px ;
 padding: 0px}
 
 .red-social h5{font-size:18px;
@@ -1095,36 +1105,31 @@ font-style: normal}
 .red-social  ul li:hover a::before{height: 100%}
 
 
-#retorno{color: white;
+#retorno{color:white;
+	border:2px solid rgba(90, 31, 155,0.9);
 text-decoration: none;
+margin: 40px auto;
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 20px auto;
-font-family: TraditionSansXLight;
-font-size: 16px;
-text-align: center;
-width: 250px;
-padding:5px 1px;}
-
-#retorno i{padding: 0vh 0.1vh}
-
-#retorno:hover{color:white;
-	border: 0.5vh solid rgba(90, 31, 155,0.9);
-	box-shadow: 0px 0px 8vh rgba(91, 33, 193,0.7);
-background: rgb(30, 28, 32,0.5);	
-text-decoration: none;
-margin: 0 auto;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 18px;
 font-family:TraditionSansXLight;
-font-size: 16px;
-transition:all 1s ease-out ;}
+font-size: 15px;
+transition:all 1s ease-out ;
+padding:5px 0px;
+width: 220px;
+margin-top: 20px;
+border-radius:20px}
+
+
+
+#retorno:hover{
+box-shadow: 0px 0px 20px rgba(91, 33, 193,0.7);
+background:rgba(91, 33, 193,0.2) ;
+}
+
 
 .cite{color: rgba(77, 101, 174,0.5);
-margin-left: 2vh;
+margin-left: 10px;
 width: 40vw;
 cursor:pointer;
 width: 80%;
@@ -1266,7 +1271,7 @@ background: rgb(19, 43, 46)}
 .container-form .btn-enviar:hover {
 border: 2px solid rgb(60, 166, 113);}
 
-
+N
 
 .piedepag{width: 100%;
 background-color: rgb(5, 30, 54)}
@@ -1628,8 +1633,6 @@ background:#12dff9;
 color: black;
 padding: 15px;
 border-radius: 50%;
-width: 100px;
-height: 100px;
 padding: 20px}
 
 .dedico ul li h6{font-size:15px;
@@ -1848,8 +1851,8 @@ color:#27c3c1;}
 
 
 form{ 
-border: 2px solid rgb(15, 161, 156);
-	;width: 100%;
+border:2px solid rgb(60, 166, 113);
+width: 100%;
 border-radius: 5%;
 padding: 10px ;
 margin: 0 auto}
@@ -1862,7 +1865,7 @@ width:40vw;
 padding: 2vh 10px;
 font-size: 16px;
 border: 0;
-border-bottom : 2px solid rgb(15, 161, 156);	
+border-bottom : 2px solid rgb(60, 166, 113);	
 outline: 0px;
 outline:none; border: 2;
 cursor: pointer;
@@ -1895,7 +1898,7 @@ font-size: 16px;
     transition: all 0.25s ease;
     outline:none;
 	border: 0;
-	border-bottom:2px solid rgb(15, 161, 156);
+	border-bottom:2px solid rgb(60, 166, 113);
 	background:  none;
 	width:20vw;
 	width: 90%;
@@ -1912,7 +1915,7 @@ padding: 1vh ;
 border: none;
 outline: 0px;
 color:white;
-border: 2px solid rgb(15, 161, 156);
+border: 2px solid rgb(60, 166, 113);
 cursor: pointer;
 transition: all 400ms ease;
  font-family: TraditionSansXLight;
@@ -1920,6 +1923,7 @@ font-size:18px;}
 
 .container-form .btn-enviar:hover {
 border: 2px solid rgb(15, 161, 200);}
+
 
 .red-social{display: block; justify-content: center;
 align-items: center; margin: 0 auto;

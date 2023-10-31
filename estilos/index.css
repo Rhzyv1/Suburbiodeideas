@@ -229,7 +229,7 @@ border-radius: 50%
 ;}
 
 .saludo{
-height: 160px;
+height: 150px;
 align-items: center;
 justify-content: center;
 margin: 0 auto;
@@ -237,7 +237,7 @@ position: relative;
 margin-top: 300px;
 background: rgba(10,10,10,0.7);
 padding: 2px;
-width: 430px;
+width: 400px;
 border:2px solid rgba(15, 127, 185,0.7);
 outline: 10px solid rgba(10,10,10,0.7); }
 
@@ -249,7 +249,7 @@ outline: 10px solid rgba(10,10,10,0.7); }
 		 margin: 0 auto;
 		letter-spacing: 1px;
 		width:100%;
-		font-size: 55px; 
+		font-size: 50px; 
 		padding-top: 30px ;
 		font-style: oblique;}
 
@@ -465,7 +465,7 @@ background-image: linear-gradient(to right, #051937, #131e49, #2a1f5a, #451d66, 
 		padding-left: 20px;
 		font-family: TraditionSansXLight;}
 
-.parte p { font-size: 20px; color: #ffff;
+.parte p { font-size: 18px; color: #ffff;
 	  	color: #fff; 
 	font-family: TraditionSansXLight;
 	padding:10px 15px;}
@@ -497,6 +497,7 @@ border: 0.3vh solid black;
 background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
 border-radius: 5%; 
 margin: 20px auto ;
+padding: 0px
 }
 
 .pro img{width: 95%; height: 160px;
@@ -504,7 +505,8 @@ margin: 0px auto;
 justify-content: center;
 align-items: center;
 display: flex;
-border-radius: 10px; }
+border-radius: 10px; 
+padding: 0px}
 
 
 .pro h3 { font-family: 'Stick No Bills', sans-serif;
@@ -515,23 +517,24 @@ border-radius: 10px; }
 
 .pro p   { font-family: TraditionSansXLight; 
 		line-height: 1; 
-		padding: 5px 0vh;
-		font-size: 20px;
+		padding: 10px 5px;
+		font-size: 18px;
 		color: rgb(229, 245, 248);
 		 margin:0vh auto;
 		text-align: center;
 		width: 95%}				
 
 .pro button{font-family: TraditionSansXLight; 
-			padding: 1px;
+			padding: 5px 20px;
+			padding-top: 10px;
 			color: rgb(29, 43, 131);
-			margin: 1vh auto;
+			margin: 0vh auto;
 			text-align: center;
-			background: rgba(24, 25, 33,0.5);
-			border-radius: 5px ;
+			background: rgba(4, 5, 3,0.9);
+			border-radius: 20px 20px 0px 0px ;
 			border: none;
 			display: flex;
-			background:	#191919}
+			letter-spacing: 1px}
 
 
 .pro a { font-family: 'Stick No Bills', sans-serif; 
@@ -539,18 +542,15 @@ border-radius: 10px; }
 		padding: 1px;
 		font-size:20px;
 		color:#cccccc;;
-		 text-decoration:none;
-		;margin: 5px 10px;}
+		 text-decoration:none;}
 
 .pro:hover{ box-shadow:1px 1px 10px 10px rgba(27, 151, 164,0.5)
 	; 	cursor: pointer;
-			transition: all 400ms ease-in-out ;
-			border: 1px solid black}
+			transition: all 400ms ease-in-out }
 
 .pro button:hover{
 background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268);	
-	;transition: all 3s ease-out ;
-border: 0.3vh solid black}
+	;transition: all 3s ease-out ;}
 
 .otros{
 padding:0vh 0vh 30px 0px;
@@ -770,11 +770,10 @@ max-width: 800px}
 	display: inline-block;
 	text-decoration: none;
 	width:80%;
-	margin-bottom: 2.5vh;
 	 color:#ffff;
 	font-weight: 600px;
 border-bottom:3px solid transparent;
-padding: 0px 10px}
+padding: 10px}
 
 .container-form a i {
 color:rgb(90, 166, 113);
@@ -787,8 +786,9 @@ font-size: 20px}
 form{ 
 border: 2px solid rgb(60, 166, 113);
 	;width: 90%;
-border-radius: 10px;
-padding: 10px ;}
+padding: 10px ;
+background: rgba(0,0,0,0.6);
+border-radius: 10px}
 
 .container-form form .campo
 {background:none;
@@ -811,6 +811,7 @@ color: white;
 font-size: 20px;
 background: none;
 font-family: TraditionSansXLight }
+
 
 .select{
 	appearance: none;
@@ -836,7 +837,7 @@ font-family: TraditionSansXLight }
 	width:90%; 	
 	padding: 10px;}
 
-.select option{background:rgba(09,12,20,0.8);}
+.select option{background:black;}
 
 .container-form .btn-enviar
 {display: flex;
@@ -879,7 +880,7 @@ font-size: 25px;
 color:#ffff ;
 font-family: monospace;
 padding-top: 50px;
-padding-bottom: 10px}		
+padding-bottom: 0px}		
 
 
 
@@ -1284,15 +1285,12 @@ border-radius: 10%;display: flex; }
 		padding: 0px 10px}				
 
 .pro button{font-family: TraditionSansXLight; 
-			padding: 1px;
 			color: rgb(29, 43, 131);
-			margin: 5px auto;
 			text-align: center;
-			background: rgba(24, 25, 33,0.5);
-			border-radius: 5px ;
 			border: none;
 			display: flex;
-			background:	#191919}
+			padding:3px 5px;
+			margin-top: 10px}
 
 .pro a { font-family: 'Stick No Bills', sans-serif; 
 		line-height: 1; 
@@ -1304,14 +1302,12 @@ border-radius: 10%;display: flex; }
 
 .pro:hover{ box-shadow:1px 1px 10px 5px rgba(27, 151, 164,0.5)
 	; 	cursor: pointer;
-			transition: all 400ms ease;
-			 transform: translateX(2vh);}
+			transition: all 400ms ease;}
 
 .pro a:hover{  color:#cccccc;}
 
 .pro button:hover{
-background:	#191919
-	;transition: all 400ms ease }
+	transition: all 400ms ease }
 	
 
 .otros{
@@ -1355,7 +1351,8 @@ grid-template-columns: repeat(2,1fr);
 grid-gap: 10px;
 width: 70%;
 margin: 0px auto;
-height: 100%}
+height: 100%;
+margin-top: 20px}
 
 .ser .s1 div{
 width: 100%;}
@@ -1512,8 +1509,7 @@ color:#27c3c1;}
 form{ 
 border:2px solid rgb(60, 166, 113);
 	;width: 100%;
-border-radius: 10px;
-padding: 10px;
+	padding: 10px;
 margin: 0 auto}
 
 .container-form form .campo
@@ -1598,12 +1594,13 @@ margin: 0 auto}
 	grid-gap: 5px;
 	padding: 10px 0px }
 
+
 .box h5 {
 font-size: 20px;
 color:#ffff ;
 font-family: monospace;
-padding-top: 30px;
-padding-bottom: 10px}		
+padding-top: 40px;
+padding-bottom: 0px}		
 
 
 .piedepag .grupo1 .box p{
@@ -1774,19 +1771,18 @@ padding:1vh 2vh;
 color: #c7c7c7c7; }
 
 .saludo{
-height: 110px;
+height: 100px;
 align-items: center;
 justify-content: center;
 margin: 0 auto;
 position: relative;
-margin-top:45vh;
+margin-top:42vh;
 background: rgba(10,10,10,0.7);
 padding: 2px;
 width: 90%;
 border:1px solid rgba(15, 127, 185,0.7);
-max-width: 260px ;
-outline: 4px solid rgba(10,10,10,0.7); 
-}
+max-width: 250px ;
+outline: 4px solid rgba(10,10,10,0.7); }
 
 .saludo h1{ font-family: 'Stick No Bills', sans-serif;
 		font-weight: 500; 
@@ -1803,7 +1799,7 @@ outline: 4px solid rgba(10,10,10,0.7);
 
 .saludo  h2 {color:#dff4f7 ; 
 font-family: 'Ubuntu Condensed', sans-serif;; 
-font-size: 20px;
+font-size: 18px;
 text-align: center; line-height: 1;
 padding-top: 10px;
 letter-spacing: 1px}		
@@ -1830,9 +1826,11 @@ font-size:28px;}
 color: #2feab8;
 font-size:25px;  
 text-shadow: 1px 1px 6px black;
-margin: 0px; 
+margin: 0px auto; 
 text-align: center;
-font-family: 'Ubuntu Condensed', sans-serif;	} 
+font-family: 'Ubuntu Condensed', sans-serif;
+max-width: 200px
+} 
 
 .bienvenido p { color: #fff;
 padding:0px;
@@ -2248,7 +2246,8 @@ margin: 10px 5px}
 	font-size: 16px;
 	display: inline-block;
 	text-decoration: none;
-	width:100%;}
+	width:100%;
+	margin-bottom: 20px}
 
 .container-form a:hover {font-size: 16px;}
 
@@ -2415,7 +2414,8 @@ margin: 0 auto;
  .grupo2 a{text-decoration: none;
 font-size:15px ;
 font-family: TraditionSansXLight;
-color:white;}
+color:white;
+margin-bottom: 0px}
 
  .grupo2 a b{
 font-size: 18px ;

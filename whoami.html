@@ -313,15 +313,17 @@
 	</div>
 
 			<form >
-				<input  type="text" name=" name" placeholder="Ingresa tu nombre"
+
+				<input  autocomplete="off"  type="text" name=" name" placeholder="Ingresa tu nombre"
 				class="campo">	
 		 	
-				<input type="email" name=" correo" placeholder="Ingresa tu email"
+				<input autocomplete="off" type="email" name=" correo" placeholder="Ingresa tu email"
 		class="campo">	
 
 
-				<input  type="text" name="mensaje" placeholder="Dejanos tu sugerencia."
+				<input autocomplete="off"  type="text" name="mensaje" placeholder="Dejanos tu sugerencia."
 				class="campo">	
+				
 			<select class="select"
 				>
 			<option selected disabled>Seleciona tu pais</option>
@@ -331,7 +333,7 @@
 			<option value="Pais">Ecuador</option>
 			<option value="Pais">Argentina</option>
 			<option value="Pais">Paraguay</option> <option value="Pais">Uruguay</option>
-			<option value="Pais">Mexico</option>
+			<optgroup></optgroup>ion value="Pais">Mexico</option>
 			<option value="Pais">España</option>
 			</select>
 			<input type="submit" onclick="enviar()" name="enviar" value="Enviar mensaje" class="btn-enviar" >
