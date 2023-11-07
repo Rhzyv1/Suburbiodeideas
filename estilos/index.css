@@ -93,9 +93,8 @@ color: #ffff;
 font-family: 'Stick No Bills', sans-serif;
 font-style: normal;
 font-size: 23px;
-letter-spacing: 0.3vh;
-
-padding-bottom: 1vh}
+letter-spacing: 0.1vh;
+padding-bottom: 1px}
 
 .conten nav ul li #inicio{  
 cursor: pointer;
@@ -103,7 +102,7 @@ transition: all 1s ease;
 color:#2feab8;}
 
 .conten nav ul li a:hover{
-border-bottom: 0.3vh solid #2feab8;
+border-bottom: 2px solid #2feab8;
 transition: all 300ms ease-out;
 cursor: pointer;
 transition: all 2s ease;
@@ -117,7 +116,12 @@ height: 40px
 background: rgba(21, 23, 23,0.5);
 margin-top:13px;
 margin-right: 30px;
-border: 0.3vh solid black}
+border: 1px solid rgb(124, 11, 163)}
+
+
+.conten nav a img:hover{box-shadow: 0px 0px 10px white}
+
+
 
 #btn-men{position: relative;
 display: none;
@@ -175,7 +179,7 @@ background: grey;
 align-items: center;
 justify-content: center;
 margin: 20px auto;
-padding: 5px 0px;
+padding: 0px;
 background: rgba(10,20, 32,1)}
 
 
@@ -185,22 +189,20 @@ background: rgba(10,20, 32,1)}
 text-decoration: none;
 font-family: 'Stick No Bills', sans-serif;
 font-style: normal;
- font-size: 30px;
+ font-size: 35px;
 color: #c7c7c7c7;
 border-radius: 50%;}
 
 
 .cont-menu nav a:hover{ 
 background:rgba(28, 125, 155,0.4); 
-color:#ffff  ;
+color:#ffff ;
 transition: all 1.2s ease;
 border-left: 0vh solid black;}
 
 
-
-
 .cont-menu  nav .sociales a:hover{
-	color: green;
+	color:rgb(124, 11, 163);
 background: transparent;}			
 
 
@@ -237,21 +239,23 @@ position: relative;
 margin-top: 300px;
 background: rgba(10,10,10,0.7);
 padding: 2px;
-width: 400px;
-border:2px solid rgba(15, 127, 185,0.7);
-outline: 10px solid rgba(10,10,10,0.7); }
+width: 400px;;
+outline: 10px solid rgba(10,10,10,0.9);; 
+border: 3px groove rgba(124, 11, 163, 0.9);
+border-radius: 5px;
+box-shadow: 0px 0px 100px rgb(124, 11, 163)}
 
 .saludo h1{ font-family: 'Stick No Bills', sans-serif;
 		font-weight: 500; 
-		 color:rgba(55, 197, 185,0.9) ; 
 		 text-shadow: 10px 6px 10px black;
 		text-align:center;
 		 margin: 0 auto;
 		letter-spacing: 1px;
 		width:100%;
 		font-size: 50px; 
-		padding-top: 30px ;
-		font-style: oblique;}
+		padding-top: 20px ;
+		font-style: oblique;
+    color: rgba(55, 197, 185,0.9);}
 
 
 .saludo  h2 {color:#dff4f7 ; 
@@ -274,7 +278,7 @@ background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0
 box-shadow: 5px 1px 10px 4px black;
   padding:40px;
   width: 60%;
-max-width: 800px}
+max-width: 700px}
 
 .bienvenido h3 { 
 color:#dff4f7 ; 
@@ -351,24 +355,25 @@ margin-bottom: 40px}
 
 .web a{text-decoration: none;margin-top: 40px}
 
-.web #car { color: #f7f1e3;  
+.web #car { color: rgba(255, 233, 233,1);  
 	font-size:18px ;
 	 font-family: TraditionSansXLight;
 	line-height: 1.5;
-padding:10px;
-background: rgb(44, 46, 49);
-border: 0.2vh solid rgba(91, 33, 193,0.7);
+padding: 10px 20px;
 text-align: left;
-background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268);
-box-shadow: 0px 0px 10px rgba(91, 33, 193,0.7);
-border-radius: 20px}
+border-bottom: 7px groove rgba(154, 11, 183, 1);
+border-left: 7px groove rgba(154, 11, 183, 1);
+border-right: 7px groove transparent;
+border-top: 7px groove transparent;
+background:#0A3F6A }
 
 .web #car:hover{	
 cursor: pointer;
-background:  rgba(91, 33, 193,0.8)
-;box-shadow: 0px 0px 30px rgba(91, 33, 193,0.9);
-
-}
+border-bottom: 7px groove transparent ;
+border-left:7px groove transparent;
+border-right:7px groove  rgba(154, 11, 183, 1);
+border-top:7px groove rgba(154, 11, 183, 1);
+transition: all 3s ease;}
 
 .pag-web .img{  
 position: relative;
@@ -397,7 +402,7 @@ padding: 50px;
 margin:70px auto; 
 border-radius: 20px;
 width: 90%;
-max-width: 1400px}
+max-width: 1100px}
 
 .divido .parte1 {width: 100%}
 
@@ -433,7 +438,7 @@ grid-gap: 10px;
 max-width: 1200px}
 
 .parte{
- border: 0.3vh solid  #004F79;
+ border:3px solid  #004F79;
 width: 100%; 
 cursor:pointer;
 margin: 0 auto;
@@ -492,8 +497,8 @@ width: 65%;
 max-width:800px;}
 
 
-.pro {width: 100%;  
-border: 0.3vh solid black;
+.pro {width: 90%;  
+border: 1px solid black;
 background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
 border-radius: 5%; 
 margin: 20px auto ;
@@ -848,13 +853,14 @@ padding: 10px;
 font-size:18px;
 border: none;
 outline: 0px;
-background:rgba(13, 83, 98,0.8);
 color:white;
-border: 1px solid rgb(15, 161, 156);
+border: 1px solid rgb(60, 166, 113);
 cursor: pointer;
 transition: all 400ms ease;
  font-family: TraditionSansXLight;
-margin-top: 5px;
+margin-top: 15px;
+border-radius: 20px;
+background:rgba(13, 3, 8,0.8);
 }
 
 .container-form .btn-enviar:hover {
@@ -1000,7 +1006,6 @@ position: absolute;
 top: -1%;
 right:-2% ;
 display: block;}
-
 
 .conten i {
 font-size: 20px; 
@@ -1566,16 +1571,19 @@ font-family: TraditionSansXLight }
 align-items: center;
 justify-content: center;
 margin: 5px auto;
-padding: 5px;
+padding: 5px 15px;
 border: none;
 outline: 0px;
 color:white;
-border: 2px solid rgb(60, 166, 113);
+border: 1px solid rgb(60, 166, 113);
 cursor: pointer;
 transition: all 400ms ease;
  font-family: TraditionSansXLight;
 font-size:15px;
-background: rgb(19, 43, 46)}
+margin-top: 15px;
+border-radius: 20px;
+background:rgba(13, 3, 8,0.8);
+}
 
 .container-form .btn-enviar:hover {
 border: 2px solid rgb(60, 166, 113);}
