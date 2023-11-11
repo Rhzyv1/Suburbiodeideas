@@ -585,8 +585,10 @@ background-size: 100% 100%;
 background-repeat: no-repeat;
 width: 100%;
 margin: 0px auto;
-margin-top: 10px;
-padding: 50px 0px}
+margin-top: 70px;
+padding-top: 10px}
+
+.all{padding: 50px 0px}
 
 .containerpx{width: 90%;
 display: grid; 
@@ -595,7 +597,6 @@ grid-gap: 20px;
 margin: 0px auto;
 max-width: 1500px}
 
-
 .container-form h2 {
 margin: 5px 0px;
 font-size: 25px;
@@ -603,7 +604,7 @@ color:#ffff ;
 font-family: monospace;}		
 
 .info-form p{
-width: 100%; 
+width: 90%; 
 font-size: 20px;
 line-height: 1.5; 
 margin: 5px 0px ;  
@@ -611,7 +612,8 @@ color:#ffff;
 padding: 10px 0px ;
 font-family: TraditionSansXLight  ;
 text-align: left;
-font-style: normal;}
+font-style: normal;
+max-width: 800px}
 
 .container-form a {
 	font-family: TraditionSansXLight ;
@@ -619,11 +621,10 @@ font-style: normal;}
 	display: inline-block;
 	text-decoration: none;
 	width:80%;
-	margin-bottom: 2.5vh;
 	 color:#ffff;
 	font-weight: 600px;
-border-bottom: 0.1vh solid transparent;
-padding: 0px 1vh}
+border-bottom:3px solid transparent;
+padding: 10px}
 
 .container-form a i {
 color:rgb(90, 166, 113);
@@ -639,7 +640,6 @@ border: 2px solid rgb(60, 166, 113);
 padding: 10px ;
 background: rgba(0,0,0,0.6);
 border-radius: 10px}
-
 
 .container-form form .campo
 {background:none;
@@ -662,6 +662,7 @@ color: white;
 font-size: 20px;
 background: none;
 font-family: TraditionSansXLight }
+
 
 .select{
 	appearance: none;
@@ -687,9 +688,7 @@ font-family: TraditionSansXLight }
 	width:90%; 	
 	padding: 10px;}
 
-
 .select option{background:black;}
-
 
 .container-form .btn-enviar
 {display: flex;
@@ -700,21 +699,21 @@ padding: 10px;
 font-size:18px;
 border: none;
 outline: 0px;
-background:rgba(13, 83, 98,0.8);
 color:white;
-border: 1px solid rgb(15, 161, 156);
+border: 1px solid rgb(60, 166, 113);
 cursor: pointer;
 transition: all 400ms ease;
  font-family: TraditionSansXLight;
-margin-top: 5px;
-border-radius: 20px}
+margin-top: 15px;
+border-radius: 20px;
+background:rgba(13, 3, 8,0.8);
+}
 
 .container-form .btn-enviar:hover {
 border: 1px solid rgb(60, 166, 113);
 background: rgb(15, 121, 136);
 ;color: black;
 text-shadow: 0px 0px 10px white}
-
 
 .piedepag{
 background-color:rgb(1, 13, 15);}
@@ -725,6 +724,7 @@ font-family: 'Ubuntu Condensed', sans-serif;
 padding: 10px 0vh;
 width: 700px;
 margin: 0 auto;
+
 }
 
 
@@ -1988,7 +1988,7 @@ background-color:rgb(1, 13, 15);}
 text-align: center; 
 font-family: 'Ubuntu Condensed', sans-serif;
 padding: 10px 0vh;
-width: 80%;
+width: 90%;
 margin: 0 auto;
 }
 

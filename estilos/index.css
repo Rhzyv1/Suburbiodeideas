@@ -166,7 +166,8 @@ font-family: 'Stick No Bills', sans-serif;
 font-style: normal;
  font-size: 23px;
 color: #c7c7c7c7;
-padding: 10px; 
+padding: 10px;
+padding-left: 20px 
 }
 			
 .cont-menu nav a:hover{ 
@@ -196,8 +197,8 @@ border-radius: 50%;}
 .cont-menu nav a:hover{ 
 background:rgba(28, 125, 155,0.4); 
 color:#ffff ;
-transition: all 1.2s ease;
-border-left: 0vh solid black;}
+transition: all .5s ease;
+border-left: 10 solid black;}
 
 
 .cont-menu  nav .sociales a:hover{
@@ -214,19 +215,19 @@ color: red
 }
 
  .cont-menu label{ position: absolute; 
-right: 5px; 
+right: 20px;
 color: #ffff; 
 cursor: pointer; 
 font-size:28px  ;
-border: 0.3vh solid transparent;
+border: 1px solid transparent;
 border-radius: 50%;
 top: -50px;
-transform: rotate(-90deg);}      
+transform: rotate(90deg);
+padding: 4px 7px ;}      
 
 .cont-menu label:hover {color:#2feab8;
-	transition: all 1.5s ease;
-border-radius: 50%;
-transform: rotate(90deg);}
+	transition: all 2s ease;
+border: 1px solid #2feab8;}
 
 .saludo{
 height: 150px;
@@ -353,25 +354,31 @@ margin-bottom: 40px}
 
 .web a{text-decoration: none;margin-top: 40px}
 
-.web #car { color: rgba(255, 233, 233,1);  
+.web #car {
+	padding: 15px;
+  width: 160px;
+  cursor: pointer;
+  margin: 20px 5px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  color: #f7f1e3;  
 	font-size:18px ;
 	 font-family: TraditionSansXLight;
-	line-height: 1.5;
-padding: 10px 20px;
-text-align: left;
-border-bottom: 7px solid rgba(154, 11, 183, 1);
-border-left: 7px solid rgba(154, 11, 183, 1);
-border-right: 7px solid transparent;
-border-top: 7px solid transparent;
-background:#0A3F6A }
+	 border-radius: 20px;
+  background-image: linear-gradient(
+    to right,rgb(210, 34, 171),rgb(101, 14, 188),rgb(37, 127, 120),rgb(140, 134, 153));
+  box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);}
 
-.web #car:hover{	
-cursor: pointer;
-border-bottom: 7px solid transparent ;
-border-left:7px solid transparent;
-border-right:7px solid  rgba(154, 11, 183, 1);
-border-top:7px solid rgba(154, 11, 183, 1);
-transition: all 3s ease;}
+.web #car:hover {
+  background-position: 75% 0;
+  transition: all 2s ease-in-out;
+  box-shadow: 0 4px 20px rgba(45, 54, 65, 0.9);}
+
+
+
+
+
 
 .pag-web .img{  
 position: relative;
@@ -465,7 +472,7 @@ background-image: linear-gradient(to right, #051937, #131e49, #2a1f5a, #451d66, 
 		line-height: 1; color: #ffff;
 	  	color: #fff;
 	  	padding-top: 20px;
-	  	padding-bottom: 10px;  
+	  	padding-bottom: 5px;  
 		 font-size:20px ; 
 		 border-bottom: 0.3vh solid  #004F79; 
 		 width: 40%;
@@ -538,11 +545,12 @@ padding: 0px}
 			color: rgb(29, 43, 131);
 			margin: 0vh auto;
 			text-align: center;
-			background: rgba(4, 5, 3,0.9);
+			background: ;
 			border-radius: 20px 20px 0px 0px ;
 			border: none;
 			display: flex;
-			letter-spacing: 1px}
+			letter-spacing: 1px;
+			background: rgb(8, 8, 8)}
 
 
 .pro a { font-family: 'Stick No Bills', sans-serif; 
@@ -558,7 +566,8 @@ padding: 0px}
 
 .pro button:hover{
 background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268);	
-	;transition: all 3s ease-out ;}
+	;transition: all 3s ease-out ;
+border: 1px solid #1b4125}
 
 .otros{
 padding:0vh 0vh 30px 0px;
@@ -1091,10 +1100,12 @@ letter-spacing: 1px}
 /* bienvenida */
 
 .bienvenido{ max-width: 65%; 
- margin: 30px auto;
+ margin: 40px auto;
 background-image: linear-gradient(to top, #1b4125,h #054737, #004c4a, #004f5a, #0b5268);
- box-shadow:1px 1px 1px 1px black;
-padding: 20px 0vh}
+ padding: 10px 0vh;
+max-width: 500px;
+box-shadow: 5px 1px 10px 10px black;
+padding-top: 30px}
 
 .bienvenido h3 { 
 color:#dff4f7 ; 
@@ -1124,9 +1135,17 @@ padding: 0px}
 		 text-shadow: 10px 6px 10px black;
 		letter-spacing: 1px;
 		width: 90%}
+#H4{ font-family: 'Stick No Bills', sans-serif;
+		font-weight: 500; 
+		 color: #24dff9 ; 
+		font-size: 20px; 
+		 text-shadow: 10px 6px 10px black;
+		text-align:left;;
+		margin-bottom: 5px;
+		margin-top: 5px;
+		letter-spacing: 1px;
+		max-width: 500px}
 
-#H4{ color: #24dff9 ; 
-		font-size: 20px; }
 
 /*web*/
 
@@ -1134,11 +1153,11 @@ padding: 0px}
 	grid-template-columns: repeat(2	,1fr);
 width:100%;
 margin: 0% auto;
-padding: 50px 50px;}
+padding:  50px;}
 
 .web{width: 90%;
 margin: 0 auto;
-max-width: 1200px}
+max-width: 600px}
 
 
 .web p { color: #f7f1e3;  
@@ -1150,32 +1169,35 @@ width: 100%;
 margin: 20px 0vh;}
 
 
-.web #car { color: rgba(255, 233, 233,1);  
-	font-size:14px ;
-	 font-family: TraditionSansXLight;
-	line-height: 1.5;
-padding: 10px;
-text-align: left;
-border-bottom: 3px solid rgba(154, 11, 183, 1);
-border-left: 3px solid rgba(154, 11, 183, 1);
-border-right: 3px solid transparent;
-border-top: 3px solid transparent;
-background:#0A3F6A }
 
-.web #car:hover{	
-cursor: pointer;
-border-bottom:3px solid transparent ;
-border-left:3px solid transparent;
-border-right:3px solid  rgba(154, 11, 183, 1);
-border-top:3px solid rgba(154, 11, 183, 1);
-transition: all 3s ease;}
+.web #car {
+	padding: 10px;
+  width: 160px;
+  cursor: pointer;
+  margin: 20px 0px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  color: #f7f1e3;  
+	font-size:15px ;
+	 font-family: TraditionSansXLight;
+	 border-radius: 20px;
+  background-image: linear-gradient(
+    to right,rgb(210, 34, 171),rgb(101, 14, 188),rgb(37, 127, 120),rgb(140, 134, 153));
+  box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);}
+
+.web #car:hover {
+  background-position: 75% 0;
+  transition: all 2s ease-in-out;
+  box-shadow: 0 4px 20px rgba(45, 54, 65, 0.9);}
+
 
 
 
 .pag-web .img{  
 position: relative;
 background:  url(../img/foo.png); ;
-background-size: 90% 200px;
+background-size: 90% 220px;
 background-repeat: no-repeat;
 align-items: center;
 justify-content: center;}
@@ -1185,7 +1207,7 @@ justify-content ;
 text-align: center;
 border-radius: 5px;
 margin: 0 auto;
-width: 70%;
+width: 80%;
 ;height:200px;}
 
 .divido{
@@ -1261,7 +1283,8 @@ color: #ffff;
 	grid-gap: 10px; 
 	width: 65%;  justify-content: center;
 	align-items: center ;margin: 0px auto;
-position: relative;}
+position: relative;
+max-width: 600px}
 
 .proyectos p{  
 font-family: TraditionSansXLight;
@@ -1367,7 +1390,8 @@ grid-gap: 10px;
 width: 70%;
 margin: 0px auto;
 height: 100%;
-margin-top: 20px}
+margin-top: 20px;
+max-width:600px;}
 
 .ser .s1 div{
 width: 100%;}
@@ -1434,7 +1458,8 @@ margin:0 auto}
 			grid-template-columns: repeat(2,1fr);
 			width: 70%;
 			margin: 10px auto;
-			grid-gap: 5px	}
+			grid-gap: 0px	;
+			max-width: 700px}
 
 .coon p{width: 100%}
 
@@ -1443,11 +1468,11 @@ margin:0 auto}
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 150px; ;
+	height: 170px; ;
 margin: 10px auto}
 
 .contalfa figure{position: relative;
-	height: 150px;
+	height: 170px;
 	width: 90%;
 	overflow: hidden;
 	border-radius: 6px;
@@ -1455,12 +1480,12 @@ margin: 10px auto}
 	;cursor: pointer;}
 
 .contalfa figure img{ width: 100%; 
-		height: 150px;
+		height: 170px;
 		 transition: all 500ms ease-out}
 
 .contalfa figure .capa2{position: absolute;
 	top: 0; width: 100%;
-	height: 150px;
+	height: 170px;
 	background: rgba(64, 73, 87,0.9);
 	opacity: 0;
 	visibility: hidden;
@@ -1493,7 +1518,8 @@ margin-top: 10px;}
 display: grid; 
 grid-template-columns: repeat(1,1fr);
 grid-gap: 10px;
-margin: 0px auto;}
+margin: 0px auto;
+max-width: 600px}
 
 .container-form h2 {
 margin: 10px 0px;
@@ -1697,7 +1723,8 @@ text-align: center;
 font-family: 'Ubuntu Condensed', sans-serif;
 padding: 10px 0vh;
 width: 90%;
-margin: 0 auto;}
+margin: 0 auto;
+max-width: 700px}
 
 
  .grupo2 a{text-decoration: none;
@@ -1770,12 +1797,14 @@ cursor: pointer;
 margin-right: 0px}
  
  .cont-menu label{ position: absolute;  
-font-size: 25px  }   
+font-size: 25px ;
+transform: rotate(90deg); }   
+
 
 
 .container-menu{
 height: 90vh;
-width: 50%;
+width: 55%;
 max-height: 850px}
 
 
@@ -1788,6 +1817,16 @@ font-style: normal;
  font-size: 20px;
 padding:1vh 2vh;
 color: #c7c7c7c7; }
+
+
+.cont-menu  nav .sociales a{ 
+	display: block; 
+text-decoration: none;
+font-family: 'Stick No Bills', sans-serif;
+font-style: normal;
+ font-size: 25px;
+color: #c7c7c7c7;
+border-radius: 50%;}
 
 .saludo{
 height: 100px;
@@ -1877,8 +1916,8 @@ padding:0px;
 		 text-shadow: 10px 6px 10px black;
 		text-align:left;
 		 margin: 0 auto;
-		margin-bottom: 2vh;
-		margin-top: 3vh;
+		margin-bottom: 10px;
+		margin-top: 20px;
 		letter-spacing: 1px;}
 		
 		
@@ -1920,25 +1959,26 @@ width: 100%;
 margin: 0px auto;
 margin-bottom: 30px}
 
-.web #car { color: rgba(255, 233, 233,1);  
-	font-size:14px ;
+.web #car {
+	padding: 10px;
+  width: 160px;
+  cursor: pointer;
+  margin: 10px 0px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  color: #f7f1e3;  
+	font-size:15px ;
 	 font-family: TraditionSansXLight;
-	line-height: 1.5;
-padding: 10px ;
-text-align: left;
-border-bottom: 2px solid rgba(154, 11, 183, 1);
-border-left: 2px solid rgba(154, 11, 183, 1);
-border-right: 2px solid transparent;
-border-top: 2px solid transparent;
-background:#0A3F6A }
+	 border-radius: 20px;
+  background-image: linear-gradient(
+    to right,rgb(210, 34, 171),rgb(101, 14, 188),rgb(37, 127, 120),rgb(140, 134, 153));
+  box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);}
 
-.web #car:hover{	
-cursor: pointer;
-border-bottom: 2px solid transparent ;
-border-left:2px solid transparent;
-border-right:2px solid  rgba(154, 11, 183, 1);
-border-top:2px solid rgba(154, 11, 183, 1);
-transition: all 3s ease;}
+.web #car:hover {
+  background-position: 75% 0;
+  transition: all 2s ease-in-out;
+  box-shadow: 0 4px 20px rgba(45, 54, 65, 0.9);}
 
 
 
@@ -2079,15 +2119,18 @@ display: flex;}
 		width: 100%}				
 
 .pro button{font-family: TraditionSansXLight; 
-			padding: 1px;
+			padding: 5px ;
+			padding-top: 10px;
 			color: rgb(29, 43, 131);
-			margin: 5px auto;
+			margin: 0vh auto;
 			text-align: center;
-			background: rgba(24, 25, 33,0.5);
-			border-radius: 5px ;
+			border-radius: 20px 20px 0px 0px ;
 			border: none;
 			display: flex;
-			background:	#191919}
+			letter-spacing: 1px;
+			background: rgb(8, 8, 8);
+			font-size:15px;}
+
 
 .pro a { font-family: 'Stick No Bills', sans-serif; 
 		line-height: 1.2; 
@@ -2248,9 +2291,10 @@ background-size: 100% 100%;
 background-repeat: no-repeat;
 border-radius: 0%;
 width: 100%;
+padding: 0px 0px;
 margin: 0px auto;
 margin-top:10px;
-padding-top: 30px}
+padding-top: 20}
 
 .containerpx{width:90%;
 display: grid; 
@@ -2273,8 +2317,7 @@ margin: 10px 5px}
 	font-size: 16px;
 	display: inline-block;
 	text-decoration: none;
-	width:100%;
-	margin-bottom: 0px}
+	width:100%;}
 
 .container-form a:hover {font-size: 16px;}
 
@@ -2361,22 +2404,24 @@ font-size:18px;}
 .container-form .btn-enviar:hover {
 border: 2px solid rgb(15, 161, 200);}
 
+
 .box h5 {
 font-size: 20px;
 color:#ffff ;
 font-family: monospace;
-padding-top: 10px;
-padding-bottom: 5px}		
+padding-top: 20px;
+padding-bottom: 0px}		
+
 
 
 .red-social{display: block; justify-content: center;
 align-items: center; margin: 0 auto;
-margin-top: 2vh}
+margin-top: 10px}
 
 
 .red-social ul{position: relative;
 	display: flex;
-margin-top: 2vh}
+margin-top: 0px}
 
 .red-social ul li{position: relative;
 	list-style: none;
@@ -2394,8 +2439,8 @@ color: white;}
 .red-social  ul li a::before{
 	font-family: fontAwesome;
 	position: absolute;
-	top:-4;
-	left: 4;
+	top:-8;
+	left: 2;
 	font-size: 35px;
 	height: 0;
 	overflow: hidden;
@@ -2424,8 +2469,7 @@ font-style: normal}
 
 .red-social  ul li:hover a::before{height: 100%}
 
-
-
+ 
 .piedepag{
 background-color:rgb(1, 13, 15);}
 
@@ -2441,8 +2485,7 @@ margin: 0 auto;
  .grupo2 a{text-decoration: none;
 font-size:15px ;
 font-family: TraditionSansXLight;
-color:white;
-margin-bottom: 0px}
+color:white;}
 
  .grupo2 a b{
 font-size: 18px ;
