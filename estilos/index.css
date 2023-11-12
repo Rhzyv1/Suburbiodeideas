@@ -197,22 +197,20 @@ border-radius: 50%;}
 .cont-menu nav a:hover{ 
 background:rgba(28, 125, 155,0.4); 
 color:#ffff ;
-transition: all .5s ease;
-border-left: 10 solid black;}
+transition: all .5s ease;}
 
 
 .cont-menu  nav .sociales a:hover{
-	color:#2feab8;
-background: transparent;}			
-
-
+color:#2feab8;
+background: transparent;
+border-left:  solid black;
+border-left: 0px solid black;}			
 
 .cont-menu  nav a #inicio{  
 cursor: pointer;
 transition: all 1s ease;
 background:rgba(28, 125, 155,0.4); 
-color: red
-}
+color: red}
 
  .cont-menu label{ position: absolute; 
 right: 20px;
@@ -223,19 +221,19 @@ border: 1px solid transparent;
 border-radius: 50%;
 top: -50px;
 transform: rotate(90deg);
-padding: 4px 7px ;}      
+padding: 4px 7px ;
+border-left: 1px solid black;}      
 
 .cont-menu label:hover {color:#2feab8;
-	transition: all 2s ease;
-border: 1px solid #2feab8;}
+	transition: all 2s ease;}
 
 .saludo{
-height: 150px;
+height: 140px;
 align-items: center;
 justify-content: center;
 margin: 0 auto;
 position: relative;
-margin-top: 300px;
+margin-top: 330px;
 background: rgba(10,10,10,0.7);
 padding: 2px;
 width: 400px;;
@@ -361,11 +359,11 @@ margin-bottom: 40px}
   margin: 20px 5px;
   text-align:center;
   border: none;
-  background-size: 300% 100%;
   color: #f7f1e3;  
 	font-size:18px ;
 	 font-family: TraditionSansXLight;
 	 border-radius: 20px;
+  background-size: 300% 100%;
   background-image: linear-gradient(
     to right,rgb(210, 34, 171),rgb(101, 14, 188),rgb(37, 127, 120),rgb(140, 134, 153));
   box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);}
@@ -452,12 +450,15 @@ max-width: 1200px}
 width: 100%; 
 cursor:pointer;
 margin: 0 auto;
-background: rgba(0,0,0,0.5);}	
+  background-size: 100% 300%;;
+  box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);
+background-image: linear-gradient(to bottom, black, black,rgb(94, 9, 207),rgb(38, 26, 95))}
+
 
 .parte:hover{
-transform: translateY(-7%);
-transition: all 1s ease-out;
-background-image: linear-gradient(to right, #051937, #131e49, #2a1f5a, #451d66, #62126e);}
+transform: translateY(-7%);;
+  background-position:0px 40% ;
+  transition: all 1s ease-in-out;}
 
 .parte figure img{ width: 100% ;
  height: 180px; 
@@ -614,15 +615,12 @@ max-width: 1050px;}
 .ser .s1 div{
 width: 100%;}
 
-.ser .s0:hover{
-transition: all 2s ease-out;
-background-image: linear-gradient(to right, #051937, #131e49, #2a1f5a, #451d66, #62126e);
-cursor: pointer;}
-
 .ser .s1 div img{
 	width: 100%;
 background: rgb(6, 12, 17);
-height: 300px}
+height: 300px;
+
+  box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);}
 
 .ser .s0 h5{
 font-size:20px;
@@ -647,13 +645,27 @@ padding:10px}
 	width: 100%;
 background: rgba(0, 2, 0,0.9);
 padding:20px 0px;
-border: 0.3vh solid transparent}
+  background-size:400% 100%;
+  background-image: linear-gradient(
+    to right, black, black, rgb(110, 34, 171), rgb(110, 34, 111));
+  box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);}
+
+
+.ser .s0:hover{
+transition: all 2s ease-out;
+cursor: pointer;
+  background-position: 50% 0%;
+  transition: all 1.4s ease;
+  box-shadow: 0 4px 20px rgba(45, 54, 65, 0.9);}
+
 
 
 .ser .s2 div img{
 	width: 100%;
 	height: 260px;
-	margin-top: 1vh }
+	margin-top: 1vh ;
+
+  box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);}
 
 .ser .s2 div p{
 font-size:18px;
