@@ -1842,7 +1842,7 @@ align-items: center;
 justify-content: center;
 margin: 0 auto;
 position: relative;
-margin-top:42vh;
+margin-top:40vh;
 background: rgba(10,10,10,0.7);
 padding: 2px;
 width: 90%;
@@ -1859,7 +1859,7 @@ outline: 4px solid rgba(10,10,10,0.7); }
 		letter-spacing: 1px;
 		width:100%;
 		font-size: 35px; 
-		padding-top: 25px ;
+		padding-top: 22px ;
 		font-style: oblique;}
 
 
@@ -2347,7 +2347,7 @@ color:#27c3c1;}
 
 
 form{ 
-border:2.5px solid rgb(60, 166, 113);
+border:2px solid rgb(60, 166, 113);
 width: 100%;
 border-radius: 10px;
 padding: 10px ;
