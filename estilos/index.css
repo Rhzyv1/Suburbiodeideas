@@ -807,7 +807,7 @@ padding: 10px}
 
 .container-form a i {
 color:rgb(90, 166, 113);
-font-size: 19px;}
+font-size: 25px;}
 
 .container-form a:hover{
 color:rgb(90, 166, 113);
@@ -1161,7 +1161,7 @@ padding: 0px}
 
 .pag-web-a{display:grid;
 	grid-template-columns: repeat(2	,1fr);
-width:100%;
+width:90%;
 margin: 0% auto;
 padding:  50px;}
 
@@ -1191,10 +1191,7 @@ margin: 20px 0vh;}
   color: #f7f1e3;  
 	font-size:15px ;
 	 font-family: TraditionSansXLight;
-	 border-radius: 20px;
-  background-image: linear-gradient(
-    to right,rgb(210, 34, 171),rgb(101, 14, 188),rgb(37, 127, 120),rgb(140, 134, 153));
-  box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);}
+	 border-radius: 20px;}
 
 .web #car:hover {
   background-position: 75% 0;
@@ -1798,7 +1795,7 @@ height: 40px
 ; border-radius: 50%;
 background: rgba(21, 23, 23,0.5);
 position: absolute;
-top: 0px;
+top: 5px;
 right:-5% ;
 display: block;}
 
@@ -2085,7 +2082,8 @@ color: #ffff;
 	grid-template-columns: repeat(1,1fr); 
 	width: 80%;  justify-content: center;
 	align-items: center ;margin: 0px auto;
-position: relative;}
+position: relative;
+margin-top: 15px}
 
 .proyectos p{  
 font-family: TraditionSansXLight;
@@ -2101,7 +2099,7 @@ border: 2px solid black;
 background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
 border-radius: 5%; 
 margin: 10px auto ;
-max-width: 320px}
+max-width: 300px}
 
 .pro img{width:100%; 
 height: 140px;
