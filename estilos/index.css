@@ -1038,7 +1038,32 @@ margin: 2% 5%}
  .cont-menu label{ 
 position: absolute;  
 font-size: 20px;
-padding: 5px  }   
+padding: 5px ;
+transform: rotate(0deg); }   
+
+
+.container-menu{
+position: absolute;
+background: rgba(0,0,0,0.9);
+height:700px;
+width: 300px;
+top: 0px;
+left: -300px;
+transition: all 900ms ease;
+opacity: 0;
+visibility: hidden;
+z-index: 1;
+max-width: 1800px;
+overflow: hidden;}
+
+#btn-men:checked ~ .container-menu{
+opacity: 1;
+visibility: visible;
+transition: all 2s ease;
+top:0%;
+left: 0px}
+
+
 
 .container-menu{
 height: 500px;
@@ -1082,7 +1107,7 @@ position: relative;
 margin-top: 240px;
 background: rgba(10,10,10,0.7);
 padding: 2px;
-width: 300px;
+width: 280px;
 border:1px solid rgba(15, 127, 185,0.7) ;
 outline: 5px solid rgba(10,10,10,0.7); }
 
@@ -1808,14 +1833,42 @@ margin-right: 0px}
  
  .cont-menu label{ position: absolute;  
 font-size: 25px ;
-transform: rotate(90deg); 
+transform: rotate(0deg); 
 right: 10px;}   
 
 
+ 
+ .cont-menu label{ 
+position: absolute;  
+font-size: 20px;
+padding: 5px ;
+transform: rotate(0deg); }   
+
+
 .container-menu{
+position: absolute;
+background: rgba(0,0,0,0.9);
+top: 0px;
+left: -60%;
+transition: all 900ms ease;
+opacity: 0;
+visibility: hidden;
+z-index: 1;
+max-width: 1800px;
+overflow: hidden;
 height: 90vh;
 width: 60%;
 max-height: 850px}
+
+#btn-men:checked ~ .container-menu{
+opacity: 1;
+visibility: visible;
+transition: all 2s ease;
+top:0%;
+left: 0px}
+
+
+
 
 
 .cont-menu  nav  a{ 
