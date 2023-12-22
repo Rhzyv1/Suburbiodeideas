@@ -15,6 +15,9 @@ border-radius: 10px;
 background: #0a0a0a;
 box-shadow: 1px 2px 20px 20px rgba(0, 0, 0, 0.9);}
 
+
+
+
 /* Fonts */
 
 @font-face{
@@ -31,8 +34,8 @@ src:url(../fonts/HindMadurai-Regular.ttf)}
 
 
 
-body{background: rgba(10,20, 32,1);
-	margin: 0 auto}
+body{background:#051937;
+	margin: 0 auto;}
 
 
 header {
@@ -169,7 +172,7 @@ font-family: 'Stick No Bills', sans-serif;
 font-style: normal;
  font-size: 23px;
 color: #c7c7c7c7;
-padding: 10px;
+padding:5px;
 padding-left: 20px 
 }
 			
@@ -256,29 +259,29 @@ font-size:35px}
 .img p{ color: white ;
 text-align: center;
 font-family: TraditionSansXLight;
-font-size: 20px}
+font-size: 24px}
 
 /*parte1*/
 
-.cardp{max-width: 1200px;
+.cardp{max-width: 1000px;
 margin: 80px auto}
 
 .cardp .parra1{ display: grid;
 	grid-template-columns: repeat(2,1fr);
 width: 100%;
-margin: 60px auto;
+margin: 40px auto;
 grid-gap: 0px}
 
 .cardp .parra1 .hello{
 background:  url(../img/keyboard.jpg); 
 background-color: rgba(0,0,0,0.6);
 margin: 0 auto;
-height: 200px;
+height:180px;
 background-size: cover;
 width: 350px; 
 border-radius: 20px}
 
-.cardp .parra1 h4{font-size:50px;
+.cardp .parra1 h4{font-size:40px;
 color: #24dff9 ;
 font-family: 'Stick No Bills', sans-serif;
 ;width: 200px;
@@ -292,7 +295,7 @@ padding:10px 20px;
 background: rgba(0,0,0,0.5);}
 
 
-.cardp .parra1 p {font-size: 20px;
+.cardp .parra1 p {font-size: 18px;
 color: white;
 ;width:80%;
 font-family: TraditionSansXLight;
@@ -316,7 +319,7 @@ max-width: 1000px}
 
 .cardp1 div img{display: flex;
 width: 350px;
-height:480px;
+height:400px;
 margin-left: 10%;
 box-shadow: 0px 0px 5px white;
 margin: 0 auto}
@@ -331,7 +334,7 @@ padding-bottom:  0px;
 margin-bottom:  20px;;
 border-bottom: 2px solid rgb(2, 96, 116)}
 
-.cardp1 div p {font-size:20px;
+.cardp1 div p {font-size:18px;
 color: white;
 ;width:95%;
 font-family: TraditionSansXLight;
@@ -370,7 +373,7 @@ line-height: 1.5}
 .cardp1 div nav li {color:rgba(176,29,227,1) ;
 list-style:none;
 font-size:20px;
-  padding: 10px;
+  padding: 5px;
 letter-spacing: 1px}
 
 .cardp1 div nav li span:hover {
@@ -392,7 +395,7 @@ line-height: 1.5;}
 .dedico{color: white;
 width: 99%;
 margin: 50px auto;
-background: rgba(0,0,0,0.5);
+background: rgba(0,0,0,0.7);
 padding: 60px 0px}
 
 
@@ -473,7 +476,7 @@ line-height: 1.5;}
 .red-social h5{font-size:25px;
 color: white;
 font-family: 'Stick No Bills', sans-serif;
-letter-spacing: 0.5vh;
+letter-spacing: 2px;
 padding-top: 40px;
 padding-bottom: 20px;
 text-align: center;}
@@ -484,11 +487,12 @@ text-align: center;}
 	display: flex;
 justify-content: center;
 align-items: center;
-margin: 0 auto}
+margin: 0 auto;
+max-width: 500px}
 
 .red-social ul li{position: relative;
 	list-style: none;
-	margin: 1vh 2vh;
+	margin: 10px;
 	cursor: pointer;display: flex; 
 	justify-content: center;
 	align-items: center;}
@@ -517,18 +521,18 @@ color: white;}
 		 #fd5949 45%, #d6249f 60%, #285AEB 100%);
 	  -webkit-background-clip: text;
   		-webkit-text-fill-color: transparent;
-		border-bottom: 0.2vh solid #b82bb8;
+		border-bottom: 2px solid #b82bb8;
 		font-style: normal;}
 
 .red-social ul li:nth-child(2) a::before{
 	content: "\f099";
 color: #1DA1F2;
-	border-bottom: 0.2vh  solid #1DA1F2;font-style: normal}
+	border-bottom: 2px solid #1DA1F2;font-style: normal}
 
 .red-social ul li:nth-child(3) a::before{ 
   content: "\f09a";
 color: #1DA1F2;
-	border-bottom: 0.2vh  solid #1DA1F2;
+	border-bottom: 2px  solid #1DA1F2;
 font-style: normal}
 
 .red-social  ul li:hover a::before{height: 100%}}
@@ -1190,14 +1194,16 @@ font-family: 'Raleway', sans-serif;}
 
 /*FORM*/
 
+
 .container-form {
 background-image: url(../img/fondo2.png);
 ;background-size: 100% 100%;
 background-repeat: no-repeat;
 width: 100%;
-padding: 20px 0px;
+padding: 0px;
 margin: 0px auto;
-margin-top: 10px;}
+margin-top: 30px;
+padding-top:20px}
 
 .containerpx{width: 60%;
 display: grid; 
