@@ -242,7 +242,7 @@ padding: 10px}
 
  header .img img{margin: 0 auto;align-items: center;
 justify-content: center;
-width: 200px; height:180px;
+width: 180px; height:200px;
 display: block;
 position: relative;
 margin-top:250px;
@@ -264,43 +264,85 @@ font-size: 24px}
 /*parte1*/
 
 .cardp{max-width: 1000px;
-margin: 80px auto}
+margin: 0px auto}
 
-.cardp .parra1{ display: grid;
-	grid-template-columns: repeat(2,1fr);
-width: 100%;
+.cardp { ;
+width: 80%;
 margin: 40px auto;
 grid-gap: 0px}
 
-.cardp .parra1 .hello{
-background:  url(../img/keyboard.jpg); 
-background-color: rgba(0,0,0,0.6);
-margin: 0 auto;
-height:180px;
-background-size: cover;
-width: 350px; 
-border-radius: 20px}
 
-.cardp .parra1 h4{font-size:40px;
+.cardp  h4{font-size:40px;
 color: #24dff9 ;
 font-family: 'Stick No Bills', sans-serif;
-;width: 200px;
 text-align: center;
-text-shadow: 0px 0px 0px red;
+text-shadow: 0px 5px 5px black;
 letter-spacing: 4px;
 margin: 0 auto;
-margin-top:30px;
-border:3px inset #24dff9 ;
-padding:10px 20px;
-background: rgba(0,0,0,0.5);}
+margin-top:60px;
+color: #24dff9 ; }
+
+.cardp h4:hover{
+ 	 transition: all 500ms  ease-in-out;
+		;transform: scale(1.2);;
+		cursor: pointer;}
 
 
-.cardp .parra1 p {font-size: 18px;
+.cardp  p {
+font-size: 19px;
 color: white;
 ;width:80%;
 font-family: TraditionSansXLight;
 line-height: 1.5;
-padding-top: 10px}
+padding:10px;
+text-align: center;
+margin: 0 auto}
+
+
+
+.red-social{ margin: 0px auto}
+
+.red-social ul{position: relative;
+	display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+max-width: 500px}	
+
+.red-social ul li{position: relative;
+	list-style: none;
+	margin: 10px;
+	cursor: pointer;display: flex; 
+	justify-content: center;
+	align-items: center;}
+
+.red-social  ul li a {text-decoration: none;}
+
+.red-social  ul li a .fa 
+{font-size: 35px;
+	border-radius:50%;
+	border: 0.5px solid white;
+width: 65px; height: 65px;
+display: flex;justify-content: center;
+align-items: center;
+color: white;
+background: rgb(0,0,0,0.3);}
+
+
+.red-social  ul li a .fa-facebook:hover{
+background:#3b5998;
+transition: all 1 ease-out}
+
+.red-social  ul li a .fa-instagram:hover{
+background:#9E37B8 ;
+transition: all 1 ease-out}
+
+
+.red-social  ul li a .fa-twitter:hover{  
+background:#00acee ;
+transition: all 1 ease-out}
+
+
 
 
 .img2{display: flex;
@@ -314,8 +356,8 @@ margin: 0px auto}
 .cardp1 { display: grid;
 	grid-template-columns: repeat(2,1fr);
 width: 90%;
-margin: 100px auto;
-max-width: 1000px}
+margin: 0px auto;
+max-width: 900px}
 
 .cardp1 div img{display: flex;
 width: 350px;
@@ -324,7 +366,7 @@ margin-left: 10%;
 box-shadow: 0px 0px 5px white;
 margin: 0 auto}
 
-.cardp1 div h4{font-size:25px;
+.cardp1-h4{font-size:30px;
 color: white;
 font-family: 'Stick No Bills', sans-serif;
 ;width: 90%;
@@ -332,9 +374,16 @@ letter-spacing: 2px;
 text-align: center;
 padding-bottom:  0px;
 margin-bottom:  20px;;
-border-bottom: 2px solid rgb(2, 96, 116)}
+border-bottom: 3px solid rgb(2, 96, 116);
+width: 90%;
+margin: 0px auto;
+max-width: 300px;
+margin-top: 80px;
+margin-bottom: 20px}
 
-.cardp1 div p {font-size:18px;
+
+
+.cardp1 div p {font-size:19px;
 color: white;
 ;width:95%;
 font-family: TraditionSansXLight;
@@ -396,7 +445,7 @@ line-height: 1.5;}
 width: 99%;
 margin: 50px auto;
 background: rgba(0,0,0,0.7);
-padding: 60px 0px}
+padding: 60px 0px;}
 
 
 .dedico h4{font-size:35px;
@@ -404,143 +453,83 @@ color: #24dff9 ;
 font-family: 'Stick No Bills', sans-serif;
 text-align: center;
 text-shadow: 0px 0px 0px red;
-letter-spacing: 2px;}
-
-
-.dedico p{  
-font-family: TraditionSansXLight;
-color: #ecf0f1; font-size:20px; 
-padding: 10px 0px;
-margin: 0  auto;
-text-align: center;
-width:80%;
-max-width:800px;}
-
-.dedico ul {display: grid;
-grid-template-columns: repeat(4,1fr);
-max-width: 800px;
-width: 80%;
-margin: 0 auto;
-margin-top: 40px;
-text-align: center;}
-
-
-.dedico ul li{list-style: none;}
-
-.dedico ul li i{font-size: 60px;
-background:#12dff9;
-color: black;padding: 20px;
-border-radius: 50%;
+letter-spacing: 2px;
+border-bottom: 1px solid #24dff9;
+width: 300px;
+margin: 0 auto
 }
 
 
-.dedico ul li h6{font-size:20px;
-color: #24dff9 ;
-font-family: 'Stick No Bills', sans-serif;
-text-align: center;
-text-shadow: 0px 0px 0px red;
-letter-spacing: 4px;
-margin: 10px auto;}
 
-.dedico ul li  p{  
-font-family: TraditionSansXLight;
-color: #ecf0f1; font-size:20px; 
-padding: 10px 0px;
-margin: 0  auto;
-text-align: center;
-width: 65%;
-max-width:800px;}
+.dedico-ul {display: grid;
+grid-template-columns: repeat(3,1fr);
+width:1000px ;
+margin: 0 auto;
+padding-top: 20px}
+
+
+.dedico-ul li{display: flex;
+margin: 20px;
+margin-top: 40px}
+
+
+.dedico-ul li i{color:white;
+font-size: 30px;
+padding-right: 10px}
+
+
+.dedico-ul li p {color:white;
+font-size: 17px;
+align-items: left;
+font-family: TraditionSansXLight;}
+
+.dedico-ul li p b {color:white;
+font-size: 23px;
+align-items: left;font-family: 'Stick No Bills', sans-serif;
+letter-spacing: 2px;}
+
+
+
 
 
 .cardp2 { display: grid;
 	grid-template-columns: repeat(2,1fr);
-width: 80%;
+width: 100%;
 margin: 40px auto ;
 max-width: 1000px}
 
 .cardp2 div img{display: flex;
-width:80%;
+width:350px;
 height: 250px;
 border-right: 3px solid rgb(2, 96, 116);
 border-bottom:3px  solid rgb(2, 96, 116);
-margin-left: 5%;
+border-left: 3px solid transparent;
+border-top:3px  solid transparent;
 box-shadow: 10px 10px 10px black;
-}
+margin: 0 auto}
 
-.cardp2 div p {font-size:20px;
+.cardp2 div img:hover{display: flex;
+width:350px;
+height: 250px;
+border-left: 3px solid rgb(2, 96, 116);
+border-top:3px  solid rgb(2, 96, 116);
+border-right: 3px solid transparent;
+border-bottom:3px  solid transparent;
+box-shadow: 10px 10px 10px black;
+margin: 0 auto;
+cursor: pointer;
+transition: all 1s ease}
+
+
+
+.cardp2 div p {font-size:19px;
 color: white;
 ;width:80%;
 font-family: TraditionSansXLight;
 line-height: 1.5;}
 
-.red-social h5{font-size:25px;
-color: white;
-font-family: 'Stick No Bills', sans-serif;
-letter-spacing: 2px;
-padding-top: 40px;
-padding-bottom: 20px;
-text-align: center;}
-
-.red-social{ margin: 0 auto}
-
-.red-social ul{position: relative;
-	display: flex;
-justify-content: center;
-align-items: center;
-margin: 0 auto;
-max-width: 500px}
-
-.red-social ul li{position: relative;
-	list-style: none;
-	margin: 10px;
-	cursor: pointer;display: flex; 
-	justify-content: center;
-	align-items: center;}
-
-.red-social  ul li a {text-decoration: none;}
-
-.red-social  ul li a .fa 
-{font-size: 45px;
-color: white;}
-
-.red-social  ul li a::before{
-	font-family: fontAwesome;
-	position: absolute;
-	top:-4;
-	left: 0;
-	font-size:45px;
-	height: 0;
-	overflow: hidden;
-	transition: 0.9s ease-in-out; }
-
- .red-social ul li:nth-child(1) a::before{
-		content: "\f16d";
-		background: radial-gradient(
-			circle at 30% 100%,
-		 #fdf497 0%, #fdf497 5%, 
-		 #fd5949 45%, #d6249f 60%, #285AEB 100%);
-	  -webkit-background-clip: text;
-  		-webkit-text-fill-color: transparent;
-		border-bottom: 2px solid #b82bb8;
-		font-style: normal;}
-
-.red-social ul li:nth-child(2) a::before{
-	content: "\f099";
-color: #1DA1F2;
-	border-bottom: 2px solid #1DA1F2;font-style: normal}
-
-.red-social ul li:nth-child(3) a::before{ 
-  content: "\f09a";
-color: #1DA1F2;
-	border-bottom: 2px  solid #1DA1F2;
-font-style: normal}
-
-.red-social  ul li:hover a::before{height: 100%}}
 
 
-
-#retorno i{padding: 0vh 40px;
-color: green}
 
 #retorno{color:white;
 	border:2px solid rgba(90, 31, 155,0.9);
@@ -552,16 +541,20 @@ align-items: center;
 font-family:TraditionSansXLight;
 font-size: 20px;
 transition:all 1s ease-out ;
-padding:10px 20px;
+padding:10px ;
 width: 300px;
 margin-top: 20px;
-border-radius:20px}
+border-radius:20px;
+background: rgb(0,0,0,0.6);}
 
+
+#retorno i{padding: 0vh 10px;
+color: green}
 
 
 #retorno:hover{
 box-shadow: 0px 0px 4vh rgba(91, 33, 193,0.7);
-background:rgba(91, 33, 193,0.2) ;
+background:rgba(91, 33, 193,0.8) ;
 }
 
 
@@ -589,15 +582,14 @@ font-family: 'Raleway', sans-serif;}
 font-size: 20px}
 
 .container-form {
-background-image: url(../img/fondo2.png);
-background-size: 100% 100%;
-background-repeat: no-repeat;
+background-image: url(../img/fondo2.svg);
+background-size:contain;
 width: 100%;
 margin: 0px auto;
-margin-top: 30px;
+margin-top: 20px;
 padding-top: 10px}
 
-.all{padding: 50px 0px}
+.all{padding: 20px 0px}
 
 
 .containerpx{width: 90%;
@@ -726,8 +718,9 @@ background: rgb(15, 121, 136);
 ;color: black;
 text-shadow: 0px 0px 10px white}
 
+
 .piedepag{
-background-color:rgb(1, 13, 15);}
+background-color:rgb(1, 3, 5);}
 
  .grupo2{
 text-align: center; 
@@ -876,55 +869,94 @@ font-size: 25px}
 text-align: center;
 font-family: TraditionSansXLight;
 font-size: 18px}
+/*parte1*/
 
-.cardp{max-width: 800px ;
-margin: 0 auto}
+.cardp{max-width: 1000px;
+margin: 0px auto}
 
-.cardp .parra1{ display: grid;
-	grid-template-columns: repeat(2,1fr);
-width: 100%;
-margin: 50px auto}
+.cardp { ;
+width: 80%;
+margin: 20px auto;
+grid-gap: 0px}
 
-.cardp .parra1 .hello{
-background:  url(../img/keyboard.jpg); 
-background-color: rgba(0,0,0,0.6);
-margin: 0 auto;
-height: 150px;
-background-size: cover;
-width: 70%;}
 
-.cardp .parra1 h4{font-size:30px;
+.cardp  h4{font-size:30px;
 color: #24dff9 ;
 font-family: 'Stick No Bills', sans-serif;
-;width: 200px;
 text-align: center;
 text-shadow: 0px 0px 0px red;
 letter-spacing: 4px;
 margin: 0 auto;
 margin-top:30px;
-border:2px inset #24dff9 ;
-padding:5px 20px;
-background: rgba(0,0,0,0.5);}
+color: #24dff9 ; }
 
-
-
-.cardp .parra1 p {font-size: 15px;
+.cardp  p {
+font-size: 15px;
 color: white;
 ;width:80%;
 font-family: TraditionSansXLight;
-line-height: 1.3}
+line-height: 1.5;
+padding:10px;
+text-align: center;
+margin: 0 auto}
+
+
+
+.red-social{ margin: 0px auto}
+
+.red-social ul{position: relative;
+	display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+max-width: 500px}
+
+.red-social ul li{position: relative;
+	list-style: none;
+	margin: 10px;
+	cursor: pointer;display: flex; 
+	justify-content: center;
+	align-items: center;}
+
+.red-social  ul li a {text-decoration: none;}
+
+.red-social  ul li a .fa 
+{font-size: 30px;
+	border-radius:50%;
+	border: 1px solid white;
+width: 55px; height: 55px;
+display: flex;justify-content: center;
+align-items: center;
+color: white;
+background: rgb(0,0,0,0.3);}
+
+
+.red-social  ul li a .fa-facebook:hover{
+background:#3b5998;
+transition: all 1 ease-out}
+
+.red-social  ul li a .fa-instagram:hover{
+background:#9E37B8 ;
+transition: all 1 ease-out}
+
+
+.red-social  ul li a .fa-twitter:hover{  
+background:#00acee ;
+transition: all 1 ease-out}
+
+
 
 .img2{display: grid;
 	grid-template-columns: repeat(4,1fr);
 width: 100%;
-margin: 50px 0vh}
+margin: 30px 0vh}
 
 .img2 img{width: 100%;height: 120px}
 
 .cardp1 { display: grid;
 	grid-template-columns: repeat(2,1fr);
 width: 95%;
-margin: 50px auto ;
+margin: 20px auto ;
 max-width: 800px}
 
 
@@ -935,15 +967,20 @@ margin: 0 auto;
 max-width: 280px}
 
 
-.cardp1 div h4{font-size:20px;
+.cardp1-h4{font-size:25px;
 color: white;
 font-family: 'Stick No Bills', sans-serif;
-;width:80%;
-margin: 0 auto;letter-spacing: 2px;
+;width: 90%;
+letter-spacing: 2px;
 text-align: center;
-padding-bottom:  10px;
-margin-bottom:  0px;
-border-bottom: 2px solid rgb(2, 96, 116);}
+padding-bottom:  0px;
+margin-bottom:  20px;;
+border-bottom: 1px solid rgb(2, 96, 116);
+width: 90%;
+margin: 0px auto;
+max-width: 300px;
+margin-top: 40px;
+margin-bottom:00px}
 
 
 .cardp1 div p {font-size:15px;
@@ -955,7 +992,7 @@ margin: 10px auto;
 padding-top: 10px}
 
 
-.cardp1 div h5{font-size:15px;
+.cardp1 div h5{font-size:20px;
 color: white;
 font-family: 'Stick No Bills', sans-serif;
 letter-spacing: 1px;
@@ -1082,69 +1119,10 @@ padding-top: 10px;
 padding-bottom: 0vh;
 text-align: center;}
 
-.red-social{ margin: 50px auto}
-
-.red-social ul{position: relative;
-	display: flex;
-justify-content: center;
-align-items: center;
-margin: 20px auto}
-
-.red-social ul li{position: relative;
-	list-style: none;
-	margin: 10px 20px;
-	cursor: pointer;display: flex; 
-	justify-content: center;
-	align-items: center;}
-
-.red-social  ul li a {text-decoration: none;}
-
-.red-social  ul li a .fa 
-{font-size: 30px;
-color: white;}
-
-.red-social  ul li a::before{
-	font-family: fontAwesome;
-	position: absolute;
-	top:-4;
-	left: 0;
-	font-size:30px;
-	height: 0;
-	overflow: hidden;
-	transition: 0.9s ease-in-out; }
-
- .red-social ul li:nth-child(1) a::before{
-		content: "\f16d";
-		background: radial-gradient(
-			circle at 30% 100%,
-		 #fdf497 0%, #fdf497 5%, 
-		 #fd5949 45%, #d6249f 60%, #285AEB 100%);
-	  -webkit-background-clip: text;
-  		-webkit-text-fill-color: transparent;
-		border-bottom: 0.2vh solid #b82bb8;
-		font-style: normal;}
-
-
-
-.red-social ul li:nth-child(2) a::before{
-	content: "\f099";
-color: #1DA1F2;
-	border-bottom: 0.2vh  solid #1DA1F2;font-style: normal}
-
-
-
-
-.red-social ul li:nth-child(3) a::before{ content: "\f09a";
-color: #1DA1F2;
-	border-bottom: 0.2vh  solid #1DA1F2;
-font-style: normal}
-
-
-.red-social  ul li:hover a::before{height: 100%}
 
 
 #retorno{color:white;
-	border:2px solid rgba(90, 31, 155,0.9);
+	border:1px solid rgba(90, 31, 155,0.9);
 text-decoration: none;
 margin: 40px auto;
 display: flex;
@@ -1156,15 +1134,13 @@ transition:all 1s ease-out ;
 padding:5px 0px;
 width: 220px;
 margin-top: 20px;
-border-radius:20px}
-
+border-radius:20px;
+background: rgb(0,0,0,0.6);}
 
 
 #retorno:hover{
 box-shadow: 0px 0px 20px rgba(91, 33, 193,0.7);
-background:rgba(91, 33, 193,0.2) ;
-}
-
+background:rgba(91, 33, 193,0.2) background:rgba(91, 33, 193,0.8) ;}
 
 .cite{color: rgba(77, 101, 174,0.5);
 margin-left: 10px;
@@ -1354,63 +1330,6 @@ text-align: center;letter-spacing: 2px}
 width: 80%;
 font-style:normal;}
 
-
-.red-social{display: block; justify-content: center;
-align-items: center; margin: 0 auto;
-margin-top: 2vh}
-
-
-.red-social ul{position: relative;
-	display: flex;}
-
-.red-social ul li{position: relative;
-	list-style: none;
-	margin: 2vh 2vh;
-	cursor: pointer;display: flex; 
-	justify-content: center;
-	align-items: center;}
-
-.red-social  ul li a {text-decoration: none;}
-
-.red-social  ul li a .fa 
-{font-size: 35px;
-color: white;}
-
-.red-social  ul li a::before{
-	font-family: fontAwesome;
-	position: absolute;
-	top:-4;
-	left: 0;
-	font-size: 35px;
-	height: 0;
-	overflow: hidden;
-	transition: 0.9s ease-in-out; }
-
- .red-social ul li:nth-child(1) a::before{
-		content: "\f16d";
-		background: radial-gradient(
-			circle at 30% 100%,
-		 #fdf497 0%, #fdf497 5%, 
-		 #fd5949 45%, #d6249f 60%, #285AEB 100%);
-	  -webkit-background-clip: text;
-  		-webkit-text-fill-color: transparent;
-		border-bottom: 0.2vh solid #b82bb8;
-		font-style: normal;}
- 
-.red-social ul li:nth-child(2) a::before{
-	content: "\f099";
-color: #1DA1F2;
-	border-bottom: 0.2vh  solid #1DA1F2;font-style: normal}
-
-.red-social ul li:nth-child(3) a::before{ content: "\f09a";
-color: #1DA1F2;
-	border-bottom: 0.2vh  solid #1DA1F2;
-font-style: normal}
-
-.red-social  ul li:hover a::before{height: 100%}
-
-.piedepag{
-background-color:rgb(1, 13, 15);}
 
  .grupo2{
 text-align: center; 
@@ -1848,14 +1767,15 @@ width: 80%;
 padding:10px ;
 max-width: 270px;
 border:1px solid rgba(90, 31, 155,0.9);
-}
+;
+background: rgb(0,0,0,0.6);}
 
 #retorno i{padding: 0vh 5px;}
 
 #retorno:hover{color:white;
 	border: 2px solid rgba(90, 31, 155,0.9);
 	box-shadow: 0px 0px 10px rgba(91, 33, 193,0.7);
-background: rgb(30, 28, 32,0.5);	
+background: rgb(30, 28, 32,0.8);	
 text-decoration: none;
 margin: 20px auto;
 display: flex;
@@ -2092,9 +2012,6 @@ font-style: normal}
 .red-social  ul li:hover a::before{height: 100%}
 
  
-.piedepag{
-background-color:rgb(1, 13, 15);}
-
  .grupo2{
 text-align: center; 
 font-family: 'Ubuntu Condensed', sans-serif;
