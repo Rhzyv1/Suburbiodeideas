@@ -291,12 +291,14 @@ color: #24dff9 ; }
 .cardp  p {
 font-size: 19px;
 color: white;
-;width:80%;
+;width:75%;
 font-family: TraditionSansXLight;
 line-height: 1.5;
 padding:10px;
 text-align: center;
 margin: 0 auto}
+
+
 
 
 
@@ -429,9 +431,8 @@ letter-spacing: 1px}
 color:rgba(176,29,227,1) ;
 list-style:none;
   cursor: pointer;
-border-bottom: 0.3vh solid rgba(176,29,227,1)  ;
+border-bottom: 2px solid rgba(176,29,227,1)  ;
 transition: all 1s ease;}
-
 
 
 .cardp1 div nav li span{font-size: 20px;
@@ -442,7 +443,7 @@ line-height: 1.5;}
 
 
 .dedico{color: white;
-width: 99%;
+width: 99%;	
 margin: 50px auto;
 background: rgba(0,0,0,0.7);
 padding: 60px 0px;}
@@ -456,37 +457,44 @@ text-shadow: 0px 0px 0px red;
 letter-spacing: 2px;
 border-bottom: 1px solid #24dff9;
 width: 300px;
-margin: 0 auto
-}
-
-
+margin: 0 auto}
 
 .dedico-ul {display: grid;
 grid-template-columns: repeat(3,1fr);
-width:1000px ;
+width:950px ;
 margin: 0 auto;
 padding-top: 20px}
 
 
 .dedico-ul li{display: flex;
-margin: 20px;
-margin-top: 40px}
+margin: 20px ;
+cursor: pointer;}
+
+.dedico-ul li:hover{
+ 	 transition: all 500ms  ease-in-out;
+		;transform: scale(1.2);;
+		cursor: pointer;}
 
 
-.dedico-ul li i{color:white;
-font-size: 30px;
+
+.dedico-ul li i{color:#24dff9;
+font-size: 35px;
 padding-right: 10px}
 
 
 .dedico-ul li p {color:white;
-font-size: 17px;
+font-size: 15px;
 align-items: left;
 font-family: TraditionSansXLight;}
 
 .dedico-ul li p b {color:white;
-font-size: 23px;
+font-size: 20px;
 align-items: left;font-family: 'Stick No Bills', sans-serif;
 letter-spacing: 2px;}
+
+.dedico-ul li p:hover >  b {
+	color:#24dff9;
+	cursor: pointer;}
 
 
 
@@ -880,15 +888,20 @@ margin: 20px auto;
 grid-gap: 0px}
 
 
-.cardp  h4{font-size:30px;
-color: #24dff9 ;
+.cardp1-h4{font-size:25px;
+color: white;
 font-family: 'Stick No Bills', sans-serif;
+;width: 90%;
+letter-spacing: 2px;
 text-align: center;
-text-shadow: 0px 0px 0px red;
-letter-spacing: 4px;
-margin: 0 auto;
-margin-top:30px;
-color: #24dff9 ; }
+padding-bottom:  0px;
+margin-bottom:  20px;;
+border-bottom: 1px solid rgb(2, 96, 116);
+width: 90%;
+margin: 0px auto;
+max-width: 300px;
+margin-top: 40px;
+margin-bottom:0px}
 
 .cardp  p {
 font-size: 15px;
@@ -956,7 +969,7 @@ margin: 30px 0vh}
 .cardp1 { display: grid;
 	grid-template-columns: repeat(2,1fr);
 width: 95%;
-margin: 20px auto ;
+margin: 0px auto ;
 max-width: 800px}
 
 
@@ -965,22 +978,6 @@ width: 70%;
 height: 350px;
 margin: 0 auto;
 max-width: 280px}
-
-
-.cardp1-h4{font-size:25px;
-color: white;
-font-family: 'Stick No Bills', sans-serif;
-;width: 90%;
-letter-spacing: 2px;
-text-align: center;
-padding-bottom:  0px;
-margin-bottom:  20px;;
-border-bottom: 1px solid rgb(2, 96, 116);
-width: 90%;
-margin: 0px auto;
-max-width: 300px;
-margin-top: 40px;
-margin-bottom:00px}
 
 
 .cardp1 div p {font-size:15px;
@@ -1030,10 +1027,10 @@ line-height: 1.3}
 list-style:none;}
 
 .dedico{color: white;
-width: 99%;
+width: 98%;	
 margin: 50px auto;
-background: rgba(0,0,0,0.5);
-padding: 20px 0px}
+background: rgba(0,0,0,0.7);
+padding: 60px 0px;}
 
 
 .dedico h4{font-size:25px;
@@ -1041,53 +1038,44 @@ color: #24dff9 ;
 font-family: 'Stick No Bills', sans-serif;
 text-align: center;
 text-shadow: 0px 0px 0px red;
-letter-spacing: 4px;
-margin: 0 auto;}
+letter-spacing: 2px;
+border-bottom: 1px solid #24dff9;
+width: 200px;
+margin: 0 auto}
 
-
-.dedico p{  
-font-family: TraditionSansXLight;
-color: #ecf0f1; font-size:15px; 
-padding: 10px 0px;
-margin: 0  auto;
-text-align: center;
-width:80%;
-max-width:600px;}
-
-.dedico ul {display: grid;
-grid-template-columns: repeat(4,1fr);
-max-width: 600px;
-width: 80%;
+.dedico-ul {display: grid;
+grid-template-columns: repeat(3,1fr);
+width:700px ;
 margin: 0 auto;
-margin-top: 20px;
-text-align: center;}
+padding-top: 20px}
 
 
-.dedico ul li{list-style: none;}
+.dedico-ul li{display: flex;
+margin: 10px ;
+cursor: pointer;}
 
-.dedico ul li i{font-size: 50px;
-background:#12dff9;
-color: black;padding: 20px;
-border-radius: 50%}
+.dedico-ul li:hover{
+transition: all 500ms  ease-in-out;
+transform: scale(1.1);;
+cursor: pointer;}
 
-.dedico ul li h6{font-size:15px;
-color: #24dff9 ;
-font-family: 'Stick No Bills', sans-serif;
-text-align: center;
-text-shadow: 0px 0px 0px red;
-letter-spacing: 1px;
-margin: 10px auto;}
+.dedico-ul li i{color:#24dff9;
+font-size: 25px;
+padding-right: 10px}
 
-.dedico ul li  p{  
-font-family: TraditionSansXLight;
-color: #ecf0f1; font-size:20px; 
-padding: 10px 0px;
-margin: 0  auto;
-text-align: center;
-width: 65%;
-max-width:800px;}
+.dedico-ul li p {color:white;
+font-size: 12px;
+align-items: left;
+font-family: TraditionSansXLight;}
 
+.dedico-ul li p b {color:white;
+font-size: 16px;
+align-items: left;font-family: 'Stick No Bills', sans-serif;
+letter-spacing: 2px;}
 
+.dedico-ul li p:hover >  b {
+	color:#24dff9;
+	cursor: pointer;}
 
 /*parte3 */
 
@@ -1436,7 +1424,7 @@ max-width: 1800px;
 overflow: hidden;
 height: 90vh;
 width: 60%;
-max-height: 850px}
+max-height: 800px}
 
 #btn-men:checked ~ .container-menu{
 opacity: 1;
@@ -1473,8 +1461,95 @@ justify-content: center;
 width: 40%; height: 130px;
 display: block;
 position: relative;margin-top:33vh;
-padding: 3px;
-}
+padding: 3px;}
+
+
+
+/*parte1*/
+
+.cardp{max-width: 1000px;
+margin: 0px auto}
+
+.cardp { ;
+width: 100%;
+margin: 40px auto;
+grid-gap: 0px;
+max-width: 350px}
+
+
+.cardp  h4{font-size:30px;
+color: #24dff9 ;
+font-family: 'Stick No Bills', sans-serif;
+text-align: center;
+text-shadow: 0px 5px 5px black;
+letter-spacing: 4px;
+margin: 0 auto;
+margin-top:60px;
+color: #24dff9 ; }
+
+.cardp h4:hover{
+ 	 transition: all 500ms  ease-in-out;
+		;transform: scale(1.2);;
+		cursor: pointer;}
+
+
+.cardp  p {
+font-size: 16px;
+color: white;
+;width:100%;
+font-family: TraditionSansXLight;
+line-height: 1.5;
+padding:10px;
+text-align: center;
+margin: 0 auto}
+
+
+.red-social{ margin: 0px auto}
+
+.red-social ul{position: relative;
+	display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+max-width: 350px}	
+
+.red-social ul li{position: relative;
+	list-style: none;
+	margin: 10px;
+	cursor: pointer;display: flex; 
+	justify-content: center;
+	align-items: center;}
+
+.red-social  ul li a {text-decoration: none;}
+
+.red-social  ul li a .fa 
+{font-size: 30px;
+	border-radius:50%;
+	border: 0.5px solid white;
+width: 65px; height: 65px;
+display: flex;justify-content: center;
+align-items: center;
+color: white;
+background: rgb(0,0,0,0.3);}
+
+
+.red-social  ul li a .fa-facebook:hover{
+background:#3b5998;
+transition: all 1 ease-out}
+
+.red-social  ul li a .fa-instagram:hover{
+background:#9E37B8 ;
+transition: all 1 ease-out}
+
+
+.red-social  ul li a .fa-twitter:hover{  
+background:#00acee ;
+transition: all 1 ease-out}
+
+
+
+
+
 
 .img h2 {align-items: center;
 text-align: center;color: white ;
@@ -1488,45 +1563,6 @@ text-align: center;
 font-family: TraditionSansXLight;
 font-size: 20px}
 
-
-.cardp{margin: 30px auto}
-
-.cardp .parra1{ display: grid;
-	grid-template-columns: repeat(1,1fr);
-width: 85%;
-margin: 10px auto ;}
-
-.cardp .parra1 .hello{
-background:  url(../img/keyboard.jpg); 
-background-color: rgba(0,0,0,0.6);
-margin: 0 auto;
-height: 160px;
-background-size: cover;
-width: 100%;
-max-width: 300px}
-
-.cardp .parra1 h4{font-size:35px;
-color: #24dff9 ;
-font-family: 'Stick No Bills', sans-serif;
-;width: 60%;
-text-align: center;
-text-shadow: 0px 0px 0px red;
-letter-spacing: 4px;
-margin: 0 auto;
-margin-top:30px;
-border:3px inset #24dff9 ;
-padding:10px 20px;
-background: rgba(0,0,0,0.5);}
-
-
-
-
-.cardp .parra1 p {font-size: 16px;
-color: white;
-;width:100%;
-font-family: TraditionSansXLight;
-line-height: 1.3;
-margin-top: 20px}
 
 .img2{display: grid;
 	grid-template-columns: repeat(2,1fr);
@@ -1589,7 +1625,7 @@ padding: 10px}
 
 
 .cardp1 div nav li{font-size: 22px;
-padding: 0.5vh;}
+padding:10px;}
 
 
 .cardp1 div nav li span{font-size: 16px;
@@ -1598,12 +1634,11 @@ color: white;
 font-family: TraditionSansXLight;
 line-height: 1.3}
 
-
 .dedico{color: white;
-width: 99%;
+width: 98%;	
 margin: 50px auto;
-background: rgba(0,0,0,0.5);
-padding: 50px 0px}
+background: rgba(0,0,0,0.7);
+padding: 60px 0px;}
 
 
 .dedico h4{font-size:25px;
@@ -1611,53 +1646,48 @@ color: #24dff9 ;
 font-family: 'Stick No Bills', sans-serif;
 text-align: center;
 text-shadow: 0px 0px 0px red;
-letter-spacing: 4px;
-margin: 0 auto;}
+letter-spacing: 2px;
+border-bottom: 1px solid #24dff9;
+width: 200px;
+margin: 0 auto}
 
-
-.dedico p{  
-font-family: TraditionSansXLight;
-color: #ecf0f1; font-size:15px; 
-padding: 10px 0px;
-margin: 0  auto;
-text-align: center;
-width:90%;
-max-width:800px;}
-
-.dedico ul {display: grid;
+.dedico-ul {display: grid;
 grid-template-columns: repeat(2,1fr);
-max-width: 1000px;
-width: 80%;
+width:90% ;
 margin: 0 auto;
-margin-top: 20px;
-text-align: center;}
+padding-top: 20px}
 
 
-.dedico ul li{list-style: none;}
+.dedico-ul li{display: block;
+margin: 10px ;
+cursor: pointer;}
 
-.dedico ul li i{font-size: 50px;
-background:#12dff9;
-color: black;
-padding: 15px;
-border-radius: 50%;
-padding: 20px}
+.dedico-ul li:hover{
+transition: all 500ms  ease-in-out;
+transform: scale(1.1);;
+cursor: pointer;}
 
-.dedico ul li h6{font-size:15px;
-color: #24dff9 ;
-font-family: 'Stick No Bills', sans-serif;
-text-align: center;
-text-shadow: 0px 0px 0px red;
-letter-spacing: 1px;
-margin: 10px auto;}
+.dedico-ul li i{color:#24dff9;
+font-size: 35px;
+padding-right: 0px;
 
-.dedico ul li  p{  
-font-family: TraditionSansXLight;
-color: #ecf0f1; font-size:20px; 
-padding: 10px 0px;
-margin: 0  auto;
-text-align: center;
-width: 65%;
-max-width:800px;}
+padding-bottom: 10px;
+display: flex;justify-content: center;
+align-items: center;}
+
+.dedico-ul li p {color:white;
+font-size: 14px;
+align-items: left;
+font-family: TraditionSansXLight;}
+
+.dedico-ul li p b {color:white;
+font-size: 16px;
+align-items: left;font-family: 'Stick No Bills', sans-serif;
+letter-spacing: 2px;}
+
+.dedico-ul li p:hover >  b {
+	color:#24dff9;
+	cursor: pointer;}
 
 
 
@@ -1692,66 +1722,6 @@ letter-spacing: 0.5vh;
 padding-top: 1vh;
 padding-bottom: 1vh;
 text-align: center;}
-
-.red-social{ margin: 0 auto}
-
-.red-social ul{position: relative;
-	display: flex;
-justify-content: center;
-align-items: center;
-margin: 0 auto}
-
-.red-social ul li{position: relative;
-	list-style: none;
-	margin: 10px 20px;
-	cursor: pointer;display: flex; 
-	justify-content: center;
-	align-items: center;}
-
-.red-social  ul li a {text-decoration: none;}
-
-.red-social  ul li a .fa 
-{font-size: 40px;
-color: white;}
-
-.red-social  ul li a::before{
-	font-family: fontAwesome;
-	position: absolute;
-	top:-4;
-	left: 0;
-	font-size:40px;
-	height: 0;
-	overflow: hidden;
-	transition: 0.9s ease-in-out; }
-
- .red-social ul li:nth-child(1) a::before{
-		content: "\f16d";
-		background: radial-gradient(
-			circle at 30% 100%,
-		 #fdf497 0%, #fdf497 5%, 
-		 #fd5949 45%, #d6249f 60%, #285AEB 100%);
-	  -webkit-background-clip: text;
-  		-webkit-text-fill-color: transparent;
-		border-bottom: 0.2vh solid #b82bb8;
-		font-style: normal;}
-
-
-
-.red-social ul li:nth-child(2) a::before{
-	content: "\f099";
-color: #1DA1F2;
-	border-bottom: 0.2vh  solid #1DA1F2;font-style: normal}
-
-
-
-
-.red-social ul li:nth-child(3) a::before{ content: "\f09a";
-color: #1DA1F2;
-	border-bottom: 0.2vh  solid #1DA1F2;
-font-style: normal}
-
-
-.red-social  ul li:hover a::before{height: 100%}
 
 
 #retorno{color: white;
@@ -1955,61 +1925,6 @@ padding-top: 20px;
 padding-bottom: 0px}		
 
 
-
-.red-social{display: block; justify-content: center;
-align-items: center; margin: 0 auto;
-margin-top: 10px}
-
-
-.red-social ul{position: relative;
-	display: flex;
-margin-top: 0px}
-
-.red-social ul li{position: relative;
-	list-style: none;
-	margin: 0vh 10px;
-	cursor: pointer;display: flex; 
-	justify-content: center;
-	align-items: center;}
-
-.red-social  ul li a {text-decoration: none;}
-
-.red-social  ul li a .fa 
-{font-size: 35px;
-color: white;}
-
-.red-social  ul li a::before{
-	font-family: fontAwesome;
-	position: absolute;
-	top:-8;
-	left: 2;
-	font-size: 35px;
-	height: 0;
-	overflow: hidden;
-	transition: 0.9s ease-in-out; }
-
- .red-social ul li:nth-child(1) a::before{
-		content: "\f16d";
-		background: radial-gradient(
-			circle at 30% 100%,
-		 #fdf497 0%, #fdf497 5%, 
-		 #fd5949 45%, #d6249f 60%, #285AEB 100%);
-	  -webkit-background-clip: text;
-  		-webkit-text-fill-color: transparent;
-		border-bottom: 0.2vh solid #b82bb8;
-		font-style: normal;}
-
-.red-social ul li:nth-child(2) a::before{
-	content: "\f099";
-color: #1DA1F2;
-	border-bottom: 0.2vh  solid #1DA1F2;font-style: normal}
-
-.red-social ul li:nth-child(3) a::before{ content: "\f09a";
-color: #1DA1F2;
-	border-bottom: 0.2vh  solid #1DA1F2;
-font-style: normal}
-
-.red-social  ul li:hover a::before{height: 100%}
 
  
  .grupo2{
