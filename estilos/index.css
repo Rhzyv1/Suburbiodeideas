@@ -1190,11 +1190,10 @@ padding: 0px}
 	grid-template-columns: repeat(2	,1fr);
 width:100%;
 margin: 0% auto;
-padding:  50px;
+padding:  30px;
+max-width: 700px}
 
-max-width: 850px}
-
-.web{width: 95%;
+.web{width: 100%;
 margin: 0 auto;}
 
 
@@ -1279,7 +1278,8 @@ line-height: 1 }
 
 .partesweb{display: grid;
 grid-template-columns: repeat(3,1fr);
- width: 90%;margin: 10px auto;
+ width: 97%;
+ margin: 10px auto;
 grid-gap:10px;
 max-width: 700px}
 
@@ -1494,10 +1494,10 @@ margin:0 auto}
 
 .contmary{ 	; display: grid; 
 			grid-template-columns: repeat(2,1fr);
-			width: 70%;
+			width: 90%;
 			margin: 10px auto;
 			grid-gap: 0px	;
-			max-width: 600px}
+			max-width: 500px}
 
 .coon p{width: 100%}
 
@@ -2155,7 +2155,7 @@ border: 2px solid black;
 background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
 border-radius: 5%; 
 margin: 10px auto ;
-max-width: 300px}
+max-width: 280px}
 
 .pro img{width:100%; 
 height: 140px;
@@ -2245,7 +2245,7 @@ grid-gap: 1.5vh;
 width: 86%;
 margin: 20px auto;
 height: 100%;
-max-width: 370px}
+max-width: 300px}
 
 .ser .s1 div{
 width: 100%;}
