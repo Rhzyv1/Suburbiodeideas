@@ -1317,10 +1317,10 @@ color: #ffff;
 .trabajos{display: grid;
 	grid-template-columns: repeat(2,1fr);
 	grid-gap: 10px; 
-	width: 65%;  justify-content: center;
+	width: 90%;  justify-content: center;
 	align-items: center ;margin: 0px auto;
 position: relative;
-max-width: 550px}
+max-width: 500px}
 
 .proyectos p{  
 font-family: TraditionSansXLight;
@@ -1511,7 +1511,7 @@ margin: 10px auto;}
 
 .contalfa figure{position: relative;
 	height: 170px;
-	width: 90%;
+	width: 95%;
 	overflow: hidden;
 	border-radius: 6px;
 	box-shadow: 1px 7px 5px  rgba(0,0,0,0.5)
@@ -1544,8 +1544,8 @@ transition: all 2s ease ;
 .all {padding-top: 20px}
  
 .container-form {
-background-image: url(../img/fondo2.png);
-;background-size: 100% 100%;
+background-image: url(../img/fondo2.svg);
+;background-size:cover;
 background-repeat: no-repeat;
 width: 100%;
 padding: 0px;
@@ -1563,7 +1563,7 @@ max-width: 500px}
 
 .info-form h6 {
 margin: 5px 0px;
-font-size: 22px;
+font-size: 20px;
 color:#ffff ;
 font-family: monospace;}		
 
@@ -2347,8 +2347,8 @@ width: 100%}
 
 /*FORM*/
 .container-form {
-background-image: url(../img/fondo2.png);
-background-size: 100% 100%;
+background-image: url(../img/fondo2.svg);
+background-size: cover;
 background-repeat: no-repeat;
 border-radius: 0%;
 width: 100%;
@@ -2366,7 +2366,7 @@ max-width: 400px}
 
 .info-form h6 {
 margin: 5px 0px;
-font-size: 25px;
+font-size: 23px;
 color:#ffff ;
 font-family: monospace;
 text-align: center;}		
