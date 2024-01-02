@@ -33,6 +33,47 @@ src:url(../fonts/HindMadurai-Regular.ttf)}
 @import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
 
 
+.what{position: fixed;
+bottom: 80px;
+left:0px;
+color: white;
+font-size: 40px;
+z-index: 999;
+background: green;
+border-radius: 0px 30px 30px 0px;}
+
+.what a i{padding: 10px;
+position:   absolute;
+font-size:45px;
+background: green;
+z-index: 4;
+border-radius: 0px 30px 30px 0px;
+padding-right: 10px}
+
+.what a{color: white;
+background: green;text-decoration: none;
+;}
+
+.what a p{font-size: 20px; 
+padding: 0px 30px;
+padding-top:23px;
+padding-left: 60px;
+left: -200px;
+height: 65px;
+width: 0px;position: absolute;;
+border-radius: 0px 30px 30px 0px;
+		 font-family: TraditionSansXLight}
+
+.what a:hover > p{
+opacity: 1;
+visibility: visible;;
+background: green;
+transition:all 0.5s ease ;
+width: 200px ;
+left: 0px;
+		 font-family: TraditionSansXLight}
+
+
 
 body{background:#051937;
 	margin: 0 auto;}
@@ -242,7 +283,7 @@ padding: 10px}
 
  header .img img{margin: 0 auto;align-items: center;
 justify-content: center;
-width: 200px; height:230px;
+width: 180px; height:180px;
 display: block;
 position: relative;
 margin-top:250px;
@@ -781,6 +822,46 @@ header {
     position: center;
     background-size: 100% 500px;}
 
+.what{position: fixed;
+bottom: 50px;
+left:0px;
+color: white;;
+z-index: 999;
+background: green;
+border-radius: 0px 30px 30px 0px;}
+
+.what a i{padding: 5px;
+position:   absolute;
+font-size:35px;
+background: green;
+z-index: 4;
+border-radius: 0px 30px 30px 0px;
+padding-right: 10px}
+
+.what a{color: white;
+background: green;text-decoration: none;
+;}
+
+.what a p{font-size: 15px; 
+padding: 0px 10px;
+padding-top:15px;
+padding-left: 45px;
+left: -100px;
+height: 45px;
+width: 0px;position: absolute;;
+border-radius: 0px 30px 30px 0px;
+		 font-family: TraditionSansXLight}
+
+.what a:hover > p{
+opacity: 1;
+visibility: visible;;
+background: green;
+transition:all 0.5s ease ;
+width: 140px ;
+left: 0px;
+		 font-family: TraditionSansXLight}
+
+
 
 .conten nav ul li a{display: none;}
 
@@ -1057,7 +1138,7 @@ margin: 0 auto}
 .dedico-ul {display: grid;
 grid-template-columns: repeat(2,1fr);
 width:90%;
-max-width: 670px ;
+max-width: 660px ;
 margin: 0 auto;
 padding-top: 20px}
 
@@ -1397,6 +1478,48 @@ header {background:  url(../img/fondo.jpg);
     position: center;
     background-size:100% 100%} 
 
+.what{position: fixed;
+bottom: 50px;
+left:0px;
+color: white;;
+z-index: 999;
+background: green;
+border-radius: 0px 30px 30px 0px;}
+
+.what a i{padding: 5px;
+position:   absolute;
+font-size:35px;
+background: green;
+z-index: 4;
+border-radius: 0px 30px 30px 0px;
+padding-right: 10px}
+
+.what a{color: white;
+background: green;text-decoration: none;
+;}
+
+.what a p{font-size: 15px; 
+padding: 0px 10px;
+padding-top:15px;
+padding-left: 45px;
+left: -100px;
+height: 45px;
+width: 0px;position: absolute;;
+border-radius: 0px 30px 30px 0px;
+		 font-family: TraditionSansXLight}
+
+.what a:hover > p{
+opacity: 1;
+visibility: visible;;
+background: green;
+transition:all 0.5s ease ;
+width: 140px ;
+left: 0px;
+		 font-family: TraditionSansXLight}
+
+
+
+
 .btn-men{
 width: 100%;
 border-radius: 0px;
@@ -1611,7 +1734,7 @@ margin: 20px auto;
 box-shadow: 0px 0px 9px white}
 
 
-.cardp1-h4{font-size:20px;
+.cardp1-h4{font-size:23px;
 color: white;
 font-family: 'Stick No Bills', sans-serif;
 ;width: 90%;
@@ -1622,9 +1745,9 @@ margin-bottom:  20px;;
 border-bottom: 1px solid rgb(2, 96, 116);
 width: 90%;
 margin: 0px auto;
-max-width: 300px;
-margin-top: 15px;
-margin-bottom:0px}
+max-width:130px;
+margin-top: 40px;
+margin-bottom:10px}
 
 .cardp1 div p {font-size:16px;
 color: white;
@@ -1639,16 +1762,15 @@ text-align: center;}
 .cardp1 div h5{font-size:23px;
 color: white;
 font-family: 'Stick No Bills', sans-serif;
-letter-spacing: 10px;
-padding-top:20px;
-margin: 0 auto;
+padding-top:30px;
+margin: 0px auto;
 text-align: center;
-letter-spacing: 0px;}
+letter-spacing: 1px;}
 
 .cardp1 div nav{ 
 width: 100%;
-margin: 20px auto 
-;border: 0.2vh solid rgb(2, 96, 116);
+margin: 5px auto 
+;border: 2px solid rgb(2, 96, 116);
  font-size: 20px
 ;color: white;
 font-family: TraditionSansXLight;

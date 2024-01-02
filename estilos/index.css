@@ -45,6 +45,47 @@ background-attachment: fixed;
 
 }
 
+.what{position: fixed;
+bottom: 80px;
+left:0px;
+color: white;
+font-size: 40px;
+z-index: 999;
+background: green;
+border-radius: 0px 30px 30px 0px;}
+
+.what a i{padding: 10px;
+position:   absolute;
+font-size:45px;
+background: green;
+z-index: 4;
+border-radius: 0px 30px 30px 0px;
+padding-right: 10px}
+
+.what a{color: white;
+background: green;text-decoration: none;
+;}
+
+.what a p{font-size: 20px; 
+padding: 0px 30px;
+padding-top:23px;
+padding-left: 60px;
+left: -200px;
+height: 65px;
+width: 0px;position: absolute;;
+border-radius: 0px 30px 30px 0px;
+		 font-family: TraditionSansXLight}
+
+.what a:hover > p{
+opacity: 1;
+visibility: visible;;
+background: green;
+transition:all 0.5s ease ;
+width: 200px ;
+left: 0px;
+		 font-family: TraditionSansXLight}
+
+
 
 .heade-a{max-width: 1700px ;
 margin: 0 auto}
@@ -1015,6 +1056,48 @@ header {
     position: center;
     background-size: 100% 500px;}
 
+
+.what{position: fixed;
+bottom: 50px;
+left:0px;
+color: white;;
+z-index: 999;
+background: green;
+border-radius: 0px 30px 30px 0px;}
+
+.what a i{padding: 5px;
+position:   absolute;
+font-size:35px;
+background: green;
+z-index: 4;
+border-radius: 0px 30px 30px 0px;
+padding-right: 10px}
+
+.what a{color: white;
+background: green;text-decoration: none;
+;}
+
+.what a p{font-size: 15px; 
+padding: 0px 10px;
+padding-top:15px;
+padding-left: 45px;
+left: -100px;
+height: 45px;
+width: 0px;position: absolute;;
+border-radius: 0px 30px 30px 0px;
+		 font-family: TraditionSansXLight}
+
+.what a:hover > p{
+opacity: 1;
+visibility: visible;;
+background: green;
+transition:all 0.5s ease ;
+width: 140px ;
+left: 0px;
+		 font-family: TraditionSansXLight}
+
+
+
 .conten nav ul li a{display: none;}
 
 .conten nav img{
@@ -1804,6 +1887,48 @@ header {background:  url(../img/fondo.jpg);
     background-attachment: fixed;
     position: center;
     background-size: 100% 100%;}
+
+
+
+.what{position: fixed;
+bottom: 50px;
+left:0px;
+color: white;;
+z-index: 999;
+background: green;
+border-radius: 0px 30px 30px 0px;}
+
+.what a i{padding: 5px;
+position:   absolute;
+font-size:35px;
+background: green;
+z-index: 4;
+border-radius: 0px 30px 30px 0px;
+padding-right: 10px}
+
+.what a{color: white;
+background: green;text-decoration: none;
+;}
+
+.what a p{font-size: 15px; 
+padding: 0px 10px;
+padding-top:15px;
+padding-left: 45px;
+left: -100px;
+height: 45px;
+width: 0px;position: absolute;;
+border-radius: 0px 30px 30px 0px;
+		 font-family: TraditionSansXLight}
+
+.what a:hover > p{
+opacity: 1;
+visibility: visible;;
+background: green;
+transition:all 0.5s ease ;
+width: 140px ;
+left: 0px;
+		 font-family: TraditionSansXLight}
+
 
 
 .btn-men{
