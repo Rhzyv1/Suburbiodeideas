@@ -74,6 +74,49 @@ left: 0px;
 		 font-family: TraditionSansXLight}
 
 
+.what2{position: fixed;
+bottom: 160px;
+left:0px;
+color: white;
+font-size: 40px;
+z-index: 3;
+border-radius: 0px 30px 30px 0px;
+background-image: linear-gradient(to right top, #051937, #002c49, #003f58, #005361, #006666);}
+
+.what2 a i{padding: 10px;
+position:   absolute;
+font-size:45px;;
+z-index: 4;
+border-radius: 0px 30px 30px 0px;
+padding-right: 20px;
+background:#006666}
+
+.what2 a{color: white;
+background: green;text-decoration: none;
+;}
+
+.what2 a p{font-size: 20px; 
+padding: 0px 30px;
+padding-top:23px;
+padding-left: 60px;
+left: -200px;
+height: 65px;
+width: 0px;position: absolute;;
+border-radius: 0px 30px 30px 0px;
+		 font-family: TraditionSansXLight}
+
+.what2 a:hover > p{
+opacity: 1;
+visibility: visible;;
+background: green;
+transition:all 0.5s ease ;
+width: 140px ;
+left: 0px;
+font-family: TraditionSansXLight;
+background:#006666}
+
+
+
 
 body{background:#051937;
 	margin: 0 auto;}
@@ -176,6 +219,7 @@ border: 2px solid black}
 display: none;
 }
 
+
 .container-menu{
 position: absolute;
 background: rgba(0,0,0,0.9);
@@ -187,7 +231,8 @@ opacity: 0;
 visibility: hidden;
 z-index: 1;
 max-width: 1800px;
-overflow: hidden;}
+overflow: hidden;
+z-index: 999}
 
 #btn-men:checked ~ .container-menu{
 opacity: 1;
@@ -826,7 +871,7 @@ header {
 bottom: 50px;
 left:0px;
 color: white;;
-z-index: 999;
+z-index: 4;
 background: green;
 border-radius: 0px 30px 30px 0px;}
 
@@ -860,6 +905,44 @@ transition:all 0.5s ease ;
 width: 140px ;
 left: 0px;
 		 font-family: TraditionSansXLight}
+
+
+.what2{position: fixed;
+bottom:100px;
+left:0px;
+color: white;;
+z-index: 4;
+border-radius: 0px 30px 30px 0px;}
+
+.what2 a i{padding: 5px;
+position:   absolute;
+font-size:35px;
+z-index: 4;
+border-radius: 0px 30px 30px 0px;
+padding-right: 20px}
+
+.what2 a{color: white;
+background: green;text-decoration: none;
+;}
+
+.what2 a p{font-size: 15px; 
+padding: 0px 10px;
+padding-top:15px;
+padding-left: 45px;
+left: -100px;
+height: 45px;
+width: 0px;position: absolute;;
+border-radius: 0px 30px 30px 0px;
+		 font-family: TraditionSansXLight}
+
+.what2 a:hover > p{
+opacity: 1;
+visibility: visible;
+transition:all 0.5s ease ;
+width: 100px ;
+left: 0px;
+		 font-family: TraditionSansXLight}
+
 
 
 
@@ -1478,21 +1561,22 @@ header {background:  url(../img/fondo.jpg);
     position: center;
     background-size:100% 100%} 
 
+
 .what{position: fixed;
-bottom: 50px;
+bottom: 60px;
 left:0px;
 color: white;;
-z-index: 999;
+z-index:4;
 background: green;
 border-radius: 0px 30px 30px 0px;}
 
 .what a i{padding: 5px;
 position:   absolute;
-font-size:35px;
+font-size:40px;
 background: green;
 z-index: 4;
 border-radius: 0px 30px 30px 0px;
-padding-right: 10px}
+padding-right: 15px}
 
 .what a{color: white;
 background: green;text-decoration: none;
@@ -1500,10 +1584,10 @@ background: green;text-decoration: none;
 
 .what a p{font-size: 15px; 
 padding: 0px 10px;
-padding-top:15px;
-padding-left: 45px;
+padding-top:17px;
+padding-left: 55px;
 left: -100px;
-height: 45px;
+height: 50px;
 width: 0px;position: absolute;;
 border-radius: 0px 30px 30px 0px;
 		 font-family: TraditionSansXLight}
@@ -1513,9 +1597,48 @@ opacity: 1;
 visibility: visible;;
 background: green;
 transition:all 0.5s ease ;
-width: 140px ;
+width: 150px ;
 left: 0px;
 		 font-family: TraditionSansXLight}
+
+
+.what2{position: fixed;
+bottom: 120px;
+left:0px;
+color: white;;
+z-index: 4;
+background: green;
+border-radius: 0px 30px 30px 0px;}
+
+.what2 a i{padding: 5px;
+position:   absolute;
+font-size:40px;
+z-index: 4;
+border-radius: 0px 30px 30px 0px;
+padding-right: 20px}
+
+.what2 a{color: white;text-decoration: none;
+;}
+
+.what2 a p{font-size: 15px; 
+padding: 0px 10px;
+padding-top:17px;
+padding-left: 50px;
+left: -100px;
+height: 50px;
+width: 0px;position: absolute;;
+border-radius: 0px 30px 30px 0px;
+		 font-family: TraditionSansXLight}
+
+.what2 a:hover > p{
+opacity: 1;
+visibility: visible;
+transition:all 0.5s ease ;
+width: 110px ;
+left: 0px;
+		 font-family: TraditionSansXLight}
+
+
 
 
 
@@ -1611,7 +1734,7 @@ border-radius: 50%;}
 justify-content: center;
 width: 150px; height: 150px;
 display: block;
-position: relative;margin-top:30vh;
+position: relative;margin-top:27vh;
 padding: 3px;}
 
 
