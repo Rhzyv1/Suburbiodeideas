@@ -445,13 +445,13 @@ margin-bottom: 40px}
   margin: 20px 5px;
   text-align:center;
   border: none;
-  color: #f7f1e3;  
+  color: white;  
 	font-size:18px ;
 	 font-family: TraditionSansXLight;
 	 border-radius: 20px;
   background-size: 300% 100%;
   background-image: linear-gradient(
-    to right,#091F92,rgb(37, 127, 120),rgb(101, 14, 188),rgb(210, 34, 11));
+    to right,rgb(101, 14, 188),rgb(37, 127, 120) , #091F92 ,rgb(210, 34, 11));
   box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);}
 
 .web #car:hover {
@@ -1961,7 +1961,7 @@ color:white}
 {	
 
 
-header {background:  url(../img/fondo.jpg); 
+header {
     width: 100%;
     height: 90vh;
     max-height: 850px;
@@ -2182,6 +2182,7 @@ letter-spacing: 1px}
 background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268);
   padding: 30px 10px;
 box-shadow: 5px 1px 10px 10px black;
+max-width: 380px
 }
 
 .bienvenido h3 { 
@@ -2235,13 +2236,15 @@ margin: 15px auto;}
 .pag-web{
 width:100%;
 margin: 0% auto;
-background: rgba(6, 12, 17,0.7);}
+background: rgba(6, 12, 17,0.7);
+}
 
 .pag-web-a{display:grid;
 	grid-template-columns: repeat(1	,1fr);
 width:96%;
 margin: 0% auto;
-padding: 40px 20px;}
+padding: 40px 20px;
+max-width: 430px}
 
 .web{width: 95%;
 margin: 0 auto;}
@@ -2308,10 +2311,11 @@ display: flex;}
 grid-template-columns: repeat(1,1fr);		
 background-size: cover;
 background-position: center;
-padding: 10px  ;
+padding:20px 10px  ;
 margin: 40px auto; 
 border-radius: 20px;
-width: 87%;}
+width: 87%;
+max-width: 400px}
 
 .divido .parte1 {width: 100%}
 
@@ -2340,10 +2344,11 @@ line-height: 1 }
 .partesweb{display: grid;
 grid-template-columns: repeat(1,1fr);
  width: 80%;margin: 10px auto;
-grid-gap: 0vh;}
+grid-gap: 0vh;
+max-width: 380px}
 
 .parte{
- border: 0.4vh solid rgb(27, 68, 81);
+ border: 2px solid rgb(27, 68, 81);
   margin: 10px 0vh;
 }
  
@@ -2391,7 +2396,8 @@ color: #ecf0f1; font-size: 16px;
 padding: 10px 0px;
 margin: 0  auto;
 text-align: center;
-width: 90%}
+width: 90%;
+max-width: 400px}
 
 .pro {
 width: 100%;  
@@ -2399,7 +2405,7 @@ border: 2px solid black;
 background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
 border-radius: 5%; 
 margin: 10px auto ;
-max-width: 280px}
+max-width: 330px}
 
 .pro img{width:100%; 
 height: 140px;
@@ -2489,7 +2495,7 @@ grid-gap: 1.5vh;
 width: 86%;
 margin: 20px auto;
 height: 100%;
-max-width: 300px}
+max-width: 350px}
 
 .ser .s1 div{
 width: 100%;}
@@ -2540,7 +2546,8 @@ max-width: 350px}
 			grid-template-columns: repeat(1,1fr);
 			width: 90%;
 			margin: 5px auto;
-			grid-gap: 10px	}
+			grid-gap: 10px;
+			max-width: 350px}
 
 .coon p{width: 100%;
 font-size:16px}
