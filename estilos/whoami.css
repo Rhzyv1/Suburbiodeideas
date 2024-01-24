@@ -124,7 +124,7 @@ body{background:#051937;
 header {
 width: 100%;
 height: 700px;
-background:  url(../img/fondo.jpg); 
+background:  url(../img/fondo.webp);
 background-color: rgba(0,0,0,0.6);
 background-size: 100% 700px;
 background-repeat: no-repeat;
