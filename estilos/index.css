@@ -254,8 +254,7 @@ font-family: 'Stick No Bills', sans-serif;
 font-style: normal;
  font-size: 23px;
 color: #c7c7c7c7;
-padding: 5px;
-padding-left: 20px ;
+padding:10px ;
 }
 			
 .cont-menu nav a:hover{ 
@@ -1100,51 +1099,52 @@ header {
 
 
 .what{position: fixed;
-bottom: 50px;
+bottom:40px;
 left:0px;
 color: white;;
 z-index: 4;
 background: green;
 border-radius: 0px 30px 30px 0px;}
 
-.what a i{padding: 5px;
+.what a i{padding: 1px;
 position:   absolute;
-font-size:30px;
+font-size:27px;
 background: green;
 z-index: 4;
-border-radius: 0px 30px 30px 0px;
-padding-right: 10px}
+border-radius: 0px 30px 30px 0px;;
+padding: 5px;}
 
 .what a{color: white;
-background: green;text-decoration: none;
-;}
+background: green;text-decoration: none;}
 
 .what a p{font-size: 13px; 
 padding: 0px 10px;
-padding-top:0px;
+padding-top:5px;
 padding-left: 42px;
 left: -100px;
-height: 40px;
+height: 37px;
 width: 0px;position: absolute;;
 border-radius: 0px 30px 30px 0px;
-		 font-family: TraditionSansXLight}
+font-family: TraditionSansXLight;
+
+background: green;}
 
 .what a:hover > p{
 opacity: 1;
 visibility: visible;;
 background: green;
 transition:all 0.5s ease ;
-width: 140px ;
+width: 130px ;
 left: 0px;
-		 font-family: TraditionSansXLight;
-		 height: 40px;}
+font-family: TraditionSansXLight;
+height:37px;}
 
 
 
 
 
 .what2{position: fixed;
-bottom:95px;
+bottom:80px;
 left:0px;
 color: white;;
 z-index: 4;
@@ -1152,10 +1152,10 @@ border-radius: 0px 30px 30px 0px;}
 
 .what2 a i{padding: 5px;
 position:   absolute;
-font-size:30px;
+font-size:25px;
 z-index: 4;
 border-radius: 0px 30px 30px 0px;
-padding-right: 20px}
+padding:5px 10px}
 
 .what2 a{color: white;
 background: green;text-decoration: none;
@@ -1163,10 +1163,10 @@ background: green;text-decoration: none;
 
 .what2 a p{font-size: 13px; 
 padding: 0px 10px;
-padding-top:13px;
+padding-top:10px;
 padding-left: 42px;
 left: -100px;
-height: 40px;
+height: 35px;
 width: 0px;position: absolute;;
 border-radius: 0px 30px 30px 0px;
 		 font-family: TraditionSansXLight}
@@ -1177,7 +1177,8 @@ visibility: visible;
 transition:all 0.5s ease ;
 width: 100px ;
 left: 0px;
-		 font-family: TraditionSansXLight}
+font-family: TraditionSansXLight;
+height: 35px}
 
 
 
@@ -1304,7 +1305,7 @@ letter-spacing: 1px}
  margin: 40px auto;
 background-image: linear-gradient(to top, #1b4125,h #054737, #004c4a, #004f5a, #0b5268);
  padding: 10px 0vh;
-max-width: 500px;
+max-width: 400px;
 box-shadow: 5px 1px 10px 10px black;
 padding-top: 30px}
 
@@ -1329,7 +1330,7 @@ padding: 0px}
 		justify-content: center; 
 		line-height: 1.2;
 		 font-size:15px ;
-		 width: 80%;}		
+		 width: 90%;}		
 
 #H5{ color: #24dff9 ; 
 		font-size: 25px; 
@@ -1357,7 +1358,7 @@ padding: 0px}
 	grid-template-columns: repeat(2	,1fr);
 width:100%;
 margin: 0% auto;
-padding:  30px;
+padding: 50px 30px;
 max-width: 700px}
 
 .web{width: 100%;
@@ -1996,7 +1997,7 @@ background: green;text-decoration: none;
 padding: 0px 10px;
 padding-left: 55px;
 left: -100px;
-height: 50px;
+height: 45px;
 width: 0px;position: absolute;;
 border-radius: 0px 30px 30px 0px;
 		 font-family: TraditionSansXLight}
@@ -2008,7 +2009,8 @@ background: green;
 transition:all 0.5s ease ;
 width: 150px ;
 left: 0px;
-		 font-family: TraditionSansXLight}
+	font-family: TraditionSansXLight;
+		 height: 45px}
 
 
 .what2{position: fixed;
@@ -2031,10 +2033,10 @@ padding-right: 20px}
 
 .what2 a p{font-size: 15px; 
 padding: 0px 10px;
-padding-top:17px;
+padding-top:14px;
 padding-left: 50px;
 left: -100px;
-height: 50px;
+height: 45px;
 width: 0px;position: absolute;;
 border-radius: 0px 30px 30px 0px;
 		 font-family: TraditionSansXLight}
@@ -2045,7 +2047,8 @@ visibility: visible;
 transition:all 0.5s ease ;
 width: 110px ;
 left: 0px;
-		 font-family: TraditionSansXLight}
+font-family: TraditionSansXLight;
+height: 45px;}
 
 
 
@@ -2309,7 +2312,7 @@ display: flex;}
 grid-template-columns: repeat(1,1fr);		
 background-size: cover;
 background-position: center;
-padding:20px 0px  ;
+padding: 20px   ;
 margin: 40px auto; 
 border-radius: 20px;
 width: 93%;
