@@ -614,9 +614,9 @@ padding: 0px}
 		letter-spacing: 1px}
 
 .pro p   { font-family: TraditionSansXLight; 
-		line-height: 1; 
+		line-height: 1.5; 
 		padding: 10px 5px;
-		font-size: 19px;
+		font-size: 17px;
 		color: rgb(229, 245, 248);
 		 margin:0vh auto;
 		text-align: center;
@@ -634,7 +634,7 @@ padding: 0px}
 			display: flex;
 			letter-spacing: 1px;
 			background: rgb(8, 8, 8);
-			border: 1px solid transparent}
+			border: 1px solid black}
 
 
 .pro a { font-family: 'Stick No Bills', sans-serif; 
@@ -648,10 +648,9 @@ padding: 0px}
 	; 	cursor: pointer;
 			transition: all 400ms ease-in-out }
 
-.pro button:hover{
-	background:#36454F ;	
+.pro button:hover{background:#056937;;	
 	;transition: all 3s ease-out ;
-border: 1px solid #1b4125;}
+border: 1px solid #1b4125;;}
 
 .otros{
 padding:0vh 0vh 30px 0px;
@@ -1974,7 +1973,7 @@ header {
 
 
 .what{position: fixed;
-bottom: 60px;
+bottom: 50px;
 left:0px;
 color: white;;
 z-index:4;
@@ -1983,7 +1982,7 @@ border-radius: 0px 30px 30px 0px;}
 
 .what a i{padding: 5px;
 position:   absolute;
-font-size:40px;
+font-size:35px;
 background: green;
 z-index: 4;
 border-radius: 0px 30px 30px 0px;
@@ -2013,7 +2012,7 @@ left: 0px;
 
 
 .what2{position: fixed;
-bottom: 120px;
+bottom: 100px;
 left:0px;
 color: white;;
 z-index: 4;
@@ -2022,7 +2021,7 @@ border-radius: 0px 30px 30px 0px;}
 
 .what2 a i{padding: 5px;
 position:   absolute;
-font-size:40px;
+font-size:35px;
 z-index: 4;
 border-radius: 0px 30px 30px 0px;
 padding-right: 20px}
@@ -2106,7 +2105,7 @@ z-index: 1;
 max-width: 1800px;
 overflow: hidden;
 height: 90vh;
-width: 60%;
+width: 50%;
 max-height: 850px}
 
 #btn-men:checked ~ .container-menu{
@@ -2176,13 +2175,13 @@ letter-spacing: 1px}
 
 
 /* bienvenida */
-.bienvenido{ width: 85%; 
+.bienvenido{ width:90%; 
  margin: 40px auto;
  border: 0.3vh solid rgb(27, 68, 81);
 background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268);
   padding: 30px 10px;
 box-shadow: 5px 1px 10px 10px black;
-max-width: 380px
+max-width: 400px
 }
 
 .bienvenido h3 { 
@@ -2199,8 +2198,7 @@ text-shadow: 1px 1px 6px black;
 margin: 0px auto; 
 text-align: center;
 font-family: 'Ubuntu Condensed', sans-serif;
-max-width: 250px
-} 
+max-width: 250px} 
 
 .bienvenido p { color: #f7f1e3;  
 	justify-content ; 
@@ -2241,10 +2239,10 @@ background: rgba(6, 12, 17,0.7);
 
 .pag-web-a{display:grid;
 	grid-template-columns: repeat(1	,1fr);
-width:96%;
+width:92%;
 margin: 0% auto;
-padding: 40px 20px;
-max-width: 430px}
+padding: 40px 0px;
+max-width: 400px}
 
 .web{width: 95%;
 margin: 0 auto;}
@@ -2311,10 +2309,10 @@ display: flex;}
 grid-template-columns: repeat(1,1fr);		
 background-size: cover;
 background-position: center;
-padding:20px 10px  ;
+padding:20px 0px  ;
 margin: 40px auto; 
 border-radius: 20px;
-width: 87%;
+width: 93%;
 max-width: 400px}
 
 .divido .parte1 {width: 100%}
@@ -2343,14 +2341,13 @@ line-height: 1 }
 
 .partesweb{display: grid;
 grid-template-columns: repeat(1,1fr);
- width: 80%;margin: 10px auto;
+ width: 90%;margin: 10px auto;
 grid-gap: 0vh;
 max-width: 380px}
 
 .parte{
  border: 2px solid rgb(27, 68, 81);
-  margin: 10px 0vh;
-}
+  margin: 10px 0vh;}
  
 .parte figure img{ width: 100% ;
  height: 150px; 
@@ -2385,7 +2382,8 @@ color: #ffff;
 
 .trabajos{display: grid;
 	grid-template-columns: repeat(1,1fr); 
-	width: 80%;  justify-content: center;
+	width: 87%; 
+	 justify-content: center;
 	align-items: center ;margin: 0px auto;
 position: relative;
 margin-top: 15px}
@@ -2397,7 +2395,7 @@ padding: 10px 0px;
 margin: 0  auto;
 text-align: center;
 width: 90%;
-max-width: 400px}
+max-width: 350px}
 
 .pro {
 width: 100%;  
@@ -2492,10 +2490,10 @@ padding: 10px; }
 .ser{display: grid;
 grid-template-columns: repeat(1,1fr);
 grid-gap: 1.5vh;
-width: 86%;
+width: 90%;
 margin: 20px auto;
 height: 100%;
-max-width: 350px}
+max-width: 370px}
 
 .ser .s1 div{
 width: 100%;}
@@ -2799,6 +2797,7 @@ font-family: 'Ubuntu Condensed', sans-serif;
 padding: 10px 0vh;
 width: 90%;
 margin: 0 auto;
+max-width: 400px
 }
 
 
