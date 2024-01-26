@@ -558,7 +558,7 @@ transform: translateY(-7%);;
 	  	padding-top: 20px;
 	  	padding-bottom: 5px;  
 		 font-size:20px ; 
-		 border-bottom: 0.3vh solid  #004F79; 
+		 border-bottom: 1px solid  #004F79; 
 		 width: 40%;
 		 letter-spacing: 1px;
 		padding-left: 20px;
@@ -1332,12 +1332,18 @@ padding: 0px}
 		 font-size:15px ;
 		 width: 90%;}		
 
-#H5{ color: #24dff9 ; 
-		font-size: 25px; 
+#H5{ font-family: 'Stick No Bills', sans-serif;
+		font-weight: 500; 
+		 color: #24dff9 ; 
+		font-size: 26px; 
 		 text-shadow: 10px 6px 10px black;
+		text-align:center;;
+		margin-bottom: 5px;
+		margin-top: 5px;
 		letter-spacing: 1px;
-		width: 90%;
-			margin-top: 10px;}
+		max-width: 500px;
+		margin: 0px auto;
+		margin-top: 20px}
 
 
 #H4{ font-family: 'Stick No Bills', sans-serif;
@@ -1428,11 +1434,11 @@ width: 70%}
 font-family: 'Stick No Bills', sans-serif ;
 ;letter-spacing: 2px}
 
-.divido article p { 
-color: #fff; 
-padding: 6px 1%;
-line-height: 1.5;
-font-size: 14px;}
+.divido article p {color: #fff; padding:0px 10px; 
+		line-height: 1.2;
+		 font-size:14px ;
+		 width: 100%;}
+
 
 .divido article li { 
 color: #fff;
@@ -1457,11 +1463,17 @@ max-width: 700px}
  align-items: center;
  margin: 0 auto; }		
 
-.parte h5 {  	 
-	  	 font-size:16px ; 
-		font-family: TraditionSansXLight;
-		padding:0px 10px;
-		padding-top:10px}
+.parte h5 {
+		line-height: 1; color: #ffff;
+	  	color: #fff;
+	  	padding-top: 10px;
+	  	padding-bottom: 5px;  
+		 font-size:15px ; 
+		 border-bottom: 1px solid  #004F79; 
+		 width: 40%;
+		 letter-spacing: 1px;
+		padding-left:10px;
+		font-family: TraditionSansXLight;}
 
 .parte p { font-size:13px; 
 color: #ffff;
@@ -1488,15 +1500,14 @@ color: #ffff;
 position: relative;
 max-width: 500px}
 
-.proyectos p{  
-font-family: TraditionSansXLight;
-color: #ecf0f1; font-size: 14px; 
-padding: 10px;
-margin: 10px  auto;
-text-align: center;
-width: 70%;
-line-height:1.5;
-max-width: 550px}
+.proyectos p{ 
+ color: #fff; padding:0px 10px; 
+		text-align: center;
+		justify-content: center; 
+		line-height: 1.2;
+		 font-size:14px ;
+		 width: 90%; max-width: 500px;
+		 margin-top: 10px}
 
 .pro {
 width: 90%;  
