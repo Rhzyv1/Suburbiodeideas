@@ -373,17 +373,14 @@ color: #24dff9 ; }
 		cursor: pointer;}
 
 
-.cardp  p {
-font-size: 19px;
+.cardp  p {font-size:19px;
 color: white;
-;width:75%;
+;width:95%;
 font-family: TraditionSansXLight;
 line-height: 1.5;
-padding:10px;
+max-width: 600px;
 text-align: center;
-margin: 0 auto;
-max-width:650px}
-
+margin: 15px auto}
 
 
 
@@ -469,14 +466,14 @@ max-width: 300px;
 margin-top: 80px;
 margin-bottom: 20px}
 
-
-
-.cardp1 div p {font-size:19px;
+.cardp1 div p  {font-size:19px;
 color: white;
-;width:95%;
+;width:96%;
 font-family: TraditionSansXLight;
-line-height: 1.5
-;padding-top:5px}
+line-height: 1.3;
+text-align:left;
+margin: 15px auto}
+
 
 .cardp1 div h5{font-size:25px;
 color: white;
@@ -623,7 +620,7 @@ transition: all 1s ease}
 
 .cardp2 div p {font-size:19px;
 color: white;
-;width:80%;
+;width:90%;
 font-family: TraditionSansXLight;
 line-height: 1.5;}
 
@@ -1068,15 +1065,17 @@ margin-top:40px;
 color: #24dff9 ; }
 
 
-.cardp p {font-size:15px;
+
+.cardp  p {font-size:14px;
 color: white;
-;width:100%;
+;width:95%;
 font-family: TraditionSansXLight;
 line-height: 1.3;
-margin: 0px auto;
-padding: 0px;
-padding-top: 10px;
-max-width: 500px}
+max-width: 500px;
+text-align: center;
+margin: 15px auto}
+
+
 
 .red-social{ margin: 0px auto}
 
@@ -1158,13 +1157,17 @@ width: 80%;
 justify-content: center;
 align-items: center;}
 
-.cardp1 div p {font-size:15px;
+.cardp1 div p  {font-size:14px;
 color: white;
 ;width:100%;
 font-family: TraditionSansXLight;
 line-height: 1.3;
-margin: 10px auto;
-padding-top: 10px;}
+max-width: 500px;
+text-align:left;
+margin: 5px auto;
+margin-top: 20px}
+
+
 
 
 .cardp1 div h5{font-size:18px;
@@ -1321,29 +1324,24 @@ background: rgb(0,0,0,0.6);}
 box-shadow: 0px 0px 20px rgba(91, 33, 193,0.7);
 background:rgba(91, 33, 193,0.2) background:rgba(91, 33, 193,0.8) ;}
 
-.cite{color: rgba(77, 101, 174,0.5);
+.cite{;
 margin-left: 10px;
 cursor:pointer;
 width: 80%;
-max-width: 500px;
-margin: 0px auto ;
-margin-top: 10px;
-font-size: 15px;
-font-family: 'Raleway', sans-serif;}
+margin: 15px auto;
+max-width:700px;
+font-size:14px;
+font-family: 'Raleway', sans-serif;
+color: white;}
 	
-.tiem{display: flex;
-margin-top: 0vh}
+.tiem{display:flex;
+margin-top:5px}
 
-.tiem p{ margin: 10px; 
-	font-size:15px;
+.tiem p{  ;
 font-family: 'Raleway', sans-serif;}
 
 .tiem time{ margin: 0px 10px;
-font-size:15px;
 font-family: 'Raleway', sans-serif;}
-
-.cite:hover{color: white;
- transition: all 500ms ease-in-out}
 
 
 /*FORM*/
@@ -1370,13 +1368,13 @@ margin: 0px auto;}
 
 .info-form h6 {
 margin: 5px 0px;
-font-size: 22px;
+font-size: 20px;
 color:#ffff ;
 font-family: monospace;}		
 		
 
 .info-form p{
-width: 100%; font-size: 15px;
+width: 80%; font-size: 14px;
 text-align: left;}
 
 .container-form a {
@@ -1514,7 +1512,8 @@ text-align: center;
 font-family: 'Ubuntu Condensed', sans-serif;
 padding: 10px 0vh;
 width: 80%;
-margin: 0 auto;}
+margin: 0 auto;
+max-width: 600px}
 
 
  .grupo2 a{text-decoration: none;
@@ -1551,13 +1550,12 @@ color:white}
 
 header {; 
     width: 100%;
-    height: 80%;
-    max-height: 700px;
+    height:80vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: center;
-    background-size:100% 100%} 
+    background-size:100% 80vh} 
 
 
 
@@ -1666,6 +1664,8 @@ right:-5% ;
 display: block;}
 
 
+
+
 .conten i {
 font-size: 23px; 
 color: white; 
@@ -1698,8 +1698,7 @@ z-index: 1;
 max-width: 1800px;
 overflow: hidden;
 height: 80vh;
-width: 50%;
-max-height: 700px}
+width: 50%;}
 
 #btn-men:checked ~ .container-menu{
 opacity: 1;
@@ -1710,15 +1709,13 @@ left: 0px}
 
 
 
-
-
 .cont-menu  nav  a{ 
 display: block; 
 text-decoration: none;
 font-family: 'Stick No Bills', sans-serif;
 font-style: normal;
  font-size: 20px;
-padding:5px;
+padding:1vh 2vh;
 color: #c7c7c7c7; }
 
 .cont-menu  nav .sociales a{ 
@@ -1729,6 +1726,24 @@ font-style: normal;
  font-size: 30px;
 color: #c7c7c7c7;
 border-radius: 50%;}
+
+ header .img img{margin: 0 auto;align-items: center;
+justify-content: center;
+width: 135px; height: 130px;
+display: block;
+position: relative;
+margin-top: 36vh}
+
+.img h2 {align-items: center;
+text-align: center;color: white ;
+font-family: 'Stick No Bills', sans-serif;
+letter-spacing: 2px;
+font-size: 20px}
+
+.img p{ color: white ;
+text-align: center;
+font-family: TraditionSansXLight;
+font-size: 15px}
 
 
 
@@ -2218,29 +2233,28 @@ font-family: 'Ubuntu Condensed', sans-serif;
 padding: 10px 0vh;
 width: 90%;
 margin: 0 auto;
-max-width: 400px
-}
+max-width: 400px}
 
 
  .grupo2 a{text-decoration: none;
-font-size:15px ;
+font-size:13px ;
 font-family: TraditionSansXLight;
 color:white;}
 
  .grupo2 a b{
-font-size: 18px ;
+font-size: 16px ;
 font-family: TraditionSansXLight;
 color: #24dff9}
 
 
  .grupo2 a b:hover{
-font-size: 18px ;
+font-size: 16px ;
 font-family: TraditionSansXLight;
 color: green}
 	
 
  .grupo2 a:hover{
-font-size: 15px ;
+font-size: 13px ;
 font-family: TraditionSansXLight;
 color:white}
 
