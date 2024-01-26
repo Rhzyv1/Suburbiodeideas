@@ -373,7 +373,7 @@ color: #24dff9 ; }
 		cursor: pointer;}
 
 
-.cardp  p {font-size:19px;
+.cardp  p {font-size:18px;
 color: white;
 ;width:95%;
 font-family: TraditionSansXLight;
@@ -466,7 +466,7 @@ max-width: 300px;
 margin-top: 80px;
 margin-bottom: 20px}
 
-.cardp1 div p  {font-size:19px;
+.cardp1 div p  {font-size:18px;
 color: white;
 ;width:96%;
 font-family: TraditionSansXLight;
@@ -673,17 +673,15 @@ font-family: 'Raleway', sans-serif;}
 .tiem time{ margin: 0px 10px;
 font-family: 'Raleway', sans-serif;}
 
-
 .container-form {
 background-image: url(../img/fondo2.svg);
 background-size:contain;
 width: 100%;
 margin: 0px auto;
-margin-top: 20px;
+margin-top: 70px;
 padding-top: 10px}
 
-.all{padding: 20px 0px}
-
+.all{padding-top: 50px}
 
 .containerpx{width: 90%;
 display: grid; 
@@ -695,14 +693,14 @@ max-width: 1100px}
 
 .info-form h6 {
 margin: 5px 0px;
-font-size: 25px;
+font-size: 21px;
 color:#ffff ;
 font-family: monospace;}		
 
 .info-form p{
 width: 90%; 
-font-size: 20px;
-line-height: 1.5; 
+font-size: 18px;
+line-height: 1.3; 
 margin: 5px 0px ;  
 color:#ffff;	
 padding: 10px 0px ;
@@ -720,8 +718,7 @@ max-width: 800px}
 	 color:#ffff;
 	font-weight: 600px;
 border-bottom:3px solid transparent;
-padding: 10px}
-
+padding:5px 10px }
 
 .container-form a i {
 color:rgb(90, 166, 113);
@@ -803,13 +800,35 @@ transition: all 400ms ease;
  font-family: TraditionSansXLight;
 margin-top: 15px;
 border-radius: 20px;
-background:rgba(13, 3, 8,0.8);}
+background:rgba(13, 3, 8,0.8);
+}
 
 .container-form .btn-enviar:hover {
 border: 1px solid rgb(60, 166, 113);
 background: rgb(15, 121, 136);
 ;color: black;
 text-shadow: 0px 0px 10px white}
+
+.piedepag .grupo1{
+	width: 100%;
+	margin: auto;
+	grid-gap: 5px;
+	padding: 10px 0px }
+
+.box{ display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto ;
+text-align: center; }
+
+.box h5 {
+font-size: 25px;
+color:#ffff ;
+font-family: monospace;
+padding-top: 50px;
+padding-bottom: 0px}		
+
+
 
 
 .piedepag{
@@ -818,17 +837,17 @@ background-color:rgb(1, 3, 5);}
  .grupo2{
 text-align: center; 
 font-family: 'Ubuntu Condensed', sans-serif;
-padding: 10px 0vh;
+padding: 0vh;
+padding-top: 10px;
 width: 700px;
-margin: 0 auto;
-
-}
+margin: 0 auto;}
 
 
  .grupo2 a{text-decoration: none;
 font-size:18px ;
 font-family: TraditionSansXLight;
-color:white;}
+color:white;
+width: 100%}
 
  .grupo2 a b{
 font-size: 18px ;
@@ -846,6 +865,8 @@ color: green}
 font-size: 18px ;
 font-family: TraditionSansXLight;
 color:white}
+
+
 
 
 
@@ -1345,37 +1366,36 @@ font-family: 'Raleway', sans-serif;}
 
 
 /*FORM*/
-
-
+.all {padding-top: 20px}
+ 
 .container-form {
 background-image: url(../img/fondo2.svg);
-;background-size: cover;
+;background-size:cover;
 background-repeat: no-repeat;
 width: 100%;
 padding: 0px;
 margin: 0px auto;
-margin-top: 10px;
-padding-top:20px}
+margin-top: 30px;
+padding-top:20px }
 
 .containerpx{width: 60%;
 display: grid; 
 grid-template-columns: repeat(1,1fr);
 grid-gap: 10px;
-margin: 0px auto;}
+margin: 0px auto;
+max-width: 500px}
 
-
-.all{padding: 10px 0px}
 
 .info-form h6 {
 margin: 5px 0px;
-font-size: 20px;
+font-size: 18px;
 color:#ffff ;
 font-family: monospace;}		
-		
 
 .info-form p{
-width: 80%; font-size: 14px;
-text-align: left;}
+width: 100%; font-size: 14px;
+text-align: left;
+padding: 0px}
 
 .container-form a {
 	font-family: TraditionSansXLight ;
@@ -1397,8 +1417,7 @@ color:#27c3c1;}
 form{ 
 border:2px solid rgb(60, 166, 113);
 	;width: 100%;
-border-radius: 10px;
-padding: 10px;
+	padding: 10px;
 margin: 0 auto}
 
 .container-form form .campo
@@ -1455,24 +1474,24 @@ font-family: TraditionSansXLight }
 align-items: center;
 justify-content: center;
 margin: 5px auto;
-padding: 5px;
+padding: 5px 15px;
 border: none;
 outline: 0px;
 color:white;
-border: 2px solid rgb(60, 166, 113);
+border: 1px solid rgb(60, 166, 113);
 cursor: pointer;
 transition: all 400ms ease;
  font-family: TraditionSansXLight;
 font-size:15px;
-background: rgb(19, 43, 46)}
+margin-top: 15px;
+border-radius: 20px;
+background:rgba(13, 3, 8,0.8);
+}
 
 .container-form .btn-enviar:hover {
 border: 2px solid rgb(60, 166, 113);}
 
-N
-
-.piedepag{width: 100%;
-background-color: rgb(5, 30, 54)}
+.piedepag{width: 100%;}
 
 .piedepag img {width: 50vw ;height: 25vh;
 margin: 0 auto}	
@@ -1485,13 +1504,14 @@ margin: 0 auto}
 	grid-gap: 5px;
 	padding: 10px 0px }
 
-.piedepag .grupo1 .box h2{
-	color: white;
-	margin: 2vh 1vh;
-	font-size:23px; 
-	 display: flex; align-items: center;
-justify-content: center;
-text-align: center;letter-spacing: 2px}
+
+.box h5 {
+font-size: 20px;
+color:#ffff ;
+font-family: monospace;
+padding-top: 40px;
+padding-bottom: 0px}		
+
 
 .piedepag .grupo1 .box p{
 	display: flex;
@@ -1499,7 +1519,7 @@ text-align: center;letter-spacing: 2px}
 	align-items: center;
 	justify-content: center;
 	color:white;
-	margin-bottom: 2vh;
+	margin-bottom: 10px;
 	font-size:15px;
 	font-family: TraditionSansXLight;
 	text-align: center;
@@ -1511,24 +1531,24 @@ font-style:normal;}
 text-align: center; 
 font-family: 'Ubuntu Condensed', sans-serif;
 padding: 10px 0vh;
-width: 80%;
+width: 90%;
 margin: 0 auto;
-max-width: 600px}
+max-width: 700px}
 
 
  .grupo2 a{text-decoration: none;
-font-size:15px ;
+font-size:14px ;
 font-family: TraditionSansXLight;
 color:white;}
 
  .grupo2 a b{
-font-size: 15px ;
+font-size: 14px ;
 font-family: TraditionSansXLight;
 color: #24dff9}
 
 
  .grupo2 a b:hover{
-font-size: 15px ;
+font-size: 14px ;
 font-family: TraditionSansXLight;
 color: green}
 	
@@ -2112,7 +2132,7 @@ margin: 5px 0px;
 font-size: 23px;
 color:#ffff ;
 font-family: monospace;
-text-align: center;}	
+text-align: center;}		
 
 .info-form p{
 width: 90%; 
@@ -2227,34 +2247,39 @@ font-family: monospace;
 padding-top: 20px;
 padding-bottom: 0px}		
 
+
+
+
+ 
  .grupo2{
 text-align: center; 
 font-family: 'Ubuntu Condensed', sans-serif;
 padding: 10px 0vh;
 width: 90%;
 margin: 0 auto;
-max-width: 400px}
+max-width: 400px
+}
 
 
  .grupo2 a{text-decoration: none;
-font-size:13px ;
+font-size:15px ;
 font-family: TraditionSansXLight;
 color:white;}
 
  .grupo2 a b{
-font-size: 16px ;
+font-size: 18px ;
 font-family: TraditionSansXLight;
 color: #24dff9}
 
 
  .grupo2 a b:hover{
-font-size: 16px ;
+font-size: 18px ;
 font-family: TraditionSansXLight;
 color: green}
 	
 
  .grupo2 a:hover{
-font-size: 13px ;
+font-size: 15px ;
 font-family: TraditionSansXLight;
 color:white}
 
