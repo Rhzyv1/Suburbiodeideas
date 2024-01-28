@@ -742,7 +742,8 @@ font-family: TraditionSansXLight;
 color: #ecf0f1; 
 font-style: normal;
 line-height: 1.5;
-padding:10px}
+padding: 10px;
+margin-top: 0px}
 
 .ser .s0 {
 	width: 100%;
@@ -778,7 +779,8 @@ font-family: TraditionSansXLight;
 color: #ecf0f1	; 
 font-style: normal;
 line-height: 1.5;
-padding: 10px}
+padding: 10px;
+margin-top: 0px}
 
 .ser .s3{
 background: rgba(6, 12, 17,0.9)	;}
