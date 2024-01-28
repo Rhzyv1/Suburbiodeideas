@@ -427,13 +427,13 @@ font-family: 'Stick No Bills', sans-serif;
 text-shadow: 0px 5px 5px black;
 letter-spacing: 1px;
 margin-top:20px;
-color:rgb(90, 206, 113); }
+color:rgb(90, 200, 100); }
 
 
 
 .web p {font-size:20px;
 color: white;
-;width:90%;
+;width:100%;
 font-family: TraditionSansXLight;
 line-height: 1.3;
 margin-top: 15px;
@@ -2340,7 +2340,7 @@ display: flex;}
 grid-template-columns: repeat(1,1fr);		
 background-size: cover;
 background-position: center;
-padding: 20px   ;
+padding:30px 20px   ;
 margin: 40px auto; 
 border-radius: 20px;
 width: 93%;
@@ -2349,11 +2349,10 @@ max-width: 400px}
 .divido .parte1 {width: 100%}
 
 .divido article h5 { color: #fff;
- 	 font-size: 18px ;  
+font-size: 18px ;  
 font-family: 'Stick No Bills', sans-serif ;
-;letter-spacing: 2px;
-padding: 10px
-}
+letter-spacing: 2px;
+padding:5px 10px}
 
 .divido article p { 
 color: #fff; 
@@ -2361,7 +2360,7 @@ padding: 5px;
 line-height: 1.4;
 font-size: 15px;
 width: 100%;
-margin-top: }
+margin-top:0px }
 
 .divido article li { 
 color: #fff;
@@ -2458,7 +2457,7 @@ border-radius: 5%;
 margin: 10px auto ;
 max-width: 330px}
 
-.pro img{width:90%; 
+.pro img{width:95%; 
 height: 140px;
 margin: 0 auto;
 justify-content: center;
