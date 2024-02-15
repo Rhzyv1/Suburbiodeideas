@@ -8,13 +8,19 @@ html , body{ max-width: 100% !important;
 
 html::-webkit-scrollbar{
 width: 1vw;
-background-image: linear-gradient(to right top, #051937, #002c49, #003f58, #005361, #006666);}
+background-image: linear-gradient(to right top, #051937, #002c49, #003f58, #005361, #006666);;}
+
+
+html::-webkit-scrollbar:hover{
+width: 1vw;
+background-image: linear-gradient(to right top, #051937, #002c49, #003f58, #005361, #006666);;
+opacity: 1;
+visibility: visible;}
 
 html::-webkit-scrollbar-thumb{	
 border-radius: 10px;
 background: #0a0a0a;
 box-shadow: 1px 2px 20px 20px rgba(0, 0, 0, 0.9);}
-
 
 body{background:#051937;
 	margin: 0 auto;
@@ -314,7 +320,7 @@ border-left: 1px solid black;}
 	transition: all 2s ease;}
 
 .saludo{
-height: 140px;
+height: 150px;
 align-items: center;
 justify-content: center;
 margin: 0 auto;
@@ -325,8 +331,7 @@ padding: 2px;
 width: 400px;;
 outline: 10px solid rgba(10,10,10,0.9);; 
 border-radius: 5px;
-box-shadow: 0px 0px 100px rgba(15, 127, 185,0.7);
-border:1px solid rgba(15, 127, 185,0.7) }
+border:7px ridge rgba(15, 127, 185,0.7) }
 
 .saludo h1{ font-family: 'Stick No Bills', sans-serif;
 		font-weight: 500; 
@@ -338,7 +343,8 @@ border:1px solid rgba(15, 127, 185,0.7) }
 		font-size: 50px; 
 		padding-top: 20px ;
 		font-style: oblique;
-    color: rgba(55, 197, 185,0.9);}
+    color:green;
+text-shadow: 1px 1px 10px rgb(182, 16, 195)}
 
 
 .saludo  h2 {color:#dff4f7 ; 
@@ -407,7 +413,7 @@ text-shadow: 1px 1px 10px black}
 
 
 /* web */
-.pag-web{background: rgba(0,0,0,0.7);}
+.pag-web{background: rgba(0,0,2,0.9);}
 
 .pag-web-a{display:grid;
 	grid-template-columns: repeat(2	,1fr);
@@ -604,15 +610,15 @@ margin-top: 20px}
 
 .trabajos{display: grid;
 	grid-template-columns: repeat(2,1fr); 
-	width: 60%;  justify-content: center;
+	width: 650px;  justify-content: center;
 	align-items: center ;margin: 0px auto;
 position: relative;
 grid-gap: 15px;
-  padding-bottom: 20px;
-max-width: 720px;}
+  padding: 20px 0px;
+grid-gap: 20px}
 
 
-.pro {width: 92%;  
+.pro {width:100%;  
 border: 1px solid black;
 background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
 border-radius: 5%; 
