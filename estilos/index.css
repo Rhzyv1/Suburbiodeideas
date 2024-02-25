@@ -22,10 +22,10 @@ border-radius: 10px;
 background: #0a0a0a;
 box-shadow: 1px 2px 20px 20px rgba(0, 0, 0, 0.9);}
 
-body{background:#051937;
-	margin: 0 auto;
+body{
+margin: 0 auto;
+background:#051937;}
 
-background-image: linear-gradient(to right top, #051937, #002c49, );}
 
 /* Fonts */
 @font-face{
@@ -147,7 +147,7 @@ display:grid;
 grid-template-columns: repeat(2,1fr);
 width: 100%;
 background: rgba(0,0,0,0.5);
-border-radius: 0px 0px 20px 20px}
+border-radius: 0px 0px 20px 20px;}
 
 .conten i {
 font-size: 25px;
@@ -162,8 +162,7 @@ padding: 10px;}
 
 .conten i:hover {
 color: #2feab8
-;transition: all 1s ease;
-}
+;transition: all 1s ease;}
 
 .conten nav {display: inline-flex;
 justify-content: right;
@@ -320,18 +319,19 @@ border-left: 1px solid black;}
 	transition: all 2s ease;}
 
 .saludo{
-height: 150px;
+height:170px;
 align-items: center;
 justify-content: center;
 margin: 0 auto;
 position: relative;
-margin-top: 330px;
-background: rgba(10,10,10,0.7);
+margin-top: 300px;
 padding: 2px;
-width: 400px;;
-outline: 10px solid rgba(10,10,10,0.9);; 
+width: 460px;
+outline: 8px solid rgba(10,10,10,0.9);; 
 border-radius: 5px;
-border:7px ridge rgba(15, 127, 185,0.7) }
+border:6px ridge rgba(15, 127, 185,0.7);
+background: rgba(10,10,10,0.9);
+box-shadow: 0px 0px 100px rgba(15, 127, 185,1)}
 
 .saludo h1{ font-family: 'Stick No Bills', sans-serif;
 		font-weight: 500; 
@@ -340,16 +340,16 @@ border:7px ridge rgba(15, 127, 185,0.7) }
 		 margin: 0 auto;
 		letter-spacing: 1px;
 		width:100%;
-		font-size: 50px; 
-		padding-top: 20px ;
+		font-size: 58px; 
+		padding-top:20px ;
 		font-style: oblique;
-    color:green;
-text-shadow: 1px 1px 10px rgb(182, 16, 195)}
+	color:rgb(7, 204, 101);
+text-shadow: 0px 0px 5px rgba(05, 107, 15,1)}
 
 
-.saludo  h2 {color:#dff4f7 ; 
+.saludo  h2 {color:rgb(255, 255, 211) ; 
 font-family: 'Ubuntu Condensed', sans-serif;; 
-font-size: 25px;
+font-size: 30px;
 text-align: center; line-height: 1;
 padding-top: 10px;
 letter-spacing: 1px}		
@@ -359,81 +359,82 @@ letter-spacing: 1px}
 
 /* bienvenida */
 
-.bienvenido{ margin: 0px auto;
-	margin-top: 30px;
+.bienvenido{ margin: 20px auto;
+	margin-top: 10px;
 	margin-bottom:50px;
  border: 2px solid rgb(17, 18, 21);
 background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268) ;
-box-shadow: 5px 10px 10px 10px black;
-  width: 60%;
-max-width: 600px;
-padding: 20px 0px}
+box-shadow: 4px 10px 10px 10px black;
+  width: 100%;
+max-width: 650px;
+padding: 50px 0px}
 
 
 .bienvenido h3 { 
 color:#dff4f7 ; 
-margin-top: 30px; 
 font-family: 'Ubuntu Condensed', sans-serif;; 
-font-style: oblique;
-font-size: 35px;
-text-align: center;}
+font-size:48px;
+text-align: center;
+text-shadow: 0px 0px 2px white;;
+margin: 0px;}
 
 .bienvenido h4 { 
 color: #2feab8;
 font-family: 'Ubuntu Condensed', sans-serif;; 
 font-style: italic;
-font-size:35px;  
-text-shadow: 1px 1px 6px black;
+font-size:40px;  
+text-shadow: 1px 1px 15px black;
 text-align: center;
-padding: 0px} 
+padding:10px 0px} 
 
 .bienvenido p {font-size:20px;
 color: white;
-;width:80%;
+;width:78%;
 font-family: TraditionSansXLight;
 line-height: 1.3;
 margin: 0px auto;
-margin-top: 15px;
-max-width: 500px;
-text-align: center;
-margin-bottom: 40px}		
+margin-top: 10px;
+text-align: center;}		
 
 
-#H5{font-size:40px;
-color: #24dff9 ;
+#H5{font-size:43px;
+color:rgb(13, 123, 65) ;
 font-family: 'Stick No Bills', sans-serif;
 text-shadow: 0px 5px 5px black;
-letter-spacing: 1px;
-margin-top:15px;
-color:rgb(90, 206, 113)
+letter-spacing: 3px;
+color:rgb(90, 246, 113)
 ;display: flex;justify-content: center;
-align-items: center;
-text-shadow: 1px 1px 10px black}
+align-items: center;;
+margin: 0 auto;
+text-align: center;
+text-shadow: 0px 0px 2px rgba(15, 127, 105,0.7)}
 
 
 
 /* web */
-.pag-web{background: rgba(0,0,2,0.9);}
+.pag-web{
+background: rgba(0,0,0,0.7);}
 
 .pag-web-a{display:grid;
 	grid-template-columns: repeat(2	,1fr);
 width:100%;
 margin: 0% auto;
-padding: 70px 50px;
-max-width: 1250px}
+padding: 70px 10px;
+max-width: 1100px}
 
 .web{width: 90%;
 margin: 0 auto;
 max-width: 1200px}
 
 
-.web  h4{font-size:32px;
+.web  h4{font-size:35px;
 color: #24dff9 ;
 font-family: 'Stick No Bills', sans-serif;
 text-shadow: 0px 5px 5px black;
-letter-spacing: 1px;
+letter-spacing:2px;
 margin-top:20px;
-color:rgb(90, 200, 100); }
+color:rgb(7, 184, 101);
+text-shadow: 0px 0px 2px rgba(15, 127, 185,0.7)}
 
 
 
@@ -443,34 +444,32 @@ color: white;
 font-family: TraditionSansXLight;
 line-height: 1.3;
 margin-top: 15px;
-max-width: 500px;
+max-width: 600px;
 text-align: left;
-margin-bottom: 40px}		
-
-
+margin-bottom: 30px}		
 
 .web a{text-decoration: none;margin-top: 40px}
 
 .web #car {
-	padding: 10px;
-  width: 160px;
+	padding:10px 20px;
+  width: 400px;
   cursor: pointer;
-  margin: 20px 5px;
+  margin: 20px 0px;
   text-align:center;
   border: none;
   color: white;  
-	font-size:18px ;
+font-size:20px ;
 	 font-family: TraditionSansXLight;
-	 border-radius: 20px;
+	 border-radius:20px;
   background-size: 300% 100%;
   background-image: linear-gradient(
-    to right,rgb(101, 14, 188),rgb(37, 127, 120) , #091F92 ,rgb(210, 34, 11));
+    to right,rgb(101, 14, 188),rgb(37, 127, 120) , #091F92 ,rgb(110, 34, 211));
   box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);}
 
 .web #car:hover {
   background-position: 75% 0;
   transition: all 2s ease-in-out;
-  box-shadow: 0 4px 20px rgba(45, 54, 65, 0.9);}
+  box-shadow: 0 0px 50px rgba(45, 54, 65, 0.9);}
 
 
 .pag-web .img{  
@@ -497,7 +496,7 @@ grid-template-columns: repeat(2,1fr);
 background: url(../img/banner.webp);
 background-size: 100% 100%;
 background-position: center;
-padding: 50px 20px;
+padding: 30px 20px;
 margin:70px auto; 
 border-radius: 20px;
 width: 90%;
@@ -518,14 +517,17 @@ letter-spacing: 1px; }
 color: white;
 ;width:90%;
 font-family: TraditionSansXLight;
-line-height: 1.3;
+line-height: 1.5;
 margin-top: 15px;
 max-width: 500px;
 text-align: left;
 margin-bottom: 0px}		
 
 
-.divido article li {font-size:18px;
+.divido article ul{
+margin-top: 15px;}
+
+.divido article li {font-size:20px;
 color: white;
 ;width:90%;
 font-family: TraditionSansXLight;
@@ -547,7 +549,7 @@ list-style: none;}
 .partesweb{display: grid;
 grid-template-columns: repeat(3,1fr);
  width:86%;
- margin: 20px auto;
+ margin: 10px auto;
 grid-gap: 10px;
 max-width: 1200px}
 
@@ -592,9 +594,21 @@ color: #ffff;
 font-family: TraditionSansXLight;
 padding:10px 5px;}
 
+.portafolio{margin-top: 70px;
+width: 100%;
+ 	 align-items: center; 
+ 	 margin:0px auto; 
+ 	 text-align: center; 
+background-size: 100% 100%;
+background-repeat: no-repeat;
+padding: 0px;
+ background-image: url(../img/pro.svg);	
+		background-size: cover;
+		background-repeat: no-repeat;
+		 background-position: center; }
 
-
-.proyectos{margin-top: 70px}
+.proyectos{margin-top: 70px;
+}
 
 .proyectos p {font-size:20px;
 color: white;
@@ -636,9 +650,9 @@ padding: 0px}
 
 .pro h3 { font-family: 'Stick No Bills', sans-serif;
 		color:rgb(229, 245, 248); 
-		font-size: 25px;
+		font-size: 28px;
 		text-align: center;
-		letter-spacing: 1px}
+		letter-spacing: 2px;}
 
 .pro p   { font-family: TraditionSansXLight; 
 		line-height: 1.3; 
@@ -647,7 +661,7 @@ padding: 0px}
 		color: rgb(229, 245, 248);
 		 margin:0vh auto;
 		text-align: center;
-		width: 95%}				
+		width: 99%}				
 
 .pro button{font-family: TraditionSansXLight; 
 			padding: 5px 20px;
@@ -709,17 +723,18 @@ justify-content: center;}
 .otros div  a:hover{ ;
 	color:rgba(100, 200, 78,0.7) }
 
-#servicio{background: rgba(0,0,0,0.7);;
-padding: 60px 0px}
+#servicio{background: rgba(0,0,0,0.7);
+	padding: 60px 0px }
 
 .ser{display: grid;
 grid-template-columns: repeat(3,1fr);
 grid-gap: 20px;
 width: 90%;
-margin: 20px auto;
+margin: 10px auto;
 height: auto;
-margin-top: 30px;
-max-width: 1000px;}
+max-width: 1000px;
+
+}
 
 .ser .s1 div{
 width: 100%;}
@@ -727,7 +742,7 @@ width: 100%;}
 .ser .s1 div img{
 	width: 100%;
 background: rgb(6, 12, 17);
-height: 250px;
+height: 270px;
   box-shadow: 0 4px 15px rgba(45, 54, 65, 0.5);
 margin-bottom: 10px}
 
@@ -772,7 +787,7 @@ cursor: pointer;
 
 .ser .s2 div img{
 	width: 100%;
-	height:225px;
+	height:240px;
 	margin-top: 10px ;
 
   box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);}
@@ -809,11 +824,20 @@ font-size:25px;}
 
 .coon{width: 90%;margin: 30px auto;}
 
+.coon p {font-size:20px;
+color: white;
+;width:70%;
+font-family: TraditionSansXLight;
+line-height: 1.3;
+margin: 0 auto;
+text-align:center;}		
+
+
 .contmary{  display: grid; 
 			grid-template-columns: repeat(3,1fr);
 			grid-gap: 10px;
 			width: 85%;
-			margin: 20px auto;
+			margin: 0px auto;
 			max-width: 1100px}
 
 .contalfa{
@@ -821,8 +845,8 @@ font-size:25px;}
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 200px;
-	margin-top: 20px}
+	height: 200px;;
+margin-top: 10px}
 
 .contalfa figure{position: relative;
 	height:200px;
@@ -852,14 +876,14 @@ transition: all 3s ease ;
 		}
 
 .contalfa figure:hover > .capa2 h4{
-		margin: 10px 0vh;
 		padding: 0; 
 		font-family: TraditionSansXLight ;
 		transition: all 1.5s ease ; 
 			color: #fff;
-		font-size:20px;
+		font-size:25px;
 		width: 100%;
-		text-align: center;}
+		text-align: center;
+		margin-top: 10px}
 
 
 .contalfa figure:hover > .capa2 p{margin:0px auto; 
@@ -1297,34 +1321,37 @@ border-left: 0vh solid black;}
 
 
 .saludo{
-height: 110px;
+height:140px;
 align-items: center;
 justify-content: center;
 margin: 0 auto;
 position: relative;
-margin-top: 240px;
-background: rgba(10,10,10,0.7);
+margin-top: 200px;
 padding: 2px;
-width: 280px;
-border:1px solid rgba(15, 127, 185,0.7) ;
-outline: 5px solid rgba(10,10,10,0.7); }
+width: 350px;
+outline: 8px solid rgba(10,10,10,0.9);; 
+border-radius: 5px;
+border:4px ridge rgba(15, 127, 185,0.7);
+background: rgba(10,10,10,0.9);
+box-shadow: 0px 0px 100px rgba(15, 127, 185,1)}
 
 .saludo h1{ font-family: 'Stick No Bills', sans-serif;
 		font-weight: 500; 
-		 color:rgba(55, 197, 185,0.9) ; 
 		 text-shadow: 10px 6px 10px black;
 		text-align:center;
 		 margin: 0 auto;
 		letter-spacing: 1px;
 		width:100%;
-		font-size: 35px; 
-		padding-top: 15px ;
-		font-style: oblique;}
+		font-size: 45px; 
+		padding-top:20px ;
+		font-style: oblique;
+	color:rgb(7, 204, 101);
+text-shadow: 0px 0px 5px rgba(05, 107, 15,1)}
 
 
-.saludo  h2 {color:#dff4f7 ; 
+.saludo  h2 {color:rgb(255, 255, 211) ; 
 font-family: 'Ubuntu Condensed', sans-serif;; 
-font-size: 20px;
+font-size: 25px;
 text-align: center; line-height: 1;
 padding-top: 10px;
 letter-spacing: 1px}		
@@ -1332,39 +1359,41 @@ letter-spacing: 1px}
 
 /* bienvenida */
 
-.bienvenido{ max-width: 65%; 
- margin: 40px auto;
-background-image: linear-gradient(to top, #1b4125,h #054737, #004c4a, #004f5a, #0b5268);
-max-width: 450px;
-box-shadow: 5px 1px 10px 10px black;
-}
+.bienvenido{ margin: 20px auto;
+	margin-top: 40px;
+	margin-bottom:50px;
+ border: 2px solid rgb(17, 18, 21);
+background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268) ;
+box-shadow: 4px 10px 10px 10px black;
+  width: 100%;
+max-width: 480px;
+padding: 30px 0px}
+
 
 .bienvenido h3 { 
 color:#dff4f7 ; 
-margin-top: 20px; 
 font-family: 'Ubuntu Condensed', sans-serif;; 
-font-style: oblique;
-font-size: 30px;}
+font-size:33px;
+text-align: center;
+text-shadow: 0px 0px 2px white;;
+margin: 0px;}
 
 .bienvenido h4 { 
 color: #2feab8;
 font-family: 'Ubuntu Condensed', sans-serif;; 
 font-style: italic;
-font-size:25px;  
-text-shadow: 1px 1px 6px black;
+font-size:30px;  
+text-shadow: 1px 1px 15px black;
 text-align: center;
-padding: 0px} 
+padding:10px 0px} 
 
 .bienvenido p {font-size:15px;
 color: white;
-;width:80%;
+;width:78%;
 font-family: TraditionSansXLight;
 line-height: 1.3;
 margin: 0px auto;
-margin-top: 15px;
-max-width: 500px;
-text-align: center;
-margin-bottom: 20px}		
+text-align: center;}		
 
 /* web */
 .pag-web{background: rgba(0,0,0,0.7);}
@@ -1558,7 +1587,7 @@ position: relative;
 max-width: 500px}
 
 .pro {
-width: 90%;  
+width: 100%;  
 border: 1px solid black;
 background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
 border-radius: 5%; 
@@ -1724,7 +1753,14 @@ margin:0 auto}
 			grid-gap: 0px	;
 			max-width: 500px}
 
-.coon p{width: 100%}
+.coon p {font-size:15px;
+color: white;
+;width:100%;
+font-family: TraditionSansXLight;
+line-height: 1.3;
+margin: 10px auto;
+text-align:center;}		
+
 
 .contalfa{
 	width: 100%;
@@ -2200,38 +2236,43 @@ color: #c7c7c7c7;
 border-radius: 50%;}
 
 .saludo{
-height: 120px;
+height:170px;
 align-items: center;
 justify-content: center;
 margin: 0 auto;
 position: relative;
-margin-top:40vh;
-background: rgba(10,10,10,0.7);
+margin-top: 300px;
 padding: 2px;
-width: 90%;
-border:1px solid rgba(15, 127, 185,0.7);
-max-width: 290px ;
-outline: 4px solid rgba(10,10,10,0.7); }
+width: 80%;
+outline: 8px solid rgba(10,10,10,0.9);; 
+border-radius: 5px;
+border:6px ridge rgba(15, 127, 185,0.7);
+background: rgba(10,10,10,0.9);
+box-shadow: 0px 0px 100px rgba(15, 127, 185,1);
+max-width:	 370px}
 
 .saludo h1{ font-family: 'Stick No Bills', sans-serif;
 		font-weight: 500; 
-		 color:rgba(55, 197, 185,0.9) ; 
 		 text-shadow: 10px 6px 10px black;
 		text-align:center;
 		 margin: 0 auto;
 		letter-spacing: 1px;
 		width:100%;
-		font-size: 35px; 
-		padding-top: 22px ;
-		font-style: oblique;}
+		font-size: 45px; 
+		padding-top:30px ;
+		font-style: oblique;
+	color:rgb(7, 204, 101);
+text-shadow: 0px 0px 5px rgba(05, 107, 15,1)}
 
 
-.saludo  h2 {color:#dff4f7 ; 
+.saludo  h2 {color:rgb(255, 255, 211) ; 
 font-family: 'Ubuntu Condensed', sans-serif;; 
-font-size: 18px;
+font-size: 25px;
 text-align: center; line-height: 1;
 padding-top: 10px;
 letter-spacing: 1px}		
+
+
 
 
 
