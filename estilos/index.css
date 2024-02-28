@@ -190,8 +190,7 @@ padding-bottom: 1px}
 .conten nav ul li #inicio{  
 cursor: pointer;
 transition: all 1s ease;
-color:#2feab8;
-border-bottom: 2px solid #2feab8;}
+color:#2feab8;}
 
 .conten nav ul li a:hover{
 border-bottom: 2px solid #2feab8;
@@ -359,9 +358,7 @@ letter-spacing: 1px}
 
 /* bienvenida */
 
-.bienvenido{ margin: 20px auto;
-	margin-top: 30px;
-	margin-bottom:50px;
+.bienvenido{ margin: 60px auto;
  border: 2px solid rgb(17, 18, 21);
 background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268) ;
 box-shadow: 4px 10px 10px 10px black;
@@ -549,8 +546,8 @@ list-style: none;}
 .partesweb{display: grid;
 grid-template-columns: repeat(3,1fr);
  width:86%;
- margin: 10px auto;
-grid-gap: 40px;
+ margin: 20px auto;
+grid-gap: 10px;
 max-width: 1100px}
 
 .parte{
@@ -594,20 +591,20 @@ color: #ffff;
 font-family: TraditionSansXLight;
 padding:10px 5px;}
 
-.portafolio{margin-top: 70px;
+.portafolio{
 width: 100%;
  	 align-items: center; 
  	 margin:0px auto; 
  	 text-align: center; 
 background-size: 100% 100%;
 background-repeat: no-repeat;
-padding: 0px;
+padding-top: 30px;
  background-image: url(../img/pro.svg);	
 		background-size: cover;
 		background-repeat: no-repeat;
 		 background-position: center; }
 
-.proyectos{margin-top: 70px;
+.proyectos{margin-top: 20px;
 }
 
 .proyectos p {font-size:20px;
@@ -624,12 +621,12 @@ margin-top: 20px}
 
 .trabajos{display: grid;
 	grid-template-columns: repeat(2,1fr); 
-	width: 650px;  justify-content: center;
+	width:700px;  justify-content: center;
 	align-items: center ;margin: 0px auto;
 position: relative;
 grid-gap: 15px;
   padding: 20px 0px;
-grid-gap: 20px}
+grid-gap:0px 30px }
 
 
 .pro {width:100%;  
@@ -732,9 +729,8 @@ grid-gap: 20px;
 width: 90%;
 margin: 10px auto;
 height: auto;
-max-width: 1000px;
-
-}
+max-width: 1000px;;
+margin-top: 30px}
 
 .ser .s1 div{
 width: 100%;}
@@ -742,7 +738,7 @@ width: 100%;}
 .ser .s1 div img{
 	width: 100%;
 background: rgb(6, 12, 17);
-height: 270px;
+height: 250px;
   box-shadow: 0 4px 15px rgba(45, 54, 65, 0.5);
 margin-bottom: 10px}
 
@@ -753,7 +749,7 @@ padding-top: 5px;
 width: 96%;
 color: white;  
 font-family: TraditionSansXLight;
-color: #ecf0f1; }
+color: #ecf0f1; ;}
 
 .ser .s1 div p{
 font-size:18px;
@@ -787,7 +783,7 @@ cursor: pointer;
 
 .ser .s2 div img{
 	width: 100%;
-	height:240px;
+	height:220px;
 	margin-top: 10px ;
 
   box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);}
@@ -898,10 +894,10 @@ transition: all 1.5s ease }
 background-image: url(../img/fondo2.svg);
 background-size:contain;
 width: 100%;
-margin-top: 70px;
-padding-top: 10px;}
+padding: 40px 0px;
+margin-top: 40px}
 
-.all{padding: 50px 0px}
+.all{padding: 0px}
 
 .containerpx{width: 90%;
 display: grid; 
@@ -947,6 +943,52 @@ font-size: 25px;}
 .container-form a:hover{
 color:rgb(90, 166, 113);
 font-size: 20px} 
+
+
+
+.footer-red-social ul{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	width: 200px}	
+
+.footer-red-social ul li{position: relative;
+	list-style: none;
+	margin: 10px;
+	cursor: pointer;display: flex; 
+	justify-content: center;
+	align-items: center;}
+
+.footer-red-social  ul li a {text-decoration: none;}
+
+.footer-red-social ul li a .fa 
+{font-size: 30px;
+	border-radius:50%;
+width: 55px; 
+height: 55px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+background: rgb(0,0,0,0.7);}
+
+
+.footer-red-social  ul li a .fa-facebook:hover{
+background:#3b5998;
+transition: all 1 ease-out;
+box-shadow: 0px 0px 20px #3b5998 }
+
+.footer-red-social  ul li a .fa-instagram:hover{
+background:#9E37B8 ;
+box-shadow: 0px 0px 20px #9E37B8; 
+transition: all 1 ease-out}
+
+.footer-red-social  ul li a .fa-twitter:hover{  
+background:#00acee ;
+transition: all 1 ease-out;
+box-shadow: 0px 0px 20px #00acee }
+
+
+
 
 form{ 
 border: 3px solid rgb(60, 166, 113);
@@ -1256,7 +1298,7 @@ border-left: 0vh solid black;}
 
 
 .saludo{
-height:140px;
+height:130px;
 align-items: center;
 justify-content: center;
 margin: 0 auto;
@@ -1277,7 +1319,7 @@ box-shadow: 0px 0px 100px rgba(15, 127, 185,1)}
 		 margin: 0 auto;
 		letter-spacing: 1px;
 		width:100%;
-		font-size: 45px; 
+		font-size: 40px; 
 		padding-top:20px ;
 		font-style: oblique;
 	color:rgb(7, 204, 101);
@@ -1498,7 +1540,10 @@ color: #ffff;
 		transition: all 1s ease-out}
 
 /*web*/
-.proyectos{margin-top:30px}
+
+.portafolio{padding-top: 20px }
+
+.proyectos{margin-top:0px}
 
 .proyectos p {font-size:14px;
 color: white;
@@ -1737,7 +1782,7 @@ transition: all 2s ease ;
 .contalfa figure:hover > .capa2 p{font-size:15px;}
 
 /*FORM*/
-.all {padding-top: 20px}
+.all {padding-top: 0px}
  
 .container-form {
 background-image: url(../img/fondo2.svg);
@@ -1746,8 +1791,8 @@ background-repeat: no-repeat;
 width: 100%;
 padding: 0px;
 margin: 0px auto;
-margin-top: 30px;
-padding-top:20px }
+padding:30px 0px ;
+margin-top: 30px}
 
 .containerpx{width: 60%;
 display: grid; 
@@ -1783,6 +1828,52 @@ font-size: 20px}
 
 .container-form a i:hover {
 color:#27c3c1;}
+
+
+.footer-red-social ul{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	width: 200px;
+	margin: 0 auto}	
+
+.footer-red-social ul li{position: relative;
+	list-style: none;
+	margin:0px;
+	cursor: pointer;display: flex; 
+	justify-content: center;
+	align-items: center;}
+
+.footer-red-social  ul li a {text-decoration: none;}
+
+.footer-red-social ul li a .fa 
+{font-size: 23px;
+	border-radius:50%;
+width: 45px; 
+height: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+background: rgb(0,0,0,0.7);}
+
+
+.footer-red-social  ul li a .fa-facebook:hover{
+background:#3b5998;
+transition: all 1 ease-out;
+box-shadow: 0px 0px 20px #3b5998 }
+
+.footer-red-social  ul li a .fa-instagram:hover{
+background:#9E37B8 ;
+box-shadow: 0px 0px 20px #9E37B8; 
+transition: all 1 ease-out}
+
+.footer-red-social  ul li a .fa-twitter:hover{  
+background:#00acee ;
+transition: all 1 ease-out;
+box-shadow: 0px 0px 20px #00acee }
+
+
+
 
 
 form{ 
@@ -1876,81 +1967,9 @@ margin: 0 auto}
 	padding: 10px 0px }
 
 
-.box h5 {
-font-size: 20px;
-color:#ffff ;
-font-family: monospace;
-padding-top: 40px;
-padding-bottom: 0px}		
 
-
-.piedepag .grupo1 .box p{
-	display: flex;
-	margin: 10 auto;
-	align-items: center;
-	justify-content: center;
-	color:white;
-	margin-bottom: 10px;
-	font-size:15px;
-	font-family: TraditionSansXLight;
-	text-align: center;
-width: 80%;
-font-style:normal;}
-
-.red-social{display: block; justify-content: center;
-align-items: center; margin: 0 auto;
-margin-top: 0px}
-
-
-.red-social ul{position: relative;
-	display: flex;}
-
-.red-social ul li{position: relative;
-	list-style: none;
-	margin: 10px;
-	cursor: pointer;display: flex; 
-	justify-content: center;
-	align-items: center;}
-
-.red-social  ul li a {text-decoration: none;}
-
-.red-social  ul li a .fa 
-{font-size: 30px;
-color: white;
-text-decoration: none;}
-
-.red-social  ul li a::before{
-	font-family: fontAwesome;
-	position: absolute;
-	top:-4;
-	left: 2;
-	font-size: 30px;
-	height: 0;
-	overflow: hidden;
-	transition: 0.9s ease-in-out; }
-
- .red-social ul li:nth-child(1) a::before{
-		content: "\f16d";
-		background: radial-gradient(
-			circle at 30% 100%,
-		 #fdf497 0%, #fdf497 5%, 
-		 #fd5949 45%, #d6249f 60%, #285AEB 100%);
-	  -webkit-background-clip: text;
-  		-webkit-text-fill-color: transparent;
-		border-bottom: 0.2vh solid #b82bb8;
-		font-style: normal;}
- 
-.red-social ul li:nth-child(2) a::before{
-	content: "\f099";
-color: #1DA1F2;
-	border-bottom: 0.2vh  solid #1DA1F2;font-style: normal}
-
-.red-social ul li:nth-child(3) a::before{ content: "\f09a";
-color: #1DA1F2;
-	border-bottom: 0.2vh  solid #1DA1F2;
-font-style: normal}
-
-.red-social  ul li:hover a::before{height: 100%}
+.piedepag{background: rgba(0,0,0,0.7);
+padding: 0px}
 
 
  .grupo2{
@@ -2081,15 +2100,12 @@ font-family: TraditionSansXLight;
 height: 45px;}
 
 
-
-
-
 .btn-men{
 width: 100%;
 border-radius: 0px;
 padding: 5px 0px}
 
-.all{padding-top: 10px}
+.all{padding-top: 0px}
 
 
 .conten nav ul li a{display: none;}
@@ -2171,20 +2187,20 @@ color: #c7c7c7c7;
 border-radius: 50%;}
 
 .saludo{
-height:170px;
+height:150px;
 align-items: center;
 justify-content: center;
 margin: 0 auto;
 position: relative;
-margin-top: 35vh;
+margin-top: 38vh;
 padding: 2px;
-width: 80%;
+width: 95%;
 outline: 8px solid rgba(10,10,10,0.9);; 
 border-radius: 5px;
-border:6px ridge rgba(15, 127, 185,0.7);
+border:4px ridge rgba(15, 127, 185,0.7);
 background: rgba(10,10,10,0.9);
 box-shadow: 0px 0px 100px rgba(15, 127, 185,1);
-max-width:	 370px}
+max-width:350px}
 
 .saludo h1{ font-family: 'Stick No Bills', sans-serif;
 		font-weight: 500; 
@@ -2193,7 +2209,7 @@ max-width:	 370px}
 		 margin: 0 auto;
 		letter-spacing: 1px;
 		width:100%;
-		font-size: 45px; 
+		font-size: 40px; 
 		padding-top:30px ;
 		font-style: oblique;
 	color:rgb(7, 204, 101);
@@ -2215,12 +2231,11 @@ letter-spacing: 1px}
 /* bienvenida */
 .bienvenido{ width:90%; 
  margin: 40px auto;
- border: 0.3vh solid rgb(27, 68, 81);
+ border: 0.3vh 	solid rgb(27, 68, 81);
 background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268);
   padding: 30px 10px;
 box-shadow: 5px 1px 10px 10px black;
-max-width: 380px
-}
+max-width: 360px}
 
 .bienvenido h3 { 
 color:#dff4f7 ; 
@@ -2236,7 +2251,7 @@ text-shadow: 1px 1px 6px black;
 margin: 0px auto; 
 text-align: center;
 font-family: 'Ubuntu Condensed', sans-serif;
-max-width: 250px} 
+max-width: 300px} 
 
 .bienvenido p { color: #f7f1e3;  
 	justify-content ; 
@@ -2244,10 +2259,7 @@ max-width: 250px}
 	 font-family: TraditionSansXLight;
 	line-height: 1.2;
 width: 90%;
-margin: 15px auto;}		
-
-		
-		
+margin: 5px auto;}		
 
 /*web*/
 .pag-web{
@@ -2267,7 +2279,7 @@ max-width: 380px}
 margin: 0 auto;}
 
 
-.web  h4{font-size:20px;
+.web  h4{font-size:23px;
 font-family: 'Stick No Bills', sans-serif;
 text-shadow: 0px 5px 5px black;
 letter-spacing: 1px;
@@ -2379,8 +2391,6 @@ text-align: center;
 margin-top: 20px}
 
 
-
-
 .parte{
  border: 2px solid rgb(27, 68, 81);
   margin: 10px 0vh;}
@@ -2403,7 +2413,7 @@ margin-top: 20px}
 color: #ffff;
 	  	color: #fff; 
 	font-family: TraditionSansXLight;
-	padding: 10px;	}
+	padding:0px 10px;	}
 
 .parte{  cursor:pointer;}	
 
@@ -2413,7 +2423,7 @@ color: #ffff;
 
 /*web*/
 
-.proyectos{margin-top: 10px}
+.proyectos{margin-top: 0px}
 
 
 .trabajos{display: grid;
@@ -2422,7 +2432,7 @@ color: #ffff;
 	 justify-content: center;
 	align-items: center ;margin: 0px auto;
 position: relative;
-margin-top: 15px}
+margin-top: 0px}
 
 .proyectos p{  
 font-family: TraditionSansXLight;
@@ -2438,7 +2448,7 @@ width: 100%;
 border: 2px solid black;
 background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
 border-radius: 5%; 
-margin: 10px auto ;
+margin: 0px auto ;
 max-width: 330px}
 
 .pro img{width:95%; 
@@ -2573,7 +2583,7 @@ text-align: left;
 width: 95%;  }
 
 /*conocimiento*/
-.coon{width: 100%;margin: 10px auto;
+.coon{width: 90%;margin: 10px auto;
 max-width: 350px}
 
 .contmary{ 	; display: grid; 
@@ -2637,10 +2647,10 @@ background-size: cover;
 background-repeat: no-repeat;
 border-radius: 0%;
 width: 100%;
-padding: 0px 0px;
+padding: 20px 0px;
 margin: 0px auto;
-margin-top:10px;
-padding-top: 30px}
+margin-top:0px;
+padding-top:20px}
 
 
 .containerpx{width: 90%;
@@ -2687,6 +2697,52 @@ font-size: 25px}
 
 .container-form a i:hover {
 color:#27c3c1;}
+
+.footer-red-social ul{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	width: 200px;
+	margin: 0 auto;}	
+
+.footer-red-social ul li{position: relative;
+	list-style: none;
+	margin:0px;
+	cursor: pointer;display: flex; 
+	justify-content: center;
+	align-items: center;}
+
+.footer-red-social  ul li a {text-decoration: none;}
+
+.footer-red-social ul li a .fa 
+{font-size: 23px;
+	border-radius:50%;
+width: 45px; 
+height: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+background: rgb(0,0,0,0.7);}
+
+
+.footer-red-social  ul li a .fa-facebook:hover{
+background:#3b5998;
+transition: all 1 ease-out;
+box-shadow: 0px 0px 20px #3b5998 }
+
+.footer-red-social  ul li a .fa-instagram:hover{
+background:#9E37B8 ;
+box-shadow: 0px 0px 20px #9E37B8; 
+transition: all 1 ease-out}
+
+.footer-red-social  ul li a .fa-twitter:hover{  
+background:#00acee ;
+transition: all 1 ease-out;
+box-shadow: 0px 0px 20px #00acee }
+
+
+
+
 
 
 form{ 
@@ -2827,6 +2883,10 @@ color: #1DA1F2;
 font-style: normal}
 
 .red-social  ul li:hover a::before{height: 100%}
+
+
+.piedepag{background: rgba(0,0,0,0.7);
+padding: 0px}
 
  
  .grupo2{
