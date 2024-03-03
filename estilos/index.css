@@ -325,7 +325,7 @@ margin: 0 auto;
 position: relative;
 margin-top: 300px;
 padding: 2px;
-width: 460px;
+width: 440px;
 outline: 8px solid rgba(10,10,10,0.9);; 
 border-radius: 5px;
 border:6px ridge rgba(15, 127, 185,0.7);
@@ -339,7 +339,7 @@ box-shadow: 0px 0px 100px rgba(15, 127, 185,1)}
 		 margin: 0 auto;
 		letter-spacing: 1px;
 		width:100%;
-		font-size: 58px; 
+		font-size: 55px; 
 		padding-top:20px ;
 		font-style: oblique;
 	color:rgb(7, 204, 101);
@@ -404,7 +404,9 @@ color:rgb(90, 246, 113)
 align-items: center;;
 margin: 0 auto;
 text-align: center;
-text-shadow: 0px 0px 2px rgba(15, 127, 105,0.7)}
+text-shadow: 0px 0px 2px rgba(15, 127, 105,0.7);
+max-width:600px ;
+margin: 0 auto}
 
 
 
@@ -548,7 +550,7 @@ grid-template-columns: repeat(3,1fr);
  width:86%;
  margin: 20px auto;
 grid-gap: 10px;
-max-width: 1100px}
+max-width: 1200px}
 
 .parte{
  border:3px solid  #004F79;
@@ -612,16 +614,14 @@ color: white;
 ;width:90%;
 font-family: TraditionSansXLight;
 line-height: 1.3;
-margin-top: 15px;
 max-width: 600px;
 text-align: center;
-margin: 0px auto;
-margin-top: 20px}		
+margin: 10px auto;}		
 
 
 .trabajos{display: grid;
 	grid-template-columns: repeat(2,1fr); 
-	width:700px;  justify-content: center;
+	width:650px;  justify-content: center;
 	align-items: center ;margin: 0px auto;
 position: relative;
 grid-gap: 15px;
@@ -658,7 +658,7 @@ padding: 0px}
 		color: rgb(229, 245, 248);
 		 margin:0vh auto;
 		text-align: center;
-		width: 99%}				
+		width: 97%}				
 
 .pro button{font-family: TraditionSansXLight; 
 			padding: 5px 20px;
@@ -671,8 +671,7 @@ padding: 0px}
 			border: none;
 			display: flex;
 			letter-spacing: 1px;
-			background: rgb(8, 8, 8);
-			border: 1px solid black}
+			background: rgb(8, 8, 8);}
 
 
 .pro a { font-family: 'Stick No Bills', sans-serif; 
@@ -686,9 +685,8 @@ padding: 0px}
 	; 	cursor: pointer;
 			transition: all 400ms ease-in-out }
 
-.pro button:hover{background:#056937;;	
-	;transition: all 3s ease-out ;
-border: 1px solid #1b4125;;}
+.pro button:hover{background: rgb(4, 71, 109);
+transition: all 3s ease-out ;}
 
 .otros{
 padding:0vh 0vh 30px 0px;
@@ -818,7 +816,8 @@ color: green;
 font-size:25px;}
 
 
-.coon{width: 90%;margin: 30px auto;}
+.coon{width: 90%;margin: 30px auto;
+padding: 20px 0px}
 
 .coon p {font-size:20px;
 color: white;
@@ -1319,8 +1318,8 @@ box-shadow: 0px 0px 100px rgba(15, 127, 185,1)}
 		 margin: 0 auto;
 		letter-spacing: 1px;
 		width:100%;
-		font-size: 40px; 
-		padding-top:20px ;
+		font-size: 45px; 
+		padding-top:10px ;
 		font-style: oblique;
 	color:rgb(7, 204, 101);
 text-shadow: 0px 0px 5px rgba(05, 107, 15,1)}
@@ -1343,7 +1342,7 @@ letter-spacing: 1px}
 background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268) ;
 box-shadow: 4px 10px 10px 10px black;
   width: 100%;
-max-width: 480px;
+max-width: 450px;
 padding: 30px 0px}
 
 
@@ -1366,10 +1365,10 @@ padding:10px 0px}
 
 .bienvenido p {font-size:15px;
 color: white;
-;width:78%;
+;width:85%;
 font-family: TraditionSansXLight;
 line-height: 1.3;
-margin: 0px auto;
+margin: 5px auto;
 text-align: center;}		
 
 /* web */
@@ -1497,7 +1496,9 @@ text-shadow: 0px 5px 5px black;
 letter-spacing: 1px;
 margin-top:20px;
 display: flex;justify-content: center;
-align-items: center;}
+align-items: center;
+max-width: 400px ;
+margin: 0 auto}
 
 
 .partesweb{display: grid;
@@ -1550,11 +1551,10 @@ color: white;
 ;width:90%;
 font-family: TraditionSansXLight;
 line-height: 1.3;
-margin-top: 15px;
 max-width: 500px;
 text-align: center;
 margin: 0px auto;
-margin-top: 20px}		
+margin-top: 10px}		
 
 
 
@@ -2194,13 +2194,13 @@ margin: 0 auto;
 position: relative;
 margin-top: 38vh;
 padding: 2px;
-width: 95%;
+width: 87%;
 outline: 8px solid rgba(10,10,10,0.9);; 
 border-radius: 5px;
 border:4px ridge rgba(15, 127, 185,0.7);
 background: rgba(10,10,10,0.9);
 box-shadow: 0px 0px 100px rgba(15, 127, 185,1);
-max-width:350px}
+max-width:320px}
 
 .saludo h1{ font-family: 'Stick No Bills', sans-serif;
 		font-weight: 500; 
@@ -2231,11 +2231,11 @@ letter-spacing: 1px}
 /* bienvenida */
 .bienvenido{ width:90%; 
  margin: 40px auto;
- border: 0.3vh 	solid rgb(27, 68, 81);
+ border: 3px 	solid rgb(27, 68, 81);
 background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268);
   padding: 30px 10px;
 box-shadow: 5px 1px 10px 10px black;
-max-width: 360px}
+max-width:340px}
 
 .bienvenido h3 { 
 color:#dff4f7 ; 
@@ -2258,7 +2258,7 @@ max-width: 300px}
 	font-size:15px ;
 	 font-family: TraditionSansXLight;
 	line-height: 1.2;
-width: 90%;
+width: 95%;
 margin: 5px auto;}		
 
 /*web*/
@@ -2339,8 +2339,8 @@ background-position: center;
 padding:30px 20px   ;
 margin: 40px auto; 
 border-radius: 20px;
-width: 93%;
-max-width: 400px}
+width: 90%;
+max-width: 360px}
 
 .divido .parte1 {width: 100%}
 
@@ -2376,7 +2376,7 @@ line-height: 1 }
 grid-template-columns: repeat(1,1fr);
  width: 90%;margin: 10px auto;
 grid-gap: 0vh;
-max-width: 370px}
+max-width: 340px}
 
 #H5{font-size:25px;
 font-family: 'Stick No Bills', sans-serif;
@@ -2404,16 +2404,16 @@ margin-top: 20px}
  margin: 0 auto; }
  
 .parte h5 {  	 
-	  	padding-top: 2vh;
+	  	padding-top:10px;
 		 font-size:20px ; 
-	border-bottom: 0.3vh solid  #004F79; 
+	border-bottom:1px solid  #004F79; 
 		 }
 
 .parte p { font-size:15px; 
 color: #ffff;
 	  	color: #fff; 
 	font-family: TraditionSansXLight;
-	padding:0px 10px;	}
+	padding:10px;	}
 
 .parte{  cursor:pointer;}	
 
@@ -2422,6 +2422,10 @@ color: #ffff;
 		transition: all 1.5s ease-out}
 
 /*web*/
+
+
+.portafolio{padding-top: 10px }
+
 
 .proyectos{margin-top: 0px}
 
@@ -2441,7 +2445,7 @@ padding: 10px 0px;
 margin: 0  auto;
 text-align: center;
 width: 90%;
-max-width: 350px}
+max-width: 330px}
 
 .pro {
 width: 100%;  
@@ -2449,7 +2453,8 @@ border: 2px solid black;
 background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
 border-radius: 5%; 
 margin: 0px auto ;
-max-width: 330px}
+max-width: 330px;
+margin-bottom: 30px}
 
 .pro img{width:95%; 
 height: 140px;
@@ -2510,7 +2515,8 @@ padding: 10px 0px;
 width: 95%;	;
 margin: 0 auto}
 
-.otros p{ text-align: center; margin: 10px;
+.otros p{ text-align: center;
+ margin: 0px;
 font-size: 18px; 
 width:90%;
 margin: 0vh auto}
@@ -2535,11 +2541,11 @@ padding: 10px; }
 
 .ser{display: grid;
 grid-template-columns: repeat(1,1fr);
-grid-gap: 1.5vh;
+grid-gap:10px;
 width: 90%;
 margin: 20px auto;
 height: 100%;
-max-width: 370px}
+max-width: 330px}
 
 .ser .s1 div{
 width: 100%;}
@@ -2584,7 +2590,8 @@ width: 95%;  }
 
 /*conocimiento*/
 .coon{width: 90%;margin: 10px auto;
-max-width: 350px}
+max-width: 350px;
+padding: 20px 0px}
 
 .contmary{ 	; display: grid; 
 			grid-template-columns: repeat(1,1fr);
@@ -2602,7 +2609,7 @@ font-size:16px}
 	justify-content: center;
 	align-items: center;
 	height: 170px;
-	margin:10px auto}
+	margin:5px auto}
 
 .contalfa figure{position: relative;
 	height: 170px;
