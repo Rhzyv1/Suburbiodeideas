@@ -1,15 +1,14 @@
 *{margin: 0;
 padding: 0;
 box-sizing: border-box;}
-/* El scroll */
 
+/* El scroll */
 html , body{ max-width: 100% !important;
 	overflow-x: hidden !important;}
 
 html::-webkit-scrollbar{
 width: 1vw;
 background-image: linear-gradient(to right top, #051937, #002c49, #003f58, #005361, #006666);;}
-
 
 html::-webkit-scrollbar:hover{
 width: 1vw;
@@ -18,151 +17,149 @@ opacity: 1;
 visibility: visible;}
 
 html::-webkit-scrollbar-thumb{	
-border-radius: 10px;
+border-radius: 20px;
 background: #0a0a0a;
 box-shadow: 1px 2px 20px 20px rgba(0, 0, 0, 0.9);}
 
 body{
 margin: 0 auto;
-background:#051937;}
-
+background:#010f32;}
 
 /* Fonts */
 @font-face{
-font-family:TraditionSansXLight;
-src:url(../fonts/HindMadurai-Regular.ttf)}
+font-family:StickNoBills;
+src:url(../fonts/StickNoBills.ttf);}
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Raleway:ital,wght@1,300&family=Ubuntu+Condensed&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?famirly=Stick+No+Bills&display=swap');
-
+@font-face{
+font-family:Leonsans;
+src:url(../fonts/Leonsans.ttf);}
 
 /* header */
 header {
 width: 100%;
 height: 700px;
-background:  url(../img/fondo.webp); 
-background-color: rgba(0,0,0,0.6);
+background:  url(../img/Fondo-header.jpg);
 background-size: 100% 700px;
 background-repeat: no-repeat;
 position: relative;	
 background-attachment: fixed;}
 
 .what{position: fixed;
-bottom: 55px;
+bottom:100px;
 left:0px;
 color: white;
-font-size: 40px;
 z-index: 999;
-background: green;
-border-radius: 0px 30px 30px 0px;}
+background: green;}
 
-.what a i{padding: 10px 5px;
-position:   absolute;
-font-size:34px;
+.what a i{
+position: absolute;
+font-size:35px;
 background: green;
 z-index: 4;
 border-radius: 0px 30px 30px 0px;
-padding-right: 10px;}
+width: 50px ;
+height: 45px;
+display: flex;
+justify-content: center;
+align-items: center;}
 
-.what a{color: white;
+.what a{color:white;
 background: green;
 text-decoration: none;}
 
 .what a p{font-size: 18px; 
-padding: 0px 30px;
-padding-left: 45px;
-left: -200px;
+padding-left: 55px;
+left: -100px;
 width: 0px;
 position: absolute;;
 border-radius: 0px 30px 30px 0px;
-font-family: TraditionSansXLight;
 display: flex;
-align-items: center;}
+align-items: center;
+;font-family:Leonsans;}
 
 .what a:hover > p{
 opacity: 1;
 visibility: visible;;
 background: green;
 transition:all 1s ease ;
-width: 160px ;
+width: 150px ;
 left: 0px;
-font-family: TraditionSansXLight;
-height: 53px;}
-
+height: 45px;}
 
 .what2{position: fixed;
-bottom: 115px;
+bottom:50px;
 left:0px;
 color: white;
-font-size: 40px;
-z-index: 3;
-border-radius: 0px 30px 30px 0px;
-background-image: linear-gradient(to right top, #051937, #002c49, #003f58, #005361, #006666);}
+z-index: 999;
+background: green;}
 
-.what2 a i{padding:10px 5px ;
-position:   absolute;
-font-size:35px;;
+.what2 a i{
+position: absolute;
+font-size:30px;
+background: #0A396E;
 z-index: 4;
 border-radius: 0px 30px 30px 0px;
-padding-right: 20px;
-background:#006666}
+width: 50px ;
+height: 45px;
+display: flex;
+justify-content: center;
+align-items: center;}
 
 .what2 a{color: white;
-background: green;text-decoration: none;
-;}
+background: green;
+text-decoration: none;}
 
 .what2 a p{font-size: 18px; 
-padding: 0px 30px;
-padding-top:18px;
-padding-left: 50px;
+padding-left: 55px;
 left: -200px;
-height: 55px;
-width: 0px;position: absolute;;
+width: 0px;
+position: absolute;;
 border-radius: 0px 30px 30px 0px;
-		 font-family: TraditionSansXLight}
+display: flex;
+align-items: center;
+;font-family:Leonsans;}
 
 .what2 a:hover > p{
 opacity: 1;
 visibility: visible;;
-background: green;
+background:#0A396E;
 transition:all 1s ease ;
-width: 120px ;
+width: 130px ;
 left: 0px;
-font-family: TraditionSansXLight;
-background:#006666}
+height: 45px;}
 
+.todo{ background: rgba(2,0,1,0.8);
+height:70px;}
 
-.heade-a{max-width: 1700px ;
+.heade-a{margin: 0 auto;
+max-width: 1500px;
 margin: 0 auto;}
 
-.conten{ display: flex;}
+.conten{ display: flex;
+max-width: 1500px;
+margin: 0 auto}
 
-.btn-men{max-width: 1800px;
+.btn-men{
 margin: 0 auto;
 display:grid;
 grid-template-columns: repeat(2,1fr);
 width: 100%;
-background: rgba(0,0,0,0.7);
-border-radius: 0px 0px 20px 20px;;
-padding: 5px 0px}
+padding: 7px 0px;
+max-width: 1500px;}
 
-.conten i {
-font-size: 25px;
+.conten i{
+font-size: 28px;
 margin-left: 20px;
-margin-top: 14px;
-margin-right: 15px; 
-margin-left: 20px  ; 
+margin-top:20px;
+margin-right: 20px;  
 color: white; 
-cursor: pointer;
-padding: 10px;}
-
+cursor: pointer;}
 
 .conten i:hover {
-color: #2feab8
-;transition: all 1s ease;}
+color:#2feab8;
+;transition: all 1s ease;
+filter: drop-shadow(0px 0px 1px #2feab8);
+transform: rotate(-90deg);}
 
 .conten nav {display: inline-flex;
 justify-content: right;
@@ -171,55 +168,54 @@ align-items: right;}
 .conten nav ul{margin-right: 5px;
 margin-top: 20px}
 
-
 .conten nav li{
 display:inline-block;
 text-decoration: none;
 color: #ffff;
 margin-right: 10px; ;}			
 
-.conten nav  a {
+.conten nav a{
 text-decoration: none;
 color: #ffff; 
-font-family: 'Stick No Bills', sans-serif;
 font-style: normal;
 font-size: 23px;
-letter-spacing: 0.1vh;
-padding-bottom: 1px}
+border-bottom: 3px solid transparent;
+font-family:StickNoBills;
+letter-spacing: 1px;}
 
 .conten nav ul li #inicio{  
 cursor: pointer;
 transition: all 1s ease;
-color:#2feab8;}
+color:#2feab8;
+border-bottom: 2px solid #2feab8}
+
 
 .conten nav ul li a:hover{
-border-bottom: 2px solid #2feab8;
+border-bottom: 2px solid;
+color:#2feab8;
 transition: all 300ms ease-out;
 cursor: pointer;
-transition: all 2s ease;
-color:#2feab8;}
-
-
+text-shadow: 0px 0px 20px black;
+width: 100%}
 
 .conten nav a img{
 width:50px;
-height: 40px
+height: 45px
 ; border-radius: 50%;
 background: rgba(21, 23, 23,0.5);
-margin-top:13px;
-margin-right: 30px;}
+margin-top:10px;
+margin-right: 30px;
+opacity: 0.8}
 
-
-.conten nav a img:hover{box-shadow: 0px 0px 20px white}
-
-
+.conten nav a img:hover{box-shadow: 0px 0px 20px #24dff9;
+opacity:1}
 
 #btn-men{position: relative;
 display: none;}
 
 .container-menu{
 position: absolute;
-background: rgba(0,0,0,0.9);
+background: rgba(7,7,7,0.99);
 height:700px;
 width: 300px;
 top: -1400px;
@@ -236,9 +232,7 @@ opacity: 1;
 visibility: visible;
 transition: all 1.5s ease;
 top:0%;
-
 z-index: 999}
-
 
 .cont-menu{ 
 width: 100%;
@@ -249,60 +243,77 @@ max-width: 1800px ;
 margin: 0 auto;
 z-index: 999}
 
-.cont-menu nav{margin-top: 70px}
+.cont-menu nav{margin-top:80px}
 
 .cont-menu  nav a{ 
 	display: block; 
 text-decoration: none;
-font-family: 'Stick No Bills', sans-serif;
 font-style: normal;
  font-size: 23px;
-color: #c7c7c7c7;
-padding:10px ;
-}
+color: #c7c7c7c7;;
+font-family:StickNoBills;
+display: flex;
+justify-content: center;
+align-items: center;
+padding:7px;
+margin: 0px 10px;
+border-radius:20px}
 			
 .cont-menu nav a:hover{ 
-background:rgba(28, 125, 155,0.4); 
+background:rgba(38, 125, 200,0.4); 
 color:#ffff  ;
-transition: all 1.2s ease-out;}
-
-
+transition: all 1.2s ease-out;
+box-shadow: 0px 0px 2px rgba(38, 125, 200,0.4)}
 
 .cont-menu nav .sociales{display: flex;;
 align-items: center;
 justify-content: center;
-margin: 0px auto;
-padding: 0px;
-background:#03353c;
-margin-top: 20px}
+margin:10px auto;}
 
 .cont-menu  nav .sociales a{ 
 	display: block; 
 text-decoration: none;
 font-family: 'Stick No Bills', sans-serif;
 font-style: normal;
- font-size: 35px;
+ font-size: 34px;
 color: #c7c7c7c7;
-border-radius: 50%;}
+border-radius: 50%;
+padding: 0px 20px}
 
+.cont-menu  nav .sociales a:hover{ 
+background:transparent; 
+color:#ffff  ;
+transition: all 1.2s ease-out;
+animation:loop 2s infinite ;
+box-shadow: 0px 0px  0px rgba(38, 125, 200,0.4)}
 
-.cont-menu nav a:hover{ 
-background:rgba(28, 125, 155,0.4); 
-color:#ffff ;
-transition: all .5s ease;}
+@keyframes  loop{
+	0%{transform:scale(1.0);}
+	50%{transform:scale(1.3)}
+	100%{transform:scale(1.0)}}
 
+.cont-menu  nav .sociales a .fa-facebook:hover{
+color:#0253cc;
+transition: all 1 ease-out;
+filter: drop-shadow(0px 0px 10px #0253cc);}
 
-.cont-menu  nav .sociales a:hover{
-color:#2feab8;
-background: transparent;
-border-left:  solid black;
-border-left: 0px solid black;}			
+.cont-menu  nav .sociales a .fa-instagram:hover{
+color: #9E37B8 ;
+filter: drop-shadow(0px 0px 10px #9E37B8);  
+transition: all 1 ease-out}
+
+.cont-menu  nav .sociales a .fa-twitter:hover{  
+color: #00acee ;
+transition: all 1 ease-out;
+filter: drop-shadow(0px 0px 10px #00acee ) }
+
 
 .cont-menu  nav a #inicio{  
 cursor: pointer;
 transition: all 1s ease;
 background:rgba(28, 125, 155,0.4); 
-color: red}
+color: red;
+border-bottom: 2px solid }
 
  .cont-menu label{ position: absolute; 
 right: 10px;
@@ -311,174 +322,149 @@ cursor: pointer;
 font-size:24px  ;
 border: 1px solid transparent;
 border-radius: 50%;
-top: -55px;
-transform: rotate(90deg);
-padding: 4px 7px ;
-border-left: 1px solid black;}      
+top: -60px;;
+padding: 4px 8px ;
+transform: rotate(-90deg)}      
 
 .cont-menu label:hover {color:#2feab8;
-	transition: all 2s ease;}
+filter: drop-shadow(0px 0px 1px #2feab8) ;
+transition: all 1s ease;
+transform: rotate(90deg)}
 
 .saludo{
-height:150px;
 align-items: center;
 justify-content: center;
 margin: 0 auto;
 position: relative;
-margin-top: 300px;
-padding: 2px;
-width: 450px;
-outline: 8px solid rgba(10,10,10,0.9);; 
-border-radius: 5px;
-border:6px ridge rgba(15, 127, 185,0.7);
-background: rgba(10,10,10,0.9);
-box-shadow: 0px 0px 100px rgba(15, 127, 185,1)}
+margin-top: 250px;
+width: 600px;
+background: rgba(0,0,0,0.7);
+padding: 30px;
+border-radius:10px;
+box-shadow: 0px 0px 50px rgba(0,0,0,0.6)}
 
-.saludo h1{ font-family: 'Stick No Bills', sans-serif;
-		font-weight: 500; 
-		 text-shadow: 10px 6px 10px black;
-		text-align:center;
-		 margin: 0 auto;
-		letter-spacing: 1px;
-		width:100%;
-		font-size: 55px; 
-		padding-top:10px ;
-		font-style: oblique;
-	color:rgb(7, 204, 101);
-text-shadow: 0px 0px 5px rgba(05, 107, 15,1)}
-
+.saludo h1{ 
+font-family:StickNoBills;
+text-shadow: 10px 6px 10px black;
+text-align:center;
+margin: 0 auto;
+color:#dff4f7 ;  
+font-size:75px;
+text-align: center;
+text-shadow: 0px 0px 2px white}
 
 .saludo  h2 {color:rgb(255, 255, 211) ; 
-font-family: 'Ubuntu Condensed', sans-serif;; 
 font-size: 30px;
 text-align: center; line-height: 1;
-padding-top: 10px;
-letter-spacing: 1px}		
-
-
-
+font-family: monospace;
+color: #2feab8
+;font-family:Leonsans;
+letter-spacing: 2px}		
 
 /* bienvenida */
-
 .bienvenido{ margin: 60px auto;
- border: 2px solid rgb(17, 18, 21);
-background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268) ;
-box-shadow: 4px 10px 10px 10px black;
-  width: 100%;
+width: 100%;
 max-width: 600px;
-padding: 50px 0px}
-
+padding: 30px 0px;
+border: 1px solid #3A5176;
+;border-radius: 30px;
+background-color: #0b154e;
+background-image: linear-gradient(43deg, #0b154e 0%, #235677 46%, #1c8875 100%);
+}
 
 .bienvenido h3 { 
-color:#dff4f7 ; 
-font-family: 'Ubuntu Condensed', sans-serif;; 
-font-size:48px;
+color:#dff4f7 ;  
+font-size:55px;
 text-align: center;
 text-shadow: 0px 0px 2px white;;
-margin: 0px;}
+margin: 0px;
+letter-spacing: 2px;
+font-family:StickNoBills;}
 
 .bienvenido h4 { 
-color: #2feab8;
-font-family: 'Ubuntu Condensed', sans-serif;; 
+color: #2feab8; 
 font-style: italic;
-font-size:40px;  
+font-size:35px;  
 text-shadow: 1px 1px 15px black;
 text-align: center;
-padding:10px 0px} 
+width: 90%;
+margin: 0 auto;
+font-family:Leonsans;} 
 
-.bienvenido p {font-size:20px;
+.bienvenido p {
+font-size:18px;
 color: white;
-font-family: TraditionSansXLight;
-line-height: 1.3;
 margin: 0px auto;
 margin-top: 10px;
 text-align: center;
-padding:0px 30px}		
-
-
-#H5{font-size:40px;
-color:rgb(13, 123, 65) ;
-font-family: 'Stick No Bills', sans-serif;
-text-shadow: 0px 5px 5px black;
-letter-spacing: 3px;
-color:rgb(90, 246, 113)
-;display: flex;justify-content: center;
-align-items: center;;
-margin: 0 auto;
-text-align: center;
-text-shadow: 0px 0px 2px rgba(15, 127, 105,0.7);
-max-width:560px ;
-margin: 0 auto}
-
-
+width: 90%;
+font-family:Leonsans;}		
 
 /* web */
 .pag-web{
-background: rgba(0,0,0,0.7);}
+background: rgba(0,0,0,0.6);
+padding:50px 0px}
 
 .pag-web-a{display:grid;
 	grid-template-columns: repeat(2	,1fr);
-width:100%;
+width:94%;
 margin: 0% auto;
-padding: 40px 20px;
-max-width: 1100px}
-
-.web{width: 90%;
-margin: 0 auto;
 max-width: 1200px}
 
+.web{width:100%;
+margin: 0 auto;}
 
-.web  h4{font-size:35px;
-font-family: 'Stick No Bills', sans-serif;
+
+.web  h4 {font-size:35px;
 text-shadow: 0px 5px 5px black;
-letter-spacing:2px;
-margin-top:20px;
-color:rgb(7, 184, 101);
 text-shadow: 0px 0px 2px rgba(15, 127, 185,0.7);
-color:rgb(13, 193, 65) ;
-}
+color: rgb(13, 213, 45);
+font-family:Leonsans;
+letter-spacing: 1px;
+margin-top: 10px}
 
 
+.pag-web:hover  .pag-web-a .web h4{text-shadow:0px 0px 20px rgb(37, 127, 100) 
+;cursor: pointer;}
 
-.web p {font-size:20px;
+.web p {font-size:19px;
 color: white;
-;width:100%;
-font-family: TraditionSansXLight;
+;width:90%;
 line-height: 1.3;
 margin-top: 15px;
-max-width: 600px;
 text-align: left;
-margin-bottom: 30px}		
+margin-bottom: 30px;
+font-family:Leonsans;}		
 
-.web a{text-decoration: none;margin-top: 40px}
+.web a{text-decoration: none;
+	margin-top: 40px}
 
 .web #car {
-	padding:10px 40px;
+	padding:10px 30px;
   cursor: pointer;
-  margin: 20px 0px;
   text-align:center;
   border: none;
   color: white;  
 font-size:20px ;
-	 font-family: TraditionSansXLight;
-	 border-radius:20px;
+border-radius:20px;
+font-family:Leonsans;
+letter-spacing: 1px;
   background-size: 300% 100%;
-  background-image: linear-gradient(
-    to right,rgb(101, 14, 188),rgb(37, 127, 120) , #091F92 ,rgb(110, 34, 211));
+  background-image: linear-gradient(to right,rgb(101, 14, 188),
+  rgb(37, 127, 120) , #091F92 ,rgb(110, 34, 211));
   box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);}
 
-.web #car:hover {
+.pag-web:hover > .pag-web-a .web #car {
   background-position: 75% 0;
-  transition: all 2s ease-in-out;
-  box-shadow: 0 0px 50px rgba(45, 54, 65, 0.9);}
-
+  transition: all 5s ease;
+box-shadow: 0px 0px 20px rgba(45, 54, 65,1)}
 
 .pag-web .img{  
 position: relative;
 background:  url(../img/foo.webp) 
 ;background-size: 90% 300px;
 background-repeat: no-repeat;
-max-width: 540px}
+max-width: 600px}
 
 .pag-web .img img {  
 justify-content ; 
@@ -487,8 +473,13 @@ border-radius: 5px;
 margin: 0 auto;
 width: 70%;
 ;height: 300px;
-max-width: 600px
-}
+max-width: 550px}
+
+
+.pag-web:hover > .pag-web-a .img{
+	transition: 1s ease all;
+filter: drop-shadow(0px 0px 3px #24dff9)}
+
 
 /* beneficios */
 .divido{
@@ -497,77 +488,83 @@ grid-template-columns: repeat(2,1fr);
 background: url(../img/banner.webp);
 background-size: 100% 100%;
 background-position: center;
-padding:  40px;
-margin:40px auto; 
+padding:50px 60px;
+margin:80px auto; 
 border-radius: 20px;
-width: 90%;
+width: 85%;
 max-width: 1200px}
 
 .divido .parte1 {width: 100%}
 
 
-.divido h5{font-size:30px;
+.divido h5{font-size:26px;
 color:white ;
-font-family: 'Stick No Bills', sans-serif;
 text-shadow: 0px 5px 5px black;
-letter-spacing: 1px; }
+letter-spacing: 1px; 
 
+font-family:Leonsans;}
 
-
-.divido p {font-size:20px;
+.divido p {font-size:18px;
 color: white;
 ;width:90%;
-font-family: TraditionSansXLight;
 line-height: 1.5;
 margin-top: 15px;
 max-width: 500px;
 text-align: left;
-margin-bottom: 0px}		
-
+margin-bottom: 0px;
+font-family:Leonsans;}		
 
 .divido article ul{
 margin-top: 15px;}
 
-.divido article li {font-size:20px;
+.divido article li {font-size:18px;
 color: white;
-;width:90%;
-font-family: TraditionSansXLight;
 line-height: 1.3;
-margin-top: 2px;
 max-width: 500px;
 text-align: left;
-list-style: none;}		
-
-
+list-style: none;
+font-family:Leonsans;}		
 
 .divido article li::before {
   content: "+ ";
   font-size:22px;}
 
-
-
 /* partes*/
 .partesweb{display: grid;
 grid-template-columns: repeat(3,1fr);
- width:86%;
- margin: 20px auto;
+ width:90%;
+ margin: 40px auto;
 grid-gap: 10px;
-max-width: 1200px}
+max-width: 1300px;
+font-family:Leonsans;}
 
 .parte{
- border:3px solid  #004F79;
+ border:1px solid  #004F79;
 width: 100%; 
 cursor:pointer;
 margin: 0 auto;
   background-size: 100% 300%;;
-  box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);
+  box-shadow: 0px 4px 10px rgba(45, 54, 65, 0.5);
 background-image: linear-gradient(to bottom, black, black,rgb(94, 9, 207),rgb(38, 26, 95))}
 
 
 .parte:hover{
-transform: translateY(-7%);;
+transform: translateY(-10%);;
   background-position:0px 40% ;
-  transition: all 2s ease-in-out;}
+  transition: all s1 ease-in-out;
+border: 1px solid rgb(38, 26, 95)}
+
+.parte h4 {  	 
+		line-height: 1; color: #ffff;
+	  	color: #fff;
+	  	padding-top: 20px;  
+		 font-size:22px ; 
+		 border-bottom: 2px solid  #004F79; 
+		 width: 40%;
+		 letter-spacing: 1px;
+		padding-left: 20px;}
+
+
 
 .parte figure img{ width: 100% ;
  height: 150px; 
@@ -581,64 +578,62 @@ transform: translateY(-7%);;
 .parte h5 {  	 
 		line-height: 1; color: #ffff;
 	  	color: #fff;
-	  	padding-top: 20px;
-	  	padding-bottom: 5px;  
+	  	padding-top: 20px;  
 		 font-size:22px ; 
-		 border-bottom: 1px solid  #004F79; 
+		 border-bottom: 2px solid  #004F79; 
 		 width: 40%;
 		 letter-spacing: 1px;
-		padding-left: 20px;
-		font-family: TraditionSansXLight;}
+		padding-left: 20px;}
 
-.parte p { font-size: 19px;
-color: #ffff;
-font-family: TraditionSansXLight;
-padding:10px}
+.parte p { font-size: 18px;
+color: #ffff;;
+padding:10px 10px 20px 10px;
+font-family:Leonsans;}
 
 .portafolio{
 width: 100%;
- 	 align-items: center; 
- 	 margin:0px auto; 
- 	 text-align: center; 
+align-items: center; 
+margin:0px auto; 
+text-align: center; 
 background-size: 100% 100%;
 background-repeat: no-repeat;
 padding-top: 30px;
  background-image: url(../img/pro.svg);	
-		background-size: cover;
+ background-size: cover;
 		background-repeat: no-repeat;
 		 background-position: center; }
 
-.proyectos{margin-top: 20px;
-}
+.proyectos{margin-top: 20px;}
 
 .proyectos p {font-size:20px;
 color: white;
 ;width:100%;
-font-family: TraditionSansXLight;
 line-height: 1.3;
 max-width:750px;
 text-align: center;
-margin: 10px auto;}		
+margin: 10px auto;
+font-family:Leonsans;}		
 
 
 .trabajos{display: grid;
-	grid-template-columns: repeat(2,1fr); 
-	width:650px;  justify-content: center;
-	align-items: center ;margin: 0px auto;
-position: relative;
-grid-gap: 15px;
-  padding: 20px 0px;
-grid-gap:0px 30px }
+grid-template-columns: repeat(4,1fr); 
+width: 100%;
+max-width:1700px;
+justify-content: center;
+align-items: center ;
+margin: 0px auto;;
+padding: 20px 0px;}
 
 
-.pro {width:100%;  
+.pro {width:95%;  
 border: 1px solid black;
-background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
-border-radius: 5%; 
+background: #1b4125 
+border-radius:20px; 
 margin: 10px auto ;
 padding: 0px}
 
-.pro img{width: 90%; height: 160px;
+.pro img{width:100%;
+height:250px;
 margin: 0px auto;
 justify-content: center;
 align-items: center;
@@ -647,23 +642,24 @@ border-radius: 10px;
 padding: 0px}
 
 
-.pro h3 { font-family: 'Stick No Bills', sans-serif;
+.pro h3 { 
 		color:rgb(229, 245, 248); 
 		font-size: 28px;
 		text-align: center;
-		letter-spacing: 2px;}
+		letter-spacing: 2px;
 
-.pro p   { font-family: TraditionSansXLight; 
-		line-height: 1.3; 
+font-family:Leonsans;}
+
+.pro p   {	line-height: 1.3; 
 		padding: 10px 5px;
 		font-size: 17px;
 		color: rgb(229, 245, 248);
 		 margin:0vh auto;
 		text-align: center;
-		width: 97%}				
+		width: 97%;
+font-family:Leonsans;}				
 
-.pro button{font-family: TraditionSansXLight; 
-			padding: 5px 20px;
+.pro button{padding: 5px 20px;
 			padding-top: 10px;
 			color: rgb(29, 43, 131);
 			margin: 0vh auto;
@@ -676,16 +672,18 @@ padding: 0px}
 			background: rgb(8, 8, 8);}
 
 
-.pro a { font-family: 'Stick No Bills', sans-serif; 
+.pro a { font-family:StickNoBills; 
 		line-height: 1.2; 
 		padding: 1px;
 		font-size:20px;
 		color:#cccccc;;
 		 text-decoration:none;}
 
-.pro:hove{ box-shadow:1px 1px 10px 10px rgba(27, 151, 164,0.5)
+.pro:hover{ box-shadow:1px 1px 10px 10px rgba(27, 151, 164,0.5)
 	; 	cursor: pointer;
-			transition: all 400ms ease-in-out }
+		transform: scale(1.1);
+		z-index: 2;background: black}
+
 
 .pro button:hover{background: rgb(4, 71, 109);
 transition: all 3s ease-out ;}
@@ -720,8 +718,18 @@ justify-content: center;}
 .otros div  a:hover{ ;
 	color:rgba(100, 200, 78,0.7) }
 
-#servicio{background: rgba(0,0,0,0.7);
-	padding: 60px 0px }
+#servicio{;
+	padding: 60px 0px ;
+background: rgba(0,0,0,0.6);}
+
+#servicio h4{font-size:40px;
+color: #2feab8;
+;width:70%;
+line-height: 1.3;
+margin: 10px auto;
+text-align:center;
+max-width: 700px;
+font-family:Leonsans;}
 
 .ser{display: grid;
 grid-template-columns: repeat(3,1fr);
@@ -738,7 +746,7 @@ width: 100%;}
 .ser .s1 div img{
 	width: 100%;
 background: rgb(6, 12, 17);
-height: 250px;
+height: 230px;
   box-shadow: 0 4px 15px rgba(45, 54, 65, 0.5);
 margin-bottom: 10px}
 
@@ -748,28 +756,26 @@ text-align: center;
 padding-top: 5px;
 width: 96%;
 color: white;  
-font-family: TraditionSansXLight;
-color: #ecf0f1; ;}
+color: #ecf0f1;
+font-family:Leonsans}
 
 .ser .s1 div p{
-font-size:18px;
+font-size:16px;
 text-align: left;
 width: 100%;
-font-family: TraditionSansXLight;
 color: #ecf0f1; 
 font-style: normal;
-line-height: 1.5;
-padding: 10px;
-margin-top: 0px}
+line-height: 1.3;
+padding:5px 15px;
+margin-top: 0px;
+font-family:Leonsans}
 
 .ser .s0 {
 	width: 100%;
-background: rgba(0, 2, 0,0.9);
 padding:20px 0px;
   background-size:400% 100%;
   background-image: linear-gradient(
-    to right, black, black, rgb(110, 34, 171), rgb(110, 34, 111));
-  box-shadow: 0 4px 15px rgba(45, 54, 65, 0.5);}
+    to right, black, black, rgb(110, 34, 171), rgb(110, 34, 111));}
 
 
 .ser .s0:hover{
@@ -783,35 +789,35 @@ cursor: pointer;
 
 .ser .s2 div img{
 	width: 100%;
-	height:220px;
-	margin-top: 10px ;
-
-  box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);}
+	height:193px;
+	margin-top: 10px ;}
 
 .ser .s2 div p{
-font-size:18px;
+font-size:16px;
 text-align: left;
 width: 100%;  
 font-family: TraditionSansXLight;
 color: #ecf0f1	; 
 font-style: normal;
-line-height: 1.5;
-padding: 10px;
-margin-top: 0px}
+line-height: 1.3;
+padding:5px 15px;
+margin-top: 0px;
+font-family:Leonsans}
 
 .ser .s3{
 background: rgba(6, 12, 17,0.9)	;}
 
 
 .ser .s3  li{
-font-size:18px;
+font-size:16px;
 text-align: left;
-width: 100%;  
-font-family: TraditionSansXLight;
-color: #ecf0f1; 
+width: 100%;color: #ecf0f1; 
 font-style: normal;
 list-style: none;
-padding:0px 10px}
+line-height: 1.3;
+padding:0px 15px;
+margin-top: 0px;
+font-family:Leonsans}
 
 .ser .s3  li::before{content:"! " ;
 color: green;
@@ -819,21 +825,30 @@ font-size:25px;}
 
 
 .coon{width: 90%;margin: 0px auto;
-padding: 40px 0px}
+padding: 20px 0px}
 
-.coon p {font-size:20px;
-color: white;
+.coon h5 {font-size:40px;
+color: #2feab8;
 ;width:70%;
-font-family: TraditionSansXLight;
 line-height: 1.3;
 margin: 10px auto;
 text-align:center;
-max-width: 700px}		
+max-width: 700px;
+font-family:Vactory}		
+
+
+.coon p {font-size:17px;
+color: white;
+;width:65%;
+line-height: 1.3;
+text-align:center;
+font-family:Leonsans;
+margin: 0px auto;
+max-width: 700px;}		
 
 
 .contmary{  display: grid; 
 			grid-template-columns: repeat(3,1fr);
-			grid-gap: 10px;
 			width: 85%;
 			margin: 0px auto;
 			max-width: 1100px}
@@ -843,1881 +858,130 @@ max-width: 700px}
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 200px;;}
+	height: 200px;
+margin-bottom: 10px}
 
 .contalfa figure{position: relative;
 	height:200px;
 	width: 95%;
 	overflow: hidden;
-	border-radius: 6px;
-	box-shadow: 1px 7px 5px  rgba(0,0,0,0.5)
+	box-shadow:0px 0px 5px  rgba(0,0,0,0.5)
 	;cursor: pointer;}
 
-.contalfa figure img{ width: 100%; 
-		height: 200px;
-		 transition: all 500ms ease-out}
+.contalfa figure img{ 
+width: 100%; 
+height: 200px;
+transition: all 500ms ease-out}
 
-.contalfa figure .capa2{position: absolute;
-	top: 0; width: 100%;
-	height: 200px;
-	background: rgba(64, 73, 87,0.9);
-	opacity: 0;
-	visibility: hidden;
-	text-align: center;
-  border: 0.1vh solid black;}
+.contalfa figure .capa2{
+position: absolute;
+top: 0; 
+width: 100%;
+height: 200px;
+background: rgba(24, 23, 27,0.9);
+opacity: 0;
+visibility: hidden;
+text-align: center;
+border: 1px solid black;}
 
 .contalfa figure:hover > .capa2{opacity: 1;
 	visibility: visible; 
 width: 100%;
-transition: all 3s ease ; 
-		}
+transition: all 3s ease ; }
 
 .contalfa figure:hover > .capa2 h4{
 		padding: 0; 
-		font-family: TraditionSansXLight ;
 		transition: all 1.5s ease ; 
 			color: #fff;
 		font-size:25px;
 		width: 100%;
 		text-align: center;
-		margin-top: 10px}
+		margin-top: 20px;
+font-family:Leonsans;}
 
 
-.contalfa figure:hover > .capa2 p{margin:0px auto; 
-	padding: 0px;
-font-size:19px;
+.contalfa figure:hover > .capa2 p{
+	margin:0px auto; 
+font-size:18px;
 transition: all 700ms ease ;color: #fff;
-font-family: TraditionSansXLight ;width: 95%;
-transition: all 1.5s ease }
+width: 90%;
+transition: all 1.5s ease;
+font-family:Leonsans;}
 
 .container-form {
-background-image: url(../img/fondo2.svg);
-background-size:contain;
 width: 100%;
-padding: 60px 0px;
-margin-top: 40px}
+margin-top: 30px;
+background: hsla(205, 28%, 28%, 1);
+background: radial-gradient(circle, hsla(205, 28%, 18%, 1) 0%, hsla(0, 3%, 6%, 1)95%);
+padding: 30px 0px}
 
 .all{padding: 0px}
 
 .containerpx{width: 90%;
 display: grid; 
 grid-template-columns: repeat(2,1fr);
-grid-gap: 20px;
+grid-gap: 40px;
 margin: 0px auto;
-max-width: 1100px}
-
+max-width: 1200px;
+padding:20px 0px;}
 
 .info-form h6 {
-margin: 5px 0px;
-font-size: 23px;
+font-size: 24px;
 color:#ffff ;
-font-family: monospace;}		
-
-.info-form p{
-width: 90%; 
-font-size: 18px;
-line-height: 1.3; 
-margin: 5px 0px ;  
-color:#ffff;	
-padding: 10px 0px ;
-font-family: TraditionSansXLight  ;
-text-align: left;
-font-style: normal;
-max-width: 800px}
-
-.container-form a {
-	font-family: TraditionSansXLight ;
-	font-size: 18px;
-	display: inline-block;
-	text-decoration: none;
-	width:80%;
-	 color:#ffff;
-	font-weight: 600px;
-border-bottom:3px solid transparent;
-padding:5px 10px }
-
-.container-form a i {
-color:rgb(90, 166, 113);
-font-size: 25px;}
-
-.container-form a:hover{
-color:rgb(90, 166, 113);
-font-size: 20px} 
-
-
-
-.footer-red-social ul{
-	display: grid;
-	grid-template-columns: repeat(3,1fr);
-	width: 200px}	
-
-.footer-red-social ul li{position: relative;
-	list-style: none;
-	margin: 10px;
-	cursor: pointer;display: flex; 
-	justify-content: center;
-	align-items: center;}
-
-.footer-red-social  ul li a {text-decoration: none;}
-
-.footer-red-social ul li a .fa 
-{font-size: 30px;
-	border-radius:50%;
-width: 55px; 
-height: 55px;
-display: flex;
-justify-content: center;
-align-items: center;
-color: white;
-background: rgb(0,0,0,0.7);}
-
-
-.footer-red-social  ul li a .fa-facebook:hover{
-background:#3b5998;
-transition: all 1 ease-out;
-box-shadow: 0px 0px 20px #3b5998 }
-
-.footer-red-social  ul li a .fa-instagram:hover{
-background:#9E37B8 ;
-box-shadow: 0px 0px 20px #9E37B8; 
-transition: all 1 ease-out}
-
-.footer-red-social  ul li a .fa-twitter:hover{  
-background:#00acee ;
-transition: all 1 ease-out;
-box-shadow: 0px 0px 20px #00acee }
-
-
-
-
-form{ 
-border: 3px solid rgb(60, 166, 113);
-	;width: 90%;
-padding: 10px ;
-background: rgba(0,0,0,0.8);
-border-radius: 10px}
-
-.container-form form .campo
-{background:none;
-display: block;
-margin: 20px 10px;
-width:50%; 
-padding: 10px;
-font-size: 18px;
-border: 0;
-border-bottom: 2px solid rgb(60, 166, 113);	
-outline: 0px;
-outline:none; border: 2;
-cursor: pointer;
-color: white;
-width: 90%;
-font-family: TraditionSansXLight }
-
-.container-form form .campo::placeholder {
-color: white;
-font-size: 20px;
-background: none;
-font-family: TraditionSansXLight }
-
-
-.select{
-	appearance: none;
-	-webkit-appearance: none;
-	-moz-appearance: none;}
-
-.select::-ms-expand {
-    display: none;}	
-
-.select{
-	display: inline-block;
-	cursor: pointer;
-  	outline: 0; 
-  	color: white;
-	font-size: 18px;
-	 font-family: TraditionSansXLight; 
-    transition: all 0.25s ease;
-    outline:none;
-	border: 0;
-	border-bottom : 2px solid rgb(60, 166, 113);
-	background:  none;
-	margin: 10px;
-	width:90%; 	
-	padding: 10px;}
-
-.select option{background:black;}
-
-.container-form .btn-enviar
-{display: flex;
-align-items: center;
-justify-content: center;
-margin: 0 auto;
-padding: 10px;
-font-size:18px;
-border: none;
-outline: 0px;
-color:white;
-border: 1px solid rgb(60, 166, 113);
-cursor: pointer;
-transition: all 400ms ease;
- font-family: TraditionSansXLight;
-margin-top: 15px;
-border-radius: 20px;
-background:rgba(13, 3, 8,0.8);
-}
-
-.container-form .btn-enviar:hover {
-border: 1px solid rgb(60, 166, 113);
-background: rgb(15, 121, 136);
-;color: black;
-text-shadow: 0px 0px 10px white}
-
-.piedepag .grupo1{
-	width: 100%;
-	margin: auto;
-	grid-gap: 5px;
-	padding: 10px 0px }
-
-
-.piedepag{background: rgba(0,0,0,0.7);
-padding: 15px}
-
- .grupo2{
-text-align: center; 
-font-family: 'Ubuntu Condensed', sans-serif;
-padding: 0vh;
-width: 700px;
-margin: 0 auto;}
-
-
- .grupo2 a{text-decoration: none;
-font-size:18px ;
-font-family: TraditionSansXLight;
-color:white;
-width: 100%}
-
- .grupo2 a b{
-font-size: 18px ;
-font-family: TraditionSansXLight;
-color: #24dff9}
-
-
- .grupo2 a b:hover{
-font-size: 18px ;
-font-family: TraditionSansXLight;
-color: green}
-	
-
- .grupo2 a:hover{
-font-size: 18px ;
-font-family: TraditionSansXLight;
-color:white}
-
-
-
-
-
-/*Para tableta*/
-@media screen and (min-width: 550px) and (max-width: 1023px)
-{	
-
-header {
-    width: 100%;
-    height: 500px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: center;
-    background-size: 100% 500px;}
-
-
-.what{position: fixed;
-bottom:40px;
-left:0px;
-color: white;;
-z-index: 4;
-background: green;
-border-radius: 0px 30px 30px 0px;}
-
-.what a i{padding: 1px;
-position:   absolute;
-font-size:27px;
-background: green;
-z-index: 4;
-border-radius: 0px 30px 30px 0px;;
-padding: 5px;}
-
-.what a{color: white;
-background: green;text-decoration: none;}
-
-.what a p{font-size: 13px; 
-padding: 0px 10px;
-padding-top:5px;
-padding-left: 42px;
-left: -100px;
-height: 37px;
-width: 0px;position: absolute;;
-border-radius: 0px 30px 30px 0px;
-font-family: TraditionSansXLight;
-
-background: green;}
-
-.what a:hover > p{
-opacity: 1;
-visibility: visible;;
-background: green;
-transition:all 0.5s ease ;
-width: 130px ;
-left: 0px;
-font-family: TraditionSansXLight;
-height:37px;}
-
-
-
-
-
-.what2{position: fixed;
-bottom:80px;
-left:0px;
-color: white;;
-z-index: 4;
-border-radius: 0px 30px 30px 0px;}
-
-.what2 a i{padding: 5px;
-position:   absolute;
-font-size:25px;
-z-index: 4;
-border-radius: 0px 30px 30px 0px;
-padding:5px 10px}
-
-.what2 a{color: white;
-background: green;text-decoration: none;
-;}
-
-.what2 a p{font-size: 13px; 
-padding: 0px 10px;
-padding-top:10px;
-padding-left: 42px;
-left: -100px;
-height: 35px;
-width: 0px;position: absolute;;
-border-radius: 0px 30px 30px 0px;
-		 font-family: TraditionSansXLight}
-
-.what2 a:hover > p{
-opacity: 1;
-visibility: visible;
-transition:all 0.5s ease ;
-width: 100px ;
-left: 0px;
-font-family: TraditionSansXLight;
-height: 35px}
-
-
-
-
-.conten nav ul li a{display: none;}
-
-.conten nav img{
-width:40px;
-z-index: 2;
-height: 30px
-; border-radius: 50%;
-background: rgba(21, 23, 23,0.5);
-position: absolute;
-top: -1%;
-right:-2% ;
-display: block;}
-
-.conten i {
-font-size: 20px; 
-color: white; 
-cursor: pointer;
-margin: 2% 5%}
- 
- .cont-menu label{ 
-position: absolute;  
-font-size: 20px;
-padding: 5px ;
-transform: rotate(0deg); }   
-
-
-.container-menu{
-position: absolute;
-background: rgba(0,0,0,0.9);
-height:700px;
-width: 300px;
-top: 0px;
-left: -300px;
-transition: all 900ms ease;
-opacity: 0;
-visibility: hidden;
-z-index: 1;
-max-width: 1800px;
-overflow: hidden;}
-
-#btn-men:checked ~ .container-menu{
-opacity: 1;
-visibility: visible;
-transition: all 2s ease;
-top:0%;
-left: 0px}
-
-
-
-.container-menu{
-height: 500px;
-width: 24%;}
-
-.cont-menu  nav  a{ 
-display: block; 
-text-decoration: none;
-font-family: 'Stick No Bills', sans-serif;
-font-style: normal;
- font-size: 17px;
-padding:5px 10px ;
-color: #c7c7c7c7; }
-
-.cont-menu nav .sociales{display: flex;;
-align-items: center;
-justify-content: center;
-margin: 0px auto;}
-
-.cont-menu  nav .sociales a{ 
-	display: block; 
-text-decoration: none;
-font-family: 'Stick No Bills', sans-serif;
-font-style: normal;
- font-size: 25px;
-color: #c7c7c7c7;
-border-radius: 50%;}
-
-
-.cont-menu nav a:hover{ 
-transition: all 1.2s ease;
-border-left: 0vh solid black;}
-
-
-.saludo{
-height:130px;
-align-items: center;
-justify-content: center;
-margin: 0 auto;
-position: relative;
-margin-top: 200px;
-padding: 2px;
-width: 350px;
-outline: 8px solid rgba(10,10,10,0.9);; 
-border-radius: 5px;
-border:4px ridge rgba(15, 127, 185,0.7);
-background: rgba(10,10,10,0.9);
-box-shadow: 0px 0px 100px rgba(15, 127, 185,1)}
-
-.saludo h1{ font-family: 'Stick No Bills', sans-serif;
-		font-weight: 500; 
-		 text-shadow: 10px 6px 10px black;
-		text-align:center;
-		 margin: 0 auto;
-		letter-spacing: 1px;
-		width:100%;
-		font-size: 45px; 
-		padding-top:10px ;
-		font-style: oblique;
-	color:rgb(7, 204, 101);
-text-shadow: 0px 0px 5px rgba(05, 107, 15,1)}
-
-
-.saludo  h2 {color:rgb(255, 255, 211) ; 
-font-family: 'Ubuntu Condensed', sans-serif;; 
-font-size: 25px;
-text-align: center; line-height: 1;
-padding-top: 10px;
-letter-spacing: 1px}		
-
-
-/* bienvenida */
-
-.bienvenido{ margin: 20px auto;
-	margin-top: 40px;
-	margin-bottom:50px;
- border: 2px solid rgb(17, 18, 21);
-background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268) ;
-box-shadow: 4px 10px 10px 10px black;
-  width: 100%;
-max-width: 450px;
-padding: 30px 0px}
-
-
-.bienvenido h3 { 
-color:#dff4f7 ; 
-font-family: 'Ubuntu Condensed', sans-serif;; 
-font-size:33px;
+font-family:Leonsans;
 text-align: center;
-text-shadow: 0px 0px 2px white;;
-margin: 0px;}
-
-.bienvenido h4 { 
-color: #2feab8;
-font-family: 'Ubuntu Condensed', sans-serif;; 
-font-style: italic;
-font-size:30px;  
-text-shadow: 1px 1px 15px black;
-text-align: center;
-padding:10px 0px} 
-
-.bienvenido p {font-size:15px;
-color: white;
-;width:85%;
-font-family: TraditionSansXLight;
-line-height: 1.3;
-margin: 5px auto;
-text-align: center;}		
-
-/* web */
-.pag-web{background: rgba(0,0,0,0.7);}
-
-.pag-web-a{display:grid;
-	grid-template-columns: repeat(2	,1fr);
-width:100%;
-margin: 0% auto;
-padding: 40px 20px;
-max-width: 800px}
-
-.web{width: 95%;
-margin: 0 auto;
-max-width: 800px}
-
-
-.web  h4{font-size:23px;
-font-family: 'Stick No Bills', sans-serif;
-text-shadow: 0px 5px 5px black;
-letter-spacing: 1px;
-margin-top:20px;}
-
-
-
-.web p {font-size:15px;
-color: white;
-;width:100%;
-font-family: TraditionSansXLight;
-line-height: 1.3;
-margin-top: 15px;
-max-width: 500px;
-text-align: left;
-margin-bottom: 20px}		
-
-
-.web #car {
-	padding:5px 10px;
-  width: 160px;
-  cursor: pointer;
-  margin: 20px 0px;
-  text-align:center;
-  border: none;
-  background-size: 300% 100%;
-  color: #f7f1e3;  
-	font-size:14px ;
-	 font-family: TraditionSansXLight;
-	 border-radius: 20px;}
-
-.web #car:hover {
-  background-position: 75% 0;
-  transition: all 2s ease-in-out;
-  box-shadow: 0 4px 20px rgba(45, 54, 65, 0.9);}
-
-
-
-
-.pag-web .img{  
-position: relative;
-background-size: 85% 220px;
-background-repeat: no-repeat;
-align-items: center;
-justify-content: center;}
-
-.pag-web .img img {  
-justify-content ; 
-text-align: center;
-border-radius: 5px;
-margin: 0 auto;
-width: 80%;
-;height:200px;}
-
-.divido{
-display: grid;
-grid-template-columns: repeat(1,1fr);		
-background-size: cover;
-background-position: center;
-padding: 30px 50px;
-margin:50px auto; 
-border-radius: 20px;
-width: 70%}
-
-.divido .parte1 {width: 100%}
-
-
-.divido h5{font-size:20px;
-color:white ;
-font-family: 'Stick No Bills', sans-serif;
-text-shadow: 0px 5px 5px black;
-letter-spacing: 1px; }
-
-
-
-.divido p {font-size:14px;
-color: white;
-;width:90%;
-font-family: TraditionSansXLight;
-line-height: 1.3;
-margin-top: 15px;
-max-width: 500px;
-text-align: left;
-margin-bottom: 20px}		
-
-
-.divido article li {font-size:14px;
-color: white;
-;width:90%;
-font-family: TraditionSansXLight;
-line-height: 1.3;
-margin-top: 2px;
-max-width: 500px;
-text-align: left;
-list-style: none;}		
-
-
-
-.divido article li::before {
-  content: "+ ";
-  font-size:18px;}
-
-
-#H5{font-size:30px;
-font-family: 'Stick No Bills', sans-serif;
-text-shadow: 0px 5px 5px black;
-letter-spacing: 1px;
-margin-top:20px;
-display: flex;justify-content: center;
-align-items: center;
-max-width: 400px ;
-margin: 0 auto}
-
-
-.partesweb{display: grid;
-grid-template-columns: repeat(3,1fr);
- width: 97%;
- margin: 10px auto;
-grid-gap:10px;
-max-width: 700px}
-
-.parte figure img{ width: 100% ;
- height: 110px; 
- padding: 1%;
- display: flex;
- justify-content: center;
- align-items: center;
- margin: 0 auto; }		
-
-.parte h5 {
-		line-height: 1; color: #ffff;
-	  	color: #fff;
-	  	padding-top: 10px;
-	  	padding-bottom: 2px;  
-		 font-size:15px ; 
-		 border-bottom: 1px solid  #004F79; 
-		 width: 40%;
-		 letter-spacing: 1px;
-		padding-left:10px;
-		font-family: TraditionSansXLight;}
-
-.parte p { font-size:13px; 
-color: #ffff;
-	color: #fff; 
-	font-family: TraditionSansXLight;
-	padding:10px 5px	}
-
-.parte{  cursor:pointer;}	
-
-.parte:hover{box-shadow: 4px 2px 5px black;
-		transform: translateY(-3%);
-		transition: all 1s ease-out}
-
-/*web*/
-
-.portafolio{padding-top: 20px }
-
-.proyectos{margin-top:0px}
-
-.proyectos p {font-size:14px;
-color: white;
-;width:90%;
-font-family: TraditionSansXLight;
-line-height: 1.3;
-max-width: 500px;
-text-align: center;
-margin: 0px auto;
-margin-top: 10px}		
-
-
-
-.trabajos{display: grid;
-	grid-template-columns: repeat(2,1fr);
-	grid-gap: 10px; 
-	width: 90%;  justify-content: center;
-	align-items: center ;margin: 0px auto;
-position: relative;
-max-width: 500px}
-
-.pro {
-width: 100%;  
-border: 1px solid black;
-background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
-border-radius: 5%; 
-margin: 10px auto ;	}
-
-.pro img{width: 95%; height: 130px;
-margin: 0 auto;
-justify-content: center;
-align-items: center;
-border-radius: 10%;display: flex; }
-
-.pro h3 { font-family: 'Stick No Bills', sans-serif;
-		 margin: 2px ;
-		color:rgb(229, 245, 248); 
-		font-size: 18px;}
-
-.pro p   { font-family: TraditionSansXLight; 
-		line-height: 1.2; 
-		font-size:13px;
-		color: rgb(229, 245, 248);
-		 margin: 0px auto;
-		text-align: center;
-		width: 100%;
-		padding: 0px 10px}				
-
-.pro button{font-family: TraditionSansXLight; 
-			color: rgb(29, 43, 131);
-			text-align: center;
-			border: none;
-			display: flex;
-			padding:3px 5px;
-			margin-top: 10px}
-
-.pro a { font-family: 'Stick No Bills', sans-serif; 
-		line-height: 1; 
-		padding: 1px;
-		font-size:15px;
-		color:#cccccc;;
-		 text-decoration:none;
-		;margin: 5px 10px; }
-
-.pro:hover{ box-shadow:1px 1px 10px 5px rgba(27, 151, 164,0.5)
-	; 	cursor: pointer;
-			transition: all 400ms ease;}
-
-.pro a:hover{  color:#cccccc;}
-
-.pro button:hover{
-	transition: all 400ms ease }
-	
-
-.otros{
-padding: 2vh 0px;
-width: 100%;}
-
-.otros p{ text-align: center; margin: 2vh;
-color: white;
-font-family: TraditionSansXLight;
-color: #ecf0f1; 
-font-size: 15px; 
-width: 50%;
-margin: 0 auto}
-
-.otros div{display: grid;
-	grid-template-columns: repeat(4,1fr);
-	width: 50%;
-	margin: 5px auto;
-align-items: center;
-justify-content: center;}				
-			
-
-.otros div a{ 
- text-decoration: none;	
- font-family: 'Stick No Bills', sans-serif;
- ;font-size: 17px;
-	color: #ffff;
-	margin: 10px 20px}
-
-.otros div  a:hover{ ;
-	color:rgba(100, 200, 78,0.7) }
-
-
-/*servicio*/
-#servicio{background: rgba(0,0,0,0.5);;
-padding: 20px 0px}
-
-
-.ser{display: grid;
-grid-template-columns: repeat(2,1fr);
-grid-gap: 10px;
-width: 70%;
-margin: 0px auto;
-height: 100%;
-margin-top: 20px;
-max-width:450px;}
-
-.ser .s1 div{
-width: 100%;}
-
-
-.ser .s1 div img{
-	width: 100%;
-height: 100%;
-background: rgb(6, 12, 17);
-height: 170px;
-margin-bottom: 0px}
-
-.ser .s0 h5{
-font-size:16px;
-text-align: center;
-padding-top: 5px; }
-
-.ser .s1 div p{
-font-size:13px;
-text-align: left;
-  width: 100%;
-padding: 5px 0px;
-margin: 0}
-
-.ser .s0 {
-width: 100%;
-padding: 20px}
-
-.ser .s2 div img{
-	width: 100%;height: 135px;
-	margin-top:5px }
-
-.ser .s2 div p{
-font-size:13px;
-text-align: left;
-width: 100%;
-padding: 0px;
-margin: 0px}
-
-.ser .s3{
-background: rgba(6, 12, 17,0.6)	;
-width:205%}
-
-
-.ser .s3  li::before{content:"! " ;
-color: green;
-font-size:20px;}
-
-
-.ser .s3 h5{padding-bottom:10px}
-
-
-.ser .s3 ul{padding: 10px 0vh}
-
-.ser .s3  li{
-font-size:13px;
-text-align: left;
-width: 100%; 
-margin:0 auto}
-
-/*conocimiento*/
-.coon{width: 60%;margin: 10px auto}
-
-.contmary{ 	; display: grid; 
-			grid-template-columns: repeat(2,1fr);
-			width: 90%;
-			margin: 10px auto;
-			grid-gap: 0px	;
-			max-width: 500px}
-
-.coon p {font-size:15px;
-color: white;
-;width:100%;
-font-family: TraditionSansXLight;
-line-height: 1.3;
-margin: 10px auto;
-text-align:center;}		
-
-
-.contalfa{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 170px; ;
-margin: 10px auto;}
-
-.contalfa figure{position: relative;
-	height: 170px;
-	width: 95%;
-	overflow: hidden;
-	border-radius: 6px;
-	box-shadow: 1px 7px 5px  rgba(0,0,0,0.5)
-	;cursor: pointer;}
-
-.contalfa figure img{ width: 100%; 
-		height: 170px;
-		 transition: all 500ms ease-out}
-
-.contalfa figure .capa2{position: absolute;
-	top: 0; width: 100%;
-	height: 170px;
-	background: rgba(64, 73, 87,0.9);
-	opacity: 0;
-	visibility: hidden;
-	text-align: center;}
-
-.contalfa figure:hover > .capa2{opacity: 1;
-	visibility: visible; 
-width: 100%;
-transition: all 2s ease ; 
-		}
-
-.contalfa figure:hover > .capa2 h4{
-		font-size:20px;}
-
-.contalfa figure:hover > .capa2 p{font-size:15px;}
-
-/*FORM*/
-.all {padding-top: 0px}
- 
-.container-form {
-background-image: url(../img/fondo2.svg);
-;background-size:cover;
-background-repeat: no-repeat;
-width: 100%;
-padding: 0px;
-margin: 0px auto;
-padding:30px 0px ;
-margin-top: 30px}
-
-.containerpx{width: 60%;
-display: grid; 
-grid-template-columns: repeat(1,1fr);
-grid-gap: 10px;
-margin: 0px auto;
-max-width: 500px}
-
-
-.info-form h6 {
-margin: 5px 0px;
-font-size: 18px;
-color:#ffff ;
-font-family: monospace;}		
-
-.info-form p{
-width: 100%; font-size: 14px;
-text-align: left;
-padding: 0px}
-
-.container-form a {
-	font-family: TraditionSansXLight ;
-	font-size: 15px;
-	display: inline-block;
-	text-decoration: none;
-	width:80%;}
-
-.container-form a:hover {font-size: 16px}
-
-.container-form a i {
-color: rgb(15, 161, 156);
-font-size: 20px}
-
-.container-form a i:hover {
-color:#27c3c1;}
-
-
-.footer-red-social ul{
-	display: grid;
-	grid-template-columns: repeat(3,1fr);
-	width: 200px;
-	margin: 0 auto}	
-
-.footer-red-social ul li{position: relative;
-	list-style: none;
-	margin:0px;
-	cursor: pointer;display: flex; 
-	justify-content: center;
-	align-items: center;}
-
-.footer-red-social  ul li a {text-decoration: none;}
-
-.footer-red-social ul li a .fa 
-{font-size: 23px;
-	border-radius:50%;
-width: 45px; 
-height: 45px;
-display: flex;
-justify-content: center;
-align-items: center;
-color: white;
-background: rgb(0,0,0,0.7);}
-
-
-.footer-red-social  ul li a .fa-facebook:hover{
-background:#3b5998;
-transition: all 1 ease-out;
-box-shadow: 0px 0px 20px #3b5998 }
-
-.footer-red-social  ul li a .fa-instagram:hover{
-background:#9E37B8 ;
-box-shadow: 0px 0px 20px #9E37B8; 
-transition: all 1 ease-out}
-
-.footer-red-social  ul li a .fa-twitter:hover{  
-background:#00acee ;
-transition: all 1 ease-out;
-box-shadow: 0px 0px 20px #00acee }
-
-
-
-
-
-form{ 
-border:2px solid rgb(60, 166, 113);
-	;width: 100%;
-	padding: 10px;
-margin: 0 auto}
-
-.container-form form .campo
-{background:none;
-display: block;
-margin:  10px;
-width:40vw; 
-padding: 10 10px;
-font-size:15px;
-border: 0;
-border-bottom: 2px solid rgb(60, 166, 113);	
-outline: 0px;
-outline:none; border: 2;
-cursor: pointer;
-color: white;
-width: 90%}
-
-.container-form form .campo::placeholder {
-color: white;
-font-size: 15px;
-background: none;
-font-family: TraditionSansXLight }
-
-.select{
-	appearance: none;
-	-webkit-appearance: none;
-	-moz-appearance: none;}
-
-.select::-ms-expand {
-    display: none;}	
-
-.select{
-	display: inline-block;
-	width: 100%;
-	cursor: pointer;
-  	outline: 0; 
-  	border: 0;
-	color: white;
-	font-size:15px;
-	 font-family: TraditionSansXLight; 
-    transition: all 0.25s ease;
-    outline:none;
-	border: 0;
-	border-bottom: 2px solid rgb(60, 166, 113);
-	background:  none;
-	width:20vw;
-	width: 90%;
-	margin: 10px;}
-
-.select option{background:rgba(09,12,20,0.8);}
-
-.container-form .btn-enviar
-{display: flex;
-align-items: center;
-justify-content: center;
-margin: 5px auto;
-padding: 5px 15px;
-border: none;
-outline: 0px;
-color:white;
-border: 1px solid rgb(60, 166, 113);
-cursor: pointer;
-transition: all 400ms ease;
- font-family: TraditionSansXLight;
-font-size:15px;
-margin-top: 15px;
-border-radius: 20px;
-background:rgba(13, 3, 8,0.8);
-}
-
-.container-form .btn-enviar:hover {
-border: 2px solid rgb(60, 166, 113);}
-
-.piedepag{width: 100%;}
-
-.piedepag img {width: 50vw ;height: 25vh;
-margin: 0 auto}	
-
-.piedepag .grupo1{
-	width: 100%;
-	margin: auto;
-	display: grid;
-	grid-template-columns: repeat(1,1fr);
-	grid-gap: 5px;
-	padding: 10px 0px }
-
-
-
-.piedepag{background: rgba(0,0,0,0.7);
-padding: 0px}
-
-
- .grupo2{
-text-align: center; 
-font-family: 'Ubuntu Condensed', sans-serif;
-padding: 10px 0vh;
-width: 90%;
-margin: 0 auto;
-max-width: 530px}
-
-
- .grupo2 a{text-decoration: none;
-font-size:13px ;
-font-family: TraditionSansXLight;
-color:white;;}
-
- .grupo2 a b{
-font-size: 13px ;
-font-family: TraditionSansXLight;
-color: #24dff9}
-
-
- .grupo2 a b:hover{
-font-size:13px ;
-font-family: TraditionSansXLight;
-color: green}
-	
-
- .grupo2 a:hover{
-font-size:13px ;
-font-family: TraditionSansXLight;
-color:white}
-
-}
-
-/*Para Telefono*/
-@media screen and (max-width: 549px)
-{	
-
-
-header {
-    width: 100%;
-    height: 90vh;
-    max-height: 850px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: center;
-    background-size: 100% 100%;}
-
-
-
-.what{position: fixed;
-bottom: 50px;
-left:0px;
-color: white;;
-z-index:4;
-background: green;
-border-radius: 0px 30px 30px 0px;}
-
-.what a i{padding: 5px;
-position:   absolute;
-font-size:35px;
-background: green;
-z-index: 4;
-border-radius: 0px 30px 30px 0px;
-padding-right: 15px}
-
-.what a{color: white;
-background: green;text-decoration: none;
-;}
-
-.what a p{font-size: 15px; 
-padding: 0px 10px;
-padding-left: 55px;
-left: -100px;
-height: 45px;
-width: 0px;position: absolute;;
-border-radius: 0px 30px 30px 0px;
-		 font-family: TraditionSansXLight}
-
-.what a:hover > p{
-opacity: 1;
-visibility: visible;;
-background: green;
-transition:all 0.5s ease ;
-width: 150px ;
-left: 0px;
-	font-family: TraditionSansXLight;
-		 height: 45px}
-
-
-.what2{position: fixed;
-bottom: 100px;
-left:0px;
-color: white;;
-z-index: 4;
-background: green;
-border-radius: 0px 30px 30px 0px;}
-
-.what2 a i{padding: 5px;
-position:   absolute;
-font-size:35px;
-z-index: 4;
-border-radius: 0px 30px 30px 0px;
-padding-right: 20px}
-
-.what2 a{color: white;text-decoration: none;
-;}
-
-.what2 a p{font-size: 15px; 
-padding: 0px 10px;
-padding-top:14px;
-padding-left: 50px;
-left: -100px;
-height: 45px;
-width: 0px;position: absolute;;
-border-radius: 0px 30px 30px 0px;
-		 font-family: TraditionSansXLight}
-
-.what2 a:hover > p{
-opacity: 1;
-visibility: visible;
-transition:all 0.5s ease ;
-width: 110px ;
-left: 0px;
-font-family: TraditionSansXLight;
-height: 45px;}
-
-
-.btn-men{
-width: 100%;
-border-radius: 0px;
-padding: 5px 0px}
-
-.all{padding-top: 0px}
-
-
-.conten nav ul li a{display: none;}
-
-.conten nav img{
-width:40px;
-z-index: 2;
-height: 40px
-; border-radius: 50%;
-background: rgba(21, 23, 23,0.5);
-position: absolute;
-top: 5px;
-right:-5% ;
-display: block;}
-
-
-.conten i {
-font-size: 23px; 
-color: white; 
-cursor: pointer;
-margin-right: 0px}
- 
- .cont-menu label{ position: absolute;  
-font-size: 25px ;
-transform: rotate(0deg); 
-right: 10px;}   
-
-
- 
- .cont-menu label{ 
-position: absolute;  
-font-size: 20px;
-padding: 5px ;
-transform: rotate(0deg); }   
-
-
-.container-menu{
-position: absolute;
-background: rgba(0,0,0,0.9);
-top: 0px;
-left: -60%;
-transition: all 900ms ease;
-opacity: 0;
-visibility: hidden;
-z-index: 1;
-max-width: 1800px;
-overflow: hidden;
-height: 90vh;
-width: 50%;
-max-height: 850px}
-
-#btn-men:checked ~ .container-menu{
-opacity: 1;
-visibility: visible;
-transition: all 2s ease;
-top:0%;
-left: 0px}
-
-
-
-
-
-.cont-menu  nav  a{ 
-display: block; 
-text-decoration: none;
-font-family: 'Stick No Bills', sans-serif;
-font-style: normal;
- font-size: 20px;
-padding:1vh 2vh;
-color: #c7c7c7c7; }
-
-.cont-menu  nav .sociales a{ 
-	display: block; 
-text-decoration: none;
-font-family: 'Stick No Bills', sans-serif;
-font-style: normal;
- font-size: 30px;
-color: #c7c7c7c7;
-border-radius: 50%;}
-
-.saludo{
-height:130px;
-align-items: center;
-justify-content: center;
-margin: 0 auto;
-position: relative;
-margin-top: 38vh;
-padding: 2px;
-width: 87%;
-outline: 8px solid rgba(10,10,10,0.9);; 
-border-radius: 5px;
-border:4px ridge rgba(15, 127, 185,0.7);
-background: rgba(10,10,10,0.9);
-box-shadow: 0px 0px 100px rgba(15, 127, 185,1);
-max-width:320px}
-
-.saludo h1{ font-family: 'Stick No Bills', sans-serif;
-		font-weight: 500; 
-		 text-shadow: 10px 6px 10px black;
-		text-align:center;
-		 margin: 0 auto;
-		letter-spacing: 1px;
-		width:100%;
-		font-size: 40px; 
-		padding-top:15px ;
-		font-style: oblique;
-	color:rgb(7, 204, 101);
-text-shadow: 0px 0px 3px rgba(05, 107, 15,1)}
-
-
-.saludo  h2 {color:rgb(255, 255, 211) ; 
-font-family: 'Ubuntu Condensed', sans-serif;; 
-font-size: 25px;
-text-align: center; line-height: 1;
-padding-top: 10px;
-letter-spacing: 1px}		
-
-
-
-
-
-
-/* bienvenida */
-.bienvenido{ width:90%; 
- margin: 40px auto;
- border: 3px 	solid rgb(27, 68, 81);
-background-image: linear-gradient(to top, #1b4125, #054737, #004c4a, #004f5a, #0b5268);
-  padding: 20px 10px;
-box-shadow: 5px 1px 10px 10px black;
-max-width:330px}
-
-.bienvenido h3 { 
-color:#dff4f7 ; 
-margin: 0 auto; 
-font-family: 'Ubuntu Condensed', sans-serif;
-font-style: oblique;
-font-size:28px;}
-
-.bienvenido h4 { 
-color: #2feab8;
-font-size:25px;  
-text-shadow: 1px 1px 6px black;
-margin: 0px auto; 
-text-align: center;
-font-family: 'Ubuntu Condensed', sans-serif;
-max-width: 300px} 
-
-.bienvenido p { color: #f7f1e3;  
-	justify-content ; 
-	font-size:15px ;
-	 font-family: TraditionSansXLight;
-	line-height: 1.2;
-width: 95%;
-margin: 5px auto;}		
-
-/*web*/
-.pag-web{
-width:100%;
-margin: 0% auto;
-background: rgba(6, 12, 17,0.7);
-}
-
-.pag-web-a{display:grid;
-	grid-template-columns: repeat(1	,1fr);
-width:92%;
-margin: 0% auto;
-padding: 40px 0px;
-max-width: 380px}
-
-.web{width: 95%;
-margin: 0 auto;}
-
-
-.web  h4{font-size:23px;
-font-family: 'Stick No Bills', sans-serif;
-text-shadow: 0px 5px 5px black;
-letter-spacing: 1px;
-margin-top:20px;}
-
-
-.web p { color: #f7f1e3;  
-	justify-content ; 
-	font-size:15px ;
-	 font-family: TraditionSansXLight;
-	line-height: 1.2;
-width: 100%;
-margin: 10px auto;
-margin-bottom: 30px}
-
-.web #car {
-	padding: 10px;
-  width: 160px;
-  cursor: pointer;
-  margin: 10px 0px;
-  text-align:center;
-  border: none;
-  background-size: 300% 100%;
-  color: #f7f1e3;  
-	font-size:15px ;
-	 font-family: TraditionSansXLight;
-	 border-radius: 20px;
-  box-shadow: 0 4px 10px rgba(45, 54, 65, 0.5);}
-
-.web #car:hover {
-  background-position: 75% 0;
-  transition: all 2s ease-in-out;
-  box-shadow: 0 4px 20px rgba(45, 54, 65, 0.9);}
-
-
-
-.pag-web .img{  
-position: relative;
-background-size: 100% 200px;
-background-repeat: no-repeat;
-margin-top:40px }
-
-
-.pag-web .img img {  
-justify-content ; 
-text-align: center;
-border-radius: 5px;
-margin: 0 auto;
-width: 75%;
-;height: 190px;
-display: flex;}
-
-.divido{display: grid;
-grid-template-columns: repeat(1,1fr);		
-background-size: cover;
-background-position: center;
-padding:30px 20px   ;
-margin: 40px auto; 
-border-radius: 20px;
-width: 90%;
-max-width: 360px}
-
-.divido .parte1 {width: 100%}
-
-.divido article h5 { color: #fff;
-font-size: 18px ;  
-font-family: 'Stick No Bills', sans-serif ;
-letter-spacing: 2px;
-padding:5px 10px}
-
-.divido article p { 
-color: #fff; 
-padding: 5px;
-line-height: 1.4;
-font-size: 15px;
-width: 100%;
-margin-top:0px }
-
-.divido article li { 
-color: #fff;
-padding: 2px 1%;
-justify-content line-height: 1;
-font-size: 15px; 
-font-family: TraditionSansXLight;
-line-height: 1 }
-
-.divido article li::before {
-  content: "+ ";
-  font-size:18px;}
-
-
-
-.partesweb{display: grid;
-grid-template-columns: repeat(1,1fr);
- width: 90%;margin: 10px auto;
-grid-gap: 0vh;
-max-width: 340px}
-
-#H5{font-size:25px;
-font-family: 'Stick No Bills', sans-serif;
-text-shadow: 0px 5px 5px black;
-letter-spacing: 1px;
-margin-top:20px;
-display: flex;justify-content: center;
-align-items: center;
-max-width: 250px	;
-margin: 0 auto;
-text-align: center;
+letter-spacing:1px;
 margin-top: 20px}
 
-
-.parte{
- border: 2px solid rgb(27, 68, 81);
-  margin: 10px 0vh;}
- 
-.parte figure img{ width: 100% ;
- height: 150px; 
- padding: 1%;
- display: flex;
- justify-content: center;
- align-items: center;
- margin: 0 auto; }
- 
-.parte h5 {  	 
-	  	padding-top:10px;
-		 font-size:20px ; 
-	border-bottom:1px solid  #004F79; 
-		 }
-
-.parte p { font-size:15px; 
-color: #ffff;
-	  	color: #fff; 
-	font-family: TraditionSansXLight;
-	padding:10px;	}
-
-.parte{  cursor:pointer;}	
-
-.parte:hover{box-shadow: 4px 10px 5px black;
-		transform: translateY(-5%);
-		transition: all 1.5s ease-out}
-
-/*web*/
-
-
-.portafolio{padding-top: 10px }
-
-
-.proyectos{margin-top: 0px}
-
-
-.trabajos{display: grid;
-	grid-template-columns: repeat(1,1fr); 
-	width: 87%; 
-	 justify-content: center;
-	align-items: center ;margin: 0px auto;
-position: relative;
-margin-top: 0px}
-
-.proyectos p{  
-font-family: TraditionSansXLight;
-color: #ecf0f1; font-size: 15px; 
-padding: 10px 0px;
-margin: 0  auto;
-text-align: center;
-width: 90%;
-max-width: 330px}
-
-.pro {
-width: 100%;  
-border: 2px solid black;
-background-image: linear-gradient(to top, #1b4125, #065644, #006a69, #007d91, #088fb8); 
-border-radius: 5%; 
-margin: 0px auto ;
-max-width: 330px;
-margin-bottom: 30px}
-
-.pro img{width:95%; 
-height: 140px;
-margin: 0 auto;
-justify-content: center;
-align-items: center;
-border-radius: 5% ;
-display: flex;}
-
-.pro h3 { font-family: 'Stick No Bills', sans-serif;
-		 margin: 2px ;
-		color:rgb(229, 245, 248); 
-		font-size: 23px;}
-
-.pro p   { font-family: TraditionSansXLight; 
-		line-height: 1.1; 
-		padding: 5px 10px;
-		font-size:15px
-		color: rgb(229, 245, 248);
-		 margin: 0px auto;
-		text-align: center;
-		width: 100%}				
-
-.pro button{font-family: TraditionSansXLight; 
-			padding: 5px ;
-			padding-top: 10px;
-			color: rgb(29, 43, 131);
-			margin: 0vh auto;
-			text-align: center;
-			border-radius: 20px 20px 0px 0px ;
-			border: none;
-			display: flex;
-			letter-spacing: 1px;
-			background: rgb(8, 8, 8);
-			font-size:15px;}
-
-
-.pro a { font-family: 'Stick No Bills', sans-serif; 
-		line-height: 1.2; 
-		padding: 1px;
-		font-size:20px;
-		color:#cccccc;;
-		 text-decoration:none;
-		;margin: 0px 10px; }
-
-.pro:hover{ box-shadow:1px 1px 10px 5px rgba(27, 151, 164,0.5); 	cursor: pointer;
-transition: all 400ms ease;
-transform: translateX(10px); ;}
-
-.pro a:hover{  color:#cccccc;}
-
-.pro button:hover{
-background:	#191919
-	;transition: all 400ms ease }
-
-.otros{
-padding: 10px 0px;
-width: 95%;	;
-margin: 0 auto}
-
-.otros p{ text-align: center;
- margin: 0px;
-font-size: 18px; 
-width:90%;
-margin: 0vh auto}
-
-.otros div{display: grid;
- grid-template-columns: repeat(2,1fr);
-	width:85%;
-	margin: 5px auto;}				
-			
-.otros div a{ text-decoration: none;	
- font-family: 'Stick No Bills', sans-serif;
- ;font-size:20px;
-	color: #ffff;
-	margin:5px 10px }
-
-.otros div a:hover{
- ;color:rgba(100, 200, 78,0.7) }
-
-/*servicio*/
-#servicio{;
-padding: 10px; }
-
-.ser{display: grid;
-grid-template-columns: repeat(1,1fr);
-grid-gap:10px;
-width: 90%;
-margin: 20px auto;
-height: 100%;
-max-width: 330px}
-
-.ser .s1 div{
-width: 100%;}
-
-
-.ser .s1 div img{
-	width: 100%;
-height: 100%;
-background: rgb(6, 12, 17);
-height: 200px}
-
-.ser .s0 h5{
-font-size:18px;
-text-align: center;
-padding: 1vh; }
-
-.ser .s1 div p{
-font-size: 15px;
-text-align: left;}
-
-.ser .s0 {
-width: 100%;
-padding: 2vh 0.5vh}
-
-
-.ser .s2 div img{   
-	width: 100%;height: 190px;
-	margin-top: 1vh }
-
-.ser .s2 div p{
-font-size: 15px;
-text-align: left;
-width: 100%;}
-
-.ser .s3{
-background: rgba(6, 12, 17,0.6)	}
-
-.ser .s3  li{
-font-size: 15px;
-text-align: left;
-width: 95%;  }
-
-/*conocimiento*/
-.coon{width: 90%;margin: 10px auto;
-max-width: 350px;
-padding: 20px 0px}
-
-.contmary{ 	; display: grid; 
-			grid-template-columns: repeat(1,1fr);
-			width: 90%;
-			margin: 5px auto;
-			grid-gap: 10px;
-			max-width: 350px}
-
-.coon p{width: 100%;
-font-size:16px}
-
-.contalfa{
-	width: 90%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 170px;
-	margin:5px auto}
-
-.contalfa figure{position: relative;
-	height: 170px;
-	width: 100%;
-	overflow: hidden;
-	border-radius: 6px;
-	box-shadow: 1px 7px 5px  rgba(0,0,0,0.5)
-	;cursor: pointer;}
-
-.contalfa figure img{ width: 100%; 
-		height: 170px;
-		 transition: all 500ms ease-out}
-
-.contalfa figure .capa2{position: absolute;
-	top: 0; width: 100%;
-	height:170px;
-	background: rgba(64, 73, 87,0.9);
-	opacity: 0;
-	visibility: hidden;
-	text-align: center;}
-
-.contalfa figure:hover > .capa2{opacity: 1;
-	visibility: visible; 
-width: 100%;
-transition: all 2s ease ; }
-
-.contalfa figure:hover > .capa2 h4{
-		font-size:22px;
-		margin:  0vh;;
-		margin-top: 10px}
-
-.contalfa figure:hover > .capa2 p{font-size:17px;
-padding:5px 10px;
-margin: 0px;
-width: 100%}
-
-
-/*FORM*/
-.container-form {
-background-image: url(../img/fondo2.svg);
-background-size: cover;
-background-repeat: no-repeat;
-border-radius: 0%;
-width: 100%;
-padding: 20px 0px;
-margin: 0px auto;
-margin-top:0px;
-padding-top:20px}
-
-
-.containerpx{width: 90%;
-display: grid; 
-grid-template-columns: repeat(1,1fr);
-grid-gap: 20px;
-margin: 0px auto;
-max-width: 380px}
-
-
-.info-form h6 {
-margin: 5px 0px;
-font-size: 23px;
-color:#ffff ;
-font-family: monospace;
-text-align: center;}		
-
 .info-form p{
-width: 90%; 
-font-size: 16px;
-line-height: 1.5; 
-margin: 5px 0px ;  
+font-size:16px;  
 color:#ffff;	
-padding: 10px 0px ;
-font-family: TraditionSansXLight  ;
-text-align: left;
-font-style: normal;
-margin: 0 auto}
+text-align:center;
+margin: 10px auto;
+font-family:Leonsans;
+width: 400px}
 
+.contac{margin-top: 20px}
 
 .container-form a {
-	font-family: TraditionSansXLight ;
 	font-size: 16px;
-	display: inline-block;
-	text-decoration: none;
-	width:100%;}
+	 color:#ffff;
+font-family:Leonsans;
+text-decoration: none;
+color:}
 
-.container-form a:hover {font-size: 16px;}
+
+.contac a p b {
+font-family:Leonsans;
+text-decoration: none;
+color:white}
 
 
-.container-form a i {
-color: rgb(15, 161, 156);
-font-size: 25px}
+.contac a p  {
+font-family:Leonsans;
+text-decoration: none;color:gray;
+padding-top: 5px}
 
-.container-form a i:hover {
-color:#27c3c1;}
+
+.contac a p:hover  {
+font-family:Leonsans;
+text-decoration: none;color:white}
+
 
 .footer-red-social ul{
-	display: grid;
-	grid-template-columns: repeat(3,1fr);
-	width: 200px;
-	margin: 0 auto;}	
+display: grid;
+grid-template-columns: repeat(3,1fr);
+width:300px;
+margin: 0px auto}	
 
-.footer-red-social ul li{position: relative;
-	list-style: none;
-	margin:0px;
-	cursor: pointer;display: flex; 
-	justify-content: center;
-	align-items: center;}
+.footer-red-social ul li{
+position: relative;
+list-style: none;
+margin: 10px;
+cursor: pointer;
+display: flex; 
+justify-content: center;
+align-items: center;}
 
 .footer-red-social  ul li a {text-decoration: none;}
 
@@ -2725,7 +989,7 @@ color:#27c3c1;}
 {font-size: 30px;
 	border-radius:50%;
 width: 50px; 
-height:50px;
+height: 50px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -2750,117 +1014,143 @@ box-shadow: 0px 0px 20px #00acee }
 
 
 
-
-
-
 form{ 
-border:2px solid rgb(60, 166, 113);
-width: 100%;
-border-radius: 10px;
+width: 90%;
 padding: 10px ;
-margin: 0 auto}
+box-shadow: 0px 0px 30px black;
+color: white}
+
+
+form h6 {
+font-size: 24px;
+color:#ffff ;
+font-family:Leonsans;
+text-align: center;
+letter-spacing:1px;
+margin-top: 10px}
 
 .container-form form .campo
 {background:none;
 display: block;
-margin: 2.5vh 10px;
-width:40vw; 
-padding: 2vh 10px;
+margin: 20px 10px;
+padding:10px;
 font-size: 16px;
 border: 0;
-border-bottom : 1px solid rgb(60, 166, 113);	
+border-bottom: 1px solid gray;	
 outline: 0px;
-outline:none; border: 2;
+outline:none;
 cursor: pointer;
-color: white;
-width: 90%}
+width: 90%;
+font-family:Leonsans;
+color: white}
 
 .container-form form .campo::placeholder {
-color: white;
-font-size: 16px;
+font-size: 18px;
 background: none;
-font-family: TraditionSansXLight }
+font-family:Leonsans;
+color: white;}
 
 .select{
 	appearance: none;
 	-webkit-appearance: none;
-	-moz-appearance: none;}
+	-moz-appearance: none;
+
+font-family:Leonsans;}
 
 .select::-ms-expand {
-    display: none;}	
+    display: none;
+border:0;
+font-family:Leonsans;}	
 
 .select{
 	display: inline-block;
-	width: 100%;
 	cursor: pointer;
   	outline: 0; 
-  	border: 0;
-	color: white;
-font-size: 16px;
-	 font-family: TraditionSansXLight; 
+  	font-size: 18px;
     transition: all 0.25s ease;
     outline:none;
 	border: 0;
-	border-bottom:1px solid rgb(60, 166, 113);
 	background:  none;
-	width:20vw;
-	width: 90%;
-	margin: 20px 10px;}
+	margin:10px;
+	width:90%; 	
+	padding: 5px;
+font-family:Leonsans;
+border-bottom: 1px solid gray;
+color: white}
 
-.select option{background:rgba(09,12,20,0.8);}
+.select option{
+background:#111111;
+border: none;
+font-family: monospace;
+border: 0px ;
+color: white}
+
+.select option::placeholder :hover {
+color: white;
+font-size: 18px;
+background: none;
+font-family:Leonsans;
+color: white}
 
 .container-form .btn-enviar
 {display: flex;
 align-items: center;
 justify-content: center;
 margin: 0 auto;
-padding: 10px ;
+padding:10px;
+font-size:18px;
 border: none;
 outline: 0px;
 color:white;
-border: 1px solid rgb(60, 166, 113);
 cursor: pointer;
-transition: all 400ms ease;
- font-family: TraditionSansXLight;
-font-size:18px;}
+margin-top:10px;
+font-family:Leonsans;
+box-shadow: 0px 0px 10px black;
+background: transparent;}
 
 .container-form .btn-enviar:hover {
-border: 2px solid rgb(15, 161, 200);}
+box-shadow: 0px 0px 20px hsla(225, 18%, 8%, 1);
+background: hsla(225, 18%, 28%, 1)}
+
+.piedepag .grupo1{
+	width: 100%;
+	margin: auto;
+	grid-gap: 5px;
+	padding: 10px 0px }
 
 
-.piedepag{background: rgba(0,0,0,0.7);
-padding: 0px}
+.piedepag{
+padding:5px;
+background-color:#;
+background:#111111}
 
- 
- .grupo2{
+.Creador{
 text-align: center; 
-font-family: 'Ubuntu Condensed', sans-serif;
-padding: 20px 0vh;
-width: 90%;
-margin: 0 auto;
-max-width: 300px}
+padding:5px;
+width: 700px;
+margin: 0 auto;}
 
+.Creador a{text-decoration: none;
+color:white;
+width: 100%;
+letter-spacing: 1px}
 
- .grupo2 a{text-decoration: none;
-font-size:13px ;
-font-family: TraditionSansXLight;
-color:white;}
+.Creador a{
+font-size: 22px ;
+color: #24dff9;
+font-family:StickNoBills;}
 
- .grupo2 a b{
-font-size: 15px ;
-font-family: TraditionSansXLight;
-color: #24dff9}
-
-
- .grupo2 a b:hover{
-font-size: 15px ;
-font-family: TraditionSansXLight;
-color: green}
+.Creador a :hover{
+color:#2feab8}
 	
+.Creador p {color: white;
+font-family: monospace;
+font-size: 14px;
+font-family:Leonsans}
 
- .grupo2 a:hover{
-font-size: 13px ;
-font-family: TraditionSansXLight;
-color:white}
+.Creador p a {color: white;
+font-family: monospace;
+font-size: 14px;
+font-family:Leonsans}
 
-}
+.Creador p a:hover{color:#2feab8}
