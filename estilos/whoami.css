@@ -63,8 +63,7 @@ font-size: 55px}
 font-size:18px;
 font-family:Leonsans;
 letter-spacing: 1px;
-text-shadow: 10px 10px 20px green;
-le}
+text-shadow: 10px 10px 50px black;}
 
 .headerImg{padding-top:50px}
 
@@ -75,10 +74,7 @@ border-radius: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 0 auto;
-padding:8px;
-background: rgba(2,0,1,0.7);;
-border: 1px solid rgba(174, 238, 101,0.5) }
+margin: 0 auto;}
 
 
 .red-social{ margin: 0px auto}
@@ -119,7 +115,7 @@ border: 2px solid black}
 
 
 .red-social  ul  #contac a {background:black;
-border: 1px solid gray;
+border: 1px solid white;
 font-family:Leonsans;
 color: white;
 width: 150px;
@@ -166,19 +162,7 @@ margin-top: 80px;
 border-radius: 30px}
 
 .cardp1-h4{font-size:25px;	
-color:rgb(90, 206, 113) ;
-font-family: 'Stick No Bills', sans-serif;
-;width: 90%;
-letter-spacing: 2px;
-text-align: center;
-padding-bottom:  0px;
-margin-bottom:  20px;;
-border-bottom:1px solid rgb(90, 206, 113) ;
-width: 90%;
-margin: 0px auto;
-max-width: 160px;
-margin-top:50px;
-margin-bottom: 20px}
+color:rgb(90, 206, 113) ;}
 
 .cardp1 div p  {font-size:18px;
 color: white;
@@ -189,17 +173,10 @@ margin: 10px auto;
 font-family:Leonsans;}
 
 
-.cardp1 div h5{font-size:27px;
-color: white;
-font-family: 'Stick No Bills', sans-serif;
-letter-spacing: 2px;
-text-align: center;
-width:90%;margin-top: 20px}
+.cardp1 div h5{font-size:27px;}
 
 .cardp1 div nav{ 
-padding:  20px;
-background:rgba(5, 6, 8,0.8);
-box-shadow: 1px 1px 10px gray}
+padding:  20px;}
 
 
 .cardp1 div nav ul{ display: grid;
@@ -220,8 +197,7 @@ margin-top: 10px}
 list-style:none;
 font-size:25px;
   padding: 5px;
-letter-spacing: 1px;
-}
+letter-spacing: 1px;}
 
 .cardp1 div nav li span:hover {
 color:rgba(176,29,227,1) ;
@@ -338,8 +314,7 @@ color: white;
 line-height: 1.5;font-family:Leonsans;
 margin-top: 10px}
 
-#retorno{color:white;
-	border:2px solid rgba(90, 31, 155,0.9);
+.retorno{
 text-decoration: none;
 margin: 20px auto;
 display: flex;
@@ -350,9 +325,14 @@ transition:all 1s ease-out ;
 padding: 10px ;
 width: 320px;
 margin-top: 20px;
-border-radius:20px;
 background: rgb(0,0,0,0.6);
-font-family:Leonsans;}
+background: rgb(100,100,250,0.4);
+border:2px solid rgba(90, 31, 155,0.9);}
+
+.retorno a{color: white ;
+font-family: 'Stick No Bills', sans-serif;
+text-decoration: none;
+}
 
 
 #retorno i{padding: 0vh 10px;
@@ -362,15 +342,8 @@ color: green}
 box-shadow: 0px 0px 4vh rgba(91, 33, 193,0.7);
 background:rgba(91, 33, 193,0.8) ;}
 
-
-.cite{
-cursor:pointer;
-width: 80%;
-margin: 10px auto;
-max-width: 1100px;
-font-size:17px;
-color: white;
-font-family:Leonsans;}
-	
-.tiem{display:flex;
-margin-top: 10px}
+cite{text-align: center;
+font-family:Leonsans;
+font-size:18px
+;color: white;
+width: 100px}
