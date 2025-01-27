@@ -767,17 +767,17 @@ justify-content: center;}
 	color:rgba(100, 200, 78,0.7) }
 
 #servicio{;
-	padding: 60px 0px ;
+	padding:30px 0px ;
 background: rgba(0,0,0,0.6);}
 
-#servicio h4{font-size:40px;
-color: #2feab8;
+#servicio h4{font-size:50px;
 ;width:70%;
 line-height: 1.3;
 margin: 10px auto;
 text-align:center;
 max-width: 700px;
-font-family:Leonsans;}
+font-family:Leonsans;
+color: white}
 
 .ser{display: grid;
 grid-template-columns: repeat(3,1fr);
@@ -786,8 +786,7 @@ width: 90%;
 margin: 10px auto;
 height: auto;
 max-width: 1100px;
-height: 400px;
-border:1px solid white }
+height: 400px;}
 
 .ser .s1 div{
 width: 100%;}
@@ -876,8 +875,8 @@ font-size:25px;}
 .coon{width: 90%;margin: 0px auto;
 padding: 20px 0px}
 
-.coon h5 {font-size:40px;
-color: #2feab8;
+.coon h5 {font-size:50px;
+color:white;
 ;width:70%;
 line-height: 1.3;
 margin: 10px auto;
@@ -1174,7 +1173,6 @@ background:#0A0D11}
 
 .Creador{
 text-align: center; 
-padding:5px;
 width: 700px;
 margin: 0 auto;}
 
@@ -1188,7 +1186,7 @@ font-size: 22px ;
 color: #24dff9;
 font-family:StickNoBills;}
 
-.Creador a :hover{
+.Creador a:hover{
 color:#2feab8}
 	
 .Creador p {color: white;
@@ -1202,3 +1200,19 @@ font-size: 14px;
 font-family:Leonsans}
 
 .Creador p a:hover{color:#2feab8}
+
+cite {color:white;
+font-family: monospace;
+font-size:10px;
+font-family:Leonsans;
+opacity:0.5;
+cursor: pointer;
+}
+
+
+cite:hover{color:red;
+font-family: monospace;
+font-size:11px;
+font-family:Leonsans;
+opacity:1;
+transition: all ease 1.5s}
