@@ -1,14 +1,11 @@
 *{margin: 0;
 padding: 0;
-box-sizing: border-box;
-
-paf
-
-}
+box-sizing: border-box;}
 
 /* El scroll */
 html , body{ max-width: 100% !important;
 	overflow-x: hidden !important;}
+
 
 html::-webkit-scrollbar{
 width: 1vw;
@@ -497,13 +494,12 @@ letter-spacing: 1px;
 
 .pag-web .img{  
 position: relative;
-background:  url(../img/foo.png) 
-;background-size: 90% 300px;
+background:  url(../img/foo.png); 
+background-size: 90% 300px;
 background-repeat: no-repeat;
-max-width: 600px}
+max-width: 600px } 
 
-.pag-web .img img {  
-justify-content ; 
+.pag-web .img img {   
 text-align: center;
 border-radius: 5px;
 margin: 0 auto;
@@ -644,7 +640,7 @@ margin:0px auto;
 text-align: center; 
 background-size: 100% 100%;
 background-repeat: no-repeat;
-padding:50px 0px;
+padding:10px 0px 50px 0px;
 background-image: url(../img/pro.svg);	
 background-size: cover;
 background-repeat: no-repeat;
@@ -652,13 +648,14 @@ background-position: center; }
 
 
 .proyectos h5 {font-size:40px;
-color: white;
+color: skyblue;;
 ;width:100%;
 line-height: 1.3;
-max-width:750px;
+max-width:250px;
 text-align: center;
 margin: 10px auto;
-font-family:Leonsans;}	
+font-family:Leonsans;
+border-bottom: 1px solid skyblue;}	
 
 .proyectos p {font-size:20px;
 color: white;
@@ -673,42 +670,51 @@ font-family:Leonsans;}
 .trabajos{display: grid;
 grid-template-columns: repeat(3,1fr); 
 width: 90%;
-max-width:1400px;
+max-width:1200px;
 justify-content: center;
 align-items: center ;
-margin: 0px auto;}
+margin: 20px auto;
+grid-gap:10px ;}
+
+
 
 
 .pro {width:95%;  
-background: #1b4125 
-border-radius:20px;
-padding: 0px;
-box-shadow:0px 0px 7	px rgba(27, 151, 164,0.5);}
+background:rgba(07, 51, 124,0.2); 
+border-radius:20px ;
+box-shadow:0px 0px 1px rgba(8, 189, 209, 0.5);
+height:380px;}
+
+.pro:hover{ 
+	box-shadow:0px 0px 10px rgba(8, 189, 209, 0.5);; 	
+cursor: pointer;
+transform: scale(1.05);
+z-index: 3;
+background:rgba(07, 51, 124,0.7);
+transition: all 1s ease;}
+
 
 .pro img{width:90%;
-height:200px;
+height:180px;
 margin: 0px auto;
 justify-content: center;
 align-items: center;
 display: flex;
-border-radius: 10px; 
-padding: 0px}
+border-radius: 10px; }
 
 
-.pro h3 { 
-		color:rgb(229, 245, 248); 
-		font-size: 24px;
+.pro h3 { color:rgb(229, 245, 248); 
+		font-size: 20px;
 		text-align: center;
-		letter-spacing: 2px;
 font-family:Leonsans;}
 
-.pro p {	
-line-height: 1.3; 
-padding: 10px 5px;
-font-size: 16px;
+.pro p {
+padding:5px;
+font-size:15px;
 color: rgb(229, 245, 248);
 text-align: center;
-font-family:Leonsans;}				
+font-family:Leonsans;
+width:95% ;}				
 
 .pro button{
 color: rgb(29, 43, 131);
@@ -728,11 +734,6 @@ border-radius: 10px}
 		color:#cccccc;;
 		 text-decoration:none;}
 
-.pro:hover{ 
-box-shadow:0px 0px 30px 5px rgba(27, 151, 164,0.5); 	
-cursor: pointer;
-transform: scale(1.04);
-z-index: 2;}
 
 
 .pro button:hover{background: rgb(4, 71, 109);
@@ -751,11 +752,11 @@ font-size: 20px;
 width: 50%;
 margin: 0 auto}
 
-.otros div{display: flex; );
+.otros div{display: flex;
 	width: 100%;
 	margin: 5px auto;
 align-items: center;
-justify-content: center;}				
+justify-content: center}				
 			
 
 .otros div a{ 
@@ -765,10 +766,10 @@ justify-content: center;}
 	color: #ffff;
 	margin: 10px 20px}
 
-.otros div  a:hover{ ;
+.otros div  a:hover{
 	color:rgba(100, 200, 78,0.7) }
 
-#servicio{;
+#servicio{
 	padding:30px 0px ;
 background: rgba(0,0,0,0.6);}
 
@@ -997,8 +998,7 @@ width: 400px}
 	font-size: 16px;
 	 color:#ffff;
 font-family:Leonsans;
-text-decoration: none;
-color:}
+text-decoration: none;}
 
 
 .contac a p b {
