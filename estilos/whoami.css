@@ -74,7 +74,9 @@ border-radius: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 0 auto;}
+margin: 0 auto;
+box-shadow: 0px 0px 40px  rgba(94, 202, 210, 0.5);
+border:5px solid rgba(94, 202, 210, 0.5);}
 
 
 .red-social{ margin: 0px auto}
@@ -105,7 +107,7 @@ background: rgb(0,0,0,0.8);
 border: 2px solid black}
 
 .red-social  ul li a .fa:hover{
-animation:loop 2s infinite ;
+animation:loop 2.5s infinite ;
 border: 2px solid black}
 
 @keyframes  loop{
@@ -115,13 +117,13 @@ border: 2px solid black}
 
 
 .red-social  ul  #contac a {background:black;
-border: 1px solid white;
+border: 0.5px solid rgba(216, 227, 252, 0.5);
 font-family:Leonsans;
 color: white;
 width: 150px;
 height: 40px;
 font-size: 20px;
-border-radius:29px ;
+border-radius:35px ;
 display: flex;
 justify-content: center;
 align-items: center;}
@@ -130,7 +132,8 @@ align-items: center;}
 .red-social  ul  #contac a:hover{;
 transition:all 1s ease ;
 color: #2feab8;
-border: 1px solid #2feab8}
+border: 1px solid #2feab8;
+animation:loop 2s infinite}
 
 .red-social  ul li a .fa-facebook:hover{
 background:#3b5998;
@@ -162,7 +165,10 @@ margin-top: 80px;
 border-radius: 30px}
 
 .cardp1-h4{font-size:25px;	
-color:rgb(90, 206, 113) ;}
+color:rgb(90, 206, 113) ;
+margin-top: 80px;
+font-size: 30px;
+font-family:Leonsans;}
 
 .cardp1 div p  {font-size:18px;
 color: white;
@@ -173,10 +179,15 @@ margin: 10px auto;
 font-family:Leonsans;}
 
 
-.cardp1 div h5{font-size:27px;}
+.cardp1 h5{font-size:27px;
+font-family:Leonsans;
+color:#2feab8;
+text-align: center;}
 
 .cardp1 div nav{ 
-padding:  20px;}
+padding:10px 20px;
+background:rgb(5, 6, 8,0.4)
+;margin: 0 auto;}
 
 
 .cardp1 div nav ul{ display: grid;
@@ -217,8 +228,9 @@ font-family:Leonsans;}
 .dedico{color: white;
 width: 98%;	
 margin: 40px auto;
-background: rgba(0,0,0,0.7);
-padding: 60px 0px;}
+padding: 60px 0px;
+background-color:rgba(94, 202, 210, 0.1);
+border-radius: 60px;}
 
 
 .dedico h4{font-size:38px;
@@ -239,7 +251,7 @@ margin: 20px auto;}
 .dedico-ul li{
 margin: 10px ;
 cursor: pointer;
-background: rgb(100,100,100,0.1);
+background: rgb(10,10,10,0.7);
 padding:20px;
 border-radius: 10px;
 padding:22px;
@@ -247,7 +259,7 @@ list-style: none;}
 
 .dedico-ul li:hover{
  	 transition: all 500ms  ease-in-out;
-		;transform: scale(1.15);
+		;transform: scale(1.20);
 		cursor: pointer;
 		background: rgb(100,100,250,0.4);}
 
@@ -292,21 +304,29 @@ width: 100%;
 margin: 40px auto ;
 max-width: 1000px}
 
+
+.cardp2 .img-pc{border:2px solid rgb(90, 246, 113);
+	box-shadow: 0px 0px 6px rgb(190, 246, 113);
+	width:350px;
+	height: 250px;
+	margin: 0 auto;}
+
+
 .cardp2 div img{display: flex;
-width:350px;
-height: 250px;
-box-shadow: 10px 10px 10px black;
+width:348px;
+height: 248px;;
 margin: 0 auto;
-background: black}
+background: black;
+transform: translateX(11px) translateY(-11px);
+box-shadow: 0px 0px 50px rgb(0, 6, 3);}
 
 .cardp2 div img:hover{display: flex;
-width:350px;
-height: 250px;
-box-shadow: 10px 10px 10px black;
+	transform: translateX(-10px) translateY(10px)
+;
+box-shadow: 0px 0px 20px rgb(190, 246, 113);
 margin: 0 auto;
 cursor: pointer;
-transition: all 1s ease;
-transform: translateX(10px);}
+transition: all 1s ease-out;}
 
 .cardp2 div p {font-size:18px;
 color: white;
