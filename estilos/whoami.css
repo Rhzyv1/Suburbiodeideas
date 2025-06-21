@@ -233,13 +233,31 @@ background-color:rgba(94, 202, 210, 0.1);
 border-radius: 60px;}
 
 
-.dedico h4{font-size:38px;
+.dedico h4 small{font-size:23px;
+color:rgb(90, 246, 113);
+
+text-align: center;
+letter-spacing: 2px;
+margin: 0 auto;
+color:rgb(90, 246, 113);
+padding: 5px;}
+
+.dedico h4 {font-size:23px;
 color:rgb(90, 246, 113);
 font-family: 'Stick No Bills', sans-serif;
 text-align: center;
 letter-spacing: 2px;
 margin: 0 auto;
+color:rgb(230, 246, 213);
+padding: 5px;}
+
+.dedico h5{font-size:35px;
 color:rgb(90, 246, 113);
+font-family: 'Stick No Bills', sans-serif;
+text-align: center;
+letter-spacing: 2px;
+margin: 0 auto;
+color:rgb(230, 246, 213);
 padding: 5px;}
 
 .dedico-ul {display: grid;
@@ -252,9 +270,7 @@ margin: 20px auto;}
 margin: 10px ;
 cursor: pointer;
 background: rgb(10,10,10,0.7);
-padding:20px;
 border-radius: 10px;
-padding:22px;
 list-style: none;}
 
 .dedico-ul li:hover{
@@ -271,22 +287,23 @@ list-style: none;}
 
 
 .dedico-ul li i{color:#24dff9;
-font-size: 35px;
-padding-right: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 0 auto;
-background:black;
-padding: 30px;
-width: 70px;
-height: 50px;
-border-radius: 50%}
+font-size: 40px;
+border-radius: 50%;
+position: absolute;
+right: ;}
+
+.dedico-ul li span{
+background-color: #9E37B8;;
+right: 0px;
+font-size: 30px;}
 
 
 .dedico-ul li p {color:white;
 font-size: 15px;
-font-family:Leonsans}
+font-family:Leonsans;
+margin-top: 20px;}
+
+.dedico-ul li p i{position: relative;}
 
 .dedico-ul li p b {color:white;
 font-size: 20px;
