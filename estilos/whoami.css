@@ -16,9 +16,7 @@ height:220px;
 display: block;
 position: relative;
 margin-top:200px;
-background: rgba(10,10,10,0.7);
-padding: 5px;
-border-radius: 50%}
+background: rgba(10,10,10,0.7);}
 
 
 /* Fonts */
@@ -32,7 +30,7 @@ src:url(../fonts/Leonsans.ttf);}
 
 .inicio{
 	width: 90%;
-	max-width:1200px;
+	max-width:1100px;
 	margin: 0 auto;
 	padding-top: 100px;
 display: grid;
@@ -65,18 +63,18 @@ font-family:Leonsans;
 letter-spacing: 1px;
 text-shadow: 10px 10px 50px black;}
 
-.headerImg{padding-top:50px}
 
 .headerImg img{
-width: 300px;
-height:300px;
-border-radius: 50%;
+width: 370px;
+height:370px;
 display: flex;
 justify-content: center;
 align-items: center;
 margin: 0 auto;
-box-shadow: 0px 0px 40px  rgba(94, 202, 210, 0.5);
-border:5px solid rgba(94, 202, 210, 0.5);}
+background-color:rgba(9, 113, 127, 0.422);
+padding: 20px;
+border-radius: 200px 330px 200px 100px;
+box-shadow: 0px 0px 10px rgba(18, 177, 221, 0.817);}
 
 
 .red-social{ margin: 0px auto}
@@ -84,14 +82,15 @@ border:5px solid rgba(94, 202, 210, 0.5);}
 .red-social ul{position: relative;
 	display: flex;
 max-width: 500px;
-margin-top: 20px}	
+margin-top: 20px;}	
 
 .red-social ul li{position: relative;
 	list-style: none;
 	margin: 10px;
 	cursor: pointer;display: flex; 
 	justify-content: center;
-	align-items: center;}
+	align-items: center;
+}
 
 .red-social  ul li a {text-decoration: none;}
 
@@ -117,7 +116,8 @@ border: 2px solid black}
 
 
 .red-social  ul  #contac a {background:black;
-border: 0.5px solid rgba(216, 227, 252, 0.5);
+border: 0.5px solid transparent;
+box-shadow: 0px 0px 10px rgba(18, 177, 221, 0.817);
 font-family:Leonsans;
 color: white;
 width: 150px;
@@ -129,8 +129,8 @@ justify-content: center;
 align-items: center;}
 
 
-.red-social  ul  #contac a:hover{;
-transition:all 1s ease ;
+.red-social  ul  #contac a:hover{
+transition:all 2s ease ;
 color: #2feab8;
 border: 1px solid #2feab8;
 animation:loop 2s infinite}
@@ -322,8 +322,8 @@ margin: 40px auto ;
 max-width: 1000px}
 
 
-.cardp2 .img-pc{border:2px solid rgb(90, 246, 113);
-	box-shadow: 0px 0px 6px rgb(190, 246, 113);
+.cardp2 .img-pc{border:2px solid rgb(120, 64, 200);
+	box-shadow: 0px 0px 6px rgb(11, 107, 192);
 	width:350px;
 	height: 250px;
 	margin: 0 auto;}
@@ -340,7 +340,7 @@ box-shadow: 0px 0px 50px rgb(0, 6, 3);}
 .cardp2 div img:hover{display: flex;
 	transform: translateX(-10px) translateY(10px)
 ;
-box-shadow: 0px 0px 20px rgb(190, 246, 113);
+box-shadow: 0px 0px 20px rgb(15, 146, 131);
 margin: 0 auto;
 cursor: pointer;
 transition: all 1s ease-out;}
