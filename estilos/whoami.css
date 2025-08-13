@@ -29,7 +29,7 @@ font-family:Leonsans;
 src:url(../fonts/Leonsans.ttf);}
 
 .inicio{
-	width: 90%;
+	width: 90%;		
 	max-width:1100px;
 	margin: 0 auto;
 	padding-top: 100px;
@@ -65,16 +65,18 @@ text-shadow: 10px 10px 50px black;}
 
 
 .headerImg img{
-width: 370px;
-height:370px;
+width: 400px;
+height:390px;
 display: flex;
 justify-content: center;
 align-items: center;
 margin: 0 auto;
-background-color:rgba(9, 113, 127, 0.422);
-padding: 20px;
-border-radius: 200px 330px 200px 100px;
-box-shadow: 0px 0px 10px rgba(18, 177, 221, 0.817);}
+background-color:rgba(9, 113, 127, 0.1);
+padding:px;
+border-radius:50%;
+box-shadow: 0px 0px 10px rgba(18, 177, 221, 0.817);
+margin-top: 20px;
+}
 
 
 .red-social{ margin: 0px auto}
