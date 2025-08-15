@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 /* El scroll */
 html , body{ max-width: 100% !important;
 	overflow-x: hidden !important;}
@@ -26,8 +26,7 @@ font-size:35px;
 background:  rgba(14, 135, 12, 1) ;
 z-index: 4;
 border-radius: 0px 30px 30px 0px;
-width: 50px ;
-height:50px;
+width: 50px ;height:50px;
 display: flex;
 justify-content: center;
 align-items: center;}
@@ -318,7 +317,7 @@ justify-content: center;
 margin: 0 auto;
 position: relative;
 margin-top: 200px;
-width: 600px;
+width: 550px;
 background: rgba(0,0,0,0.8);
 padding:10px 10px;
 border-radius:13px;
@@ -329,8 +328,7 @@ background-size: 800px 300px;}
 @keyframes lot{
 	0%{text-shadow: 0px 0px 10px #009fbb}
   50%{text-shadow: 0px 0px 30px #8f12dd}
-	100%{text-shadow: 0px 0px 10px #009fbb}
-}
+	100%{text-shadow: 0px 0px 10px #009fbb}}
 	
 .saludo h1{ 
 font-family:StickNoBills;
@@ -350,18 +348,17 @@ line-height:1;
 color:#32dfb4;;
 text-shadow: 0px 0px 10px black;
 border-bottom: 1px solid #16c7deb0;;
-width: 250px;
+width: 230px;
 margin: 0 auto;
 font-family:type;}		
 
 /* bienvenida */
 .Bienvenido{color: white;
 margin: 50px auto;
-width:80%;}
+width:75%;
+max-width: 700px;}
 
 .Bienvenido .hello{
-	background-color: #01387f;
-background: linear-gradient(120deg, rgba(3, 51, 134, 0.2) 12%, rgba(27, 91, 164, 0.572) 65%,rgba(25, 3, 104,0.4) 100%);
 padding: 20px 10px;
 margin: 10px 10px;
 border-radius:10px}
@@ -373,14 +370,15 @@ margin: 5px 0px;}
 
 .Bienvenido .hello  p {font-size:15px;
 color: white;
-;width:90%;
+;width:100%;
 text-align: center;
 font-family:Leonsans;
 margin: auto;
-line-height: 1.1;}	
+line-height: 1.1;
+max-width: 530px;}	
 
 	.Bienvenido .hello h5{
-	font-size: 30px;
+	font-size: 25px;
 	font-family:StickNoBills;text-align: center;
 	margin-top: 15px}
 
@@ -388,14 +386,13 @@ line-height: 1.1;}
 font-size: 15px;text-align: center;
 display:block;
 margin: 0 auto;font-family:Leonsans;;
-width: 90%;
-;}
+width: 96%}
 
-.Bienvenido .hello li{
+.Bienvenido .hello li{list-style: none;
 font-size: 15px;
 width:100%;
 margin: 0 auto;
-padding-top:4px}
+padding-top:2px}
 
 /* web */
 .pag-web{
@@ -404,7 +401,7 @@ padding:20px 0px}
 
 .pag-web-a{display:grid;
 grid-template-columns: repeat(2	,1fr);
-width:95%;
+width:90%;
 margin: 0% auto;}
 
 .web{width:100%;
@@ -419,29 +416,27 @@ font-family:StickNoBills;
 font-size:30px;
 color:rgb(01, 184, 255);}
 
-.web p {font-size:16px;
+.web p {font-size:15px;
 color: white;
-;width:96%;
+;width:97%;
 line-height: 1.3;
 margin-top: 5px;
 text-align: left;
-margin-bottom: 30px;
+margin-bottom: 20px;
 font-family:Leonsans;}		
 
 .web a{text-decoration: none;
 	margin-top: 40px}
 
 .web #car {
-padding:5px 30px;
+padding:5px 10px;
 cursor: pointer;
   text-align:center;
   color: white;  
-font-size:18px ;
+font-size:16px ;
 border-radius:33px;
 font-family:TitilliumWeb;
-letter-spacing: 3px;
-background: #3f0c87;
-background: linear-gradient(90deg, rgba(63, 12, 135, 0.81) 2%, rgb(106, 35, 139) 51%, rgb(125, 9, 115) 100%);
+letter-spacing: 3px;;
 background-size:100%;}
 
 .web #car:hover {
@@ -453,7 +448,7 @@ box-shadow:0px 0px 20px  rgba(113, 69, 232, 0.8);}
 .pag-web .img{  
 position: relative;
 background:  url(../img/foo.png); 
-background-size: 90% 250px;
+background-size: 100% 250px;
 background-repeat: no-repeat;
 max-width: 600px;
 ;} 
@@ -462,7 +457,7 @@ max-width: 600px;
 text-align: center;
 border-radius: 5px;
 margin: 0 auto;
-width: 70%;
+width: 90%;
 ;height: 250px; }
 
 .pag-web .img img:hover {   
@@ -477,13 +472,12 @@ grid-template-columns: repeat(2,1fr);
 background: url(../img/banner.webp);
 background-size: 100% 400PX;
 background-position: center;
-padding:20px 20px;
+padding:20px 40px;
 margin:40px auto; 
 border-radius:33px;
 width: 95%;}
 
 .divido .parte1 {width: 100%}
-
 
 .divido h5{font-size:20px;
 color:white ;
@@ -493,8 +487,8 @@ font-family:Leonsans;}
 
 .divido p {font-size:15px;
 color: white;
-;width:90%;
-line-height: 1.5;
+;width:96%;
+line-height: 1.3;
 margin-top: 15px;
 max-width: 500px;
 text-align: left;
@@ -502,11 +496,11 @@ margin-bottom: 0px;
 font-family:Leonsans;}		
 
 .divido article ul{
-margin-top: 15px;}
+margin-top: 10px;}
 
 .divido article li {font-size:15px;
 color: white;
-line-height: 1.1;
+line-height: 1.3;
 max-width: 500px;
 text-align: left;
 list-style: none;
@@ -515,7 +509,7 @@ border-bottom: 1px solid transparent}
 
 .divido article li::before {
   content: "+ ";
-  font-size:18px}
+  font-size:15px}
 
 /* web */
 
@@ -529,18 +523,19 @@ margin-bottom: 10px;}
 margin: 0 auto;
 margin-left: -20px;}
 
-.web2  h4 {font-size:30px;
+.web2  h4 {font-size:28px;
 text-shadow: 0px 5px 5px black;
 text-shadow: 0px 0px 2px rgba(15, 17, 125,0.9);
 color:rgb(01, 184, 255);
 font-family:Leonsans;
 letter-spacing: 1px;
 margin-top: 10px;
-font-family:StickNoBills;}
+font-family:StickNoBills;
+width: 80%;}
 
-.web2 p {font-size:16px;
+.web2 p {font-size:15px;
 color: white;
-;width:90%;
+;width:96%;
 line-height: 1.3;
 margin-top: 5px;
 text-align: left;
@@ -595,7 +590,8 @@ padding:20px 0px 20px 0px;
 background-image: url(../img/pro.svg);	
 background-size: cover;
 background-repeat: no-repeat;
-background-position: center; }
+background-position: center; 
+max-width: 850px;}
 
 
 .proyectos h5 {width:100%;
@@ -612,13 +608,13 @@ color:rgb(01, 184, 255);}
 color: white;
 ;width:80%;
 line-height: 1.3;
-max-width:750px;
+max-width:600px;
 text-align: center;
 margin:0px auto;}		
 
 .trabajos{display: grid;
 grid-template-columns: repeat(3,1fr); 
-width: 95%;
+width:95%;
 max-width:800px;
 justify-content: center;
 align-items: center ;
@@ -630,7 +626,7 @@ background:rgba(07, 51, 124,0.2);
 border-radius:20px ;
 box-shadow:0px 0px 0cap rgba(8, 189, 209, 0.5);
 padding-top: 20px;
-height: 370px;}
+height: 330px;}
 
 .pro:hover{ 
 	box-shadow:0px 0px 10px rgba(8, 189, 209, 0.5);; 	
@@ -643,7 +639,7 @@ transition: all 1s ease;}
 .pro a{text-decoration: none;}
 
 .pro img{width:95%;
-height:160px;
+height:140px;
 margin: 0px auto;
 justify-content: center;
 align-items: center;
@@ -652,28 +648,27 @@ border-radius: 10px; }
 
 
 .pro h3 { color:rgb(229, 245, 248); 
-		font-size:18px;
+		font-size:16px;
 		text-align: center;
 font-family:Leonsans;
 margin-top: 10px;}
 
 .pro p {
 padding:5px 0PX;
-font-size:14px;
+font-size:13px;
 color: rgb(229, 245, 248);
 text-align: center;
 font-family:Leonsans;
-width:95% ;
+width:90% ;
 text-decoration: none;}				
 
 .pro button{background:rgba(01, 184, 255,0.4);
 	border-radius:5px;
-	padding:6px 25px;
+	padding:3px 15px;
 margin: 10px;
  font-family:StickNoBills;
  border: none;
- font-size:16px;cursor: pointer;
-}
+ font-size:15px;cursor: pointer;}
 
 
 .pro button:hover{background:rgba(1, 144, 155,0.6);
@@ -916,9 +911,9 @@ padding: 30px 0px}
 .containerpx{width: 95%;
 display: grid; 
 grid-template-columns: repeat(2,1fr);
-grid-gap: 40px;
+grid-gap:10px;
 margin: 0px auto;
-max-width: 790px;
+max-width: 890px;
 padding:20px 0px;}
 
 .info-form h6 {
@@ -935,7 +930,7 @@ color:#ffff;
 text-align:center;
 margin: 10px auto;
 font-family:Leonsans;
-width: 270px}
+width: 300px}
 
 .contac{margin-top: 20px}
 
@@ -1009,14 +1004,11 @@ transition: all 1 ease-out;
 transform: scale(1.3);
 transition: all 1s ease;}
 
-
-
 form{ 
 width:100%;
 padding: 10px ;
 box-shadow: 0px 0px 30px black;
 color: white}
-
 
 form h6 {
 font-size: 20px;
@@ -1037,7 +1029,7 @@ border-bottom: 1px solid gray;
 outline: 0px;
 outline:none;
 cursor: pointer;
-width: 95%;
+width: 99%;
 font-family:Leonsans;
 color: white}
 
@@ -1156,9 +1148,6 @@ font-size:10px;
 font-family:Leonsans;
 opacity:0.5;
 cursor: pointer;}
-
-cite:hover{color:rgb(164, 39, 217)}
-}
 
 
 @media screen and (min-width: 300px) and (max-width: 500px) {
@@ -2102,12 +2091,10 @@ width: 270px}
 font-family:Leonsans;
 text-decoration: none;}
 
-
 .contac a p b {
 font-family:Leonsans;
 text-decoration: none;
 color:white}
-
 
 .contac a p  {
 font-family:Leonsans;
@@ -2148,7 +2135,6 @@ justify-content: center;
 align-items: center;
 color: white;}
 
-
 .footer-red-social  ul li a .fa-facebook:hover{
 color:#4abce6;
 transition: all 1 ease-out;
@@ -2167,14 +2153,11 @@ transition: all 1 ease-out;
 transform: scale(1.3);
 transition: all 1s ease;}
 
-
-
 form{ 
 width:100%;
 padding: 10px ;
 box-shadow: 0px 0px 30px black;
 color: white}
-
 
 form h6 {
 font-size: 20px;
@@ -2314,7 +2297,5 @@ font-size:10px;
 font-family:Leonsans;
 opacity:0.5;
 cursor: pointer;}
-
-cite:hover{color:rgb(164, 39, 217)}
 }
 
