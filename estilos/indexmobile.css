@@ -1480,7 +1480,7 @@ align-items: center;
 justify-content: center;
 margin: 0 auto;
 position: relative;
-margin-top:200px;
+margin-top:250px;
 width: 330px;
 background: rgba(0,0,0,0.8);
 padding:10px 10px;
@@ -1587,18 +1587,18 @@ color: white;
 line-height: 1.3;
 margin-top: 5px;
 text-align: left;
-margin-bottom: 30px;
+margin-bottom: 20px;
 font-family:Leonsans;}		
 
 .web a{text-decoration: none;
-	margin-top: 40px}
+	margin-top: 10px}
 
 .web #car {
-padding:5px 30px;
+padding:5px 10px;
 cursor: pointer;
   text-align:center;
   color: white;  
-font-size:16px ;
+font-size:18px ;
 border-radius:33px;
 font-family:TitilliumWeb;
 letter-spacing: 3px;
@@ -1613,7 +1613,7 @@ box-shadow:0px 0px 20px  rgba(113, 69, 232, 0.8);}
 .pag-web .img{  
 position: relative;
 background:  url(../img/foo.png); 
-background-size: 90% 200px;
+background-size: 100% 200px;
 background-repeat: no-repeat;
 max-width: 600px;
 margin-top: 20px;} 
@@ -1917,8 +1917,8 @@ text-align: left;
 width: 100%;color: #ecf0f1; 
 font-style: normal;
 list-style: none;
-line-height: 1.2;
-padding:0px 15px;
+line-height: 1.3;
+padding:3px 15px;
 margin-top: 0px;
 font-family:Leonsans}
 
@@ -1945,18 +1945,18 @@ font-size:40px}
 
 .coon p {font-size:16px;
 color: white;
-;width:90%;
+;width:100%;
 line-height: 1.3;
 text-align:center;
 font-family:TitilliumWeb;
-margin: 5px auto;
+margin: 10px auto;
 max-width: 700px;}		
 
 
 .contmary{  display: grid; 
 			grid-template-columns: repeat(1,1fr);
 			width: 90%;
-			margin: 10px auto;
+			margin: 30px auto;
 			max-width: 1100px}
 
 .contalfa{
@@ -2015,17 +2015,17 @@ width: 90%;
 transition: all 1.5s ease;
 font-family:Leonsans;}
 
-.mensaje-f{width: 80%;
+.mensaje-f{width: 90%;
 max-width: 700px;
 margin: 30px auto;
 display: grid;
 grid-template-columns: repeat(1,1fr);
 ;background-color: #5822bcb1 ;
 border-radius: 33px;
-padding: 10px 20px;}
+padding:  20px;}
 
 .mensaje-f .imagen img{ 
-	width:80%px;height: 150px;}
+	width:90%px;height: 150px;}
 
 	.mensaje-f .texto h6{
 		font-family:TitilliumWeb;
@@ -2038,7 +2038,7 @@ color: white;
 width: 95%;
 line-height: 1.1;
 font-family:TitilliumWeb;
-font-size: 15px;}
+font-size: 16px;}
 
 .mensaje-f .texto button{background: chocolate;
 border: none;
@@ -2070,7 +2070,7 @@ padding: 10px 0px}
 
 .all{padding: 0px}
 
-.containerpx{width:100%;
+.containerpx{width:90%;
 display: grid; 
 grid-template-columns: repeat(1,1fr);
 grid-gap: 10px;
