@@ -388,7 +388,8 @@ max-width: 530px;}
 font-size: 14px;text-align: center;
 display:block;
 margin: 0 auto;font-family:Leonsans;;
-width: 85%}
+width: 85%
+;padding-bottom: 20px;}
 
 .Bienvenido .hello li{list-style: non;
 font-size: 14px;
@@ -1473,9 +1474,9 @@ justify-content: center;
 margin: 0 auto;
 position: relative;
 margin-top:230px;
-width: 300px;
+width: 330px;
 background: rgba(0,0,0,0.8);
-padding:10px 10px;
+padding:20px 10px;
 border-radius:13px;
 box-shadow: 0px 0px 3px  #009fbb;
 
@@ -1543,7 +1544,7 @@ font-size: 17px;text-align: left;
 display:block;
 margin: 0 auto;font-family:Leonsans;;
 width: 85%;
-;}
+;padding-bottom: 20px;}
 
 .Bienvenido .hello li{
 font-size: 14px;
@@ -1629,7 +1630,7 @@ display: block;
 background: url(../img/banner.webp);
 background-size: 100% 100%;
 background-position: center;
-padding:20px 25px;
+padding:20px 15px;
 margin:40px auto; 
 border-radius:33px;
 width: 90%;}
@@ -1676,8 +1677,9 @@ border-bottom: 1px solid transparent}
 width:90%;
 margin-bottom: 10px;}
 
-.web2{width:90%;
-margin:30px auto;}
+.web2{width:100%;
+margin:10px auto;
+margin-bottom: 20px;}
 
 .web2  h4 {font-size:28px;
 text-shadow: 0px 5px 5px black;
@@ -2019,10 +2021,10 @@ display: grid;
 grid-template-columns: repeat(1,1fr);
 ;background-color: #5822bcb1 ;
 border-radius: 33px;
-padding:10px ; }
+padding:20px 10px ; }
 
 .mensaje-f .imagen img{ 
-	width:250px;height: 120px;
+	width:250px;height: 140px;
 display: flex;
 justify-content: center;
 align-items: center;margin: 0 auto;}
@@ -2041,14 +2043,14 @@ line-height: 1.1;
 font-family:TitilliumWeb;
 font-size: 16px;
 margin: 0 auto;
-width: 90%;}
+width: 95%;}
 
 .mensaje-f .texto button{background: chocolate;
 border: none;
 margin-top:10px;
 padding: 5px 10px;
 	border-radius: 20px 10px 20px 10px;
-font-size: 16px;
+font-size: 17px;
 margin-left: 5%;}
 
 .mensaje-f .texto button:hover{
@@ -2278,7 +2280,7 @@ background:#0A0D11}
 
 .Creador{
 text-align: center; 
-width: 90%;
+width: 80%;
 margin: 0 auto;}
 
 .Creador a{text-decoration: none;
@@ -2287,7 +2289,7 @@ width: 100%;
 letter-spacing: 1px}
 
 .Creador a{
-font-size: 20px ;
+font-size: 23px ;
 color: #24dff9;
 font-family:StickNoBills;}
 
