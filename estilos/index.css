@@ -6,7 +6,7 @@ box-sizing: border-box;}
 html , body{ max-width: 100% !important;
 	overflow-x: hidden !important;}
 
-
+b
 html::-webkit-scrollbar{
 width: 1vw;
 background-image: linear-gradient(to left top, #002c49, #003f58);}
@@ -644,7 +644,7 @@ text-align: center;
 margin: 15px auto;
 font-family:StickNoBills;
 font-family:TitilliumWeb;
-font-size:55px;
+font-size:50px;
 color:rgb(01, 184, 255);
 }	
 
@@ -684,7 +684,7 @@ transition: all 1s ease;}
 .pro a{text-decoration: none;}
 
 .pro img{width:95%;
-height:200px;
+height:170px;
 margin: 0px auto;
 justify-content: center;
 align-items: center;
@@ -715,13 +715,12 @@ margin: 10px;
  border: none;
  font-size: 20px;cursor: pointer;
  color: white;
-}
+border: 1px solid rgba(255, 255, 255, 0.654);}
 
 
-.pro button:hover{background:rgba(1, 144, 155,0.6);
+.pro button:hover{background:rgba(129, 1, 155, 0.6);
 transition: all 1s ease-out ;
-color: white;
-;box-shadow:0px 0px 10px rgba(1, 144, 155,0.6);}
+color: white;}
 
 
 
@@ -840,7 +839,7 @@ font-family:StickNoBills;
 font-size:60px;
 color:rgb(01, 184, 255);
 font-family:TitilliumWeb;
-font-size:55px;}
+font-size:50px;}
 
 
 
@@ -943,15 +942,16 @@ font-family:TitilliumWeb;}
 border: none;
 margin-top: 20px;
 padding: 10px;
-	border-radius: 20px 10px 20px 10px}
+	border-radius: 200px 100px 220px 100px;
+border: 3px solid rgba(0, 0, 0, 0.818);}
 
 .mensaje-f .texto button:hover{
 border: none;
 margin-top: 20px;
-border-radius: 20px 10px 20px 10px;
 box-shadow: 0px 0px 10px chocolate;
 transition: all 2s ease;
-text-shadow: 0px 0px 10px black;}
+text-shadow: 0px 0px 10px black;
+border: 3px solid rgba(237, 222, 11, 0.695);}
 
 
 	.mensaje-f .texto button a{

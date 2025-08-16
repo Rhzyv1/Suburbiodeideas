@@ -318,6 +318,7 @@ margin: 0 auto;
 position: relative;
 margin-top: 200px;
 width: 550px;
+max-width:80%;
 background: rgba(0,0,0,0.8);
 padding:10px 10px;
 border-radius:13px;
@@ -350,13 +351,14 @@ text-shadow: 0px 0px 10px black;
 border-bottom: 1px solid #16c7deb0;;
 width: 230px;
 margin: 0 auto;
-font-family:type;}		
+font-family:type;
+}		
 
 /* bienvenida */
 .Bienvenido{color: white;
 margin: 50px auto;
 width:75%;
-max-width: 700px;}
+max-width:100%;}
 
 .Bienvenido .hello{
 padding: 20px 10px;
@@ -402,7 +404,8 @@ padding:20px 0px}
 .pag-web-a{display:grid;
 grid-template-columns: repeat(2	,1fr);
 width:90%;
-margin: 0% auto;}
+margin: 0% auto;
+max-width:100%;}
 
 .web{width:100%;
 margin: 0 auto;}
@@ -591,7 +594,7 @@ background-image: url(../img/pro.svg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center; 
-max-width: 850px;}
+max-width: 100%;}
 
 
 .proyectos h5 {width:100%;
@@ -615,7 +618,7 @@ margin:0px auto;}
 .trabajos{display: grid;
 grid-template-columns: repeat(3,1fr); 
 width:95%;
-max-width:800px;
+max-width:100%;
 justify-content: center;
 align-items: center ;
 margin: 20px auto;
@@ -668,13 +671,13 @@ text-decoration: none;}
 margin: 10px;
  font-family:StickNoBills;
  border: none;
- font-size:15px;cursor: pointer;}
+ font-size:15px;cursor: pointer;
+ border: 1px solid rgba(255, 255, 255, 0.654);}
 
 
-.pro button:hover{background:rgba(1, 144, 155,0.6);
+.pro button:hover{background:rgba(129, 1, 155, 0.6);
 transition: all 1s ease-out ;
-color: white;
-;box-shadow:0px 0px 10px rgba(1, 144, 155,0.6);}
+color: white;}
 
 #servicio{
 	padding:30px 0px ;
@@ -1469,8 +1472,8 @@ align-items: center;
 justify-content: center;
 margin: 0 auto;
 position: relative;
-margin-top:250px;
-width: 330px;
+margin-top:230px;
+width: 300px;
 background: rgba(0,0,0,0.8);
 padding:10px 10px;
 border-radius:13px;
@@ -1517,26 +1520,26 @@ margin: 10px 10px;
 border-radius:10px}
 
 	.Bienvenido .hello h4{
-	font-size: 30px;
+	font-size: 35px;
 	font-family:StickNoBills;text-align: center;
 margin: 5px 0px;
 padding-top: 15px;}
 
-.Bienvenido .hello  p {font-size:16px;
+.Bienvenido .hello  p {font-size:17px;
 color: white;
-;width:96%;
+;width:93%;
 text-align: center;
 font-family:Leonsans;
 margin: auto;
 line-height: 1.1;}	
 
 	.Bienvenido .hello h5{
-	font-size: 25px;
+	font-size: 28px;
 	font-family:StickNoBills;text-align: center;
 	margin-top: 15px}
 
 .Bienvenido .hello ul{
-font-size: 16px;text-align: left;
+font-size: 17px;text-align: left;
 display:block;
 margin: 0 auto;font-family:Leonsans;;
 width: 85%;
@@ -1571,7 +1574,7 @@ font-family:StickNoBills;
 font-size:28px;
 color:rgb(01, 184, 255);}
 
-.web p {font-size:15px;
+.web p {font-size:17px;
 color: white;
 ;width:96%;
 line-height: 1.3;
@@ -1584,7 +1587,7 @@ font-family:Leonsans;}
 	margin-top: 10px}
 
 .web #car {
-padding:5px 10px;
+padding:5px 15px;
 cursor: pointer;
   text-align:center;
   color: white;  
@@ -1613,7 +1616,7 @@ text-align: center;
 border-radius: 5px;
 margin: 0 auto;
 width: 90%;
-;height: 200px; }
+;height: 220px; }
 
 .pag-web .img img:hover {   
 transition: all 1s ease-out;
@@ -1634,16 +1637,17 @@ width: 90%;}
 .divido .parte1 {width: 100%}
 
 
-.divido h5{font-size:23px;
+.divido h5{font-size:25px;
 color:white ;
 text-shadow: 0px 5px 5px black;
 letter-spacing: 1.1px; 
-font-family:Leonsans;}
+font-family:Leonsans;
+text-align: center;}
 
-.divido p {font-size:16px;
+.divido p {font-size:17px;
 color: white;
 ;width:95%;
-line-height: 1.1;
+line-height: 1.3;
 margin-top: 15px;
 max-width: 500px;
 text-align: left;
@@ -1653,9 +1657,9 @@ font-family:Leonsans;}
 .divido article ul{
 margin-top: 15px;}
 
-.divido article li {font-size:16px;
+.divido article li {font-size:17px;
 color: white;
-line-height: 1.2;
+line-height: 1.3;
 max-width: 500px;
 text-align: left;
 list-style: none;
@@ -1669,22 +1673,24 @@ border-bottom: 1px solid transparent}
 /* web */
 
 .pag-web-b{display:block;
-width:95%;
+width:90%;
 margin-bottom: 10px;}
 
 .web2{width:90%;
 margin:30px auto;}
 
-.web2  h4 {font-size:25px;
+.web2  h4 {font-size:28px;
 text-shadow: 0px 5px 5px black;
-text-shadow: 0px 0px 2px rgba(15, 17, 125,0.9);
-color:rgb(01, 184, 255);
+text-shadow: 0px 0px 1px rgba(231, 198, 251, 0.9);
+color:rgb(49, 172, 221);
 font-family:Leonsans;
 letter-spacing: 1px;
 margin-top: 10px;
-font-family:StickNoBills;}
+font-family:StickNoBills;
+text-align: center;
+margin: 0 auto;}
 
-.web2 p {font-size:16px;
+.web2 p {font-size:17px;
 color: white;
 ;width:100%;
 line-height: 1.3;
@@ -1696,10 +1702,10 @@ font-family:Leonsans;}
 .web2 ul {display: grid;
 grid-template-columns: repeat(2,1fr);}
 
-.web2 ul li {font-size:16px;
+.web2 ul li {font-size:17px;
 color: white;
 ;width:80%;
-line-height: 1.5;
+line-height: 1.3;
 margin-left: 25px;
 font-family:Leonsans;
 font-family:TitilliumWeb}	
@@ -1754,9 +1760,9 @@ font-family:TitilliumWeb;
 font-size:40px;
 color:rgb(01, 184, 255);}	
 
-.proyectos p {font-size:16px;
+.proyectos p {font-size:17px;
 color: white;
-;width:85%;
+;width:90%;
 line-height: 1.3;
 max-width:750px;
 text-align: center;
@@ -1765,18 +1771,19 @@ margin:0px auto;}
 .trabajos{display: grid;
 grid-template-columns: repeat(1,1fr); 
 width: 85%;
-max-width:800px;
+max-width:330px;
 justify-content: center;
 align-items: center ;
 margin: 20px auto;
-grid-gap:10px ;}
+grid-gap:10px ;
+}
 
 .pro {width:100%;  
 background:rgba(07, 51, 124,0.2); 
 border-radius:20px ;
 box-shadow:0px 0px 0cap rgba(8, 189, 209, 0.5);
 padding-top: 10px;
-height: 350px;
+height: 370px;
 margin-top: 10px;}
 
 .pro:hover{ 
@@ -1799,14 +1806,14 @@ border-radius: 10px; }
 
 
 .pro h3 { color:rgb(229, 245, 248); 
-		font-size:18px;
+		font-size:22px;
 		text-align: center;
 font-family:Leonsans;
-margin-top: 10px;}
+margin-top: 15px;}
 
 .pro p {
 padding:5px 0PX;
-font-size:16px;
+font-size:17px;
 color: rgb(229, 245, 248);
 text-align: center;
 font-family:Leonsans;
@@ -1819,14 +1826,14 @@ text-decoration: none;}
 margin: 10px;
  font-family:StickNoBills;
  border: none;
- font-size:16px;cursor: pointer;
-}
+ font-size:20px;cursor: pointer;
+border: 1px solid white;}
 
 
-.pro button:hover{background:rgba(1, 144, 155,0.6);
+.pro button:hover{background:rgba(93, 1, 155, 0.6);
 transition: all 1s ease-out ;
 color: white;
-;box-shadow:0px 0px 10px rgba(1, 144, 155,0.6);}
+;box-shadow:0px 0px 1px rgba(1, 144, 155,0.6);}
 
 #servicio{
 	padding:30px 0px ;
@@ -1851,7 +1858,7 @@ margin-bottom: 10px;
 border: 1px solid rgb(4, 42, 141,0.77);}
 
 .ser .s0 h5{
-font-size:18px;
+font-size:22px;
 text-align: center;
 padding-top: 5px;
 width:100%;
@@ -1860,7 +1867,7 @@ color: #ecf0f1;
 font-family:Leonsans}
 
 .ser .s1 div p{
-font-size:16px;
+font-size:17px;
 text-align: left;
 width: 100%;
 color: #ecf0f1; 
@@ -1890,7 +1897,7 @@ cursor: pointer;
 border: 1px solid rgb(4, 42, 141,0.77);}
 
 .ser .s2 div p{
-font-size:16px;
+font-size:17px;
 text-align: left;
 width: 100%;  
 font-family: TraditionSansXLight;
@@ -1902,7 +1909,7 @@ margin-top: 0px;
 font-family:Leonsans}
 
 .ser .s3  li{
-font-size:16px;
+font-size:17px;
 text-align: left;
 width: 100%;color: #ecf0f1; 
 font-style: normal;
@@ -1914,7 +1921,7 @@ font-family:Leonsans}
 
 .ser .s3  li::before{content:"! " ;
 color: rgb(240, 240, 240);
-font-size:17px;}
+font-size:20px;}
 
 .coon{width: 90%;margin: 10px auto}
 
@@ -1947,7 +1954,7 @@ max-width: 700px;}
 			grid-template-columns: repeat(1,1fr);
 			width: 90%;
 			margin: 30px auto;
-			max-width: 1100px}
+			max-width: 350px}
 
 .contalfa{
 	width: 95%;
@@ -2006,13 +2013,13 @@ transition: all 1.5s ease;
 font-family:Leonsans;}
 
 .mensaje-f{width: 80%;
-max-width: 700px;
+max-width: 300px;
 margin: 30px auto;
 display: grid;
 grid-template-columns: repeat(1,1fr);
 ;background-color: #5822bcb1 ;
 border-radius: 33px;
-padding:  20px;}
+padding:10px ; }
 
 .mensaje-f .imagen img{ 
 	width:250px;height: 120px;
@@ -2032,7 +2039,7 @@ margin: 0 auto;}
 color: white;
 line-height: 1.1;
 font-family:TitilliumWeb;
-font-size: 15px;
+font-size: 16px;
 margin: 0 auto;
 width: 90%;}
 
@@ -2076,7 +2083,7 @@ max-width: 790px;
 padding:0px 0px;}
 
 .info-form h6 {
-font-size: 20px;
+font-size: 22px;
 color:#ffff ;
 font-family:Leonsans;
 text-align: center;
@@ -2084,12 +2091,12 @@ letter-spacing:1px;
 margin-top: 20px}
 
 .info-form p{
-font-size:16px;  
+font-size:17px;  
 color:#ffff;	
 text-align:center;
 margin: 10px auto;
 font-family:Leonsans;
-width: 270px}
+width: 300px}
 
 .contac{margin-top: 20px}
 
@@ -2108,7 +2115,7 @@ color:white}
 font-family:Leonsans;
 text-decoration: none;color:gray;
 padding-top: 10px;
-font-size: 16;}
+font-size: 17px;}
 
 
 .contac a p:hover  {
@@ -2280,7 +2287,7 @@ width: 100%;
 letter-spacing: 1px}
 
 .Creador a{
-font-size: 16px ;
+font-size: 20px ;
 color: #24dff9;
 font-family:StickNoBills;}
 
@@ -2304,6 +2311,5 @@ font-family: monospace;
 font-size:10px;
 font-family:Leonsans;
 opacity:0.5;
-cursor: pointer;}
-}
+cursor: pointer;}}
 }
