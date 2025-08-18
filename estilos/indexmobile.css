@@ -1473,7 +1473,7 @@ justify-content: center;
 margin: 0 auto;
 position: relative;
 margin-top:230px;
-width:90%;
+width:95%;
 background: rgba(0,0,0,0.8);
 padding:20px 5px;
 border-radius:13px;
@@ -1493,26 +1493,26 @@ text-shadow: 10px 6px 10px black;
 text-align:center;
 margin: 0 auto;
 color:#ffffff ;  
-font-size:45px;
+font-size:50px;
 text-align: center;
 text-shadow: 0px 0px 10px #009fbb;
 animation: lot 6s infinite;}
 
 .saludo  p {
-font-size:25px;
+font-size:23px;
 text-align: center; 
 line-height:1;
 color:#32dfb4;;
 text-shadow: 0px 0px 10px black;
 border-bottom: 1px solid #16c7deb0;;
-width: 250px;
+width: 240px;
 margin: 0 auto;
 font-family:type;}		
 
 /* bienvenida */
 .Bienvenido{color: white;
-margin: 50px auto;
-width:90%;}
+margin: 50px au5o;
+width:95%;}
 
 .Bienvenido .hello{
 padding:  10px;
@@ -1520,7 +1520,7 @@ margin: 10px 10px;
 border-radius:10px}
 
 	.Bienvenido .hello h4{
-	font-size: 35px;
+	font-size: 33px;
 	font-family:StickNoBills;text-align: center;
 margin: 5px 0px;
 padding-top: 15px;}
@@ -1547,7 +1547,7 @@ width: 90%;
 
 .Bienvenido .hello li{
 font-size: 16px;
-width:100%;
+width:95%;
 margin: 0 auto;
 padding-top:4px;
 list-style:decimal;}
