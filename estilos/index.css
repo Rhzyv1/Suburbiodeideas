@@ -6,7 +6,7 @@ box-sizing: border-box;}
 html , body{ max-width: 100% !important;
 	overflow-x: hidden !important;}
 
-b
+
 html::-webkit-scrollbar{
 width: 1vw;
 background-image: linear-gradient(to left top, #002c49, #003f58);}
