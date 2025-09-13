@@ -70,23 +70,28 @@ align-items: center;}
 text-decoration: none;}
 
 .what a p{font-size: 18px; 
-padding-left: 55px;
-left: -250px;
 width: 0px;
-position: absolute;;
+position: absolute;
 border-radius: 0px 33px 33px 0px;
 display: flex;
 align-items: center;
 ;font-family:Leonsans;
-background:  rgba(14, 135, 12, 1) ;}
+background:  rgba(14, 135, 12, 1) ;
+transition: 2s all ease-in-out;
+height: 50px;
+left: -250px;}
 
 .what a:hover > p{
 opacity: 1;
 visibility: visible;;
-transition:all 1.4s ease ;
+transition:all 1s ease ;
 width: 150px ;
 left: 0px;
-height: 50px;}
+height: 50px;
+position: absolute;
+background:  rgba(14, 135, 12, 1) ;
+padding-left: 50px;}
+
 
 .what2{position: fixed;
 bottom:55px;
@@ -117,12 +122,15 @@ position: absolute;
 border-radius: 0px 33px 33px 0px;
 display: flex;
 align-items: center;
-;font-family:Leonsans;}
+;font-family:Leonsans;
+transition: 1s all ease-in-out;
+height: 50px;
+left: -250px;}
 
 .what2 a:hover > p{
 opacity: 1;
-visibility: visible;background:#0e77a8;;
-transition:all 1.4s ease ;
+visibility: visible;background:#0e77a8;
+transition: 1s all ease;
 width: 150px ;
 left: 0px;
 height: 45px;}
@@ -153,7 +161,7 @@ margin-left: 20px;
 margin-top:20px;
 margin-right: 20px;  
 color: white; 
-cursor: pointer;}
+cursor: pointer;transition: 1s all ease-in-out;}
 
 .conten i:hover {
 color:#2feab8;
@@ -163,7 +171,8 @@ transform: rotate(-90deg);}
 
 .conten nav {display: inline-flex;
 justify-content: right;
-align-items: right;}
+align-items: right;
+transition: 1s all ease-in-out;}
 
 .conten nav ul{margin-right: 5px;
 margin-top: 20px}
@@ -187,7 +196,9 @@ letter-spacing: 1px;}
 cursor: pointer;
 transition: all 1s ease;
 color:#2feab8;	
-border-bottom: 2px solid #2feab8}
+border-bottom: 2px solid #2feab8;}
+
+.conten nav ul li a{transition: all 1ms ease-out;}
 
 .conten nav ul li a:hover{
 border-bottom: 2px solid;
@@ -230,22 +241,23 @@ display: none;}
 
 .container-menu{
 position: absolute;
-background: rgba(7,7,7,0.89);
+background: rgba(7,7,7,0.9);
 height:720px;
-width: 300px;
-top: -1400px;
+width: 280px;
+top: -720px;
 transition: all 900ms ease;
 opacity: 0;
 visibility: hidden;
 z-index: 1;
 max-width: 1800px;
 overflow: hidden;
-z-index: 999}
+z-index: 999;
+transition: 1.5s all ease-in-out;}
 
 #btn-men:checked ~ .container-menu{
 opacity: 1;
 visibility: visible;
-transition: all 1.5s ease;
+transition: all 1.5 ease-in-out;
 top:0%;
 z-index: 999}
 
@@ -265,18 +277,17 @@ z-index: 999}
 text-decoration: none;
 font-style: normal;
  font-size: 23px;
-color: #c7c7c7c7;
+color: #fffffff9;
 font-family:StickNoBills;
 display: flex;
 justify-content: center;
 align-items: center;
 padding:7px;
-margin: 0px 10px;
-border-radius:20px}
+border-radius:0px;transition: 1s all ease-in-out;}
 			
 .cont-menu nav a:hover{ 
-background:rgba(38, 125, 200,0.4); 
-transition: all 1.2s ease-out;
+background:rgba(38, 125, 200,0.7); 
+transition: all 1s ease-out;
 box-shadow: 0px 0px 2px rgba(38, 125, 200,0.4)}
 
 .cont-menu nav .sociales{display: flex;
@@ -292,7 +303,7 @@ font-style: normal;
  font-size: 34px;
 color: #c7c7c7c7;
 border-radius: 50%;
-padding: 0px 20px}
+padding: 0px 20px;transition: 1s all ease-in-out;}
 
 .cont-menu  nav .sociales a:hover{ 
 background:transparent; 
@@ -338,7 +349,7 @@ border: 1px solid transparent;
 border-radius: 50%;
 top: -60px;;
 padding: 4px 8px ;
-transform: rotate(-90deg)}      
+transform: rotate(-90deg);transition: 1s all ease-in-out;}      
 
 .cont-menu label:hover {color:#2feab8;
 filter: drop-shadow(0px 0px 1px #2feab8) ;
@@ -353,17 +364,16 @@ position: relative;
 margin-top: 210px;
 width: 700px;
 background: rgba(0,0,0,0.8);
-padding:20px 10px;
-border-radius:33px;
+padding:25px 10px;
+border-radius:13px;
 box-shadow: 0px 0px 3px  #009fbb;
 
 background-size: 800px 300px;}
 
 @keyframes lot{
-	0%{text-shadow: 0px 0px 10px #009fbb}
-  50%{text-shadow: 0px 0px 30px #8f12dd}
-	100%{text-shadow: 0px 0px 10px #009fbb}
-}
+	0%{text-shadow: 0px 0px 5px #009fbb}
+  50%{text-shadow: 0px 0px 20px #dd12d0}
+	100%{text-shadow: 0px 0px 10px #009fbb}}
 	
 .saludo h1{ 
 font-family:StickNoBills;
@@ -374,7 +384,7 @@ color:#ffffff ;
 font-size:90px;
 text-align: center;
 text-shadow: 0px 0px 10px #009fbb;
-animation: lot 6s infinite;}
+animation: lot 7s infinite;}
 
 .saludo  p {
 font-size:30px;
@@ -671,7 +681,8 @@ grid-gap:10px ;}
 background:rgba(07, 51, 124,0.2); 
 border-radius:20px ;
 box-shadow:0px 0px 0cap rgba(8, 189, 209, 0.5);
-padding-top: 20px;}
+padding-top: 20px;transition: all 1s ease-in-out;}
+
 
 .pro:hover{ 
 	box-shadow:0px 0px 10px rgba(8, 189, 209, 0.5);; 	
@@ -779,11 +790,11 @@ font-family:Leonsans}
 padding:10px 0px;
 background: linear-gradient(to right,#033a64, #341073,
  #1762b3);
-background-size:600% 600%;}
+background-size:100% 600%;}
 
 
 .ser .s0:hover{
-transition: all 2s ease-out;
+transition: all 5s ease;
 cursor: pointer;
   background-position: 70% 0%;}
 
@@ -872,7 +883,8 @@ margin-bottom: 10px}
 	width: 95%;
 	overflow: hidden;
 	box-shadow:0px 0px 5px  rgba(0,0,0,0.5)
-	;cursor: pointer;}
+	;cursor: pointer;
+transition: 2s all ease-in-out;}
 
 .contalfa figure img{ 
 width: 100%; 
@@ -888,12 +900,35 @@ background: rgba(24, 23, 27,0.9);
 opacity: 0;
 visibility: hidden;
 text-align: center;
-border: 1px solid black;}
+border: 1px solid black;
+transition: 2s all ease-in-out;}
 
 .contalfa figure:hover > .capa2{opacity: 1;
 	visibility: visible; 
 width: 100%;
 transition: all 3s ease ; }
+
+
+.contalfa figure .capa2 h4{
+		padding: 0; 
+		transition: all 1.5s ease ; 
+			color: #fff;
+		font-size:25px;
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+font-family:Leonsans;}
+
+
+.contalfa figure .capa2 p{
+	margin:0px auto; 
+font-size:18px;
+transition: all 700ms ease ;color: #fff;
+width: 90%;
+transition: all 1.5s ease;
+font-family:Leonsans;}
+
+
 
 .contalfa figure:hover > .capa2 h4{
 		padding: 0; 
@@ -943,7 +978,8 @@ border: none;
 margin-top: 20px;
 padding: 10px;
 	border-radius: 200px 100px 220px 100px;
-border: 3px solid rgba(0, 0, 0, 0.818);}
+border: 3px solid rgba(0, 0, 0, 0.818);
+transition: all 2s ease;}
 
 .mensaje-f .texto button:hover{
 border: none;
@@ -1046,7 +1082,8 @@ height: 50px;
 display: flex;
 justify-content: center;
 align-items: center;
-color: white;}
+color: white;
+transition: all 1s ease;}
 
 
 .footer-red-social  ul li a .fa-facebook:hover{
@@ -1161,7 +1198,8 @@ cursor: pointer;
 margin-top:10px;
 font-family:Leonsans;
 box-shadow: 0px 0px 10px black;
-background: transparent;}
+background: transparent;
+transition: all 1s ease;}
 
 .container-form .btn-enviar:hover {
 box-shadow: 0px 0px 20px hsla(225, 18%, 8%, 1);
@@ -1186,15 +1224,17 @@ margin: 0 auto;}
 .Creador a{text-decoration: none;
 color:white;
 width: 100%;
-letter-spacing: 1px}
+letter-spacing: 1px;
+margin-top: 20px;}
 
 .Creador a{
 font-size: 22px ;
 color: #24dff9;
-font-family:StickNoBills;}
+font-family:StickNoBills;
+transition: all 2s ease-in-out}
 
 .Creador a:hover{
-color:#2feab8}
+color:#2feab8; transition: all 2s ease-in-out}
 	
 .Creador p {color: white;
 font-family: monospace;
@@ -1204,9 +1244,11 @@ font-family:Leonsans}
 .Creador p a {color: white;
 font-family: monospace;
 font-size: 14px;
-font-family:Leonsans}
+font-family:Leonsans;
+transition: all 1s ease-in-out}
 
-.Creador p a:hover{color:#2feab8}
+.Creador p a:hover{color:#2feab8;
+transition: all 1s ease-in-out}
 
 cite {color:white;
 font-family: monospace;
