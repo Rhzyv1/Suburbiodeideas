@@ -393,7 +393,7 @@ line-height:1;
 color:#32dfb4;;
 text-shadow: 0px 0px 10px black;
 border-bottom: 1px solid #16c7deb0;;
-width: 290px;
+width: 290px;	
 margin: 0 auto;
 font-family:type;}		
 
@@ -404,14 +404,16 @@ width:800px ;}
 
 .Bienvenido .hello{
 	background-color: #01387f;
-background: linear-gradient(120deg, rgba(3, 51, 134, 0.2) 12%, rgba(27, 91, 164, 0.572) 65%,rgba(25, 3, 104,0.4) 100%);
+background: linear-gradient(120deg, rgba(5, 88, 99, 0.822) 12%, rgba(27, 91, 164, 0.572) 65%,rgba(52, 3, 104, 0.655) 100%);
 padding: 20px 10px;
 margin: 10px 10px;
-border-radius:10px}
+border-radius:10px;
+border: 1px solid rgba(22, 146, 255, 0.25);}
 
 	.Bienvenido .hello h4{
-	font-size: 60px;
-	font-family:StickNoBills;text-align: center;
+	font-size:53px;
+	font-family:StickNoBills;
+	text-align: center;
 margin: 5px 0px;}
 
 .Bienvenido .hello  p {font-size:20px;
