@@ -417,16 +417,16 @@ text-align:left;}
 	;grid-template-columns: repeat(2,1fr);
 grid-gap: 10px ;
 width:91%;
-margin-top: 10px;}
+margin-top: 20px;}
 
 .cardp2 div ul li {font-size:15px;
 color: white;
 ;width:100%;
 line-height: 1.3;
 font-family:Leonsans;
-background-color: #0f1b57;
+background-color: #0b0b0ca8;
 padding: 10px ;list-style: none;
-border-left:2px solid rgb(196, 39, 223) ;
+border-left:3px solid rgb(146, 39, 223) ;
 transition: all 2s ease;}
 
 

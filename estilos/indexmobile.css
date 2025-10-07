@@ -236,12 +236,10 @@ font-family:StickNoBills;
 display: flex;
 justify-content: center;
 align-items: center;
-padding:7px;
-margin: 0px 10px;
-border-radius:20px}
+padding:7px;}
 			
 .cont-menu nav a:hover{ 
-background:rgba(38, 125, 200,0.4); 
+background:rgba(38, 125, 200,1); 
 transition: all 1.2s ease-out;
 box-shadow: 0px 0px 2px rgba(38, 125, 200,0.4)}
 
@@ -336,8 +334,9 @@ margin: 0 auto;
 color:#ffffff ;  
 font-size:70px;
 text-align: center;
-text-shadow: 0px 0px 10px #009fbb;
-animation: lot 6s infinite;}
+text-shadow: 0px 0px 1px #009fbb;
+animation: lot 6s infinite;
+;}
 
 .saludo  p {
 font-size:25px;
@@ -451,8 +450,7 @@ position: relative;
 background:  url(../img/foo.png); 
 background-size: 100% 250px;
 background-repeat: no-repeat;
-max-width: 600px;
-;} 
+max-width: 600px;} 
 
 .pag-web .img img {   
 text-align: center;
@@ -1029,7 +1027,7 @@ border-bottom: 1px solid gray;
 outline: 0px;
 outline:none;
 cursor: pointer;
-width: 99%;
+width: 90%;
 font-family:Leonsans;
 color: white}
 
@@ -1150,7 +1148,7 @@ opacity:0.5;
 cursor: pointer;}
 
 
-@media screen and (min-width: 300px) and (max-width: 500px) {
+@media screen and (min-width: 300px) and (max-width: 450px) {
 /* El scroll */
 html , body{ max-width: 100% !important;
 	overflow-x: hidden !important;}
@@ -1384,17 +1382,16 @@ z-index: 999}
 text-decoration: none;
 font-style: normal;
  font-size: 22px;
-color: #c7c7c7c7;
+color: #ffffff;
 font-family:StickNoBills;
 display: flex;
 justify-content: center;
 align-items: center;
 padding:7px;
-margin: 0px 10px;
-border-radius:20px}
+margin: 0px 0px;}
 			
 .cont-menu nav a:hover{ 
-background:rgba(38, 125, 200,0.4); 
+background:rgba(38, 125, 200,1); 
 transition: all 1.2s ease-out;
 box-shadow: 0px 0px 2px rgba(38, 125, 200,0.4)}
 
@@ -1490,7 +1487,7 @@ text-shadow: 10px 6px 10px black;
 text-align:center;
 margin: 0 auto;
 color:#ffffff ;  
-font-size:50px;
+font-size:45px;
 text-align: center;
 text-shadow: 0px 0px 10px #009fbb;
 animation: lot 6s infinite;}
@@ -1508,8 +1505,9 @@ font-family:type;}
 
 /* bienvenida */
 .Bienvenido{color: white;
-margin: 50px au5o;
-width:95%;}
+margin: 50px auto;
+width:97%;;
+max-width: 400px;}
 
 .Bienvenido .hello{
 padding:  10px;
@@ -1524,7 +1522,7 @@ padding-top: 15px;}
 
 .Bienvenido .hello  p {font-size:17px;
 color: white;
-;width:95%;
+;width:100%;
 text-align: center;
 font-family:Leonsans;
 margin: auto;
@@ -1539,15 +1537,15 @@ line-height: 1.1;}
 font-size: 17px;text-align: left;
 display:block;
 margin: 0 auto;font-family:Leonsans;;
-width: 90%;
+width: 95%;
 ;padding-bottom: 20px;}
 
 .Bienvenido .hello li{
 font-size: 16px;
-width:95%;
+width:100%;
 margin: 0 auto;
 padding-top:4px;
-list-style:decimal;}
+list-style:none;}
 
 /* web */
 .pag-web{
@@ -1573,7 +1571,7 @@ color:rgb(01, 184, 255);}
 
 .web p {font-size:17px;
 color: white;
-;width:96%;
+;width:98%;
 line-height: 1.3;
 margin-top: 5px;
 text-align: left;
@@ -1603,9 +1601,9 @@ box-shadow:0px 0px 20px  rgba(113, 69, 232, 0.8);}
 .pag-web .img{  
 position: relative;
 background:  url(../img/foo.png); 
-background-size: 100% 200px;
+background-size: 100% 240px;
 background-repeat: no-repeat;
-max-width: 600px;
+max-width: 420px;
 margin-top: 20px;} 
 
 .pag-web .img img {   
@@ -1613,7 +1611,7 @@ text-align: center;
 border-radius: 5px;
 margin: 0 auto;
 width: 90%;
-;height: 220px; }
+;height: 230px; }
 
 .pag-web .img img:hover {   
 transition: all 1s ease-out;
@@ -1639,7 +1637,8 @@ color:white ;
 text-shadow: 0px 5px 5px black;
 letter-spacing: 1.1px; 
 font-family:Leonsans;
-text-align: center;}
+text-align: center;
+width: 100%;}
 
 .divido p {font-size:17px;
 color: white;
@@ -1677,13 +1676,14 @@ margin-bottom: 10px;}
 margin:10px auto;
 margin-bottom: 20px;}
 
-.web2  h4 {font-size:28px;
+.web2  h4 {font-size:33px;
 font-family:Leonsans;
 letter-spacing: 1px;
 margin-top: 10px;
 font-family:StickNoBills;
 text-align: center;
-margin: 0 auto;}
+margin: 0 auto;
+width: 80%;}
 
 .web2 p {font-size:17px;
 color: white;
@@ -1699,7 +1699,7 @@ grid-template-columns: repeat(2,1fr);}
 
 .web2 ul li {font-size:18px;
 color: white;
-;width:80%;
+;width:85%;
 line-height: 1.4;
 margin-left: 25px;
 font-family:Leonsans;
@@ -2032,7 +2032,7 @@ margin: 0 auto;}
 color: white;
 line-height: 1.1;
 font-family:TitilliumWeb;
-font-size: 16px;
+font-size: 17px;
 margin: 0 auto;
 width: 95%;}
 
@@ -2057,7 +2057,7 @@ border: 3px solid black;}
 
 	.mensaje-f .texto button a{
 		font-family:TitilliumWeb;
-		font-size: 15px;
+		font-size: 17px;
 		text-decoration: none;
 		color: white;}
 
