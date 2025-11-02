@@ -359,7 +359,8 @@ max-width:100%;}
 .Bienvenido .hello{
 padding: 20px 10px;
 margin: 10px 10px;
-border-radius:10px}
+border-radius:10px;
+border: 3px solid rgba(165, 0, 248, 0.409);}
 
 	.Bienvenido .hello h4{
 	font-size: 40px;
@@ -781,7 +782,7 @@ font-size:40px}
 
 .coon p {font-size:15px;
 color: white;
-;width:85%;
+;width:70%;
 line-height: 1.3;
 text-align:center;
 font-family:TitilliumWeb;
@@ -1159,7 +1160,7 @@ header {
 width: 100%;
 height: 700px;
 background:  url(../img/Fondo-header.jpg);
-background-size: 100% 100%;
+background-size: 100% 100vh;
 background-repeat: no-repeat;
 position: relative;	
 background-attachment: fixed;}
@@ -1347,7 +1348,7 @@ display: none;}
 .container-menu{
 position: absolute;
 background: rgba(7,7,7,0.89);
-height:700px;
+height:100vh;;
 width:250px;
 top: 0px;
 left: -600px;
@@ -1355,7 +1356,7 @@ transition: all 900ms ease;
 opacity: 0;
 visibility: hidden;
 z-index: 1;
-max-width: 1800px;
+max-width:250px;
 overflow: hidden;
 z-index: 999}
 
@@ -1467,7 +1468,7 @@ justify-content: center;
 margin: 0 auto;
 position: relative;
 margin-top:230px;
-width:95%;
+width:98%;
 background: rgba(0,0,0,0.8);
 padding:20px 5px;
 border-radius:13px;
@@ -1478,8 +1479,7 @@ background-size: 800px 300px;}
 @keyframes lot{
 	0%{text-shadow: 0px 0px 10px #009fbb}
   50%{text-shadow: 0px 0px 30px #8f12dd}
-	100%{text-shadow: 0px 0px 10px #009fbb}
-}
+	100%{text-shadow: 0px 0px 10px #009fbb}}
 	
 .saludo h1{ 
 font-family:StickNoBills;
@@ -1487,13 +1487,13 @@ text-shadow: 10px 6px 10px black;
 text-align:center;
 margin: 0 auto;
 color:#ffffff ;  
-font-size:45px;
+font-size:50px;
 text-align: center;
 text-shadow: 0px 0px 10px #009fbb;
 animation: lot 6s infinite;}
 
 .saludo  p {
-font-size:23px;
+font-size:25px;
 text-align: center; 
 line-height:1;
 color:#32dfb4;;
@@ -1507,7 +1507,8 @@ font-family:type;}
 .Bienvenido{color: white;
 margin: 50px auto;
 width:97%;;
-max-width: 400px;}
+max-width: 400px;
+border: 1px solid;}
 
 .Bienvenido .hello{
 padding:  10px;
@@ -1566,7 +1567,7 @@ text-shadow: 0px 0px 2px rgba(15, 17, 125,0.9);
 letter-spacing: 1px;
 margin-top: 10px;
 font-family:StickNoBills;
-font-size:28px;
+font-size:30px;
 color:rgb(01, 184, 255);}
 
 .web p {font-size:17px;
@@ -1624,7 +1625,7 @@ display: block;
 background: url(../img/banner.webp);
 background-size: 100% 100%;
 background-position: center;
-padding:20px 15px;
+padding:30px 15px;
 margin:40px auto; 
 border-radius:33px;
 width: 90%;}
@@ -1632,7 +1633,7 @@ width: 90%;}
 .divido .parte1 {width: 100%}
 
 
-.divido h5{font-size:22px;
+.divido h5{font-size:25px;
 color:white ;
 text-shadow: 0px 5px 5px black;
 letter-spacing: 1.1px; 
@@ -1676,7 +1677,7 @@ margin-bottom: 10px;}
 margin:10px auto;
 margin-bottom: 20px;}
 
-.web2  h4 {font-size:33px;
+.web2  h4 {font-size:35px;
 font-family:Leonsans;
 letter-spacing: 1px;
 margin-top: 10px;
@@ -1695,13 +1696,14 @@ margin-bottom: 10px;
 font-family:Leonsans;}	
 
 .web2 ul {display: grid;
-grid-template-columns: repeat(2,1fr);}
+grid-template-columns: repeat(2,1fr);
+grid-gap: 5px;
+margin: 0 auto;}
 
 .web2 ul li {font-size:18px;
 color: white;
-;width:85%;
+;width:100%;
 line-height: 1.4;
-margin-left: 25px;
 font-family:Leonsans;
 font-family:TitilliumWeb}	
 
@@ -2011,8 +2013,9 @@ margin: 30px auto;
 display: grid;
 grid-template-columns: repeat(1,1fr);
 ;background-color: #5822bcb1 ;
-border-radius: 33px;
-padding:20px 10px ; }
+border-radius:20px;
+padding:5px 15px ;
+border: 1px solid; }
 
 .mensaje-f .imagen img{ 
 	width:250px;height: 140px;
@@ -2024,9 +2027,7 @@ align-items: center;margin: 0 auto;}
 		font-family:TitilliumWeb;
 		font-size: 23spx;
 		padding-top: 5px;
-		color: white;
-	width: 90%;
-margin: 0 auto;}
+		color: white}
 
 		.mensaje-f .texto p{
 color: white;
@@ -2034,16 +2035,17 @@ line-height: 1.1;
 font-family:TitilliumWeb;
 font-size: 17px;
 margin: 0 auto;
-width: 95%;}
+width: 100%;}
 
 .mensaje-f .texto button{background: chocolate;
 border: none;
-margin-top:10px;
+margin:10px auto;
 padding: 5px 10px;
-	border-radius: 30px;
+border-radius: 30px;
 font-size: 20px;
-margin-left: 5%;
-border: 1px solid black}
+border: 1px solid black;
+display: flex;
+justify-content: center;}
 
 .mensaje-f .texto button:hover{
 border: none;

@@ -34,11 +34,11 @@ font-family:TitilliumWeb
 	width: 90%;	
 	max-width:1200px;
 	margin: 0 auto;
-	padding-top: 100px;
+	padding-top: 70px;
 display: grid;
 grid-template-columns:repeat(2,1fr);}
 
-.headerPress {padding-top:50px;
+.headerPress {padding-top:60px;
 width:100%;}
 
 .headerPress span{ color: white ;
@@ -47,12 +47,11 @@ font-size: 25px;
 font-family:Leonsans;
 margin: 10px auto;}
 
-
 .headerPress h2{
 color: white ;
 font-family:StickNoBills;
 letter-spacing: 2px;
-font-size:50px;
+font-size:55px;
 text-shadow: 0px 0px 5px black}
 
 .headerPress h2 b{ color:#2feab8 ;
@@ -63,28 +62,28 @@ font-size:55px}
 font-size:20px;
 font-family:Leonsans;
 letter-spacing: 1px;
-text-shadow: 10px 10px 50px black;}
-
+text-shadow: 10px 10px 50px black;;}
 
 .headerImg img{
-width: 400px;
-height:350px;
+width: 450px;
+height:370px;
 display: flex;
 justify-content: center;
 align-items: center;
 margin: 0 auto;
-background-color:rgba(33, 229, 255, 0.4);
-padding:10px;
+background-color:rgba(8, 13, 255, 0.2);
+padding:20px;
 border-radius:50%;
 box-shadow: 0px 0px 20px rgb(0, 0, 0);
-margin-top: 40px}
+margin-top: 60px}
 
 .red-social{ margin: 0px auto}
 
 .red-social ul{position: relative;
 	display: flex;
 max-width: 500px;
-margin-top: 20px;}	
+margin-top: 20px;
+transition: 5s all ease;}	
 
 .red-social ul li{position: relative;
 	list-style: none;
@@ -98,14 +97,14 @@ margin-top: 20px;}
 .red-social  ul li a .fa 
 {font-size: 30px;
 border-radius:50%;
-width:60px; 
-height:55px;
+width:50px; 
+height:50px;
 display: flex;justify-content: center;
 align-items: center;
 color: white;
 background: rgb(0,0,0,0.8);
 border: 1px solid rgb(255, 255, 255);
-transition: 2s all ease;}
+transition: 5s all ease;}
 
 .red-social  ul li a .fa:hover{
 animation:loop 2.5s infinite ;
@@ -118,7 +117,7 @@ border: 2px solid black}
 
 
 .red-social  ul  #contac a {background:black;
-box-shadow: 0px 0px 10px rgba(18, 177, 221, 0.817);
+box-shadow: 0px 0px 5px rgba(18, 177, 221, 0.817);
 font-family:Leonsans;
 color: white;
 width: 150px;
@@ -128,17 +127,17 @@ border-radius:35px ;
 display: flex;
 justify-content: center;
 align-items: center;
-border: 2px solid #2feab8;}
+border: 1px solid #ecfffa;}
 
 
 .red-social  ul  #contac a:hover{
 transition:all 2s ease ;
-color: #2feab8;
-border: 2px solid #2feab8;
-animation:loop 2s infinite}
+border: 1px solid #2feab8;
+animation:loop 6s infinite;
+background-color: #057758e8;}
 
 .red-social  ul li a .fa-facebook:hover{
-background:#253d70;
+background:#00b3ff;
 transition: all 1 ease-out;}
 
 .red-social  ul li a .fa-instagram:hover{
@@ -182,13 +181,13 @@ color: white;}
 .resumen ul li{background: rgb(37, 77, 165);
 list-style:none;
 height: 100px;
-border-radius: 10px;
+border-radius:5px;
 transition: all 2s ease;
-border: 1px solid rgba(255, 255, 255, 0.668);}
+border: 1px solid rgb(255, 255, 255);}
 
-.resumen ul li:hover{background: #c113e0;
+.resumen ul li:hover{background: #630474;
 cursor: pointer;
-box-shadow: 0px 0px 10px #e013e0;
+box-shadow: 0px 0px 1px #e013e0;
 transition: all 1s ease;}
 
 
@@ -224,8 +223,8 @@ border-radius: 30px}
 margin-left: -80px;}
 
 .whoami  span{
-color: #71d8fa;
-font-size: 20px;
+color: #09c2ff;
+font-size: 24px;
 font-family:Leonsans;}
 
 .whoami div h5{font-family:StickNoBills;
@@ -242,15 +241,18 @@ font-family:Leonsans;}
 .whoami div  a{text-decoration: none;}
 
 .whoami div  a p {color: white;
-font-size: 20px;font-family:Leonsans;
 text-decoration: none;
 	background:rgba(12, 88, 143, 0.783);
 margin: 20px 5px ;
-padding: 10px 3px ;list-style: none;border-radius: 20px;
+padding: 15px 3px ;list-style: none;border-radius: 20px;
 text-align: center;
-width: 320px;
-border: 1px solid rgb(255, 255, 255);
-background: linear-gradient(90deg,rgba(61, 115, 223, 0.408), 2%, rgb(113, 13, 159) 51%, rgb(125, 9, 115) 100%);}
+width: 300px;
+border: 2px solid rgba(255, 255, 255, 0.322);
+background: linear-gradient(90deg,rgba(61, 115, 223, 0.408), 2%, rgb(113, 13, 159) 51%, rgb(125, 9, 115) 100%);
+padding: 10px 20px;
+	font-family:TitilliumWeb;
+font-size:20px;
+border-radius: 20px;}
 
 .whoami div  a p:hover {box-shadow: 0px 0px 10px #7a13e0;
 border:1px solid #7a13e0;
@@ -271,7 +273,8 @@ padding:30px 10px;}
 .web-elemento-title{display: flex;
 margin-bottom: 10px}
 
-.web-elemento-title .title{ background: #0a0d1f;;
+.web-elemento-title .title{ 
+background: #0a0d1f;;
 width: 200% ;
 margin-right: 30px;
 border-radius:33px;
@@ -352,7 +355,7 @@ transition:all 1s ease;
 border: 1px solid rgb(0, 0, 0);
 transition: all 1s ease;}
 
-.Skills ul li:hover{background-color: rgb(87, 0, 248);
+.Skills ul li:hover{background-color: rgb(186, 0, 248);
 	border: 1px solid rgb(29, 29, 29);
 padding: 10px 0px;
 list-style: none;
@@ -368,21 +371,22 @@ display: flex;justify-content: center
 
 .Skills ul li h6{font-size: 16px; text-align: center;
 font-family:Leonsans;
-margin-top: 10px;}
+margin-top: 10px;
+letter-spacing:1px;}
 
 
 .cardp2 { display: grid;
 	grid-template-columns: repeat(2,1fr);
 width: 100%;
 margin: 30px auto ;
-max-width:1250px}
+max-width:1300px}
 
 .cardp2 .img-pc{border:2px solid rgb(120, 64, 200);
 	box-shadow: 0px 0px 6px rgb(11, 107, 192);
 	width:350px;
 	height: 260px;
 	margin: 0 auto;
-margin-top: 40px ;}
+margin-top: 70px ;}
 
 
 .cardp2 div img{display: flex;
@@ -415,7 +419,7 @@ text-align:left;}
 
 .cardp2 div ul{display: grid
 	;grid-template-columns: repeat(2,1fr);
-grid-gap: 10px ;
+grid-gap: 15px ;
 width:91%;
 margin-top: 20px;}
 
@@ -424,12 +428,15 @@ color: white;
 ;width:100%;
 line-height: 1.3;
 font-family:Leonsans;
-background-color: #0b0b0ca8;
-padding: 10px ;list-style: none;
-border-left:3px solid rgb(146, 39, 223) ;
-transition: all 2s ease;}
+background-color: #0b0b0cf7;
+padding: 15px 10px ;list-style: none;
+border-left:4px solid rgb(146, 39, 223) ;
+transition: all 2s ease;
+cursor: pointer;
+}
 
 
-.cardp2 div ul li:hover{background: rgb(203, 7, 187);}
+.cardp2 div ul li:hover{background: rgb(156, 2, 143);
+border-left:4px solid rgb(252, 250, 250)}
 
 
