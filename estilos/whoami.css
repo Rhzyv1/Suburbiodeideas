@@ -15,7 +15,6 @@ position: relative;
 margin-top:200px;
 background: rgba(10,10,10,0.7);}
 
-
 /* Fonts */
 @font-face{
 font-family:StickNoBills;
@@ -149,7 +148,7 @@ transition: all 1 ease-out;}
 background:#d33672  ;
 transition: all 1 ease-out; }
 
-.resumen {max-width: 630px;
+.resumen {max-width:600px;
 margin: 30px auto;
 color: white;}
 
@@ -180,12 +179,12 @@ color: white;}
 
 .resumen ul li{background: rgb(37, 77, 165);
 list-style:none;
-height: 100px;
-border-radius:5px;
+height: 110px;
 transition: all 2s ease;
-border: 1px solid rgb(255, 255, 255);}
+border-radius: 10px;
+border: 5px solid rgb(133, 93, 245);}
 
-.resumen ul li:hover{background: #630474;
+.resumen ul li:hover{background: #740445;
 cursor: pointer;
 box-shadow: 0px 0px 1px #e013e0;
 transition: all 1s ease;}

@@ -390,7 +390,7 @@ animation: lot 7s infinite;}
 font-size:33px;
 text-align: center; 
 line-height:1;
-color:#32dfb4;;
+color:#32dfb4;
 text-shadow: 0px 0px 10px black;
 border-bottom: 1px solid #16c7deb0;;
 width: 350px;	
@@ -404,11 +404,11 @@ width:800px ;}
 
 .Bienvenido .hello{
 	background-color: #01387f;
-background: linear-gradient(120deg, rgba(50, 28, 178, 0.822) 12%, rgba(27, 164, 143, 0.572) 65%,rgba(3, 74, 104, 0.655) 100%);
+background: linear-gradient(120deg, rgba(7, 102, 198, 0.822) 12%, rgba(27, 164, 143, 0.572) 65%,rgba(3, 74, 104, 0.655) 100%);
 padding: 20px 10px;
 margin: 10px 10px;
 border-radius:20px;
-border: 3px solid rgba(165, 0, 248, 0.409);}
+border: 3px solid rgba(14, 197, 226, 0.409);}
 
 	.Bienvenido .hello h4{
 	font-size:53px;
@@ -665,9 +665,9 @@ color: white;}
 
 .proyectos p {font-size:20px;
 color: white;
-;width:100%;
+;width:65%;
 line-height: 1.3;
-max-width:750px;
+max-width:700px;
 text-align: center;
 margin:0px auto;
 font-family:Leonsans;}		
@@ -680,22 +680,23 @@ max-width:1100px;
 justify-content: center;
 align-items: center ;
 margin: 20px auto;
-grid-gap:10px ;}
+grid-gap:15px ;}
 
-.pro {width:96%;  
-background:rgba(07, 51, 124,0.4); 
+.pro {width:100%;  
+background:rgba(25, 56, 130, 0.8); 
 border-radius:20px ;
-box-shadow:0px 0px 8px rgba(11, 224, 224, 0.901);
-padding-top: 20px;transition: all 1s ease-in-out;}
+box-shadow:0px 0px 6px rgba(80, 107, 224, 0.961);
+padding-top: 10px;
+transition: all 1s ease-in-out;
+height:370px }
 
-
-.pro:hover{ 
-	box-shadow:0px 0px 10px rgba(8, 189, 209, 0.5);; 	
+.pro:hover{  	
 cursor: pointer;
-transform: scale(1.08);
+transform: scale(1.1);
 z-index: 3;
-background:rgba(07, 51,104,0.6);
-transition: all 1s ease;}
+background:rgb(40, 9, 200);
+transition: all 1s ease;
+border: 2px solid rgb(250, 249, 249);}
 
 .pro a{text-decoration: none;}
 
@@ -716,27 +717,33 @@ margin-top: 20px;}
 
 .pro p {
 padding:5px;
-font-size:16px;
+font-size:15px;
 color: rgb(229, 245, 248);
 text-align: center;
 font-family:Leonsans;
-width:95% ;
+width:90% ;
 text-decoration: none;}				
 
-.pro button{background:rgba(01, 184, 255,0.4);
+.pro button{
 	border-radius:5px;
 	padding:6px 25px;
-margin: 10px;
+margin:5px 10px;
  font-family:StickNoBills;
  border: none;
- font-size: 20px;cursor: pointer;
+ font-size: 20px;
+ cursor: pointer;
  color: white;
-border: 1px solid rgba(255, 255, 255, 0.654);}
+background-color: #920eebfd;
+border: 3px solid black;
+transition: all 2s ease;
+}
 
 
-.pro button:hover{background:rgba(129, 1, 155, 0.6);
-transition: all 1s ease-out ;
-color: white;}
+.pro button:hover{background:rgba(0, 0, 0, 0.6);
+color: white;
+background:rgb(181, 1, 197);
+box-shadow: 0px 0px 10px rgb(248, 7, 248);
+border: 3px solid rgb(248, 7, 248)}
 
 
 
@@ -762,6 +769,7 @@ height: auto;
 max-width: 1000px;
 transition: all 3s ease;}
 
+
 .ser .s1 div{
 width: 100%;
 }
@@ -771,7 +779,7 @@ width: 100%;
 background: rgb(6, 12, 17);
 height: 225px;;
 margin-bottom: 10px;
-border: 1px solid rgb(4, 42, 141,0.77);}
+box-shadow: 0px 0px 3px blue; }
 
 .ser .s0 h5{
 font-size:20px;
@@ -809,8 +817,8 @@ transition: all 3s ease;}
 .ser .s2 div img{
 	width: 100%;
 	height:207px;
-	margin-top: 10px ;
-border: 1px solid rgb(4, 42, 141,0.77);}
+	margin-top: 10px;
+box-shadow: 0px 0px 3px blue; }
 
 .ser .s2 div p{
 font-size:16px;

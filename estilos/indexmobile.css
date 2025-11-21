@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 500px)  (max-width: 900px) {
 /* El scroll */
 html , body{ max-width: 100% !important;
 	overflow-x: hidden !important;}
@@ -354,13 +354,12 @@ font-family:type;
 .Bienvenido{color: white;
 margin: 50px auto;
 width:75%;
-max-width:100%;}
+max-width:700px;}
 
 .Bienvenido .hello{
 padding: 20px 10px;
 margin: 10px 10px;
-border-radius:10px;
-border: 3px solid rgba(165, 0, 248, 0.409);}
+border-radius:10px;}
 
 	.Bienvenido .hello h4{
 	font-size: 40px;
@@ -599,7 +598,7 @@ text-align: center;
 margin: 15px auto;
 font-family:StickNoBills;
 font-family:TitilliumWeb;
-font-size:40px;}	
+font-size:36px;}	
 
 .proyectos p {font-size:15px;
 color: white;
@@ -616,18 +615,15 @@ max-width:100%;
 justify-content: center;
 align-items: center ;
 margin: 20px auto;
-grid-gap:10px ;
-}
+grid-gap:10px ;}
 
 .pro {width:100%;  
-background:rgba(07, 51, 124,0.2); 
 border-radius:20px ;
 padding-top: 10px;
-box-shadow:0px 0px 4px rgba(11, 224, 224, 0.901);
-}
+height: 330px}
 
 .pro:hover{ 
-	box-shadow:0px 0px 10px rgba(8, 189, 209, 0.5);; 	
+box-shadow:0px 0px 10px rgba(8, 189, 209, 0.5);; 	
 cursor: pointer;
 transform: scale(1.08);
 z-index: 3;
@@ -645,9 +641,10 @@ display: flex;
 border-radius: 10px; }
 
 
-.pro h3 { color:rgb(229, 245, 248); 
-		font-size:16px;
-		text-align: center;
+.pro h3 { 
+color:rgb(229, 245, 248); 
+font-size:18px;
+text-align: center;
 font-family:Leonsans;
 margin-top: 10px;}
 
@@ -657,17 +654,17 @@ font-size:13px;
 color: rgb(229, 245, 248);
 text-align: center;
 font-family:Leonsans;
-width:95% ;
-text-decoration: none;}				
+text-decoration: none;
+width: 100%;}				
 
-.pro button{background:rgba(01, 184, 255,0.4);
+.pro button{
 	border-radius:5px;
-	padding:3px 15px;
+	padding:5px 15px;
 margin: 10px;
  font-family:StickNoBills;
  border: none;
- font-size:15px;cursor: pointer;
- border: 1px solid rgba(255, 255, 255, 0.654);}
+ font-size:17px;
+ cursor: pointer;}
 
 
 .pro button:hover{background:rgba(129, 1, 155, 0.6);
@@ -719,13 +716,11 @@ font-family:Leonsans}
 .ser .s0 {
 	width: 100%;
 padding:10px 0px;
-background: linear-gradient(to right,#033a64, #341073,
- #1762b3);
 background-size:600% 600%;}
 
 
 .ser .s0:hover{
-transition: all 2s ease-out;
+transition: all 3s ease-out;
 cursor: pointer;
   background-position: 70% 0%;}
 
@@ -1158,7 +1153,7 @@ html , body{ max-width: 100% !important;
 /* header */
 header {
 width: 100%;
-height: 700px;
+height: 720px;
 background:  url(../img/Fondo-header.jpg);
 background-size: 100% 100vh;
 background-repeat: no-repeat;
@@ -1348,7 +1343,7 @@ display: none;}
 .container-menu{
 position: absolute;
 background: rgba(7,7,7,0.89);
-height:100vh;;
+height: 720px;
 width:250px;
 top: 0px;
 left: -600px;
@@ -1409,7 +1404,7 @@ font-style: normal;
  font-size: 30px;
 color: #c7c7c7c7;
 border-radius: 50%;
-padding: 0px 10px}
+padding: 0px 20px}
 
 .cont-menu  nav .sociales a:hover{ 
 background:transparent; 
@@ -1507,17 +1502,17 @@ font-family:type;}
 .Bienvenido{color: white;
 margin: 50px auto;
 width:97%;;
-max-width: 400px;
-border: 1px solid;}
+max-width: 400px}
 
 .Bienvenido .hello{
 padding:  10px;
 margin: 10px 10px;
 border-radius:10px}
 
-	.Bienvenido .hello h4{
-	font-size: 33px;
-	font-family:StickNoBills;text-align: center;
+.Bienvenido .hello h4{
+font-size: 33px;
+font-family:StickNoBills;
+text-align: center;
 margin: 5px 0px;
 padding-top: 15px;}
 
@@ -1529,15 +1524,16 @@ font-family:Leonsans;
 margin: auto;
 line-height: 1.1;}	
 
-	.Bienvenido .hello h5{
-	font-size: 28px;
-	font-family:StickNoBills;text-align: center;
-	margin-top: 15px}
+.Bienvenido .hello h5{
+font-size: 28px;
+font-family:StickNoBills;
+text-align: center;
+margin-top: 15px}
 
 .Bienvenido .hello ul{
-font-size: 17px;text-align: left;
+text-align: left;
 display:block;
-margin: 0 auto;font-family:Leonsans;;
+margin: 0 auto;
 width: 95%;
 ;padding-bottom: 20px;}
 
@@ -1545,7 +1541,7 @@ width: 95%;
 font-size: 16px;
 width:100%;
 margin: 0 auto;
-padding-top:4px;
+padding-top:2px;
 list-style:none;}
 
 /* web */
@@ -1770,16 +1766,15 @@ max-width:330px;
 justify-content: center;
 align-items: center ;
 margin: 20px auto;
-grid-gap:10px ;
-}
+grid-gap:10px ;}
 
 .pro {width:100%;  
 background:rgba(07, 51, 124,0.6); 
 border-radius:20px ;
 box-shadow:0px 0px 4px rgb(253, 255, 255);
 padding-top: 10px;
-height: 370px;
-margin-top: 10px;}
+margin-top: 10px;
+height: 100px}
 
 .pro:hover{ 
 	box-shadow:0px 0px 10px rgba(8, 189, 209, 0.5);; 	
