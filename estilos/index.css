@@ -399,7 +399,7 @@ font-family:type;}
 
 /* bienvenida */
 .Bienvenido{color: white;
-margin: 50px auto;
+margin: 80px auto;
 width:800px ;}
 
 .Bienvenido .hello{
@@ -411,10 +411,9 @@ border-radius:20px;
 border: 3px solid rgba(14, 197, 226, 0.409);}
 
 	.Bienvenido .hello h4{
-	font-size:53px;
+	font-size:60px;
 	font-family:StickNoBills;
-	text-align: center;
-margin: 5px 0px;}
+	text-align: center;}
 
 .Bienvenido .hello  p {font-size:20px;
 color: white;
@@ -897,15 +896,19 @@ margin-bottom: 10px;}
 	height:200px;
 	width: 100%;
 	overflow: hidden;
-	box-shadow:0px 0px 6px  rgba(255, 255, 255, 0.901)
+	box-shadow:0px 0px 5px  rgba(255, 255, 255, 0.901)
 	;cursor: pointer;
 transition: 2s all ease-in-out;
 border-radius: 10px;}
+
+.contalfa figure:hover{	box-shadow:0px 0px 10px  rgba(233, 203, 248, 0.959)}
+
 
 .contalfa figure img{ 
 width: 100%; 
 height: 200px;
 transition: all 500ms ease-out}
+
 
 .contalfa figure .capa2{
 position: absolute;
@@ -925,6 +928,8 @@ width: 100%;
 transition: all 3s ease ; }
 
 
+.contalfa figure:hover > img{transform: scale(1.5);}
+
 .contalfa figure .capa2 h4{
 		padding: 0; 
 		transition: all 1.5s ease ; 
@@ -943,8 +948,6 @@ transition: all 700ms ease ;color: #fff;
 width: 90%;
 transition: all 1.5s ease;
 font-family:Leonsans;}
-
-
 
 .contalfa figure:hover > .capa2 h4{
 		padding: 0; 
@@ -977,6 +980,8 @@ border: 3px solid mediumslateblue;}
 
 .mensaje-f .imagen img{ 
 	width: 340px;height: 240px;}
+
+
 
 	.mensaje-f .texto h6{
 		font-family:TitilliumWeb;

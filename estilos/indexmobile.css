@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px)  (max-width: 900px) {
+@media screen and (min-width: 500px) and (max-width: 900px) {
 /* El scroll */
 html , body{ max-width: 100% !important;
 	overflow-x: hidden !important;}
@@ -1142,7 +1142,7 @@ font-size:10px;
 font-family:Leonsans;
 opacity:0.5;
 cursor: pointer;}
-
+}
 
 @media screen and (min-width: 300px) and (max-width: 450px) {
 /* El scroll */
@@ -1463,9 +1463,9 @@ justify-content: center;
 margin: 0 auto;
 position: relative;
 margin-top:230px;
-width:98%;
+width:92%;
 background: rgba(0,0,0,0.8);
-padding:20px 5px;
+padding:20px 0px;
 border-radius:13px;
 box-shadow: 0px 0px 3px  #009fbb;
 
@@ -1482,7 +1482,7 @@ text-shadow: 10px 6px 10px black;
 text-align:center;
 margin: 0 auto;
 color:#ffffff ;  
-font-size:50px;
+font-size:45px;
 text-align: center;
 text-shadow: 0px 0px 10px #009fbb;
 animation: lot 6s infinite;}
@@ -1510,7 +1510,7 @@ margin: 10px 10px;
 border-radius:10px}
 
 .Bienvenido .hello h4{
-font-size: 33px;
+font-size: 34px;
 font-family:StickNoBills;
 text-align: center;
 margin: 5px 0px;
@@ -2303,5 +2303,5 @@ font-family: monospace;
 font-size:10px;
 font-family:Leonsans;
 opacity:0.9;
-cursor: pointer;}}
-}
+cursor: pointer;}
+}}
