@@ -42,7 +42,7 @@ width:100%;}
 
 .headerPress span{ color: white ;
 text-align: center;
-font-size: 25px;
+font-size: 22px;
 font-family:Leonsans;
 margin: 10px auto;}
 
@@ -53,9 +53,31 @@ letter-spacing: 2px;
 font-size:55px;
 text-shadow: 0px 0px 5px black}
 
-.headerPress h2 b{ color:#2feab8 ;
-text-shadow: 0px 0px 5px black;
-font-size:55px}
+:root {
+  --characters: 15ch;
+  --characters-steps:15;}
+
+.headerPress h3{ color:#2feab8 ;
+font-size:50px;
+font-family:StickNoBills;
+  margin: 0px;                /* sin auto-centro */
+  text-align: left;           /* arranca desde la izquierda */
+    overflow: hidden;
+  white-space: nowrap;
+  animation: lon 6s steps(var(--characters-steps)) 3s infinite, tap 1s infinite;
+  border-right: 4px solid 
+;width: var(--characters);}
+
+@keyframes tap{
+  0%{border-right-color: transparent;}
+  50%{border-right-color:#2feab8 ;}
+  100%{border-right-color:transparent}}
+
+@keyframes lon{
+  20%{width:0px;}
+  50%{width:var(--characters) }
+  100%{width:var(--characters)}}	
+
 
 .headerPress p{ color:white;
 font-size:20px;
@@ -84,6 +106,26 @@ max-width: 500px;
 margin-top: 20px;
 transition: 5s all ease;}	
 
+.red-social  ul  #contac a {
+font-family:Leonsans;
+color: white;
+width: 150px;
+height: 45px;
+font-size: 22px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#005a9a;
+transition: all 1s ease;
+box-shadow:4px 5px 0px #22e1ee;
+border: 1px solid transparent;}
+
+.red-social  ul  #contac a:hover{
+transition:all 1s ease ;
+box-shadow:-4px -5px 0px  #db13ed;
+text-shadow: 0px 0px 5px white;}
+
+
 .red-social ul li{position: relative;
 	list-style: none;
 	margin: 10px;
@@ -95,58 +137,35 @@ transition: 5s all ease;}
 
 .red-social  ul li a .fa 
 {font-size: 30px;
-border-radius:50%;
 width:50px; 
-height:50px;
+height:40px;
 display: flex;justify-content: center;
 align-items: center;
 color: white;
-background: rgb(0,0,0,0.8);
-border: 1px solid rgb(255, 255, 255);
 transition: 5s all ease;}
 
-.red-social  ul li a .fa:hover{
-animation:loop 2.5s infinite ;
-border: 2px solid black}
+.red-social  ul #insta{
+	background-color:#005a9a;
+box-shadow:4px 5px 0px #22e1ee;
+transition: all 1s ease;}
 
-@keyframes  loop{
-	0%{transform:scale(1.0);}
-	50%{transform:scale(1.1)}
-	100%{transform:scale(1.0)}}
+.red-social  ul #insta:hover{
+transition: all 1 ease;
+	background-color:#005a9a;
+box-shadow:-4px -5px 0px #f316cb;;}
 
-
-.red-social  ul  #contac a {background:black;
-box-shadow: 0px 0px 5px rgba(18, 177, 221, 0.817);
-font-family:Leonsans;
-color: white;
-width: 150px;
-height: 45px;
-font-size: 20px;
-border-radius:35px ;
-display: flex;
-justify-content: center;
-align-items: center;
-border: 1px solid #ecfffa;}
-
-
-.red-social  ul  #contac a:hover{
-transition:all 2s ease ;
-border: 1px solid #2feab8;
-animation:loop 6s infinite;
-background-color: #057758e8;}
-
-.red-social  ul li a .fa-facebook:hover{
-background:#00b3ff;
-transition: all 1 ease-out;}
 
 .red-social  ul li a .fa-instagram:hover{
-background:#9E37B8 ;; 
-transition: all 1 ease-out;}
+color: rgb(255, 0, 123);
+text-shadow: 0px 2px 3px black;}
 
+.red-social  ul li a .fa-facebook:hover{
+color: rgb(73, 199, 253);
+text-shadow: 0px 2px 3px black;}
 
 .red-social  ul li a .fa-google-plus:hover{  
-background:#d33672  ;
-transition: all 1 ease-out; }
+color: rgb(255, 75, 40);
+text-shadow: 0px 2px px black;}
 
 .resumen {max-width:600px;
 margin: 30px auto;
@@ -179,15 +198,15 @@ color: white;}
 
 .resumen ul li{background: rgb(37, 77, 165);
 list-style:none;
-height: 110px;
-transition: all 2s ease;
-border-radius: 10px;
-border: 5px solid rgb(133, 93, 245);}
+transition: all 3s ease;
+border-radius: 5px;
+border: 1px solid rgb(252, 252, 252);}
 
-.resumen ul li:hover{background: #740445;
+.resumen ul li:hover{background: #bf0293;
 cursor: pointer;
 box-shadow: 0px 0px 1px #e013e0;
-transition: all 1s ease;}
+transition: all 1s ease;
+border: 1px solid rgba(5, 31, 118, 0.92)}
 
 
 .resumen ul li i{font-size: 40px;
@@ -328,7 +347,7 @@ border-radius: 20px;}
 padding:5px 10px;
 		 font-size:18px ; font-family:Leonsans}
 
-.parte p { font-size: 15px;
+.parte p { font-size: 17px;
 color: #ffff;;
 padding: 0px 10px;
 padding-bottom: 5px;
@@ -360,8 +379,9 @@ padding: 10px 0px;
 list-style: none;
 border-radius: 0px;
 transition: all 2s ease;
-transform: translateY(-25px);
-}
+transform: translateY(-25px);}
+
+
 
 .Skills ul li img{width: 60px;height: 60px;
 ;margin: 0 auto;
@@ -373,6 +393,7 @@ font-family:Leonsans;
 margin-top: 10px;
 letter-spacing:1px;}
 
+.Skills :hover > h6{	text-shadow: 0px 2px 7px black;}
 
 .cardp2 { display: grid;
 	grid-template-columns: repeat(2,1fr);
