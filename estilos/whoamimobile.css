@@ -53,9 +53,11 @@ letter-spacing: 2px;
 font-size:40px;
 text-shadow: 0px 0px 5px black}
 
-.headerPress h2 b{ color:#2feab8 ;
-text-shadow: 0px 0px 5px black;
-font-size:40px}
+.headerPress h3{ color:#2feab8 ;
+font-size:40px;
+font-family:StickNoBills;
+  margin: 0px;              
+text-shadow: 0px 2px 3px black;}
 
 .headerPress p{ color:white;
 font-size:15px;
@@ -71,10 +73,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin: 0 auto;
-background-color:rgba(9, 113, 127, 0.4);
-padding:px;
 border-radius:50%;
-box-shadow: 0px 0px 1px rgba(89, 18, 221, 0.93);
 margin-top: 20px}
 
 .red-social{ margin: 0px auto}
@@ -470,9 +469,11 @@ letter-spacing: 2px;
 font-size:38px;
 text-shadow: 0px 0px 5px black}
 
-.headerPress h2 b{ color:#2feab8 ;
-text-shadow: 0px 0px 5px black;
-font-size:35px}
+.headerPress h3{ color:#2feab8 ;
+font-size:38px;
+font-family:StickNoBills;
+  margin: 0px;              
+text-shadow: 0px 2px 3px black;}
 
 .headerPress p{ color:white;
 font-size:17px;

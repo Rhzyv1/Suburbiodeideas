@@ -473,7 +473,7 @@ grid-template-columns: repeat(2,1fr);
 background: url(../img/banner.webp);
 background-size: 100% 400PX;
 background-position: center;
-padding:20px 40px;
+padding:30px 20px ;
 margin:40px auto; 
 border-radius:33px;
 width: 95%;}
@@ -485,7 +485,8 @@ color:white ;
 text-shadow: 0px 5px 5px black;
 letter-spacing: 1px; 
 font-family:Leonsans;
-width: 90%;}
+width: 95%;
+text-align: center;}
 
 .divido p {font-size:15px;
 color: white;
@@ -606,7 +607,7 @@ font-size:36px;}
 color: white;
 ;width:80%;
 line-height: 1.3;
-max-width:600px;
+max-width:550px;
 text-align: center;
 margin:0px auto;}		
 
@@ -620,27 +621,27 @@ margin: 20px auto;
 grid-gap:10px ;}
 
 .pro {width:100%;  
-border-radius:20px ;
-padding-top: 10px;
-height: 330px}
+border-radius:10px ;
+padding-top: 5px;
+height: 100%}
 
-.pro:hover{ 
-box-shadow:0px 0px 10px rgba(8, 189, 209, 0.5);; 	
+.pro:hover{  	
 cursor: pointer;
-transform: scale(1.08);
+transform: scale(1.1);
 z-index: 3;
-background:rgba(07, 51,104,0.6);
-transition: all 1s ease;}
+background:rgb(40, 9, 200);
+transition: all 1s ease;
+border: 1px solid rgba(247, 246, 246, 0.696);}
 
 .pro a{text-decoration: none;}
 
-.pro img{width:95%;
+.pro img{width:98%;
 height:140px;
 margin: 0px auto;
 justify-content: center;
 align-items: center;
 display: flex;
-border-radius: 10px; }
+border-radius:5px; }
 
 
 .pro h3 { 
@@ -657,21 +658,27 @@ color: rgb(229, 245, 248);
 text-align: center;
 font-family:Leonsans;
 text-decoration: none;
-width: 100%;}				
+width: 90%;}				
+
 
 .pro button{
 	border-radius:5px;
-	padding:5px 15px;
-margin: 10px;
+	padding:6px 25px;
+margin:5px 10px;
  font-family:StickNoBills;
  border: none;
- font-size:17px;
- cursor: pointer;}
+ font-size: 17px;
+ cursor: pointer;
+ color: white;
+background-color: #930eeb6e;
+border:2px solid black;
+transition: all 2s ease;}
 
-
-.pro button:hover{background:rgba(129, 1, 155, 0.6);
-transition: all 1s ease-out ;
-color: white;}
+.pro button:hover{background:rgba(0, 0, 0, 0.6);
+color: white;
+background:rgb(181, 1, 197);
+box-shadow: 0px 0px 10px rgb(150, 10, 150);
+border: 2px solid rgb(248, 7, 248)}
 
 #servicio{
 	padding:30px 0px ;
@@ -1505,12 +1512,16 @@ font-family:type;}
 .Bienvenido{color: white;
 margin: 50px auto;
 width:97%;;
-max-width: 400px}
+max-width: 400px;}
 
 .Bienvenido .hello{
 padding:  10px;
 margin: 10px 10px;
-border-radius:10px}
+border-radius:10px;
+	background-color: #01387f;
+background: linear-gradient(120deg, rgba(7, 102, 198, 0.822) 
+12%, rgba(27, 164, 143, 0.572) 65%,rgba(32, 171, 230, 0.655) 
+100%);}
 
 .Bienvenido .hello h4{
 font-size: 35px;
@@ -1550,7 +1561,7 @@ list-style:none;}
 /* web */
 .pag-web{
 background: rgba(10,10,10,0.66);
-padding:20px 0px}
+padding:30px 0px}
 
 .pag-web-a{display:grid;
 grid-template-columns: repeat(1	,1fr);
@@ -1573,16 +1584,16 @@ color:rgb(01, 184, 255);}
 color: white;
 ;width:98%;
 line-height: 1.3;
-margin-top: 5px;
+margin-top: 10px;
 text-align: left;
-margin-bottom: 20px;
+margin-bottom: 30px;
 font-family:Leonsans;}		
 
 .web a{text-decoration: none;
 	margin-top: 10px}
 
 .web #car {
-padding:5px 15px;
+padding:5px 20px;
 cursor: pointer;
   text-align:center;
   color: white;  
@@ -1601,7 +1612,7 @@ box-shadow:0px 0px 20px  rgba(113, 69, 232, 0.8);}
 .pag-web .img{  
 position: relative;
 background:  url(../img/foo.png); 
-background-size: 100% 240px;
+background-size: 100% 270px;
 background-repeat: no-repeat;
 max-width: 420px;
 margin-top: 20px;} 
@@ -1611,7 +1622,7 @@ text-align: center;
 border-radius: 5px;
 margin: 0 auto;
 width: 90%;
-;height: 230px; }
+;height: 240px; }
 
 .pag-web .img img:hover {   
 transition: all 1s ease-out;
@@ -1632,13 +1643,13 @@ width: 90%;}
 .divido .parte1 {width: 100%}
 
 
-.divido h5{font-size:25px;
+.divido h5{font-size:23px;
 color:white ;
 text-shadow: 0px 5px 5px black;
 letter-spacing: 1.1px; 
 font-family:Leonsans;
 text-align: center;
-width: 100%;}
+width:90%;}
 
 .divido p {font-size:17px;
 color: white;
@@ -1777,7 +1788,7 @@ border-radius:20px ;
 box-shadow:0px 0px 4px rgb(253, 255, 255);
 padding-top: 10px;
 margin-top: 10px;
-height: 100px}
+height: 100%}
 
 .pro:hover{ 
 	box-shadow:0px 0px 10px rgba(8, 189, 209, 0.5);; 	
@@ -1810,13 +1821,13 @@ font-size:17px;
 color: rgb(229, 245, 248);
 text-align: center;
 font-family:Leonsans;
-width:95% ;
+width:96% ;
 text-decoration: none;}				
 
 .pro button{background:rgba(01, 184, 255,0.4);
 	border-radius:5px;
 	padding:6px 25px;
-margin: 10px;
+margin: 5px;
  font-family:StickNoBills;
  border: none;
  font-size:20px;cursor: pointer;
@@ -1990,7 +2001,7 @@ transition: all 3s ease ; }
 		padding: 0; 
 		transition: all 1.5s ease ; 
 			color: #fff;
-		font-size:20px;
+		font-size:23px;
 		width: 100%;
 		text-align: center;
 		margin-top: 20px;
@@ -1999,7 +2010,7 @@ font-family:Leonsans;}
 
 .contalfa figure:hover > .capa2 p{
 	margin:0px auto; 
-font-size:16px;
+font: size 18px;px;
 transition: all 700ms ease ;color: #fff;
 width: 90%;
 transition: all 1.5s ease;
@@ -2012,7 +2023,7 @@ display: grid;
 grid-template-columns: repeat(1,1fr);
 ;background-color: #5822bcb1 ;
 border-radius:20px;
-padding:5px 15px ;
+padding:5px 25px ;
 border: 1px solid; }
 
 .mensaje-f .imagen img{ 
@@ -2038,7 +2049,7 @@ width: 100%;}
 .mensaje-f .texto button{background: chocolate;
 border: none;
 margin:10px auto;
-padding: 5px 10px;
+padding:  10px;
 border-radius: 30px;
 font-size: 20px;
 border: 1px solid black;
@@ -2167,7 +2178,8 @@ form{
 width:100%;
 padding: 10px ;
 box-shadow: 0px 0px 30px black;
-color: white}
+color: white;
+margin-bottom: 10px;}
 
 form h6 {
 font-size: 20px;
