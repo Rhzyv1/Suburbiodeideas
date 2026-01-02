@@ -1019,11 +1019,10 @@ font-family:TitilliumWeb;}
 	background: chocolate;
 border: none;
 margin-top: 20px;
-padding: 10px;
-	border-radius: 100px 100px 100px 100px;
+padding: 10px 20px;
+border-radius: 20px 10px 20px 10px;
 border: 3px solid rgba(0, 0, 0, 0.818);
-transition: all 2s ease;
-border-radius: 20px;}
+transition: all 2s ease;}
 
 .mensaje-f .texto button:hover{
 border: none;

@@ -66,7 +66,8 @@ font-family:StickNoBills;
   white-space: nowrap;
   animation: lon 6s steps(var(--characters-steps)) 3s infinite, tap 1s infinite;
   border-right: 4px solid 
-;width: var(--characters);}
+;width: var(--characters);
+text-shadow: 0px 3px 5px black;}
 
 @keyframes tap{
   0%{border-right-color: transparent;}
@@ -115,15 +116,15 @@ font-size: 22px;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color:#005a9a;
+background-color:#0684de;
 transition: all 1s ease;
-box-shadow:4px 5px 0px #22e1ee;
-border: 1px solid transparent;}
+box-shadow:4px 7px 0px #1cc598 ;
+border: 1px solid black;}
 
 .red-social  ul  #contac a:hover{
-transition:all 1s ease ;
-box-shadow:-4px -5px 0px  #db13ed;
-text-shadow: 0px 0px 5px white;}
+box-shadow:-4px -7px 0px #0684de;
+background:#1cc598;
+text-shadow: 0px 0px 2px rgb(50, 48, 48);}
 
 
 .red-social ul li{position: relative;
@@ -131,7 +132,8 @@ text-shadow: 0px 0px 5px white;}
 	margin: 10px;
 	cursor: pointer;display: flex; 
 	justify-content: center;
-	align-items: center;}
+	align-items: center;
+border: 1px solid black;}
 
 .red-social  ul li a {text-decoration: none;}
 
@@ -142,30 +144,19 @@ height:40px;
 display: flex;justify-content: center;
 align-items: center;
 color: white;
-transition: 5s all ease;}
+transition: 2s all ease;
+}
 
 .red-social  ul #insta{
-	background-color:#005a9a;
-box-shadow:4px 5px 0px #22e1ee;
+	background-color:#9c07b3;
+box-shadow:4px 5px 0px #13caeb;
 transition: all 1s ease;}
 
 .red-social  ul #insta:hover{
 transition: all 1 ease;
-	background-color:#005a9a;
-box-shadow:-4px -5px 0px #f316cb;;}
-
-
-.red-social  ul li a .fa-instagram:hover{
-color: rgb(255, 0, 123);
-text-shadow: 0px 2px 3px black;}
-
-.red-social  ul li a .fa-facebook:hover{
-color: rgb(73, 199, 253);
-text-shadow: 0px 2px 3px black;}
-
-.red-social  ul li a .fa-google-plus:hover{  
-color: rgb(255, 75, 40);
-text-shadow: 0px 2px px black;}
+	background-color: #05a6c2;
+box-shadow:-4px -5px 0px #9c07b3;
+text-shadow: 0px 0px 1px black;}
 
 .resumen {max-width:600px;
 margin: 30px auto;
@@ -206,7 +197,7 @@ border: 1px solid rgb(252, 252, 252);}
 cursor: pointer;
 box-shadow: 0px 0px 1px #e013e0;
 transition: all 1s ease;
-border: 1px solid rgba(5, 31, 118, 0.92)}
+border: 1px solid rgba(214, 8, 184, 0.92)}
 
 
 .resumen ul li i{font-size: 40px;
@@ -333,7 +324,10 @@ width: 100%;
 cursor:pointer;
 margin: 0px auto;
 ; background: rgb(32, 11, 113);
-padding:5px;}
+padding:5px;
+background: linear-gradient(120deg,rgba(15, 114, 220, 0.878), 
+2%, rgb(43, 11, 148) 51%, rgb(15, 155, 206) 100%);
+background-size:100%;}
 
 
 .parte  img { width:100%;
@@ -371,7 +365,8 @@ padding: 10px 0px;list-style: none;
 border-radius: 0px;
 transition:all 1s ease;
 border: 1px solid rgb(0, 0, 0);
-transition: all 1s ease;}
+transition: all 1s ease;
+cursor: pointer;}
 
 .Skills ul li:hover{background-color: rgb(186, 0, 248);
 	border: 1px solid rgb(29, 29, 29);
@@ -418,7 +413,7 @@ transform: translateX(21px) translateY(-18px);
 box-shadow: 0px 0px 5px rgb(25, 182, 214);
 transition: all 1s ease-out;}
 
-.cardp2 div img:hover{display: flex;
+.cardp2 div:hover > img{display: flex;
 	transform: translateX(-30px) translateY(30px);
 box-shadow: 0px 0px 20px rgb(15, 146, 131);
 margin: 0 auto;
@@ -453,10 +448,15 @@ padding: 15px 10px ;list-style: none;
 border-left:4px solid rgb(146, 39, 223) ;
 transition: all 2s ease;
 cursor: pointer;
-}
+background: linear-gradient(to right,#041b20, #341073,
+ #1762b3);
+background-size:300% 300%;
+transition: all 3s ease;
+cursor: pointer;}
 
-
-.cardp2 div ul li:hover{background: rgb(156, 2, 143);
-border-left:4px solid rgb(252, 250, 250)}
+.cardp2 div ul li:hover{
+background-position: 100% 0%;
+transition: all 3s ease;
+border-left:4px solid rgb(58, 129, 253);}
 
 

@@ -1634,7 +1634,7 @@ filter: drop-shadow(0px 0px 20px rgba(156, 18, 169, 0.7)); }
 display: block;
 background: url(../img/banner.webp);
 background-size: 100% 100%;
-background-position: center;
+background-position:cover;
 padding:30px 15px;
 margin:40px auto; 
 border-radius:33px;
@@ -1884,15 +1884,13 @@ font-family:Leonsans}
 .ser .s0 {
 	width: 100%;
 padding:10px 0px;
-background: linear-gradient(to right,#033a64, #341073,
- #1762b3);
-background-size:100% 600%;}
+background-size:300% 300%;}
 
 
 .ser .s0:hover{
-transition: all 2s ease-out;
+transition: all 3s ease-out;
 cursor: pointer;
-  background-position: 70% 0%;}
+  background-position: 80% 0%;}
 
 .ser .s2 div img{
 	width: 100%;
@@ -2010,7 +2008,7 @@ font-family:Leonsans;}
 
 .contalfa figure:hover > .capa2 p{
 	margin:0px auto; 
-font: size 18px;px;
+font: size 18px;
 transition: all 700ms ease ;color: #fff;
 width: 90%;
 transition: all 1.5s ease;
@@ -2054,7 +2052,8 @@ border-radius: 30px;
 font-size: 20px;
 border: 1px solid black;
 display: flex;
-justify-content: center;}
+justify-content: center;
+border-radius: 20px 10px 20px 10px}
 
 .mensaje-f .texto button:hover{
 border: none;
